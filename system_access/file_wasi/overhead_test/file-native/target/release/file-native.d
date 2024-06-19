@@ -1,1 +1,0 @@
-/home/data1/research/ICSOC2023/artifact/system_access/file_wasi/overhead_test/file-native/target/release/file-native: /home/data1/research/ICSOC2023/artifact/system_access/file_wasi/overhead_test/file-native/src/main.rs
