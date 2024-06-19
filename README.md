@@ -1,6 +1,6 @@
-# Measurement Study of Wasm-based Container runtime
+# Measurement Study of Wasm-based Container Runtime
 
-An artifact for the paper entitled "WebAssembly for Container Runtime: Are We There Yet?".
+An artifact for our paper entitled "WebAssembly for Container Runtime: Are We There Yet?".
 
 ## Prerequirements
 - Docker Desktop with Wasm support (Version 4.28.0)
