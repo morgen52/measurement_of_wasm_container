@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./continued_fraction-arithmetic-construct_from_rational_number.wasm /
+CMD ["/continued_fraction-arithmetic-construct_from_rational_number.wasm"]

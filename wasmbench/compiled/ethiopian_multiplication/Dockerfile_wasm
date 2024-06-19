@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./ethiopian_multiplication.wasm /
+CMD ["/ethiopian_multiplication.wasm"]

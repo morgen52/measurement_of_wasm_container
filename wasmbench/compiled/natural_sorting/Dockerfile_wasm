@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./natural_sorting.wasm /
+CMD ["/natural_sorting.wasm"]

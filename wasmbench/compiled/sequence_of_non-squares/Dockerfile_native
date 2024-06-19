@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./sequence_of_non-squares.c .
+RUN gcc -O3 -o ./sequence_of_non-squares ./sequence_of_non-squares.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/sequence_of_non-squares .
+CMD ["./sequence_of_non-squares"]

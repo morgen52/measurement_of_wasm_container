@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./character_codes.wasm /
+CMD ["/character_codes.wasm"]

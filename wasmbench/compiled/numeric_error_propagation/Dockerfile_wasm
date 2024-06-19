@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./numeric_error_propagation.wasm /
+CMD ["/numeric_error_propagation.wasm"]

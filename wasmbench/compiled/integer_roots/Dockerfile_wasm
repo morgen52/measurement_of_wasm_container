@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./integer_roots.wasm /
+CMD ["/integer_roots.wasm"]

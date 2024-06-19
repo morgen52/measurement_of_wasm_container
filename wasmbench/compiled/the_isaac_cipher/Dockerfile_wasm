@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./the_isaac_cipher.wasm /
+CMD ["/the_isaac_cipher.wasm"]

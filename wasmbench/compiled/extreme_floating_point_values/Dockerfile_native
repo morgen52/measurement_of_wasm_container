@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./extreme_floating_point_values.c .
+RUN gcc -O3 -o ./extreme_floating_point_values ./extreme_floating_point_values.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/extreme_floating_point_values .
+CMD ["./extreme_floating_point_values"]

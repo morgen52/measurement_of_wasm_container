@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./least_common_multiple.wasm /
+CMD ["/least_common_multiple.wasm"]

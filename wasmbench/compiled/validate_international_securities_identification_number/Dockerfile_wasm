@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./validate_international_securities_identification_number.wasm /
+CMD ["/validate_international_securities_identification_number.wasm"]

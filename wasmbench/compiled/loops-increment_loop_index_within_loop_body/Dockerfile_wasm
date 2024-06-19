@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./loops-increment_loop_index_within_loop_body.wasm /
+CMD ["/loops-increment_loop_index_within_loop_body.wasm"]

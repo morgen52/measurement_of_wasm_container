@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./evaluate_binomial_coefficients.wasm /
+CMD ["/evaluate_binomial_coefficients.wasm"]

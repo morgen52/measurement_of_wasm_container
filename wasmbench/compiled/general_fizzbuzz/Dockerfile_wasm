@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./general_fizzbuzz.wasm /
+CMD ["/general_fizzbuzz.wasm"]

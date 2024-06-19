@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./population_count.wasm /
+CMD ["/population_count.wasm"]

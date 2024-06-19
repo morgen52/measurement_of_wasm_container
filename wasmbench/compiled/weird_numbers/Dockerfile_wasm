@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./weird_numbers.wasm /
+CMD ["/weird_numbers.wasm"]

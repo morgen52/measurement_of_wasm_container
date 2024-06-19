@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./permutations_by_swapping.c .
+RUN gcc -O3 -o ./permutations_by_swapping ./permutations_by_swapping.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/permutations_by_swapping .
+CMD ["./permutations_by_swapping"]

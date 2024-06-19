@@ -1,0 +1,6 @@
+version: '3'
+services:
+  app:
+    image: filetest/file-wasm:0.1
+    platform: wasi/wasm32
+    runtime: io.containerd.wasmtime.v1

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./environment_variables.wasm /
+CMD ["/environment_variables.wasm"]

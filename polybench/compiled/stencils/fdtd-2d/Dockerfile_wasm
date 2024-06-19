@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./fdtd-2d.wasm /fdtd-2d.wasm
+CMD ["/fdtd-2d.wasm"]

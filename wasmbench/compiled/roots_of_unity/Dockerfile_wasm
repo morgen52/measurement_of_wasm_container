@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./roots_of_unity.wasm /
+CMD ["/roots_of_unity.wasm"]

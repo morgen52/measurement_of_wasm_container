@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./null_object.wasm /
+CMD ["/null_object.wasm"]

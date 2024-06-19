@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./repeat.wasm /
+CMD ["/repeat.wasm"]

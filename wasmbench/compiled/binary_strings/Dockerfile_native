@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./binary_strings.c .
+RUN gcc -O3 -o ./binary_strings ./binary_strings.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/binary_strings .
+CMD ["./binary_strings"]

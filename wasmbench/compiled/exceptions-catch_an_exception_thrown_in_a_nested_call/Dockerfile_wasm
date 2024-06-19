@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./exceptions-catch_an_exception_thrown_in_a_nested_call.wasm /
+CMD ["/exceptions-catch_an_exception_thrown_in_a_nested_call.wasm"]

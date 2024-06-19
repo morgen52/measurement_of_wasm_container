@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./terminal_control-ringing_the_terminal_bell.wasm /
+CMD ["/terminal_control-ringing_the_terminal_bell.wasm"]

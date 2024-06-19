@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./seidel-2d.wasm /seidel-2d.wasm
+CMD ["/seidel-2d.wasm"]

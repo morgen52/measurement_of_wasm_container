@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./vector_products.c .
+RUN gcc -O3 -o ./vector_products ./vector_products.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/vector_products .
+CMD ["./vector_products"]

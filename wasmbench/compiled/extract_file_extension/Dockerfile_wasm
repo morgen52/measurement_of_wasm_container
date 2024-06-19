@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./extract_file_extension.wasm /
+CMD ["/extract_file_extension.wasm"]

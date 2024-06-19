@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./one-dimensional_cellular_automata.c .
+RUN gcc -O3 -o ./one-dimensional_cellular_automata ./one-dimensional_cellular_automata.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/one-dimensional_cellular_automata .
+CMD ["./one-dimensional_cellular_automata"]

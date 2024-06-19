@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./undefined_values.wasm /
+CMD ["/undefined_values.wasm"]

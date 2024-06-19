@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./cheryls_birthday.wasm /
+CMD ["/cheryls_birthday.wasm"]

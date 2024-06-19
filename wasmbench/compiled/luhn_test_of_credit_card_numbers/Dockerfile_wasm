@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./luhn_test_of_credit_card_numbers.wasm /
+CMD ["/luhn_test_of_credit_card_numbers.wasm"]

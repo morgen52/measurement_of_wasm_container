@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./haversine_formula.wasm /
+CMD ["/haversine_formula.wasm"]

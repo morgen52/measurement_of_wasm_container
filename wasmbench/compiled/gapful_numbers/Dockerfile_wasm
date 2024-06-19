@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./gapful_numbers.wasm /
+CMD ["/gapful_numbers.wasm"]

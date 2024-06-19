@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./extract_file_extension.c .
+RUN gcc -O3 -o ./extract_file_extension ./extract_file_extension.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/extract_file_extension .
+CMD ["./extract_file_extension"]

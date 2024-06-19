@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./convex_hull.wasm /
+CMD ["/convex_hull.wasm"]

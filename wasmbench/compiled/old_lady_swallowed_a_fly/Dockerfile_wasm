@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./old_lady_swallowed_a_fly.wasm /
+CMD ["/old_lady_swallowed_a_fly.wasm"]

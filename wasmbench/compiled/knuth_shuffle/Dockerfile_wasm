@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./knuth_shuffle.wasm /
+CMD ["/knuth_shuffle.wasm"]

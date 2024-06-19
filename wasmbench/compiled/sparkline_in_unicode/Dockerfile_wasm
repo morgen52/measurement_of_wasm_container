@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sparkline_in_unicode.wasm /
+CMD ["/sparkline_in_unicode.wasm"]

@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./n-queens_problem.c .
+RUN gcc -O3 -o ./n-queens_problem ./n-queens_problem.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/n-queens_problem .
+CMD ["./n-queens_problem"]

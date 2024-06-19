@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sum_digits_of_an_integer.wasm /
+CMD ["/sum_digits_of_an_integer.wasm"]

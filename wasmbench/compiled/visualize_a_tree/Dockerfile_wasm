@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./visualize_a_tree.wasm /
+CMD ["/visualize_a_tree.wasm"]

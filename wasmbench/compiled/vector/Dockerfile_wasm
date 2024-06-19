@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./vector.wasm /
+CMD ["/vector.wasm"]

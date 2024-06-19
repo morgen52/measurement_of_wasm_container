@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./combinations_with_repetitions.wasm /
+CMD ["/combinations_with_repetitions.wasm"]

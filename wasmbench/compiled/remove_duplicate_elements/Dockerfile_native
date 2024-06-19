@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./remove_duplicate_elements.c .
+RUN gcc -O3 -o ./remove_duplicate_elements ./remove_duplicate_elements.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/remove_duplicate_elements .
+CMD ["./remove_duplicate_elements"]

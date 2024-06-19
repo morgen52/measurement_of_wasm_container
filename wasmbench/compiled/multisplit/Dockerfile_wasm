@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./multisplit.wasm /
+CMD ["/multisplit.wasm"]

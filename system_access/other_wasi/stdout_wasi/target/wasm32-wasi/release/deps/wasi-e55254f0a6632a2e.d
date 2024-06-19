@@ -1,0 +1,9 @@
+/home/data1/research/ICSOC2023/edge_serverless_samples/wasi_test/stdout_wasi/target/wasm32-wasi/release/deps/libwasi-e55254f0a6632a2e.rmeta: /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib.rs /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/error.rs /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib_generated.rs
+
+/home/data1/research/ICSOC2023/edge_serverless_samples/wasi_test/stdout_wasi/target/wasm32-wasi/release/deps/libwasi-e55254f0a6632a2e.rlib: /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib.rs /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/error.rs /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib_generated.rs
+
+/home/data1/research/ICSOC2023/edge_serverless_samples/wasi_test/stdout_wasi/target/wasm32-wasi/release/deps/wasi-e55254f0a6632a2e.d: /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib.rs /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/error.rs /home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib_generated.rs
+
+/home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib.rs:
+/home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/error.rs:
+/home/morgen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-0.10.0+wasi-snapshot-preview1/src/lib_generated.rs:

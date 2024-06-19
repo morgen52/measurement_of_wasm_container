@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./doubly-linked_list-traversal.wasm /
+CMD ["/doubly-linked_list-traversal.wasm"]

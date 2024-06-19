@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./unicode_strings.wasm /
+CMD ["/unicode_strings.wasm"]

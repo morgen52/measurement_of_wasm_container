@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./long_multiplication.wasm /
+CMD ["/long_multiplication.wasm"]

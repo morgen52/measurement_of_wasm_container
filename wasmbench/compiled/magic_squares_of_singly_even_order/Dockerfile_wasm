@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./magic_squares_of_singly_even_order.wasm /
+CMD ["/magic_squares_of_singly_even_order.wasm"]

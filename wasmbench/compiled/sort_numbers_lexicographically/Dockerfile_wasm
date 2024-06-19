@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sort_numbers_lexicographically.wasm /
+CMD ["/sort_numbers_lexicographically.wasm"]

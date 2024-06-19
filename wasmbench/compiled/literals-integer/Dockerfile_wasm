@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./literals-integer.wasm /
+CMD ["/literals-integer.wasm"]

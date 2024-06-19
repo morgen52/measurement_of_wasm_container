@@ -1,0 +1,153 @@
+{
+	"1": {
+		"create file": 11771,
+		"read file": 6962,
+		"delete file": 5335
+	},
+	"2": {
+		"create file": 10612,
+		"read file": 7060,
+		"delete file": 5071
+	},
+	"4": {
+		"create file": 11009,
+		"read file": 6900,
+		"delete file": 5230
+	},
+	"8": {
+		"create file": 13311,
+		"read file": 8492,
+		"delete file": 6005
+	},
+	"16": {
+		"create file": 12546,
+		"read file": 7700,
+		"delete file": 6359
+	},
+	"32": {
+		"create file": 10282,
+		"read file": 6980,
+		"delete file": 4948
+	},
+	"64": {
+		"create file": 11164,
+		"read file": 7241,
+		"delete file": 5154
+	},
+	"128": {
+		"create file": 10359,
+		"read file": 6680,
+		"delete file": 5027
+	},
+	"256": {
+		"create file": 10926,
+		"read file": 6490,
+		"delete file": 5087
+	},
+	"512": {
+		"create file": 11213,
+		"read file": 6687,
+		"delete file": 5104
+	},
+	"1024": {
+		"create file": 11115,
+		"read file": 6579,
+		"delete file": 5009
+	},
+	"2048": {
+		"create file": 8799,
+		"read file": 6339,
+		"delete file": 4927
+	},
+	"4096": {
+		"create file": 9874,
+		"read file": 6746,
+		"delete file": 4938
+	},
+	"8192": {
+		"create file": 10152,
+		"read file": 7199,
+		"delete file": 5738
+	},
+	"16384": {
+		"create file": 15334,
+		"read file": 8304,
+		"delete file": 6211
+	},
+	"32768": {
+		"create file": 13969,
+		"read file": 10066,
+		"delete file": 7424
+	},
+	"65536": {
+		"create file": 19166,
+		"read file": 13824,
+		"delete file": 9236
+	},
+	"131072": {
+		"create file": 32643,
+		"read file": 23206,
+		"delete file": 14766
+	},
+	"262144": {
+		"create file": 57961,
+		"read file": 40255,
+		"delete file": 24872
+	},
+	"524288": {
+		"create file": 106864,
+		"read file": 75674,
+		"delete file": 41405
+	},
+	"1048576": {
+		"create file": 210786,
+		"read file": 156710,
+		"delete file": 76528
+	},
+	"2097152": {
+		"create file": 431117,
+		"read file": 317037,
+		"delete file": 144883
+	},
+	"4194304": {
+		"create file": 1095451,
+		"read file": 842085,
+		"delete file": 301047
+	},
+	"8388608": {
+		"create file": 2670511,
+		"read file": 2184688,
+		"delete file": 651877
+	},
+	"16777216": {
+		"create file": 5271736,
+		"read file": 4539094,
+		"delete file": 1289535
+	},
+	"33554432": {
+		"create file": 10819419,
+		"read file": 9288103,
+		"delete file": 2646332
+	},
+	"67108864": {
+		"create file": 20970081,
+		"read file": 17977512,
+		"delete file": 5179619
+	},
+	"134217728": {
+		"create file": 43628350,
+		"read file": 38199327,
+		"delete file": 10600394
+	},
+	"268435456": {
+		"create file": 81393027,
+		"read file": 71147456,
+		"delete file": 20140866
+	},
+	"536870912": {
+		"create file": 167753701,
+		"read file": 140960211,
+		"delete file": 39544501
+	}
+}
+

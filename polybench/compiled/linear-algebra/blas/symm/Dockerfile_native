@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I linear-algebra/blas/symm utilities/polybench.c linear-algebra/blas/symm/symm.c -DPOLYBENCH_TIME -o linear-algebra/blas/symm/symm -lm
+RUN cp linear-algebra/blas/symm/symm /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/symm /symm
+CMD ["/symm"]

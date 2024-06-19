@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./record_sound.wasm /
+CMD ["/record_sound.wasm"]

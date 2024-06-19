@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./vogels_approximation_method.c .
+RUN gcc -O3 -o ./vogels_approximation_method ./vogels_approximation_method.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/vogels_approximation_method .
+CMD ["./vogels_approximation_method"]

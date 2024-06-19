@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./isbn13_check_digit.wasm /
+CMD ["/isbn13_check_digit.wasm"]

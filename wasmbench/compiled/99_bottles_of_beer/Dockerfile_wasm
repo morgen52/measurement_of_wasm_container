@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./99_bottles_of_beer.wasm /
+CMD ["/99_bottles_of_beer.wasm"]

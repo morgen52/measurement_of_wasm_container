@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./runge-kutta_method.c .
+RUN gcc -O3 -o ./runge-kutta_method ./runge-kutta_method.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/runge-kutta_method .
+CMD ["./runge-kutta_method"]

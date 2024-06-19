@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./dijkstras_algorithm.c .
+RUN gcc -O3 -o ./dijkstras_algorithm ./dijkstras_algorithm.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/dijkstras_algorithm .
+CMD ["./dijkstras_algorithm"]

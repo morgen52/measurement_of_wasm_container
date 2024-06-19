@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./floyds_triangle.wasm /
+CMD ["/floyds_triangle.wasm"]

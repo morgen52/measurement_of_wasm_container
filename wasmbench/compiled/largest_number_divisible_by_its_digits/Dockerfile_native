@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./largest_number_divisible_by_its_digits.c .
+RUN gcc -O3 -o ./largest_number_divisible_by_its_digits ./largest_number_divisible_by_its_digits.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/largest_number_divisible_by_its_digits .
+CMD ["./largest_number_divisible_by_its_digits"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./stack.wasm /
+CMD ["/stack.wasm"]

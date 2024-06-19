@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./increment_a_numerical_string.wasm /
+CMD ["/increment_a_numerical_string.wasm"]

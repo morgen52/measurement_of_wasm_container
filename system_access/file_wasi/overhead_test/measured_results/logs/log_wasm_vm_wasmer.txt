@@ -1,0 +1,400 @@
+create file: 7.084815ms
+File content is This is in a file
+read file: 1.138028ms
+delete file: 436.981µs
+create file: 969.293µs
+File content is This is in a file
+read file: 536.813µs
+delete file: 255.345µs
+create file: 493.818µs
+File content is This is in a file
+read file: 714.54µs
+delete file: 217.392µs
+create file: 925.477µs
+File content is This is in a file
+read file: 454.445µs
+delete file: 415.28µs
+create file: 588.807µs
+File content is This is in a file
+read file: 646.305µs
+delete file: 26.43µs
+create file: 31.287µs
+File content is This is in a file
+read file: 32.073µs
+delete file: 10.896µs
+create file: 14.632µs
+File content is This is in a file
+read file: 24.019µs
+delete file: 6.635µs
+create file: 12.145µs
+File content is This is in a file
+read file: 23.58µs
+delete file: 6.186µs
+create file: 11.877µs
+File content is This is in a file
+read file: 24.03µs
+delete file: 5.934µs
+create file: 14.885µs
+File content is This is in a file
+read file: 23.227µs
+delete file: 6.614µs
+create file: 11.703µs
+File content is This is in a file
+read file: 23.212µs
+delete file: 6.011µs
+create file: 11.485µs
+File content is This is in a file
+read file: 22.767µs
+delete file: 6.507µs
+create file: 18.248µs
+File content is This is in a file
+read file: 42.639µs
+delete file: 13.025µs
+create file: 20.981µs
+File content is This is in a file
+read file: 36.418µs
+delete file: 10.634µs
+create file: 19.949µs
+File content is This is in a file
+read file: 36.775µs
+delete file: 9.962µs
+create file: 19.109µs
+File content is This is in a file
+read file: 35.483µs
+delete file: 9.531µs
+create file: 18.556µs
+File content is This is in a file
+read file: 67.127µs
+delete file: 11.874µs
+create file: 22.805µs
+File content is This is in a file
+read file: 36.5µs
+delete file: 10.089µs
+create file: 20.128µs
+File content is This is in a file
+read file: 35.272µs
+delete file: 7.177µs
+create file: 28.776µs
+File content is This is in a file
+read file: 54.018µs
+delete file: 8.511µs
+create file: 14.115µs
+File content is This is in a file
+read file: 89.108µs
+delete file: 27.977µs
+create file: 36.218µs
+File content is This is in a file
+read file: 49.346µs
+delete file: 18.323µs
+create file: 27.039µs
+File content is This is in a file
+read file: 39.152µs
+delete file: 14.088µs
+create file: 24.822µs
+File content is This is in a file
+read file: 39.179µs
+delete file: 15.271µs
+create file: 23.799µs
+File content is This is in a file
+read file: 39.918µs
+delete file: 13.647µs
+create file: 25.152µs
+File content is This is in a file
+read file: 36.11µs
+delete file: 13.568µs
+create file: 23.5µs
+File content is This is in a file
+read file: 39.764µs
+delete file: 13.144µs
+create file: 21.202µs
+File content is This is in a file
+read file: 37.015µs
+delete file: 14.107µs
+create file: 24.409µs
+File content is This is in a file
+read file: 85.823µs
+delete file: 16.356µs
+create file: 26.053µs
+File content is This is in a file
+read file: 38.622µs
+delete file: 12.844µs
+create file: 21.208µs
+File content is This is in a file
+read file: 52.717µs
+delete file: 15.837µs
+create file: 23.789µs
+File content is This is in a file
+read file: 53.913µs
+delete file: 11.64µs
+create file: 20.125µs
+File content is This is in a file
+read file: 49.042µs
+delete file: 11.447µs
+create file: 20.102µs
+File content is This is in a file
+read file: 47.531µs
+delete file: 10.424µs
+create file: 19.023µs
+File content is This is in a file
+read file: 49.12µs
+delete file: 15.553µs
+create file: 26.247µs
+File content is This is in a file
+read file: 46.357µs
+delete file: 8.499µs
+create file: 13.896µs
+File content is This is in a file
+read file: 35.35µs
+delete file: 6.418µs
+create file: 12.414µs
+File content is This is in a file
+read file: 141.654µs
+delete file: 29.591µs
+create file: 145µs
+File content is This is in a file
+read file: 65.126µs
+delete file: 24.096µs
+create file: 32.549µs
+File content is This is in a file
+read file: 61.826µs
+delete file: 15.766µs
+create file: 23.552µs
+File content is This is in a file
+read file: 36.516µs
+delete file: 11.043µs
+create file: 15.691µs
+File content is This is in a file
+read file: 32.214µs
+delete file: 8.06µs
+create file: 13.903µs
+File content is This is in a file
+read file: 34.592µs
+delete file: 8.494µs
+create file: 13.373µs
+File content is This is in a file
+read file: 30.851µs
+delete file: 8.017µs
+create file: 13.381µs
+File content is This is in a file
+read file: 30.474µs
+delete file: 8.002µs
+create file: 13.107µs
+File content is This is in a file
+read file: 31.709µs
+delete file: 8.019µs
+create file: 14.35µs
+File content is This is in a file
+read file: 34.475µs
+delete file: 7.924µs
+create file: 13.783µs
+File content is This is in a file
+read file: 31.583µs
+delete file: 8.776µs
+create file: 16.182µs
+File content is This is in a file
+read file: 56.916µs
+delete file: 23.687µs
+create file: 30.88µs
+File content is This is in a file
+read file: 43.62µs
+delete file: 11.308µs
+create file: 16.51µs
+File content is This is in a file
+read file: 34.716µs
+delete file: 6.941µs
+create file: 15.321µs
+File content is This is in a file
+read file: 33.897µs
+delete file: 6.068µs
+create file: 11.763µs
+File content is This is in a file
+read file: 34.228µs
+delete file: 6.171µs
+create file: 11.379µs
+File content is This is in a file
+read file: 33.397µs
+delete file: 5.899µs
+create file: 12.475µs
+File content is This is in a file
+read file: 33.474µs
+delete file: 5.843µs
+create file: 11.794µs
+File content is This is in a file
+read file: 33.443µs
+delete file: 6.033µs
+create file: 11.976µs
+File content is This is in a file
+read file: 49.086µs
+delete file: 15.132µs
+create file: 20.652µs
+File content is This is in a file
+read file: 41.762µs
+delete file: 7.832µs
+create file: 15.303µs
+File content is This is in a file
+read file: 32.589µs
+delete file: 8.571µs
+create file: 14.754µs
+File content is This is in a file
+read file: 32.338µs
+delete file: 7.987µs
+create file: 14.229µs
+File content is This is in a file
+read file: 31.742µs
+delete file: 7.773µs
+create file: 17.538µs
+File content is This is in a file
+read file: 34.998µs
+delete file: 8.862µs
+create file: 14.551µs
+File content is This is in a file
+read file: 55.685µs
+delete file: 8.77µs
+create file: 15.388µs
+File content is This is in a file
+read file: 33.796µs
+delete file: 8.207µs
+create file: 15.455µs
+File content is This is in a file
+read file: 32.381µs
+delete file: 8.436µs
+create file: 13.58µs
+File content is This is in a file
+read file: 31.538µs
+delete file: 7.565µs
+create file: 13.882µs
+File content is This is in a file
+read file: 31.176µs
+delete file: 8.065µs
+create file: 12.938µs
+File content is This is in a file
+read file: 31.507µs
+delete file: 7.885µs
+create file: 13.856µs
+File content is This is in a file
+read file: 31.439µs
+delete file: 7.677µs
+create file: 13.694µs
+File content is This is in a file
+read file: 31.805µs
+delete file: 7.872µs
+create file: 13.167µs
+File content is This is in a file
+read file: 30.986µs
+delete file: 8.203µs
+create file: 13.249µs
+File content is This is in a file
+read file: 30.364µs
+delete file: 8.75µs
+create file: 13.5µs
+File content is This is in a file
+read file: 49.566µs
+delete file: 9.15µs
+create file: 15.101µs
+File content is This is in a file
+read file: 32.369µs
+delete file: 7.979µs
+create file: 13.374µs
+File content is This is in a file
+read file: 31.442µs
+delete file: 8.053µs
+create file: 13.027µs
+File content is This is in a file
+read file: 31.117µs
+delete file: 7.763µs
+create file: 13.026µs
+File content is This is in a file
+read file: 31.354µs
+delete file: 7.716µs
+create file: 12.897µs
+File content is This is in a file
+read file: 31.779µs
+delete file: 8.16µs
+create file: 13.721µs
+File content is This is in a file
+read file: 30.273µs
+delete file: 7.632µs
+create file: 13.341µs
+File content is This is in a file
+read file: 31.166µs
+delete file: 8.003µs
+create file: 12.903µs
+File content is This is in a file
+read file: 31.922µs
+delete file: 8.276µs
+create file: 13.855µs
+File content is This is in a file
+read file: 32.567µs
+delete file: 7.949µs
+create file: 13.756µs
+File content is This is in a file
+read file: 32.46µs
+delete file: 8.126µs
+create file: 14.728µs
+File content is This is in a file
+read file: 31.183µs
+delete file: 8.328µs
+create file: 21.797µs
+File content is This is in a file
+read file: 33.415µs
+delete file: 6.72µs
+create file: 13.971µs
+File content is This is in a file
+read file: 32.266µs
+delete file: 9.038µs
+create file: 14.542µs
+File content is This is in a file
+read file: 32.621µs
+delete file: 7.974µs
+create file: 13.446µs
+File content is This is in a file
+read file: 31.348µs
+delete file: 8.309µs
+create file: 13.704µs
+File content is This is in a file
+read file: 31.639µs
+delete file: 7.941µs
+create file: 12.99µs
+File content is This is in a file
+read file: 31.294µs
+delete file: 7.9µs
+create file: 13.141µs
+File content is This is in a file
+read file: 31.023µs
+delete file: 7.75µs
+create file: 12.978µs
+File content is This is in a file
+read file: 31.221µs
+delete file: 7.716µs
+create file: 13.336µs
+File content is This is in a file
+read file: 31.225µs
+delete file: 8.208µs
+create file: 13.226µs
+File content is This is in a file
+read file: 30.587µs
+delete file: 8.504µs
+create file: 18.287µs
+File content is This is in a file
+read file: 31.179µs
+delete file: 8.176µs
+create file: 12.934µs
+File content is This is in a file
+read file: 31.913µs
+delete file: 7.692µs
+create file: 36.92µs
+File content is This is in a file
+read file: 68.011µs
+delete file: 19.85µs
+create file: 28.166µs
+File content is This is in a file
+read file: 43.686µs
+delete file: 17.22µs
+create file: 25.608µs
+File content is This is in a file
+read file: 37.557µs
+delete file: 15.138µs
+create file: 23.854µs
+File content is This is in a file
+read file: 59.624µs
+delete file: 16.799µs

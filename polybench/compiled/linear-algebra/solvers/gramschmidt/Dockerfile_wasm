@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./gramschmidt.wasm /gramschmidt.wasm
+CMD ["/gramschmidt.wasm"]

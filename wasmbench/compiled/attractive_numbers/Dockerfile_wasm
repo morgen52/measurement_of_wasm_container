@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./attractive_numbers.wasm /
+CMD ["/attractive_numbers.wasm"]

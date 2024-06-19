@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./jensens_device.wasm /
+CMD ["/jensens_device.wasm"]

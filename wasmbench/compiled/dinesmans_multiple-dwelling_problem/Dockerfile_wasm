@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./dinesmans_multiple-dwelling_problem.wasm /
+CMD ["/dinesmans_multiple-dwelling_problem.wasm"]

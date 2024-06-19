@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./yin_and_yang.wasm /
+CMD ["/yin_and_yang.wasm"]

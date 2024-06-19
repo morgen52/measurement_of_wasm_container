@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./babbage_problem.wasm /
+CMD ["/babbage_problem.wasm"]

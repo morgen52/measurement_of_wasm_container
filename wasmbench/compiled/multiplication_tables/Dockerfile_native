@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./multiplication_tables.c .
+RUN gcc -O3 -o ./multiplication_tables ./multiplication_tables.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/multiplication_tables .
+CMD ["./multiplication_tables"]

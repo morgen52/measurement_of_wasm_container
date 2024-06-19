@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./evolutionary_algorithm.wasm /
+CMD ["/evolutionary_algorithm.wasm"]

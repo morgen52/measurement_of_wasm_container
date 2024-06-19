@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sum_of_squares.wasm /
+CMD ["/sum_of_squares.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./balanced_ternary.wasm /
+CMD ["/balanced_ternary.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./filter.wasm /
+CMD ["/filter.wasm"]

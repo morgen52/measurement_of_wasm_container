@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./deepcopy.wasm /
+CMD ["/deepcopy.wasm"]

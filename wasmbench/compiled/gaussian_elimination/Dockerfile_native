@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./gaussian_elimination.c .
+RUN gcc -O3 -o ./gaussian_elimination ./gaussian_elimination.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/gaussian_elimination .
+CMD ["./gaussian_elimination"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./hilbert_curve.wasm /
+CMD ["/hilbert_curve.wasm"]

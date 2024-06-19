@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./permutation_test.wasm /
+CMD ["/permutation_test.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sequence_smallest_number_with_exactly_n_divisors.wasm /
+CMD ["/sequence_smallest_number_with_exactly_n_divisors.wasm"]

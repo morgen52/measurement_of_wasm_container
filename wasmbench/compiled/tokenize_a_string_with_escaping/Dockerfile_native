@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./tokenize_a_string_with_escaping.c .
+RUN gcc -O3 -o ./tokenize_a_string_with_escaping ./tokenize_a_string_with_escaping.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/tokenize_a_string_with_escaping .
+CMD ["./tokenize_a_string_with_escaping"]

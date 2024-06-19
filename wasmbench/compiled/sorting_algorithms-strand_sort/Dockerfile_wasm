@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sorting_algorithms-strand_sort.wasm /
+CMD ["/sorting_algorithms-strand_sort.wasm"]

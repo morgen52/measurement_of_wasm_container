@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./range_expansion.wasm /
+CMD ["/range_expansion.wasm"]

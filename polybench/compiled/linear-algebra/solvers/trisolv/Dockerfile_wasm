@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./trisolv.wasm /trisolv.wasm
+CMD ["/trisolv.wasm"]

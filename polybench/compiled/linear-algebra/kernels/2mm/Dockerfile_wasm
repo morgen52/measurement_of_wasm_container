@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./2mm.wasm /2mm.wasm
+CMD ["/2mm.wasm"]

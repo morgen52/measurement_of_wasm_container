@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./non-decimal_radices-convert.wasm /
+CMD ["/non-decimal_radices-convert.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./linear_congruential_generator.wasm /
+CMD ["/linear_congruential_generator.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./huffman_coding.wasm /
+CMD ["/huffman_coding.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./taxicab_numbers.wasm /
+CMD ["/taxicab_numbers.wasm"]

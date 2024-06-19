@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./here_document.wasm /
+CMD ["/here_document.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./parsing-rpn_to_infix_conversion.wasm /
+CMD ["/parsing-rpn_to_infix_conversion.wasm"]

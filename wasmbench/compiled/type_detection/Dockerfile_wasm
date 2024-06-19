@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./type_detection.wasm /
+CMD ["/type_detection.wasm"]

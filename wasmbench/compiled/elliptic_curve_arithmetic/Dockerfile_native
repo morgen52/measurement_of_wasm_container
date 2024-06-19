@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./elliptic_curve_arithmetic.c .
+RUN gcc -O3 -o ./elliptic_curve_arithmetic ./elliptic_curve_arithmetic.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/elliptic_curve_arithmetic .
+CMD ["./elliptic_curve_arithmetic"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./function_composition.wasm /
+CMD ["/function_composition.wasm"]

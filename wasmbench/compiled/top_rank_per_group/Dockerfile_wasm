@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./top_rank_per_group.wasm /
+CMD ["/top_rank_per_group.wasm"]

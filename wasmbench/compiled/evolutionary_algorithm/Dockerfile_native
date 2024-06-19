@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./evolutionary_algorithm.c .
+RUN gcc -O3 -o ./evolutionary_algorithm ./evolutionary_algorithm.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/evolutionary_algorithm .
+CMD ["./evolutionary_algorithm"]

@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./loop_over_multiple_arrays_simultaneously.c .
+RUN gcc -O3 -o ./loop_over_multiple_arrays_simultaneously ./loop_over_multiple_arrays_simultaneously.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/loop_over_multiple_arrays_simultaneously .
+CMD ["./loop_over_multiple_arrays_simultaneously"]

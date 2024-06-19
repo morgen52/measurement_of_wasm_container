@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./pernicious_numbers.wasm /
+CMD ["/pernicious_numbers.wasm"]

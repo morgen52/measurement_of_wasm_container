@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./show_ascii_table.c .
+RUN gcc -O3 -o ./show_ascii_table ./show_ascii_table.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/show_ascii_table .
+CMD ["./show_ascii_table"]

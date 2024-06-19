@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./law_of_cosines_triples.c .
+RUN gcc -O3 -o ./law_of_cosines_triples ./law_of_cosines_triples.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/law_of_cosines_triples .
+CMD ["./law_of_cosines_triples"]

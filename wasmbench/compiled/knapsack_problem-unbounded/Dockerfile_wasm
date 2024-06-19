@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./knapsack_problem-unbounded.wasm /
+CMD ["/knapsack_problem-unbounded.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./jewels_and_stones.wasm /
+CMD ["/jewels_and_stones.wasm"]

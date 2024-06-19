@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./catalan_numbers-pascals_triangle.wasm /
+CMD ["/catalan_numbers-pascals_triangle.wasm"]

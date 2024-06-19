@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./string_case.wasm /
+CMD ["/string_case.wasm"]

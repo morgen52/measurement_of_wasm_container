@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./fibonacci_word-fractal.wasm /
+CMD ["/fibonacci_word-fractal.wasm"]

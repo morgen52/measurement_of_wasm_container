@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./multifactorial.wasm /
+CMD ["/multifactorial.wasm"]

@@ -1,0 +1,5350 @@
+{
+    "100_doors": {
+        "wasm": {
+            "startup": 19.709666666666667,
+            "e2e": 19.852
+        },
+        "wasm_container": {
+            "startup": 332.065,
+            "e2e": 458.78
+        },
+        "linux_container": {
+            "startup": 618.4733333333334,
+            "e2e": 763.1263333333333
+        }
+    },
+    "99_bottles_of_beer": {
+        "wasm": {
+            "startup": 10.958333333333334,
+            "e2e": 11.026000000000002
+        },
+        "wasm_container": {
+            "startup": 1065.038,
+            "e2e": 1200.6786666666667
+        },
+        "linux_container": {
+            "startup": 691.4643333333333,
+            "e2e": 870.8296666666666
+        }
+    },
+    "abc_problem": {
+        "wasm": {
+            "startup": 13.892000000000001,
+            "e2e": 13.961333333333334
+        },
+        "wasm_container": {
+            "startup": 380.8536666666667,
+            "e2e": 670.4313333333333
+        },
+        "linux_container": {
+            "startup": 2404.239333333333,
+            "e2e": 2542.9979999999996
+        }
+    },
+    "aks_test_for_primes": {
+        "wasm": {
+            "startup": 14.464333333333334,
+            "e2e": 14.543
+        },
+        "wasm_container": {
+            "startup": 1298.9260000000002,
+            "e2e": 1633.5056666666667
+        },
+        "linux_container": {
+            "startup": 461.43799999999993,
+            "e2e": 648.095
+        }
+    },
+    "a_search_algorithm": {
+        "wasm": {
+            "startup": 4.621333333333333,
+            "e2e": 4.647333333333334
+        },
+        "wasm_container": {
+            "startup": 961.541,
+            "e2e": 1092.38
+        },
+        "linux_container": {
+            "startup": 888.4703333333333,
+            "e2e": 1032.9106666666667
+        }
+    },
+    "accumulator_factory": {
+        "wasm": {
+            "startup": 20.059,
+            "e2e": 20.137
+        },
+        "wasm_container": {
+            "startup": 865.9336666666667,
+            "e2e": 1001.944
+        },
+        "linux_container": {
+            "startup": 1915.307,
+            "e2e": 2280.0150000000003
+        }
+    },
+    "almost_prime": {
+        "wasm": {
+            "startup": 13.030333333333333,
+            "e2e": 13.161666666666667
+        },
+        "wasm_container": {
+            "startup": 1753.3496666666667,
+            "e2e": 1893.245
+        },
+        "linux_container": {
+            "startup": 1626.8053333333335,
+            "e2e": 1936.244
+        }
+    },
+    "anti-primes": {
+        "wasm": {
+            "startup": 12.894,
+            "e2e": 12.969999999999999
+        },
+        "wasm_container": {
+            "startup": 672.2493333333333,
+            "e2e": 1053.3063333333332
+        },
+        "linux_container": {
+            "startup": 1305.804,
+            "e2e": 1489.5456666666669
+        }
+    },
+    "approximate_equality": {
+        "wasm": {
+            "startup": 11.528666666666666,
+            "e2e": 11.599333333333334
+        },
+        "wasm_container": {
+            "startup": 864.3963333333332,
+            "e2e": 1219.184
+        },
+        "linux_container": {
+            "startup": 1600.9926666666668,
+            "e2e": 1759.9216666666664
+        }
+    },
+    "array_length": {
+        "wasm": {
+            "startup": 11.314,
+            "e2e": 11.387
+        },
+        "wasm_container": {
+            "startup": 1153.3993333333335,
+            "e2e": 1342.286
+        },
+        "linux_container": {
+            "startup": 1797.9513333333334,
+            "e2e": 1942.5849999999998
+        }
+    },
+    "attractive_numbers": {
+        "wasm": {
+            "startup": 10.619333333333334,
+            "e2e": 10.696666666666665
+        },
+        "wasm_container": {
+            "startup": 1242.5776666666668,
+            "e2e": 1554.7363333333333
+        },
+        "linux_container": {
+            "startup": 2046.4409999999998,
+            "e2e": 2332.007
+        }
+    },
+    "averages-arithmetic_mean": {
+        "wasm": {
+            "startup": 10.163333333333332,
+            "e2e": 10.221333333333334
+        },
+        "wasm_container": {
+            "startup": 751.3116666666666,
+            "e2e": 1106.6963333333333
+        },
+        "linux_container": {
+            "startup": 660.6943333333334,
+            "e2e": 857.4920000000001
+        }
+    },
+    "averages-mean_angle": {
+        "wasm": {
+            "startup": 9.731,
+            "e2e": 9.803666666666667
+        },
+        "wasm_container": {
+            "startup": 1719.3829999999998,
+            "e2e": 2001.310666666667
+        },
+        "linux_container": {
+            "startup": 1448.7103333333332,
+            "e2e": 1677.2926666666665
+        }
+    },
+    "averages-mode": {
+        "wasm": {
+            "startup": 10.670666666666667,
+            "e2e": 10.738
+        },
+        "wasm_container": {
+            "startup": 1486.5076666666664,
+            "e2e": 1964.9419999999998
+        },
+        "linux_container": {
+            "startup": 1894.2186666666664,
+            "e2e": 2047.0179999999998
+        }
+    },
+    "averages-pythagorean_means": {
+        "wasm": {
+            "startup": 20.095,
+            "e2e": 20.166
+        },
+        "wasm_container": {
+            "startup": 1080.6686666666667,
+            "e2e": 1366.9716666666666
+        },
+        "linux_container": {
+            "startup": 1411.676666666667,
+            "e2e": 1718.893
+        }
+    },
+    "averages-root_mean_square": {
+        "wasm": {
+            "startup": 12.01633333333333,
+            "e2e": 12.097333333333333
+        },
+        "wasm_container": {
+            "startup": 1278.7169999999999,
+            "e2e": 1520.7356666666667
+        },
+        "linux_container": {
+            "startup": 716.1669999999999,
+            "e2e": 1117.2749999999999
+        }
+    },
+    "babbage_problem": {
+        "wasm": {
+            "startup": 11.223333333333334,
+            "e2e": 11.289
+        },
+        "wasm_container": {
+            "startup": 958.3106666666666,
+            "e2e": 1262.4973333333335
+        },
+        "linux_container": {
+            "startup": 1978.9183333333333,
+            "e2e": 2338.8306666666667
+        }
+    },
+    "balanced_brackets": {
+        "wasm": {
+            "startup": 10.111666666666666,
+            "e2e": 10.173666666666668
+        },
+        "wasm_container": {
+            "startup": 1607.9859999999999,
+            "e2e": 1940.6743333333334
+        },
+        "linux_container": {
+            "startup": 1377.2726666666665,
+            "e2e": 1631.2133333333334
+        }
+    },
+    "balanced_ternary": {
+        "wasm": {
+            "startup": 9.838000000000001,
+            "e2e": 9.907666666666666
+        },
+        "wasm_container": {
+            "startup": 891.381,
+            "e2e": 1038.6153333333334
+        },
+        "linux_container": {
+            "startup": 1006.241,
+            "e2e": 1414.9956666666667
+        }
+    },
+    "bell_numbers": {
+        "wasm": {
+            "startup": 11.273000000000001,
+            "e2e": 11.351333333333335
+        },
+        "wasm_container": {
+            "startup": 1719.129,
+            "e2e": 1841.0620000000001
+        },
+        "linux_container": {
+            "startup": 2370.9976666666666,
+            "e2e": 2948.625666666667
+        }
+    },
+    "best_shuffle": {
+        "wasm": {
+            "startup": 12.157333333333332,
+            "e2e": 12.271
+        },
+        "wasm_container": {
+            "startup": 1128.6746666666666,
+            "e2e": 1265.169
+        },
+        "linux_container": {
+            "startup": 2017.1746666666668,
+            "e2e": 2413.513
+        }
+    },
+    "binary_digits": {
+        "wasm": {
+            "startup": 13.150666666666666,
+            "e2e": 13.271333333333333
+        },
+        "wasm_container": {
+            "startup": 1777.0533333333333,
+            "e2e": 1908.4440000000002
+        },
+        "linux_container": {
+            "startup": 1780.487,
+            "e2e": 2027.8673333333334
+        }
+    },
+    "binary_search": {
+        "wasm": {
+            "startup": 10.632666666666665,
+            "e2e": 10.704333333333333
+        },
+        "wasm_container": {
+            "startup": 1993.0453333333332,
+            "e2e": 2110.3803333333335
+        },
+        "linux_container": {
+            "startup": 1942.151,
+            "e2e": 2140.003666666666
+        }
+    },
+    "binary_strings": {
+        "wasm": {
+            "startup": 10.897666666666666,
+            "e2e": 10.984666666666667
+        },
+        "wasm_container": {
+            "startup": 1398.1636666666666,
+            "e2e": 1527.773
+        },
+        "linux_container": {
+            "startup": 2314.1246666666666,
+            "e2e": 2505.559333333333
+        }
+    },
+    "box_the_compass": {
+        "wasm": {
+            "startup": 26.390333333333334,
+            "e2e": 26.817333333333334
+        },
+        "wasm_container": {
+            "startup": 2006.9183333333333,
+            "e2e": 2161.6296666666663
+        },
+        "linux_container": {
+            "startup": 1705.768,
+            "e2e": 1967.0803333333333
+        }
+    },
+    "csv_to_html_translation": {
+        "wasm": {
+            "startup": 14.395000000000001,
+            "e2e": 14.476666666666665
+        },
+        "wasm_container": {
+            "startup": 1619.724,
+            "e2e": 1901.969
+        },
+        "linux_container": {
+            "startup": 2319.2696666666666,
+            "e2e": 2778.5696666666668
+        }
+    },
+    "caesar_cipher": {
+        "wasm": {
+            "startup": 9.989333333333333,
+            "e2e": 10.049333333333335
+        },
+        "wasm_container": {
+            "startup": 842.797,
+            "e2e": 1154.5436666666667
+        },
+        "linux_container": {
+            "startup": 2002.244,
+            "e2e": 2176.8526666666667
+        }
+    },
+    "calculating_the_value_of_e": {
+        "wasm": {
+            "startup": 12.883000000000001,
+            "e2e": 12.956333333333333
+        },
+        "wasm_container": {
+            "startup": 1905.3613333333333,
+            "e2e": 2032.7346666666665
+        },
+        "linux_container": {
+            "startup": 2233.517,
+            "e2e": 2417.436333333333
+        }
+    },
+    "calendar": {
+        "wasm": {
+            "startup": 35.297333333333334,
+            "e2e": 35.35166666666667
+        },
+        "wasm_container": {
+            "startup": 1361.1413333333333,
+            "e2e": 1573.8033333333333
+        },
+        "linux_container": {
+            "startup": 1997.4389999999996,
+            "e2e": 2309.767333333333
+        }
+    },
+    "cantor_set": {
+        "wasm": {
+            "startup": 11.723999999999998,
+            "e2e": 11.790666666666667
+        },
+        "wasm_container": {
+            "startup": 1325.4246666666668,
+            "e2e": 1457.1853333333336
+        },
+        "linux_container": {
+            "startup": 2259.6096666666667,
+            "e2e": 2515.9753333333333
+        }
+    },
+    "carmichael_3_strong_pseudoprimes": {
+        "wasm": {
+            "startup": 10.617333333333333,
+            "e2e": 10.685666666666668
+        },
+        "wasm_container": {
+            "startup": 2162.8356666666664,
+            "e2e": 2300.414666666667
+        },
+        "linux_container": {
+            "startup": 1907.6783333333333,
+            "e2e": 2134.429
+        }
+    },
+    "cartesian_product_of_two_or_more_lists": {
+        "wasm": {
+            "startup": 12.549666666666667,
+            "e2e": 12.624666666666668
+        },
+        "wasm_container": {
+            "startup": 1401.5886666666668,
+            "e2e": 1535.012
+        },
+        "linux_container": {
+            "startup": 2154.0546666666664,
+            "e2e": 2294.911666666667
+        }
+    },
+    "case-sensitivity_of_identifiers": {
+        "wasm": {
+            "startup": 11.266666666666666,
+            "e2e": 11.334666666666665
+        },
+        "wasm_container": {
+            "startup": 1799.727,
+            "e2e": 2071.195333333333
+        },
+        "linux_container": {
+            "startup": 1325.828,
+            "e2e": 1592.6336666666666
+        }
+    },
+    "catalan_numbers-pascals_triangle": {
+        "wasm": {
+            "startup": 10.872333333333332,
+            "e2e": 10.945
+        },
+        "wasm_container": {
+            "startup": 1465.4093333333333,
+            "e2e": 1804.8863333333331
+        },
+        "linux_container": {
+            "startup": 1541.1006666666665,
+            "e2e": 1997.435666666667
+        }
+    },
+    "catamorphism": {
+        "wasm": {
+            "startup": 10.82,
+            "e2e": 10.887
+        },
+        "wasm_container": {
+            "startup": 1608.7136666666665,
+            "e2e": 1766.996
+        },
+        "linux_container": {
+            "startup": 931.9976666666666,
+            "e2e": 1190.3516666666667
+        }
+    },
+    "chaocipher": {
+        "wasm": {
+            "startup": 11.176666666666668,
+            "e2e": 11.248666666666667
+        },
+        "wasm_container": {
+            "startup": 1922.213,
+            "e2e": 2201.1273333333334
+        },
+        "linux_container": {
+            "startup": 2026.7543333333335,
+            "e2e": 2445.754
+        }
+    },
+    "character_codes": {
+        "wasm": {
+            "startup": 11.654000000000002,
+            "e2e": 11.718333333333334
+        },
+        "wasm_container": {
+            "startup": 1499.8323333333335,
+            "e2e": 1644.1283333333333
+        },
+        "linux_container": {
+            "startup": 2376.0983333333334,
+            "e2e": 2519.0243333333333
+        }
+    },
+    "chebyshev_coefficients": {
+        "wasm": {
+            "startup": 11.714999999999998,
+            "e2e": 11.782000000000002
+        },
+        "wasm_container": {
+            "startup": 2105.8676666666665,
+            "e2e": 2236.7286666666664
+        },
+        "linux_container": {
+            "startup": 2049.711,
+            "e2e": 2541.4133333333334
+        }
+    },
+    "check_input_device_is_a_terminal": {
+        "wasm": {
+            "startup": 11.839666666666668,
+            "e2e": 11.909
+        },
+        "wasm_container": {
+            "startup": 1355.4886666666666,
+            "e2e": 1483.7393333333332
+        },
+        "linux_container": {
+            "startup": 2308.4996666666666,
+            "e2e": 2457.487
+        }
+    },
+    "check_output_device_is_a_terminal": {
+        "wasm": {
+            "startup": 10.756666666666666,
+            "e2e": 10.870333333333335
+        },
+        "wasm_container": {
+            "startup": 1885.7160000000001,
+            "e2e": 2045.5356666666667
+        },
+        "linux_container": {
+            "startup": 2552.812,
+            "e2e": 2804.3783333333326
+        }
+    },
+    "cheryls_birthday": {
+        "wasm": {
+            "startup": 11.534,
+            "e2e": 11.596666666666666
+        },
+        "wasm_container": {
+            "startup": 1389.2086666666667,
+            "e2e": 1568.36
+        },
+        "linux_container": {
+            "startup": 2062.244666666667,
+            "e2e": 2233.2916666666665
+        }
+    },
+    "chinese_remainder_theorem": {
+        "wasm": {
+            "startup": 10.708333333333334,
+            "e2e": 10.771333333333333
+        },
+        "wasm_container": {
+            "startup": 1494.7966666666669,
+            "e2e": 1884.6989999999998
+        },
+        "linux_container": {
+            "startup": 1364.9793333333334,
+            "e2e": 1544.999
+        }
+    },
+    "chinese_zodiac": {
+        "wasm": {
+            "startup": 10.316,
+            "e2e": 10.391
+        },
+        "wasm_container": {
+            "startup": 1687.47,
+            "e2e": 2314.0376666666666
+        },
+        "linux_container": {
+            "startup": 1899.052,
+            "e2e": 2389.364
+        }
+    },
+    "cholesky_decomposition": {
+        "wasm": {
+            "startup": 21.397000000000002,
+            "e2e": 21.547666666666668
+        },
+        "wasm_container": {
+            "startup": 1367.0743333333332,
+            "e2e": 1482.6103333333333
+        },
+        "linux_container": {
+            "startup": 2406.777666666667,
+            "e2e": 2549.0473333333334
+        }
+    },
+    "circles_of_given_radius_through_two_points": {
+        "wasm": {
+            "startup": 15.182666666666668,
+            "e2e": 15.239666666666666
+        },
+        "wasm_container": {
+            "startup": 1769.4403333333332,
+            "e2e": 1950.0019999999997
+        },
+        "linux_container": {
+            "startup": 2034.5756666666666,
+            "e2e": 2413.509666666667
+        }
+    },
+    "combinations": {
+        "wasm": {
+            "startup": 11.780333333333333,
+            "e2e": 11.836666666666666
+        },
+        "wasm_container": {
+            "startup": 1469.901,
+            "e2e": 1731.253
+        },
+        "linux_container": {
+            "startup": 1486.51,
+            "e2e": 1998.9793333333334
+        }
+    },
+    "combinations_with_repetitions": {
+        "wasm": {
+            "startup": 11.087666666666669,
+            "e2e": 11.154000000000002
+        },
+        "wasm_container": {
+            "startup": 1406.4606666666668,
+            "e2e": 2016.1343333333334
+        },
+        "linux_container": {
+            "startup": 1408.582,
+            "e2e": 1795.3686666666665
+        }
+    },
+    "comma_quibbling": {
+        "wasm": {
+            "startup": 21.870666666666665,
+            "e2e": 22.073666666666668
+        },
+        "wasm_container": {
+            "startup": 1139.1009999999999,
+            "e2e": 1546.1493333333335
+        },
+        "linux_container": {
+            "startup": 2552.89,
+            "e2e": 2708.2226666666666
+        }
+    },
+    "command-line_arguments": {
+        "wasm": {
+            "startup": 12.174666666666667,
+            "e2e": 12.234666666666667
+        },
+        "wasm_container": {
+            "startup": 1778.822666666667,
+            "e2e": 1901.6783333333333
+        },
+        "linux_container": {
+            "startup": 1537.519,
+            "e2e": 1917.5716666666665
+        }
+    },
+    "continued_fraction": {
+        "wasm": {
+            "startup": 10.512333333333332,
+            "e2e": 10.583
+        },
+        "wasm_container": {
+            "startup": 2156.5226666666663,
+            "e2e": 2281.3116666666665
+        },
+        "linux_container": {
+            "startup": 1873.022,
+            "e2e": 2061.453
+        }
+    },
+    "continued_fraction-arithmetic-construct_from_rational_number": {
+        "wasm": {
+            "startup": 7.938666666666667,
+            "e2e": 7.982666666666667
+        },
+        "wasm_container": {
+            "startup": 1646.8439999999998,
+            "e2e": 1781.2286666666669
+        },
+        "linux_container": {
+            "startup": 2046.5146666666667,
+            "e2e": 2180.716
+        }
+    },
+    "convert_decimal_number_to_rational": {
+        "wasm": {
+            "startup": 11.025,
+            "e2e": 11.097999999999999
+        },
+        "wasm_container": {
+            "startup": 1995.9620000000002,
+            "e2e": 2139.073
+        },
+        "linux_container": {
+            "startup": 2404.9893333333334,
+            "e2e": 2552.0676666666664
+        }
+    },
+    "convex_hull": {
+        "wasm": {
+            "startup": 10.638333333333334,
+            "e2e": 10.708666666666666
+        },
+        "wasm_container": {
+            "startup": 1684.051666666667,
+            "e2e": 1812.4593333333332
+        },
+        "linux_container": {
+            "startup": 2140.9353333333333,
+            "e2e": 2286.917
+        }
+    },
+    "copy_a_string": {
+        "wasm": {
+            "startup": 11.328666666666669,
+            "e2e": 11.400333333333334
+        },
+        "wasm_container": {
+            "startup": 2014.1376666666667,
+            "e2e": 2141.0049999999997
+        },
+        "linux_container": {
+            "startup": 1174.3766666666668,
+            "e2e": 1340.8680000000002
+        }
+    },
+    "count_occurrences_of_a_substring": {
+        "wasm": {
+            "startup": 24.919,
+            "e2e": 24.99066666666667
+        },
+        "wasm_container": {
+            "startup": 1409.8663333333334,
+            "e2e": 1781.1976666666667
+        },
+        "linux_container": {
+            "startup": 1849.9840000000002,
+            "e2e": 2170.9106666666667
+        }
+    },
+    "cramers_rule": {
+        "wasm": {
+            "startup": 11.149,
+            "e2e": 11.210333333333333
+        },
+        "wasm_container": {
+            "startup": 2044.071,
+            "e2e": 2160.9426666666664
+        },
+        "linux_container": {
+            "startup": 1907.1473333333333,
+            "e2e": 2053.779
+        }
+    },
+    "create_an_html_table": {
+        "wasm": {
+            "startup": 10.909666666666666,
+            "e2e": 10.972333333333333
+        },
+        "wasm_container": {
+            "startup": 2399.7416666666663,
+            "e2e": 2525.060333333333
+        },
+        "linux_container": {
+            "startup": 1968.043333333333,
+            "e2e": 2135.7369999999996
+        }
+    },
+    "create_an_object_at_a_given_address": {
+        "wasm": {
+            "startup": 11.573333333333332,
+            "e2e": 11.644
+        },
+        "wasm_container": {
+            "startup": 1409.5386666666666,
+            "e2e": 1570.1450000000002
+        },
+        "linux_container": {
+            "startup": 2139.4426666666664,
+            "e2e": 2297.274
+        }
+    },
+    "currying": {
+        "wasm": {
+            "startup": 11.425333333333333,
+            "e2e": 11.48666666666667
+        },
+        "wasm_container": {
+            "startup": 2241.964,
+            "e2e": 2381.18
+        },
+        "linux_container": {
+            "startup": 1741.0730000000003,
+            "e2e": 2105.9493333333335
+        }
+    },
+    "cycle_detection": {
+        "wasm": {
+            "startup": 10.320666666666666,
+            "e2e": 10.384666666666668
+        },
+        "wasm_container": {
+            "startup": 1635.1856666666665,
+            "e2e": 1911.7703333333332
+        },
+        "linux_container": {
+            "startup": 1577.9723333333334,
+            "e2e": 1947.0603333333336
+        }
+    },
+    "damm_algorithm": {
+        "wasm": {
+            "startup": 11.042666666666667,
+            "e2e": 11.108000000000002
+        },
+        "wasm_container": {
+            "startup": 1531.4440000000002,
+            "e2e": 1763.8636666666669
+        },
+        "linux_container": {
+            "startup": 1475.3173333333334,
+            "e2e": 1730.3273333333334
+        }
+    },
+    "day_of_the_week": {
+        "wasm": {
+            "startup": 11.806666666666667,
+            "e2e": 11.866999999999999
+        },
+        "wasm_container": {
+            "startup": 2217.4010000000003,
+            "e2e": 2469.638
+        },
+        "linux_container": {
+            "startup": 895.4923333333332,
+            "e2e": 1547.5153333333335
+        }
+    },
+    "deal_cards_for_freecell": {
+        "wasm": {
+            "startup": 11.291666666666666,
+            "e2e": 11.351999999999999
+        },
+        "wasm_container": {
+            "startup": 2193.5546666666664,
+            "e2e": 2324.3686666666667
+        },
+        "linux_container": {
+            "startup": 2078.633,
+            "e2e": 2217.256
+        }
+    },
+    "deconvolution-1d": {
+        "wasm": {
+            "startup": 32.76133333333333,
+            "e2e": 33.062333333333335
+        },
+        "wasm_container": {
+            "startup": 2132.1373333333336,
+            "e2e": 2310.3576666666663
+        },
+        "linux_container": {
+            "startup": 2259.793,
+            "e2e": 2412.7656666666667
+        }
+    },
+    "deconvolution-2d": {
+        "wasm": {
+            "startup": 12.408999999999999,
+            "e2e": 12.482
+        },
+        "wasm_container": {
+            "startup": 1865.0483333333332,
+            "e2e": 2004.741
+        },
+        "linux_container": {
+            "startup": 1466.0006666666668,
+            "e2e": 1859.2699999999998
+        }
+    },
+    "deepcopy": {
+        "wasm": {
+            "startup": 10.623333333333333,
+            "e2e": 10.695999999999998
+        },
+        "wasm_container": {
+            "startup": 2035.1753333333334,
+            "e2e": 2206.3469999999998
+        },
+        "linux_container": {
+            "startup": 1737.0343333333333,
+            "e2e": 1926.4126666666664
+        }
+    },
+    "delegates": {
+        "wasm": {
+            "startup": 11.140666666666668,
+            "e2e": 11.211999999999998
+        },
+        "wasm_container": {
+            "startup": 1833.9393333333335,
+            "e2e": 1994.2013333333332
+        },
+        "linux_container": {
+            "startup": 1414.3306666666667,
+            "e2e": 1808.2506666666668
+        }
+    },
+    "department_numbers": {
+        "wasm": {
+            "startup": 12.027000000000001,
+            "e2e": 12.112
+        },
+        "wasm_container": {
+            "startup": 2168.6763333333333,
+            "e2e": 2312.4876666666664
+        },
+        "linux_container": {
+            "startup": 1705.8476666666668,
+            "e2e": 2096.659
+        }
+    },
+    "determinant_and_permanent": {
+        "wasm": {
+            "startup": 11.40333333333333,
+            "e2e": 11.481666666666667
+        },
+        "wasm_container": {
+            "startup": 1470.4393333333335,
+            "e2e": 1763.813
+        },
+        "linux_container": {
+            "startup": 803.2060000000001,
+            "e2e": 1104.0213333333334
+        }
+    },
+    "determine_if_a_string_has_all_the_same_characters": {
+        "wasm": {
+            "startup": 11.254666666666665,
+            "e2e": 11.315333333333333
+        },
+        "wasm_container": {
+            "startup": 1149.885,
+            "e2e": 1653.8670000000002
+        },
+        "linux_container": {
+            "startup": 907.1873333333333,
+            "e2e": 1304.291
+        }
+    },
+    "determine_if_a_string_has_all_unique_characters": {
+        "wasm": {
+            "startup": 10.613666666666667,
+            "e2e": 10.675333333333334
+        },
+        "wasm_container": {
+            "startup": 1797.7646666666667,
+            "e2e": 2226.6956666666665
+        },
+        "linux_container": {
+            "startup": 1271.433,
+            "e2e": 1647.2013333333334
+        }
+    },
+    "dice_game_probabilities": {
+        "wasm": {
+            "startup": 22.61966666666667,
+            "e2e": 22.70333333333333
+        },
+        "wasm_container": {
+            "startup": 2028.9333333333332,
+            "e2e": 2191.0453333333335
+        },
+        "linux_container": {
+            "startup": 1678.8623333333333,
+            "e2e": 1998.7156666666667
+        }
+    },
+    "digital_root": {
+        "wasm": {
+            "startup": 11.181666666666667,
+            "e2e": 11.261666666666665
+        },
+        "wasm_container": {
+            "startup": 2060.1986666666667,
+            "e2e": 2217.694
+        },
+        "linux_container": {
+            "startup": 1935.2996666666668,
+            "e2e": 2213.632
+        }
+    },
+    "digital_root-multiplicative_digital_root": {
+        "wasm": {
+            "startup": 11.785333333333332,
+            "e2e": 11.910000000000002
+        },
+        "wasm_container": {
+            "startup": 845.7693333333333,
+            "e2e": 1233.1193333333333
+        },
+        "linux_container": {
+            "startup": 862.3306666666667,
+            "e2e": 1131.8419999999999
+        }
+    },
+    "dijkstras_algorithm": {
+        "wasm": {
+            "startup": 20.127,
+            "e2e": 20.200666666666667
+        },
+        "wasm_container": {
+            "startup": 2167.329333333333,
+            "e2e": 2444.6966666666667
+        },
+        "linux_container": {
+            "startup": 1457.3653333333332,
+            "e2e": 1635.5413333333333
+        }
+    },
+    "dinesmans_multiple-dwelling_problem": {
+        "wasm": {
+            "startup": 11.334333333333333,
+            "e2e": 11.423000000000002
+        },
+        "wasm_container": {
+            "startup": 2065.554,
+            "e2e": 2225.338333333333
+        },
+        "linux_container": {
+            "startup": 2001.5130000000001,
+            "e2e": 2176.0316666666668
+        }
+    },
+    "diversity_prediction_theorem": {
+        "wasm": {
+            "startup": 17.037,
+            "e2e": 17.096999999999998
+        },
+        "wasm_container": {
+            "startup": 1944.1313333333335,
+            "e2e": 2090.138
+        },
+        "linux_container": {
+            "startup": 2090.869666666667,
+            "e2e": 2243.956333333333
+        }
+    },
+    "dot_product": {
+        "wasm": {
+            "startup": 10.937666666666667,
+            "e2e": 11.013333333333335
+        },
+        "wasm_container": {
+            "startup": 1984.063,
+            "e2e": 2110.2456666666667
+        },
+        "linux_container": {
+            "startup": 2015.8813333333335,
+            "e2e": 2194.191666666667
+        }
+    },
+    "doubly-linked_list-traversal": {
+        "wasm": {
+            "startup": 10.223666666666666,
+            "e2e": 10.299000000000001
+        },
+        "wasm_container": {
+            "startup": 1994.4126666666664,
+            "e2e": 2131.3863333333334
+        },
+        "linux_container": {
+            "startup": 1949.6539999999998,
+            "e2e": 2102.883333333333
+        }
+    },
+    "draw_a_cuboid": {
+        "wasm": {
+            "startup": 10.969333333333333,
+            "e2e": 11.033
+        },
+        "wasm_container": {
+            "startup": 2180.048666666666,
+            "e2e": 2302.7333333333336
+        },
+        "linux_container": {
+            "startup": 1645.8833333333332,
+            "e2e": 1953.5469999999998
+        }
+    },
+    "egyptian_division": {
+        "wasm": {
+            "startup": 11.587333333333333,
+            "e2e": 11.652666666666667
+        },
+        "wasm_container": {
+            "startup": 2009.6909999999998,
+            "e2e": 2175.2670000000003
+        },
+        "linux_container": {
+            "startup": 1664.3696666666667,
+            "e2e": 2022.5486666666666
+        }
+    },
+    "elementary_cellular_automaton-random_number_generator": {
+        "wasm": {
+            "startup": 11.469333333333333,
+            "e2e": 11.535666666666666
+        },
+        "wasm_container": {
+            "startup": 2402.8233333333333,
+            "e2e": 2570.8160000000003
+        },
+        "linux_container": {
+            "startup": 1985.5199999999998,
+            "e2e": 2230.8503333333333
+        }
+    },
+    "elliptic_curve_arithmetic": {
+        "wasm": {
+            "startup": 10.822666666666668,
+            "e2e": 10.890666666666666
+        },
+        "wasm_container": {
+            "startup": 2321.342,
+            "e2e": 2459.0716666666667
+        },
+        "linux_container": {
+            "startup": 1988.2706666666666,
+            "e2e": 2137.9493333333335
+        }
+    },
+    "emirp_primes": {
+        "wasm": {
+            "startup": 10.191333333333333,
+            "e2e": 10.248666666666667
+        },
+        "wasm_container": {
+            "startup": 1666.9526666666668,
+            "e2e": 1807.1000000000004
+        },
+        "linux_container": {
+            "startup": 2032.515,
+            "e2e": 2189.2853333333333
+        }
+    },
+    "environment_variables": {
+        "wasm": {
+            "startup": 10.599333333333334,
+            "e2e": 10.669666666666666
+        },
+        "wasm_container": {
+            "startup": 1275.1743333333334,
+            "e2e": 1809.9016666666666
+        },
+        "linux_container": {
+            "startup": 1353.0623333333333,
+            "e2e": 1668.381
+        }
+    },
+    "equilibrium_index": {
+        "wasm": {
+            "startup": 10.133333333333335,
+            "e2e": 10.231333333333334
+        },
+        "wasm_container": {
+            "startup": 1891.0283333333336,
+            "e2e": 2241.5139999999997
+        },
+        "linux_container": {
+            "startup": 1588.1913333333334,
+            "e2e": 1750.0403333333331
+        }
+    },
+    "ethiopian_multiplication": {
+        "wasm": {
+            "startup": 10.946,
+            "e2e": 11.012666666666666
+        },
+        "wasm_container": {
+            "startup": 2291.4106666666667,
+            "e2e": 2444.235666666667
+        },
+        "linux_container": {
+            "startup": 2002.704,
+            "e2e": 2153.689
+        }
+    },
+    "euler_method": {
+        "wasm": {
+            "startup": 18.346666666666668,
+            "e2e": 19.516333333333332
+        },
+        "wasm_container": {
+            "startup": 2174.6250000000005,
+            "e2e": 2383.800333333333
+        },
+        "linux_container": {
+            "startup": 2004.8743333333332,
+            "e2e": 2172.5353333333333
+        }
+    },
+    "eulers_identity": {
+        "wasm": {
+            "startup": 11.937,
+            "e2e": 12.038666666666666
+        },
+        "wasm_container": {
+            "startup": 1147.0323333333333,
+            "e2e": 1515.482
+        },
+        "linux_container": {
+            "startup": 1435.0446666666667,
+            "e2e": 1615.6133333333335
+        }
+    },
+    "evaluate_binomial_coefficients": {
+        "wasm": {
+            "startup": 11.119,
+            "e2e": 11.185666666666668
+        },
+        "wasm_container": {
+            "startup": 1452.8476666666666,
+            "e2e": 1889.1486666666667
+        },
+        "linux_container": {
+            "startup": 1396.001,
+            "e2e": 1583.313
+        }
+    },
+    "evolutionary_algorithm": {
+        "wasm": {
+            "startup": 11.148333333333333,
+            "e2e": 11.215666666666666
+        },
+        "wasm_container": {
+            "startup": 1206.9583333333333,
+            "e2e": 1753.0816666666667
+        },
+        "linux_container": {
+            "startup": 1749.4883333333335,
+            "e2e": 1980.5069999999998
+        }
+    },
+    "exceptions-catch_an_exception_thrown_in_a_nested_call": {
+        "wasm": {
+            "startup": 11.087000000000002,
+            "e2e": 11.156666666666666
+        },
+        "wasm_container": {
+            "startup": 1845.8100000000002,
+            "e2e": 2053.7953333333335
+        },
+        "linux_container": {
+            "startup": 1865.5790000000004,
+            "e2e": 2161.4503333333328
+        }
+    },
+    "exponentiation_operator": {
+        "wasm": {
+            "startup": 11.952333333333334,
+            "e2e": 12.069
+        },
+        "wasm_container": {
+            "startup": 1901.8646666666666,
+            "e2e": 2031.1946666666663
+        },
+        "linux_container": {
+            "startup": 1940.8153333333332,
+            "e2e": 2282.8019999999997
+        }
+    },
+    "exponentiation_order": {
+        "wasm": {
+            "startup": 10.729333333333335,
+            "e2e": 10.795
+        },
+        "wasm_container": {
+            "startup": 2117.676,
+            "e2e": 2248.0409999999997
+        },
+        "linux_container": {
+            "startup": 2005.0316666666668,
+            "e2e": 2153.4476666666665
+        }
+    },
+    "extract_file_extension": {
+        "wasm": {
+            "startup": 13.070333333333332,
+            "e2e": 13.149666666666667
+        },
+        "wasm_container": {
+            "startup": 2144.5273333333334,
+            "e2e": 2290.9306666666666
+        },
+        "linux_container": {
+            "startup": 2087.2270000000003,
+            "e2e": 2233.0686666666666
+        }
+    },
+    "extreme_floating_point_values": {
+        "wasm": {
+            "startup": 10.856666666666667,
+            "e2e": 10.925666666666666
+        },
+        "wasm_container": {
+            "startup": 1985.0379999999998,
+            "e2e": 2165.728333333333
+        },
+        "linux_container": {
+            "startup": 2004.0356666666667,
+            "e2e": 2158.552666666667
+        }
+    },
+    "factors_of_an_integer": {
+        "wasm": {
+            "startup": 10.882333333333333,
+            "e2e": 10.94
+        },
+        "wasm_container": {
+            "startup": 1379.2646666666667,
+            "e2e": 1692.5900000000001
+        },
+        "linux_container": {
+            "startup": 1180.1713333333335,
+            "e2e": 1546.1689999999999
+        }
+    },
+    "fast_fourier_transform": {
+        "wasm": {
+            "startup": 13.559999999999997,
+            "e2e": 13.637666666666666
+        },
+        "wasm_container": {
+            "startup": 1689.0789999999997,
+            "e2e": 2193.673666666667
+        },
+        "linux_container": {
+            "startup": 1850.5780000000002,
+            "e2e": 2033.122
+        }
+    },
+    "faulhabers_formula": {
+        "wasm": {
+            "startup": 11.731,
+            "e2e": 11.796666666666667
+        },
+        "wasm_container": {
+            "startup": 1887.9270000000004,
+            "e2e": 2271.735666666667
+        },
+        "linux_container": {
+            "startup": 1315.1826666666668,
+            "e2e": 1601.3793333333333
+        }
+    },
+    "faulhabers_triangle": {
+        "wasm": {
+            "startup": 11.767333333333333,
+            "e2e": 11.835666666666668
+        },
+        "wasm_container": {
+            "startup": 2030.4563333333335,
+            "e2e": 2175.0303333333336
+        },
+        "linux_container": {
+            "startup": 1813.1713333333335,
+            "e2e": 2099.6059999999998
+        }
+    },
+    "feigenbaum_constant_calculation": {
+        "wasm": {
+            "startup": 26.078,
+            "e2e": 26.422666666666668
+        },
+        "wasm_container": {
+            "startup": 2230.3486666666668,
+            "e2e": 2398.8476666666666
+        },
+        "linux_container": {
+            "startup": 2088.882666666667,
+            "e2e": 2255.286333333333
+        }
+    },
+    "fibonacci_n-step_number_sequences": {
+        "wasm": {
+            "startup": 10.626999999999999,
+            "e2e": 10.704333333333333
+        },
+        "wasm_container": {
+            "startup": 2191.029666666667,
+            "e2e": 2347.135333333333
+        },
+        "linux_container": {
+            "startup": 1886.3373333333332,
+            "e2e": 2086.6253333333334
+        }
+    },
+    "fibonacci_word-fractal": {
+        "wasm": {
+            "startup": 17.09766666666667,
+            "e2e": 17.292333333333335
+        },
+        "wasm_container": {
+            "startup": 1791.2323333333334,
+            "e2e": 1945.2436666666665
+        },
+        "linux_container": {
+            "startup": 2096.5456666666664,
+            "e2e": 2267.759
+        }
+    },
+    "filter": {
+        "wasm": {
+            "startup": 20.930666666666667,
+            "e2e": 21.042666666666666
+        },
+        "wasm_container": {
+            "startup": 2184.9106666666667,
+            "e2e": 2326.8086666666663
+        },
+        "linux_container": {
+            "startup": 2243.620666666667,
+            "e2e": 2412.438333333333
+        }
+    },
+    "find_the_intersection_of_a_line_with_a_plane": {
+        "wasm": {
+            "startup": 31.358666666666664,
+            "e2e": 31.50266666666667
+        },
+        "wasm_container": {
+            "startup": 1679.5156666666664,
+            "e2e": 1825.3583333333336
+        },
+        "linux_container": {
+            "startup": 2356.4713333333334,
+            "e2e": 2509.4933333333333
+        }
+    },
+    "find_the_intersection_of_two_lines": {
+        "wasm": {
+            "startup": 14.617333333333335,
+            "e2e": 14.691333333333333
+        },
+        "wasm_container": {
+            "startup": 2052.8926666666666,
+            "e2e": 2198.4856666666665
+        },
+        "linux_container": {
+            "startup": 2041.3053333333337,
+            "e2e": 2200.9036666666666
+        }
+    },
+    "find_the_missing_permutation": {
+        "wasm": {
+            "startup": 38.165333333333336,
+            "e2e": 38.318999999999996
+        },
+        "wasm_container": {
+            "startup": 2227.1556666666665,
+            "e2e": 2365.503
+        },
+        "linux_container": {
+            "startup": 1694.8916666666664,
+            "e2e": 1879.2326666666665
+        }
+    },
+    "first-class_functions": {
+        "wasm": {
+            "startup": 11.939,
+            "e2e": 12.002666666666665
+        },
+        "wasm_container": {
+            "startup": 1996.4896666666666,
+            "e2e": 2130.1169999999997
+        },
+        "linux_container": {
+            "startup": 2224.449,
+            "e2e": 2390.160666666667
+        }
+    },
+    "five_weekends": {
+        "wasm": {
+            "startup": 11.715000000000002,
+            "e2e": 11.786666666666667
+        },
+        "wasm_container": {
+            "startup": 2189.121666666667,
+            "e2e": 2319.503666666667
+        },
+        "linux_container": {
+            "startup": 2100.5226666666667,
+            "e2e": 2250.27
+        }
+    },
+    "fivenum": {
+        "wasm": {
+            "startup": 13.046999999999999,
+            "e2e": 13.112666666666668
+        },
+        "wasm_container": {
+            "startup": 1665.657,
+            "e2e": 1806.5943333333332
+        },
+        "linux_container": {
+            "startup": 2086.2993333333334,
+            "e2e": 2237.842
+        }
+    },
+    "floyds_triangle": {
+        "wasm": {
+            "startup": 22.129333333333335,
+            "e2e": 22.27733333333333
+        },
+        "wasm_container": {
+            "startup": 2051.4483333333333,
+            "e2e": 2225.9010000000003
+        },
+        "linux_container": {
+            "startup": 2014.2036666666665,
+            "e2e": 2165.9649999999997
+        }
+    },
+    "formal_power_series": {
+        "wasm": {
+            "startup": 10.561666666666666,
+            "e2e": 10.629
+        },
+        "wasm_container": {
+            "startup": 2180.3340000000003,
+            "e2e": 2318.411
+        },
+        "linux_container": {
+            "startup": 1609.2123333333332,
+            "e2e": 1807.5903333333335
+        }
+    },
+    "forward_difference": {
+        "wasm": {
+            "startup": 12.160000000000002,
+            "e2e": 12.290666666666667
+        },
+        "wasm_container": {
+            "startup": 1515.366,
+            "e2e": 1658.0910000000001
+        },
+        "linux_container": {
+            "startup": 1789.0069999999998,
+            "e2e": 1992.1563333333336
+        }
+    },
+    "four_bit_adder": {
+        "wasm": {
+            "startup": 11.636000000000001,
+            "e2e": 11.700333333333333
+        },
+        "wasm_container": {
+            "startup": 973.6473333333333,
+            "e2e": 1164.895
+        },
+        "linux_container": {
+            "startup": 1265.096,
+            "e2e": 1457.5546666666667
+        }
+    },
+    "function_composition": {
+        "wasm": {
+            "startup": 20.481333333333332,
+            "e2e": 20.611
+        },
+        "wasm_container": {
+            "startup": 1312.2943333333333,
+            "e2e": 1999.5796666666665
+        },
+        "linux_container": {
+            "startup": 927.8549999999999,
+            "e2e": 1252.5793333333334
+        }
+    },
+    "gapful_numbers": {
+        "wasm": {
+            "startup": 11.538333333333334,
+            "e2e": 11.604666666666665
+        },
+        "wasm_container": {
+            "startup": 1926.7696666666664,
+            "e2e": 2175.0183333333334
+        },
+        "linux_container": {
+            "startup": 1672.839,
+            "e2e": 1864.197666666667
+        }
+    },
+    "gaussian_elimination": {
+        "wasm": {
+            "startup": 11.27966666666667,
+            "e2e": 11.354666666666667
+        },
+        "wasm_container": {
+            "startup": 1820.8970000000002,
+            "e2e": 1961.402
+        },
+        "linux_container": {
+            "startup": 2072.3283333333334,
+            "e2e": 2230.577333333333
+        }
+    },
+    "general_fizzbuzz": {
+        "wasm": {
+            "startup": 11.203666666666669,
+            "e2e": 11.276666666666666
+        },
+        "wasm_container": {
+            "startup": 2211.1473333333333,
+            "e2e": 2413.5986666666668
+        },
+        "linux_container": {
+            "startup": 1852.1670000000001,
+            "e2e": 2014.1186666666665
+        }
+    },
+    "generate_lower_case_ascii_alphabet": {
+        "wasm": {
+            "startup": 11.189666666666668,
+            "e2e": 11.262333333333332
+        },
+        "wasm_container": {
+            "startup": 1760.2866666666669,
+            "e2e": 1927.2896666666666
+        },
+        "linux_container": {
+            "startup": 2191.5063333333333,
+            "e2e": 2370.378666666667
+        }
+    },
+    "greatest_subsequential_sum": {
+        "wasm": {
+            "startup": 10.450333333333333,
+            "e2e": 10.511
+        },
+        "wasm_container": {
+            "startup": 2268.2686666666664,
+            "e2e": 2422.184333333333
+        },
+        "linux_container": {
+            "startup": 1806.5313333333334,
+            "e2e": 1967.7993333333334
+        }
+    },
+    "hamming_numbers": {
+        "wasm": {
+            "startup": 12.156999999999998,
+            "e2e": 12.224333333333334
+        },
+        "wasm_container": {
+            "startup": 2121.941666666666,
+            "e2e": 2295.418
+        },
+        "linux_container": {
+            "startup": 1443.6343333333334,
+            "e2e": 1773.4603333333332
+        }
+    },
+    "harshad_or_niven_series": {
+        "wasm": {
+            "startup": 11.134,
+            "e2e": 11.209333333333333
+        },
+        "wasm_container": {
+            "startup": 2235.8386666666665,
+            "e2e": 2392.594333333333
+        },
+        "linux_container": {
+            "startup": 1926.2646666666667,
+            "e2e": 2090.214
+        }
+    },
+    "hash_from_two_arrays": {
+        "wasm": {
+            "startup": 10.704666666666668,
+            "e2e": 10.776666666666666
+        },
+        "wasm_container": {
+            "startup": 2146.105666666667,
+            "e2e": 2483.7106666666664
+        },
+        "linux_container": {
+            "startup": 1685.7593333333334,
+            "e2e": 1843.8783333333333
+        }
+    },
+    "haversine_formula": {
+        "wasm": {
+            "startup": 12.665333333333331,
+            "e2e": 12.741333333333335
+        },
+        "wasm_container": {
+            "startup": 2132.783,
+            "e2e": 2289.9953333333337
+        },
+        "linux_container": {
+            "startup": 1834.8353333333332,
+            "e2e": 1989.5363333333335
+        }
+    },
+    "here_document": {
+        "wasm": {
+            "startup": 11.503666666666666,
+            "e2e": 11.573333333333332
+        },
+        "wasm_container": {
+            "startup": 2271.745,
+            "e2e": 2480.0446666666667
+        },
+        "linux_container": {
+            "startup": 1605.5673333333334,
+            "e2e": 1763.405
+        }
+    },
+    "heronian_triangles": {
+        "wasm": {
+            "startup": 14.371,
+            "e2e": 14.436000000000002
+        },
+        "wasm_container": {
+            "startup": 2002.956666666667,
+            "e2e": 2124.9896666666664
+        },
+        "linux_container": {
+            "startup": 1870.9746666666667,
+            "e2e": 2030.4593333333335
+        }
+    },
+    "hilbert_curve": {
+        "wasm": {
+            "startup": 11.083999999999998,
+            "e2e": 11.155333333333333
+        },
+        "wasm_container": {
+            "startup": 2150.891666666667,
+            "e2e": 2291.461333333333
+        },
+        "linux_container": {
+            "startup": 2009.8589999999997,
+            "e2e": 2181.008
+        }
+    },
+    "hofstadter_figure-figure_sequences": {
+        "wasm": {
+            "startup": 10.715333333333334,
+            "e2e": 10.792333333333334
+        },
+        "wasm_container": {
+            "startup": 935.8613333333334,
+            "e2e": 1314.0126666666667
+        },
+        "linux_container": {
+            "startup": 1658.7843333333333,
+            "e2e": 2179.8853333333336
+        }
+    },
+    "hofstadter_q_sequence": {
+        "wasm": {
+            "startup": 10.812,
+            "e2e": 10.893333333333333
+        },
+        "wasm_container": {
+            "startup": 2219.2123333333334,
+            "e2e": 2362.4203333333335
+        },
+        "linux_container": {
+            "startup": 1757.9146666666668,
+            "e2e": 1912.051666666667
+        }
+    },
+    "horners_rule_for_polynomial_evaluation": {
+        "wasm": {
+            "startup": 10.850999999999999,
+            "e2e": 10.921999999999999
+        },
+        "wasm_container": {
+            "startup": 2096.295,
+            "e2e": 2241.6839999999997
+        },
+        "linux_container": {
+            "startup": 1962.5290000000002,
+            "e2e": 2118.693333333333
+        }
+    },
+    "host_introspection": {
+        "wasm": {
+            "startup": 11.486333333333334,
+            "e2e": 11.559000000000003
+        },
+        "wasm_container": {
+            "startup": 1903.3116666666665,
+            "e2e": 2040.0873333333332
+        },
+        "linux_container": {
+            "startup": 1708.655,
+            "e2e": 2056.572666666667
+        }
+    },
+    "huffman_coding": {
+        "wasm": {
+            "startup": 19.547333333333338,
+            "e2e": 19.632666666666665
+        },
+        "wasm_container": {
+            "startup": 785.9463333333333,
+            "e2e": 1388.0049999999999
+        },
+        "linux_container": {
+            "startup": 904.9556666666667,
+            "e2e": 1458.3616666666667
+        }
+    },
+    "iban": {
+        "wasm": {
+            "startup": 11.257666666666667,
+            "e2e": 11.328333333333333
+        },
+        "wasm_container": {
+            "startup": 1544.4309999999998,
+            "e2e": 1973.403
+        },
+        "linux_container": {
+            "startup": 1690.2116666666668,
+            "e2e": 1972.8786666666667
+        }
+    },
+    "isbn13_check_digit": {
+        "wasm": {
+            "startup": 22.369666666666664,
+            "e2e": 22.460333333333335
+        },
+        "wasm_container": {
+            "startup": 1961.4803333333332,
+            "e2e": 2116.8616666666667
+        },
+        "linux_container": {
+            "startup": 2199.9176666666667,
+            "e2e": 2352.322
+        }
+    },
+    "idiomatically_determine_all_the_lowercase_and_uppercase_letters": {
+        "wasm": {
+            "startup": 10.659666666666666,
+            "e2e": 10.727333333333334
+        },
+        "wasm_container": {
+            "startup": 1968.5649999999998,
+            "e2e": 2089.512
+        },
+        "linux_container": {
+            "startup": 2125.172,
+            "e2e": 2278.2906666666663
+        }
+    },
+    "imaginary_base_numbers": {
+        "wasm": {
+            "startup": 12.586999999999998,
+            "e2e": 12.658333333333333
+        },
+        "wasm_container": {
+            "startup": 1997.3413333333335,
+            "e2e": 2135.363
+        },
+        "linux_container": {
+            "startup": 1879.6386666666667,
+            "e2e": 2025.986
+        }
+    },
+    "increment_a_numerical_string": {
+        "wasm": {
+            "startup": 11.556666666666667,
+            "e2e": 11.677
+        },
+        "wasm_container": {
+            "startup": 2262.838333333333,
+            "e2e": 2483.953666666667
+        },
+        "linux_container": {
+            "startup": 1609.039,
+            "e2e": 1767.7726666666667
+        }
+    },
+    "infinity": {
+        "wasm": {
+            "startup": 13.841333333333333,
+            "e2e": 13.967333333333334
+        },
+        "wasm_container": {
+            "startup": 2133.3913333333335,
+            "e2e": 2280.827
+        },
+        "linux_container": {
+            "startup": 1873.4103333333333,
+            "e2e": 2029.113
+        }
+    },
+    "integer_overflow": {
+        "wasm": {
+            "startup": 11.645666666666665,
+            "e2e": 11.714333333333334
+        },
+        "wasm_container": {
+            "startup": 2118.8086666666663,
+            "e2e": 2263.8586666666665
+        },
+        "linux_container": {
+            "startup": 2060.2436666666667,
+            "e2e": 2232.0396666666666
+        }
+    },
+    "integer_roots": {
+        "wasm": {
+            "startup": 11.583999999999998,
+            "e2e": 11.652000000000001
+        },
+        "wasm_container": {
+            "startup": 1951.7510000000002,
+            "e2e": 2126.4076666666665
+        },
+        "linux_container": {
+            "startup": 1986.1223333333335,
+            "e2e": 2147.852333333333
+        }
+    },
+    "inverted_index": {
+        "wasm": {
+            "startup": 11.327,
+            "e2e": 11.397666666666666
+        },
+        "wasm_container": {
+            "startup": 1983.244,
+            "e2e": 2108.566666666666
+        },
+        "linux_container": {
+            "startup": 1845.3596666666665,
+            "e2e": 1991.534333333333
+        }
+    },
+    "iterated_digits_squaring": {
+        "wasm": {
+            "startup": 12.389333333333333,
+            "e2e": 13.182666666666668
+        },
+        "wasm_container": {
+            "startup": 2097.6823333333336,
+            "e2e": 2234.152
+        },
+        "linux_container": {
+            "startup": 1947.1166666666666,
+            "e2e": 2113.277
+        }
+    },
+    "jaro_distance": {
+        "wasm": {
+            "startup": 10.106666666666667,
+            "e2e": 10.177666666666667
+        },
+        "wasm_container": {
+            "startup": 2221.9676666666664,
+            "e2e": 2357.269333333333
+        },
+        "linux_container": {
+            "startup": 1802.2756666666667,
+            "e2e": 1953.6066666666666
+        }
+    },
+    "jensens_device": {
+        "wasm": {
+            "startup": 10.520666666666665,
+            "e2e": 10.617999999999999
+        },
+        "wasm_container": {
+            "startup": 2288.9813333333336,
+            "e2e": 2411.8126666666667
+        },
+        "linux_container": {
+            "startup": 2057.4076666666665,
+            "e2e": 2210.958666666667
+        }
+    },
+    "jewels_and_stones": {
+        "wasm": {
+            "startup": 11.700333333333333,
+            "e2e": 11.812
+        },
+        "wasm_container": {
+            "startup": 2048.168,
+            "e2e": 2207.6566666666668
+        },
+        "linux_container": {
+            "startup": 2152.9493333333335,
+            "e2e": 2322.477333333333
+        }
+    },
+    "jortsort": {
+        "wasm": {
+            "startup": 11.833333333333334,
+            "e2e": 11.896333333333333
+        },
+        "wasm_container": {
+            "startup": 1996.664,
+            "e2e": 2271.8
+        },
+        "linux_container": {
+            "startup": 1535.167666666667,
+            "e2e": 1682.1230000000003
+        }
+    },
+    "josephus_problem": {
+        "wasm": {
+            "startup": 11.095333333333334,
+            "e2e": 11.165
+        },
+        "wasm_container": {
+            "startup": 2127.114333333333,
+            "e2e": 2296.9576666666662
+        },
+        "linux_container": {
+            "startup": 1819.4056666666665,
+            "e2e": 1973.5763333333332
+        }
+    },
+    "kahan_summation": {
+        "wasm": {
+            "startup": 10.830999999999998,
+            "e2e": 10.902333333333333
+        },
+        "wasm_container": {
+            "startup": 2138.4776666666667,
+            "e2e": 2291.8643333333334
+        },
+        "linux_container": {
+            "startup": 1847.9706666666668,
+            "e2e": 2003.613
+        }
+    },
+    "knapsack_problem-0-1": {
+        "wasm": {
+            "startup": 11.533333333333331,
+            "e2e": 11.663333333333334
+        },
+        "wasm_container": {
+            "startup": 1350.52,
+            "e2e": 1902.2373333333333
+        },
+        "linux_container": {
+            "startup": 1558.925,
+            "e2e": 1737.804
+        }
+    },
+    "knapsack_problem-bounded": {
+        "wasm": {
+            "startup": 11.681666666666667,
+            "e2e": 11.746
+        },
+        "wasm_container": {
+            "startup": 2221.860666666667,
+            "e2e": 2382.5763333333334
+        },
+        "linux_container": {
+            "startup": 1987.5476666666666,
+            "e2e": 2148.744
+        }
+    },
+    "knapsack_problem-continuous": {
+        "wasm": {
+            "startup": 13.208,
+            "e2e": 13.273333333333333
+        },
+        "wasm_container": {
+            "startup": 1981.3379999999997,
+            "e2e": 2126.0726666666665
+        },
+        "linux_container": {
+            "startup": 2116.958666666667,
+            "e2e": 2273.7009999999996
+        }
+    },
+    "knapsack_problem-unbounded": {
+        "wasm": {
+            "startup": 10.885666666666665,
+            "e2e": 10.947333333333333
+        },
+        "wasm_container": {
+            "startup": 2145.6796666666664,
+            "e2e": 2308.2819999999997
+        },
+        "linux_container": {
+            "startup": 1887.78,
+            "e2e": 2043.8116666666665
+        }
+    },
+    "knuth_shuffle": {
+        "wasm": {
+            "startup": 11.714666666666666,
+            "e2e": 11.782666666666666
+        },
+        "wasm_container": {
+            "startup": 2004.75,
+            "e2e": 2160.5793333333336
+        },
+        "linux_container": {
+            "startup": 1553.1499999999999,
+            "e2e": 1721.4623333333336
+        }
+    },
+    "kolakoski_sequence": {
+        "wasm": {
+            "startup": 10.840333333333334,
+            "e2e": 10.904333333333334
+        },
+        "wasm_container": {
+            "startup": 2179.489,
+            "e2e": 2317.1963333333333
+        },
+        "linux_container": {
+            "startup": 2007.415,
+            "e2e": 2166.755
+        }
+    },
+    "lu_decomposition": {
+        "wasm": {
+            "startup": 12.067666666666668,
+            "e2e": 12.139333333333333
+        },
+        "wasm_container": {
+            "startup": 1992.048,
+            "e2e": 2140.2036666666663
+        },
+        "linux_container": {
+            "startup": 2128.878,
+            "e2e": 2278.4116666666664
+        }
+    },
+    "largest_int_from_concatenated_ints": {
+        "wasm": {
+            "startup": 11.703666666666669,
+            "e2e": 11.780999999999999
+        },
+        "wasm_container": {
+            "startup": 1929.8873333333333,
+            "e2e": 2085.9296666666664
+        },
+        "linux_container": {
+            "startup": 1495.3646666666666,
+            "e2e": 1808.4936666666665
+        }
+    },
+    "largest_number_divisible_by_its_digits": {
+        "wasm": {
+            "startup": 10.575666666666667,
+            "e2e": 10.650333333333334
+        },
+        "wasm_container": {
+            "startup": 2055.7436666666667,
+            "e2e": 2191.771666666667
+        },
+        "linux_container": {
+            "startup": 1928.4563333333335,
+            "e2e": 2091.839
+        }
+    },
+    "law_of_cosines_triples": {
+        "wasm": {
+            "startup": 10.828666666666669,
+            "e2e": 10.904333333333334
+        },
+        "wasm_container": {
+            "startup": 2153.513333333333,
+            "e2e": 2450.845333333333
+        },
+        "linux_container": {
+            "startup": 1452.6453333333332,
+            "e2e": 1604.6373333333333
+        }
+    },
+    "leap_year": {
+        "wasm": {
+            "startup": 11.153666666666666,
+            "e2e": 11.219999999999999
+        },
+        "wasm_container": {
+            "startup": 1924.264,
+            "e2e": 2276.775333333333
+        },
+        "linux_container": {
+            "startup": 1841.4596666666669,
+            "e2e": 2024.3940000000002
+        }
+    },
+    "least_common_multiple": {
+        "wasm": {
+            "startup": 12.204999999999998,
+            "e2e": 12.277666666666667
+        },
+        "wasm_container": {
+            "startup": 1924.1230000000003,
+            "e2e": 2104.6216666666664
+        },
+        "linux_container": {
+            "startup": 1900.3313333333333,
+            "e2e": 2046.2806666666668
+        }
+    },
+    "levenshtein_distance-alignment": {
+        "wasm": {
+            "startup": 11.21,
+            "e2e": 11.313666666666668
+        },
+        "wasm_container": {
+            "startup": 1783.2946666666667,
+            "e2e": 1922.1916666666666
+        },
+        "linux_container": {
+            "startup": 2228.485666666667,
+            "e2e": 2383.259666666667
+        }
+    },
+    "linear_congruential_generator": {
+        "wasm": {
+            "startup": 11.320000000000002,
+            "e2e": 11.393666666666666
+        },
+        "wasm_container": {
+            "startup": 2074.4959999999996,
+            "e2e": 2236.9906666666666
+        },
+        "linux_container": {
+            "startup": 1411.3406666666667,
+            "e2e": 1611.7216666666666
+        }
+    },
+    "list_comprehensions": {
+        "wasm": {
+            "startup": 10.899333333333333,
+            "e2e": 10.972999999999999
+        },
+        "wasm_container": {
+            "startup": 1223.8253333333334,
+            "e2e": 1738.9963333333335
+        },
+        "linux_container": {
+            "startup": 1107.3003333333334,
+            "e2e": 1411.374
+        }
+    },
+    "list_rooted_trees": {
+        "wasm": {
+            "startup": 12.244,
+            "e2e": 12.316333333333333
+        },
+        "wasm_container": {
+            "startup": 1312.3456666666668,
+            "e2e": 1719.9043333333332
+        },
+        "linux_container": {
+            "startup": 1233.6280000000002,
+            "e2e": 1541.403
+        }
+    },
+    "literals-integer": {
+        "wasm": {
+            "startup": 11.211333333333334,
+            "e2e": 11.278999999999998
+        },
+        "wasm_container": {
+            "startup": 1736.1153333333332,
+            "e2e": 2085.9053333333336
+        },
+        "linux_container": {
+            "startup": 1803.8893333333333,
+            "e2e": 2013.6726666666666
+        }
+    },
+    "long_multiplication": {
+        "wasm": {
+            "startup": 15.082999999999998,
+            "e2e": 15.145333333333333
+        },
+        "wasm_container": {
+            "startup": 2028.8583333333336,
+            "e2e": 2169.919
+        },
+        "linux_container": {
+            "startup": 2201.7996666666672,
+            "e2e": 2338.828
+        }
+    },
+    "longest_increasing_subsequence": {
+        "wasm": {
+            "startup": 10.918333333333331,
+            "e2e": 10.995333333333333
+        },
+        "wasm_container": {
+            "startup": 1786.3976666666667,
+            "e2e": 1941.464
+        },
+        "linux_container": {
+            "startup": 1640.9113333333335,
+            "e2e": 1865.073
+        }
+    },
+    "loop_over_multiple_arrays_simultaneously": {
+        "wasm": {
+            "startup": 11.790333333333335,
+            "e2e": 11.866333333333335
+        },
+        "wasm_container": {
+            "startup": 1813.1076666666668,
+            "e2e": 1926.8456666666668
+        },
+        "linux_container": {
+            "startup": 2239.5236666666665,
+            "e2e": 2380.2729999999997
+        }
+    },
+    "loops-increment_loop_index_within_loop_body": {
+        "wasm": {
+            "startup": 10.894333333333334,
+            "e2e": 10.975
+        },
+        "wasm_container": {
+            "startup": 1659.9953333333333,
+            "e2e": 2040.165
+        },
+        "linux_container": {
+            "startup": 1079.032,
+            "e2e": 1640.1859999999997
+        }
+    },
+    "loops-n_plus_one_half": {
+        "wasm": {
+            "startup": 13.311666666666667,
+            "e2e": 13.378666666666666
+        },
+        "wasm_container": {
+            "startup": 2130.779,
+            "e2e": 2254.67
+        },
+        "linux_container": {
+            "startup": 1938.256,
+            "e2e": 2134.596666666667
+        }
+    },
+    "loops-wrong_ranges": {
+        "wasm": {
+            "startup": 11.739333333333335,
+            "e2e": 11.806000000000003
+        },
+        "wasm_container": {
+            "startup": 2264.8463333333334,
+            "e2e": 2429.8233333333333
+        },
+        "linux_container": {
+            "startup": 1984.5190000000002,
+            "e2e": 2150.044
+        }
+    },
+    "lucas-lehmer_test": {
+        "wasm": {
+            "startup": 12.208333333333334,
+            "e2e": 12.278333333333334
+        },
+        "wasm_container": {
+            "startup": 1770.164,
+            "e2e": 1919.6686666666665
+        },
+        "linux_container": {
+            "startup": 1720.7669999999998,
+            "e2e": 2091.3193333333334
+        }
+    },
+    "luhn_test_of_credit_card_numbers": {
+        "wasm": {
+            "startup": 11.318,
+            "e2e": 11.457666666666668
+        },
+        "wasm_container": {
+            "startup": 2112.1479999999997,
+            "e2e": 2272.3289999999997
+        },
+        "linux_container": {
+            "startup": 1866.3936666666668,
+            "e2e": 2257.3533333333335
+        }
+    },
+    "magic_squares_of_doubly_even_order": {
+        "wasm": {
+            "startup": 13.060666666666668,
+            "e2e": 13.198999999999998
+        },
+        "wasm_container": {
+            "startup": 2055.27,
+            "e2e": 2208.0016666666666
+        },
+        "linux_container": {
+            "startup": 2081.6593333333335,
+            "e2e": 2222.108333333333
+        }
+    },
+    "magic_squares_of_singly_even_order": {
+        "wasm": {
+            "startup": 12.071,
+            "e2e": 12.133333333333333
+        },
+        "wasm_container": {
+            "startup": 2120.951,
+            "e2e": 2254.292
+        },
+        "linux_container": {
+            "startup": 1894.5290000000002,
+            "e2e": 2051.9913333333334
+        }
+    },
+    "man_or_boy_test": {
+        "wasm": {
+            "startup": 11.745333333333335,
+            "e2e": 11.809333333333333
+        },
+        "wasm_container": {
+            "startup": 2180.2346666666667,
+            "e2e": 2331.814
+        },
+        "linux_container": {
+            "startup": 1016.2186666666666,
+            "e2e": 1401.555
+        }
+    },
+    "map_range": {
+        "wasm": {
+            "startup": 10.968000000000002,
+            "e2e": 11.034666666666666
+        },
+        "wasm_container": {
+            "startup": 2140.155666666667,
+            "e2e": 2265.556
+        },
+        "linux_container": {
+            "startup": 1735.122,
+            "e2e": 1918.6603333333333
+        }
+    },
+    "matrix_chain_multiplication": {
+        "wasm": {
+            "startup": 11.063666666666668,
+            "e2e": 11.133000000000001
+        },
+        "wasm_container": {
+            "startup": 1294.2420000000002,
+            "e2e": 2022.304
+        },
+        "linux_container": {
+            "startup": 859.6666666666666,
+            "e2e": 1290.3216666666667
+        }
+    },
+    "matrix_transposition": {
+        "wasm": {
+            "startup": 11.219999999999999,
+            "e2e": 11.281
+        },
+        "wasm_container": {
+            "startup": 1685.7323333333334,
+            "e2e": 2393.1919999999996
+        },
+        "linux_container": {
+            "startup": 1190.2713333333334,
+            "e2e": 1443.1786666666667
+        }
+    },
+    "maximum_triangle_path_sum": {
+        "wasm": {
+            "startup": 21.545666666666666,
+            "e2e": 21.694000000000003
+        },
+        "wasm_container": {
+            "startup": 2042.3806666666667,
+            "e2e": 2172.5879999999997
+        },
+        "linux_container": {
+            "startup": 1566.650333333333,
+            "e2e": 1874.0393333333334
+        }
+    },
+    "maze_generation": {
+        "wasm": {
+            "startup": 14.372,
+            "e2e": 14.441666666666668
+        },
+        "wasm_container": {
+            "startup": 1969.3559999999998,
+            "e2e": 2134.982
+        },
+        "linux_container": {
+            "startup": 2133.753,
+            "e2e": 2290.668
+        }
+    },
+    "mcnuggets_problem": {
+        "wasm": {
+            "startup": 10.725999999999999,
+            "e2e": 10.803666666666667
+        },
+        "wasm_container": {
+            "startup": 1516.6816666666666,
+            "e2e": 1852.1173333333334
+        },
+        "linux_container": {
+            "startup": 1674.4260000000002,
+            "e2e": 1857.656
+        }
+    },
+    "memory_allocation": {
+        "wasm": {
+            "startup": 10.780666666666667,
+            "e2e": 10.85
+        },
+        "wasm_container": {
+            "startup": 1675.0593333333334,
+            "e2e": 1884.676666666667
+        },
+        "linux_container": {
+            "startup": 1878.0096666666668,
+            "e2e": 2048.609
+        }
+    },
+    "middle_three_digits": {
+        "wasm": {
+            "startup": 19.667666666666666,
+            "e2e": 19.741666666666667
+        },
+        "wasm_container": {
+            "startup": 2041.3310000000001,
+            "e2e": 2175.586333333333
+        },
+        "linux_container": {
+            "startup": 2076.1150000000002,
+            "e2e": 2227.081
+        }
+    },
+    "modular_arithmetic": {
+        "wasm": {
+            "startup": 10.926000000000002,
+            "e2e": 10.988999999999999
+        },
+        "wasm_container": {
+            "startup": 2053.1076666666663,
+            "e2e": 2231.918
+        },
+        "linux_container": {
+            "startup": 2299.7943333333333,
+            "e2e": 2446.792
+        }
+    },
+    "modular_inverse": {
+        "wasm": {
+            "startup": 10.690666666666667,
+            "e2e": 10.765333333333333
+        },
+        "wasm_container": {
+            "startup": 2012.3753333333334,
+            "e2e": 2136.6046666666666
+        },
+        "linux_container": {
+            "startup": 2079.3089999999997,
+            "e2e": 2219.2983333333336
+        }
+    },
+    "move-to-front_algorithm": {
+        "wasm": {
+            "startup": 11.556,
+            "e2e": 11.626
+        },
+        "wasm_container": {
+            "startup": 1592.4463333333333,
+            "e2e": 1753.5986666666668
+        },
+        "linux_container": {
+            "startup": 1546.3886666666667,
+            "e2e": 1831.5379999999998
+        }
+    },
+    "multifactorial": {
+        "wasm": {
+            "startup": 11.459999999999999,
+            "e2e": 11.528666666666666
+        },
+        "wasm_container": {
+            "startup": 2065.8700000000003,
+            "e2e": 2197.0286666666666
+        },
+        "linux_container": {
+            "startup": 2006.4360000000004,
+            "e2e": 2149.83
+        }
+    },
+    "multiplication_tables": {
+        "wasm": {
+            "startup": 18.474666666666668,
+            "e2e": 18.642333333333333
+        },
+        "wasm_container": {
+            "startup": 1922.7849999999999,
+            "e2e": 2273.821
+        },
+        "linux_container": {
+            "startup": 1566.92,
+            "e2e": 1747.898
+        }
+    },
+    "multisplit": {
+        "wasm": {
+            "startup": 10.736666666666666,
+            "e2e": 10.795666666666667
+        },
+        "wasm_container": {
+            "startup": 1930.992,
+            "e2e": 2076.1910000000003
+        },
+        "linux_container": {
+            "startup": 2298.377,
+            "e2e": 2433.777
+        }
+    },
+    "munchausen_numbers": {
+        "wasm": {
+            "startup": 11.157333333333332,
+            "e2e": 11.220666666666666
+        },
+        "wasm_container": {
+            "startup": 2166.9653333333335,
+            "e2e": 2303.4779999999996
+        },
+        "linux_container": {
+            "startup": 1892.1900000000003,
+            "e2e": 2034.057
+        }
+    },
+    "mutual_recursion": {
+        "wasm": {
+            "startup": 13.447000000000001,
+            "e2e": 13.516666666666667
+        },
+        "wasm_container": {
+            "startup": 2024.5226666666667,
+            "e2e": 2192.198
+        },
+        "linux_container": {
+            "startup": 1114.1709999999998,
+            "e2e": 1259.498
+        }
+    },
+    "n-queens_problem": {
+        "wasm": {
+            "startup": 11.168333333333331,
+            "e2e": 11.254666666666665
+        },
+        "wasm_container": {
+            "startup": 1116.8073333333334,
+            "e2e": 1593.6706666666669
+        },
+        "linux_container": {
+            "startup": 1008.8126666666667,
+            "e2e": 1183.4143333333332
+        }
+    },
+    "named_parameters": {
+        "wasm": {
+            "startup": 10.546999999999999,
+            "e2e": 10.614333333333335
+        },
+        "wasm_container": {
+            "startup": 1433.6293333333333,
+            "e2e": 2015.718
+        },
+        "linux_container": {
+            "startup": 1624.1223333333335,
+            "e2e": 1852.0629999999999
+        }
+    },
+    "natural_sorting": {
+        "wasm": {
+            "startup": 11.419666666666666,
+            "e2e": 11.479666666666667
+        },
+        "wasm_container": {
+            "startup": 1482.7553333333333,
+            "e2e": 1823.7596666666668
+        },
+        "linux_container": {
+            "startup": 1865.1153333333332,
+            "e2e": 2072.2909999999997
+        }
+    },
+    "negative_base_numbers": {
+        "wasm": {
+            "startup": 11.170000000000002,
+            "e2e": 11.240333333333334
+        },
+        "wasm_container": {
+            "startup": 2100.5336666666667,
+            "e2e": 2281.6666666666665
+        },
+        "linux_container": {
+            "startup": 1630.8003333333334,
+            "e2e": 1774.3029999999999
+        }
+    },
+    "non-continuous_subsequences": {
+        "wasm": {
+            "startup": 11.171,
+            "e2e": 11.245666666666665
+        },
+        "wasm_container": {
+            "startup": 1682.7830000000001,
+            "e2e": 2082.364
+        },
+        "linux_container": {
+            "startup": 1812.3313333333335,
+            "e2e": 2191.9143333333336
+        }
+    },
+    "non-decimal_radices-convert": {
+        "wasm": {
+            "startup": 10.744333333333335,
+            "e2e": 10.806333333333333
+        },
+        "wasm_container": {
+            "startup": 1496.1633333333332,
+            "e2e": 1781.2823333333333
+        },
+        "linux_container": {
+            "startup": 1762.8460000000002,
+            "e2e": 1954.1350000000002
+        }
+    },
+    "non-decimal_radices-input": {
+        "wasm": {
+            "startup": 25.97,
+            "e2e": 26.043333333333337
+        },
+        "wasm_container": {
+            "startup": 2241.396,
+            "e2e": 2390.0076666666664
+        },
+        "linux_container": {
+            "startup": 1801.5903333333329,
+            "e2e": 1946.202
+        }
+    },
+    "non-decimal_radices-output": {
+        "wasm": {
+            "startup": 11.125666666666667,
+            "e2e": 11.201999999999998
+        },
+        "wasm_container": {
+            "startup": 2075.4159999999997,
+            "e2e": 2221.319
+        },
+        "linux_container": {
+            "startup": 2031.447,
+            "e2e": 2184.5623333333333
+        }
+    },
+    "nth": {
+        "wasm": {
+            "startup": 11.089333333333334,
+            "e2e": 11.15933333333333
+        },
+        "wasm_container": {
+            "startup": 2288.2066666666665,
+            "e2e": 2412.7033333333334
+        },
+        "linux_container": {
+            "startup": 1811.4463333333333,
+            "e2e": 1949.0396666666668
+        }
+    },
+    "nth_root": {
+        "wasm": {
+            "startup": 12.144333333333334,
+            "e2e": 12.21
+        },
+        "wasm_container": {
+            "startup": 1860.3483333333334,
+            "e2e": 2007.4376666666667
+        },
+        "linux_container": {
+            "startup": 2196.074,
+            "e2e": 2342.063333333333
+        }
+    },
+    "null_object": {
+        "wasm": {
+            "startup": 11.864666666666666,
+            "e2e": 11.927999999999999
+        },
+        "wasm_container": {
+            "startup": 2195.727,
+            "e2e": 2317.566666666667
+        },
+        "linux_container": {
+            "startup": 2163.7709999999997,
+            "e2e": 2305.2630000000004
+        }
+    },
+    "number_names": {
+        "wasm": {
+            "startup": 10.949333333333334,
+            "e2e": 11.013666666666666
+        },
+        "wasm_container": {
+            "startup": 1965.45,
+            "e2e": 2094.9436666666666
+        },
+        "linux_container": {
+            "startup": 2175.449666666667,
+            "e2e": 2318.3489999999997
+        }
+    },
+    "numeric_error_propagation": {
+        "wasm": {
+            "startup": 8.032333333333334,
+            "e2e": 8.075666666666669
+        },
+        "wasm_container": {
+            "startup": 1997.3760000000002,
+            "e2e": 2135.6639999999998
+        },
+        "linux_container": {
+            "startup": 1924.5563333333332,
+            "e2e": 2078.811333333333
+        }
+    },
+    "numeric_separator_syntax": {
+        "wasm": {
+            "startup": 10.794333333333332,
+            "e2e": 10.918333333333331
+        },
+        "wasm_container": {
+            "startup": 695.6196666666666,
+            "e2e": 953.6793333333331
+        },
+        "linux_container": {
+            "startup": 820.6096666666667,
+            "e2e": 1038.705
+        }
+    },
+    "numerical_integration-adaptive_simpsons_method": {
+        "wasm": {
+            "startup": 10.945333333333332,
+            "e2e": 11.01833333333333
+        },
+        "wasm_container": {
+            "startup": 642.7916666666666,
+            "e2e": 766.8386666666667
+        },
+        "linux_container": {
+            "startup": 1583.6286666666667,
+            "e2e": 2146.2856666666667
+        }
+    },
+    "numerical_integration-gauss-legendre_quadrature": {
+        "wasm": {
+            "startup": 12.244333333333335,
+            "e2e": 12.317333333333332
+        },
+        "wasm_container": {
+            "startup": 1941.6810000000003,
+            "e2e": 2415.5906666666665
+        },
+        "linux_container": {
+            "startup": 288.5796666666667,
+            "e2e": 429.4866666666667
+        }
+    },
+    "old_russian_measure_of_length": {
+        "wasm": {
+            "startup": 25.828666666666663,
+            "e2e": 25.894333333333336
+        },
+        "wasm_container": {
+            "startup": 2224.403,
+            "e2e": 2582.258333333333
+        },
+        "linux_container": {
+            "startup": 765.0416666666666,
+            "e2e": 1061.1413333333333
+        }
+    },
+    "old_lady_swallowed_a_fly": {
+        "wasm": {
+            "startup": 11.602666666666666,
+            "e2e": 11.667
+        },
+        "wasm_container": {
+            "startup": 955.8209999999999,
+            "e2e": 1345.2119999999998
+        },
+        "linux_container": {
+            "startup": 2199.657333333333,
+            "e2e": 2400.95
+        }
+    },
+    "one-dimensional_cellular_automata": {
+        "wasm": {
+            "startup": 10.980666666666666,
+            "e2e": 11.050333333333334
+        },
+        "wasm_container": {
+            "startup": 1486.1376666666665,
+            "e2e": 1614.073
+        },
+        "linux_container": {
+            "startup": 1510.1143333333337,
+            "e2e": 1933.667666666667
+        }
+    },
+    "optional_parameters": {
+        "wasm": {
+            "startup": 13.271333333333333,
+            "e2e": 13.442333333333332
+        },
+        "wasm_container": {
+            "startup": 833.9136666666667,
+            "e2e": 969.7906666666668
+        },
+        "linux_container": {
+            "startup": 2237.2613333333334,
+            "e2e": 2618.1993333333335
+        }
+    },
+    "orbital_elements": {
+        "wasm": {
+            "startup": 11.037666666666667,
+            "e2e": 11.107666666666667
+        },
+        "wasm_container": {
+            "startup": 1505.0439999999999,
+            "e2e": 1727.6993333333332
+        },
+        "linux_container": {
+            "startup": 1436.972,
+            "e2e": 1645.5079999999998
+        }
+    },
+    "ordered_partitions": {
+        "wasm": {
+            "startup": 14.835999999999999,
+            "e2e": 14.912333333333331
+        },
+        "wasm_container": {
+            "startup": 1766.8346666666664,
+            "e2e": 2224.000666666667
+        },
+        "linux_container": {
+            "startup": 1890.5396666666666,
+            "e2e": 2030.0086666666666
+        }
+    },
+    "p-value_correction": {
+        "wasm": {
+            "startup": 12.682,
+            "e2e": 12.748666666666667
+        },
+        "wasm_container": {
+            "startup": 1767.6090000000002,
+            "e2e": 1943.2856666666667
+        },
+        "linux_container": {
+            "startup": 1729.0529999999999,
+            "e2e": 1900.6850000000002
+        }
+    },
+    "pangram_checker": {
+        "wasm": {
+            "startup": 12.493,
+            "e2e": 12.554666666666668
+        },
+        "wasm_container": {
+            "startup": 1397.3196666666665,
+            "e2e": 1531.1059999999998
+        },
+        "linux_container": {
+            "startup": 519.7666666666667,
+            "e2e": 663.6433333333333
+        }
+    },
+    "paraffins": {
+        "wasm": {
+            "startup": 17.814333333333334,
+            "e2e": 18.164333333333335
+        },
+        "wasm_container": {
+            "startup": 1023.2473333333334,
+            "e2e": 1522.6410000000003
+        },
+        "linux_container": {
+            "startup": 955.4366666666666,
+            "e2e": 1215.6333333333334
+        }
+    },
+    "parametric_polymorphism": {
+        "wasm": {
+            "startup": 10.503333333333332,
+            "e2e": 10.569666666666667
+        },
+        "wasm_container": {
+            "startup": 1597.274333333333,
+            "e2e": 2182.5223333333333
+        },
+        "linux_container": {
+            "startup": 1031.189,
+            "e2e": 1230.9573333333333
+        }
+    },
+    "parsing-rpn_calculator_algorithm": {
+        "wasm": {
+            "startup": 31.981666666666666,
+            "e2e": 32.053
+        },
+        "wasm_container": {
+            "startup": 974.8153333333333,
+            "e2e": 1106.1896666666667
+        },
+        "linux_container": {
+            "startup": 390.82733333333334,
+            "e2e": 556.0626666666667
+        }
+    },
+    "parsing-rpn_to_infix_conversion": {
+        "wasm": {
+            "startup": 11.949333333333335,
+            "e2e": 12.009333333333332
+        },
+        "wasm_container": {
+            "startup": 2065.2093333333337,
+            "e2e": 2436.7943333333333
+        },
+        "linux_container": {
+            "startup": 2046.8603333333333,
+            "e2e": 2294.867
+        }
+    },
+    "pascal_matrix_generation": {
+        "wasm": {
+            "startup": 10.447999999999999,
+            "e2e": 10.516666666666666
+        },
+        "wasm_container": {
+            "startup": 954.4639999999999,
+            "e2e": 1321.7096666666666
+        },
+        "linux_container": {
+            "startup": 1649.8013333333336,
+            "e2e": 1975.673
+        }
+    },
+    "pascals_triangle": {
+        "wasm": {
+            "startup": 10.732333333333335,
+            "e2e": 10.805666666666667
+        },
+        "wasm_container": {
+            "startup": 1468.8550000000002,
+            "e2e": 1607.9233333333334
+        },
+        "linux_container": {
+            "startup": 1147.8743333333332,
+            "e2e": 1732.6523333333334
+        }
+    },
+    "pascals_triangle-puzzle": {
+        "wasm": {
+            "startup": 16.966333333333335,
+            "e2e": 17.043666666666667
+        },
+        "wasm_container": {
+            "startup": 2242.384,
+            "e2e": 2403.6163333333334
+        },
+        "linux_container": {
+            "startup": 1135.4453333333333,
+            "e2e": 1607.9750000000001
+        }
+    },
+    "peaceful_chess_queen_armies": {
+        "wasm": {
+            "startup": 12.955666666666666,
+            "e2e": 13.013666666666666
+        },
+        "wasm_container": {
+            "startup": 1202.6380000000001,
+            "e2e": 1332.2286666666666
+        },
+        "linux_container": {
+            "startup": 2290.846,
+            "e2e": 2436.860666666667
+        }
+    },
+    "permutation_test": {
+        "wasm": {
+            "startup": 11.924,
+            "e2e": 12.169666666666666
+        },
+        "wasm_container": {
+            "startup": 1876.9473333333335,
+            "e2e": 2041.057
+        },
+        "linux_container": {
+            "startup": 1536.6146666666664,
+            "e2e": 1943.640666666667
+        }
+    },
+    "permutations": {
+        "wasm": {
+            "startup": 33.66266666666667,
+            "e2e": 33.737
+        },
+        "wasm_container": {
+            "startup": 1942.6903333333332,
+            "e2e": 2069.4683333333332
+        },
+        "linux_container": {
+            "startup": 2361.0840000000003,
+            "e2e": 2509.8849999999998
+        }
+    },
+    "permutations-derangements": {
+        "wasm": {
+            "startup": 12.937333333333333,
+            "e2e": 13.012
+        },
+        "wasm_container": {
+            "startup": 885.6186666666666,
+            "e2e": 1027.9669999999999
+        },
+        "linux_container": {
+            "startup": 1790.7463333333335,
+            "e2e": 1955.2299999999998
+        }
+    },
+    "permutations-rank_of_a_permutation": {
+        "wasm": {
+            "startup": 12.724666666666666,
+            "e2e": 12.854
+        },
+        "wasm_container": {
+            "startup": 2080.0806666666667,
+            "e2e": 2231.586
+        },
+        "linux_container": {
+            "startup": 2346.3663333333334,
+            "e2e": 2494.737333333333
+        }
+    },
+    "permutations_by_swapping": {
+        "wasm": {
+            "startup": 14.226999999999999,
+            "e2e": 14.298000000000002
+        },
+        "wasm_container": {
+            "startup": 1761.2213333333336,
+            "e2e": 1888.235
+        },
+        "linux_container": {
+            "startup": 1618.706666666667,
+            "e2e": 2022.1626666666664
+        }
+    },
+    "pernicious_numbers": {
+        "wasm": {
+            "startup": 13.782000000000002,
+            "e2e": 13.854333333333331
+        },
+        "wasm_container": {
+            "startup": 1205.759,
+            "e2e": 1349.5143333333333
+        },
+        "linux_container": {
+            "startup": 2006.1333333333334,
+            "e2e": 2200.0196666666666
+        }
+    },
+    "phrase_reversals": {
+        "wasm": {
+            "startup": 11.271666666666667,
+            "e2e": 11.345333333333334
+        },
+        "wasm_container": {
+            "startup": 1293.9593333333332,
+            "e2e": 2063.9886666666666
+        },
+        "linux_container": {
+            "startup": 564.235,
+            "e2e": 937.9856666666666
+        }
+    },
+    "playing_cards": {
+        "wasm": {
+            "startup": 23.189999999999998,
+            "e2e": 23.258333333333336
+        },
+        "wasm_container": {
+            "startup": 1479.1970000000001,
+            "e2e": 1643.4679999999998
+        },
+        "linux_container": {
+            "startup": 1665.5456666666666,
+            "e2e": 2031.42
+        }
+    },
+    "poker_hand_analyser": {
+        "wasm": {
+            "startup": 13.195,
+            "e2e": 13.263
+        },
+        "wasm_container": {
+            "startup": 1645.1816666666666,
+            "e2e": 1795.0896666666667
+        },
+        "linux_container": {
+            "startup": 1563.7576666666666,
+            "e2e": 1925.1433333333332
+        }
+    },
+    "polymorphic_copy": {
+        "wasm": {
+            "startup": 11.865666666666668,
+            "e2e": 11.938999999999998
+        },
+        "wasm_container": {
+            "startup": 1907.4533333333336,
+            "e2e": 2193.032
+        },
+        "linux_container": {
+            "startup": 1846.9256666666668,
+            "e2e": 2014.7966666666669
+        }
+    },
+    "population_count": {
+        "wasm": {
+            "startup": 11.771333333333333,
+            "e2e": 11.906666666666668
+        },
+        "wasm_container": {
+            "startup": 977.5813333333332,
+            "e2e": 1154.9246666666668
+        },
+        "linux_container": {
+            "startup": 1787.2780000000002,
+            "e2e": 1927.638
+        }
+    },
+    "power_set": {
+        "wasm": {
+            "startup": 11.920333333333334,
+            "e2e": 11.975999999999999
+        },
+        "wasm_container": {
+            "startup": 2084.2863333333335,
+            "e2e": 2237.5350000000003
+        },
+        "linux_container": {
+            "startup": 2111.8033333333333,
+            "e2e": 2249.357666666667
+        }
+    },
+    "print_debugging_statement": {
+        "wasm": {
+            "startup": 11.63,
+            "e2e": 11.703333333333333
+        },
+        "wasm_container": {
+            "startup": 1677.2353333333333,
+            "e2e": 1808.015666666667
+        },
+        "linux_container": {
+            "startup": 1162.234,
+            "e2e": 1624.256
+        }
+    },
+    "priority_queue": {
+        "wasm": {
+            "startup": 15.019,
+            "e2e": 15.201666666666668
+        },
+        "wasm_container": {
+            "startup": 1636.5586666666668,
+            "e2e": 1778.2003333333334
+        },
+        "linux_container": {
+            "startup": 1920.4659999999997,
+            "e2e": 2070.2433333333333
+        }
+    },
+    "probabilistic_choice": {
+        "wasm": {
+            "startup": 11.903999999999998,
+            "e2e": 11.985
+        },
+        "wasm_container": {
+            "startup": 2079.3513333333335,
+            "e2e": 2257.293
+        },
+        "linux_container": {
+            "startup": 1592.0186666666666,
+            "e2e": 1748.9396666666664
+        }
+    },
+    "problem_of_apollonius": {
+        "wasm": {
+            "startup": 11.903999999999998,
+            "e2e": 11.985666666666667
+        },
+        "wasm_container": {
+            "startup": 1738.0056666666667,
+            "e2e": 1867.5810000000001
+        },
+        "linux_container": {
+            "startup": 2134.065,
+            "e2e": 2281.9996666666666
+        }
+    },
+    "program_name": {
+        "wasm": {
+            "startup": 10.511666666666665,
+            "e2e": 10.575666666666667
+        },
+        "wasm_container": {
+            "startup": 1548.8546666666668,
+            "e2e": 1937.6123333333333
+        },
+        "linux_container": {
+            "startup": 1526.4056666666668,
+            "e2e": 1670.2173333333333
+        }
+    },
+    "qr_decomposition": {
+        "wasm": {
+            "startup": 12.799999999999999,
+            "e2e": 12.874
+        },
+        "wasm_container": {
+            "startup": 2155.7129999999997,
+            "e2e": 2295.5353333333337
+        },
+        "linux_container": {
+            "startup": 1915.0386666666666,
+            "e2e": 2060.733333333333
+        }
+    },
+    "quickselect_algorithm": {
+        "wasm": {
+            "startup": 28.49166666666667,
+            "e2e": 28.564999999999998
+        },
+        "wasm_container": {
+            "startup": 1082.2880000000002,
+            "e2e": 1217.8213333333333
+        },
+        "linux_container": {
+            "startup": 2061.8463333333334,
+            "e2e": 2214.186333333333
+        }
+    },
+    "quine": {
+        "wasm": {
+            "startup": 10.667333333333332,
+            "e2e": 10.743666666666668
+        },
+        "wasm_container": {
+            "startup": 1226.28,
+            "e2e": 1449.64
+        },
+        "linux_container": {
+            "startup": 1474.6013333333333,
+            "e2e": 1842.6373333333331
+        }
+    },
+    "ramseys_theorem": {
+        "wasm": {
+            "startup": 10.949333333333334,
+            "e2e": 11.011999999999999
+        },
+        "wasm_container": {
+            "startup": 2230.6233333333334,
+            "e2e": 2368.6113333333333
+        },
+        "linux_container": {
+            "startup": 2085.199,
+            "e2e": 2226.5769999999998
+        }
+    },
+    "random_numbers": {
+        "wasm": {
+            "startup": 12.934,
+            "e2e": 13.091000000000001
+        },
+        "wasm_container": {
+            "startup": 1341.5723333333333,
+            "e2e": 1484.3973333333333
+        },
+        "linux_container": {
+            "startup": 1787.0196666666668,
+            "e2e": 1986.1856666666665
+        }
+    },
+    "range_expansion": {
+        "wasm": {
+            "startup": 11.627333333333334,
+            "e2e": 11.696
+        },
+        "wasm_container": {
+            "startup": 2189.606333333333,
+            "e2e": 2326.9676666666664
+        },
+        "linux_container": {
+            "startup": 1879.994,
+            "e2e": 2039.5486666666668
+        }
+    },
+    "range_extraction": {
+        "wasm": {
+            "startup": 14.482999999999999,
+            "e2e": 14.556666666666667
+        },
+        "wasm_container": {
+            "startup": 1369.073333333333,
+            "e2e": 1521.3463333333332
+        },
+        "linux_container": {
+            "startup": 1940.809,
+            "e2e": 2084.8423333333335
+        }
+    },
+    "ray-casting_algorithm": {
+        "wasm": {
+            "startup": 12.756,
+            "e2e": 12.839666666666668
+        },
+        "wasm_container": {
+            "startup": 1606.28,
+            "e2e": 1756.0529999999999
+        },
+        "linux_container": {
+            "startup": 1845.3296666666665,
+            "e2e": 1997.9076666666667
+        }
+    },
+    "record_sound": {
+        "wasm": {
+            "startup": 10.654333333333334,
+            "e2e": 10.725666666666667
+        },
+        "wasm_container": {
+            "startup": 1803.4936666666665,
+            "e2e": 1988.9503333333334
+        },
+        "linux_container": {
+            "startup": 2088.5453333333335,
+            "e2e": 2226.5546666666664
+        }
+    },
+    "regular_expressions": {
+        "wasm": {
+            "startup": 24.711333333333332,
+            "e2e": 24.785666666666668
+        },
+        "wasm_container": {
+            "startup": 1320.116,
+            "e2e": 1671.6836666666668
+        },
+        "linux_container": {
+            "startup": 1445.810666666667,
+            "e2e": 1597.8386666666665
+        }
+    },
+    "remove_duplicate_elements": {
+        "wasm": {
+            "startup": 10.814666666666668,
+            "e2e": 10.894
+        },
+        "wasm_container": {
+            "startup": 2019.9210000000003,
+            "e2e": 2165.8023333333335
+        },
+        "linux_container": {
+            "startup": 2007.5036666666667,
+            "e2e": 2149.3289999999997
+        }
+    },
+    "rep-string": {
+        "wasm": {
+            "startup": 11.617333333333335,
+            "e2e": 11.683
+        },
+        "wasm_container": {
+            "startup": 1902.9226666666666,
+            "e2e": 2315.4959999999996
+        },
+        "linux_container": {
+            "startup": 1551.5649999999998,
+            "e2e": 1730.5893333333333
+        }
+    },
+    "repeat": {
+        "wasm": {
+            "startup": 11.493,
+            "e2e": 11.557666666666668
+        },
+        "wasm_container": {
+            "startup": 1588.6329999999998,
+            "e2e": 1715.1413333333333
+        },
+        "linux_container": {
+            "startup": 1925.5783333333331,
+            "e2e": 2083.7946666666667
+        }
+    },
+    "repeat_a_string": {
+        "wasm": {
+            "startup": 11.362666666666668,
+            "e2e": 11.425666666666666
+        },
+        "wasm_container": {
+            "startup": 2115.8836666666666,
+            "e2e": 2237.0536666666667
+        },
+        "linux_container": {
+            "startup": 2181.923,
+            "e2e": 2326.2246666666665
+        }
+    },
+    "resistor_mesh": {
+        "wasm": {
+            "startup": 11.095999999999998,
+            "e2e": 11.163333333333332
+        },
+        "wasm_container": {
+            "startup": 1839.4853333333333,
+            "e2e": 1992.5649999999998
+        },
+        "linux_container": {
+            "startup": 1589.403,
+            "e2e": 1748.0479999999998
+        }
+    },
+    "return_multiple_values": {
+        "wasm": {
+            "startup": 10.449666666666667,
+            "e2e": 10.523666666666667
+        },
+        "wasm_container": {
+            "startup": 1459.7606666666668,
+            "e2e": 1595.6726666666666
+        },
+        "linux_container": {
+            "startup": 1911.37,
+            "e2e": 2051.5969999999998
+        }
+    },
+    "reverse_a_string": {
+        "wasm": {
+            "startup": 11.532666666666666,
+            "e2e": 11.600999999999999
+        },
+        "wasm_container": {
+            "startup": 1356.3133333333333,
+            "e2e": 1600.8193333333331
+        },
+        "linux_container": {
+            "startup": 1434.6423333333332,
+            "e2e": 1670.5693333333336
+        }
+    },
+    "reverse_words_in_a_string": {
+        "wasm": {
+            "startup": 13.117333333333335,
+            "e2e": 13.190333333333333
+        },
+        "wasm_container": {
+            "startup": 1661.8243333333332,
+            "e2e": 1855.991
+        },
+        "linux_container": {
+            "startup": 1392.408333333333,
+            "e2e": 1697.0976666666666
+        }
+    },
+    "roman_numerals-decode": {
+        "wasm": {
+            "startup": 23.877666666666666,
+            "e2e": 24.093
+        },
+        "wasm_container": {
+            "startup": 1996.0586666666668,
+            "e2e": 2139.824666666667
+        },
+        "linux_container": {
+            "startup": 1258.9803333333332,
+            "e2e": 1421.0476666666666
+        }
+    },
+    "roman_numerals-encode": {
+        "wasm": {
+            "startup": 10.698333333333332,
+            "e2e": 10.766333333333334
+        },
+        "wasm_container": {
+            "startup": 2180.1323333333335,
+            "e2e": 2352.7826666666665
+        },
+        "linux_container": {
+            "startup": 1559.4840000000002,
+            "e2e": 1733.3553333333336
+        }
+    },
+    "roots_of_a_function": {
+        "wasm": {
+            "startup": 12.241333333333335,
+            "e2e": 12.357333333333335
+        },
+        "wasm_container": {
+            "startup": 1376.9063333333334,
+            "e2e": 1500.3646666666666
+        },
+        "linux_container": {
+            "startup": 1833.4950000000001,
+            "e2e": 1973.769666666667
+        }
+    },
+    "roots_of_unity": {
+        "wasm": {
+            "startup": 24.478333333333335,
+            "e2e": 24.554666666666662
+        },
+        "wasm_container": {
+            "startup": 1733.0866666666668,
+            "e2e": 1880.5510000000002
+        },
+        "linux_container": {
+            "startup": 2291.104333333333,
+            "e2e": 2438.0580000000004
+        }
+    },
+    "run-length_encoding": {
+        "wasm": {
+            "startup": 13.258333333333333,
+            "e2e": 13.329
+        },
+        "wasm_container": {
+            "startup": 1729.3863333333331,
+            "e2e": 2141.9926666666665
+        },
+        "linux_container": {
+            "startup": 1235.8636666666666,
+            "e2e": 1390.6166666666668
+        }
+    },
+    "runge-kutta_method": {
+        "wasm": {
+            "startup": 13.669333333333332,
+            "e2e": 13.734666666666667
+        },
+        "wasm_container": {
+            "startup": 1885.822,
+            "e2e": 2069.3673333333336
+        },
+        "linux_container": {
+            "startup": 2042.914,
+            "e2e": 2200.2156666666665
+        }
+    },
+    "s-expressions": {
+        "wasm": {
+            "startup": 12.189333333333332,
+            "e2e": 12.254333333333335
+        },
+        "wasm_container": {
+            "startup": 1731.5583333333332,
+            "e2e": 1901.1136666666669
+        },
+        "linux_container": {
+            "startup": 1122.062,
+            "e2e": 1329.9883333333335
+        }
+    },
+    "search_a_list": {
+        "wasm": {
+            "startup": 12.253,
+            "e2e": 12.333666666666666
+        },
+        "wasm_container": {
+            "startup": 1463.3363333333334,
+            "e2e": 1589.6253333333334
+        },
+        "linux_container": {
+            "startup": 1866.8329999999999,
+            "e2e": 2027.6446666666664
+        }
+    },
+    "search_a_list_of_records": {
+        "wasm": {
+            "startup": 11.213666666666668,
+            "e2e": 11.304333333333332
+        },
+        "wasm_container": {
+            "startup": 1805.9243333333334,
+            "e2e": 1941.0496666666668
+        },
+        "linux_container": {
+            "startup": 1960.3949999999998,
+            "e2e": 2114.056
+        }
+    },
+    "semiprime": {
+        "wasm": {
+            "startup": 10.997666666666666,
+            "e2e": 11.066000000000003
+        },
+        "wasm_container": {
+            "startup": 1640.5613333333333,
+            "e2e": 1952.579
+        },
+        "linux_container": {
+            "startup": 1805.792666666667,
+            "e2e": 1961.732
+        }
+    },
+    "sequence_smallest_number_greater_than_previous_term_with_exactly_n_divisors": {
+        "wasm": {
+            "startup": 12.146,
+            "e2e": 12.449333333333334
+        },
+        "wasm_container": {
+            "startup": 1542.2916666666667,
+            "e2e": 1673.7513333333336
+        },
+        "linux_container": {
+            "startup": 1827.1906666666666,
+            "e2e": 1973.0199999999998
+        }
+    },
+    "sequence_smallest_number_with_exactly_n_divisors": {
+        "wasm": {
+            "startup": 11.074666666666667,
+            "e2e": 11.139666666666665
+        },
+        "wasm_container": {
+            "startup": 1954.6410000000003,
+            "e2e": 2102.096
+        },
+        "linux_container": {
+            "startup": 1888.441,
+            "e2e": 2095.454333333333
+        }
+    },
+    "sequence_of_non-squares": {
+        "wasm": {
+            "startup": 20.07133333333333,
+            "e2e": 20.153
+        },
+        "wasm_container": {
+            "startup": 1506.884,
+            "e2e": 1894.5483333333334
+        },
+        "linux_container": {
+            "startup": 1321.6886666666667,
+            "e2e": 1461.4489999999998
+        }
+    },
+    "set": {
+        "wasm": {
+            "startup": 11.194666666666665,
+            "e2e": 11.252666666666668
+        },
+        "wasm_container": {
+            "startup": 1761.3410000000001,
+            "e2e": 1943.3753333333334
+        },
+        "linux_container": {
+            "startup": 1745.9326666666668,
+            "e2e": 1900.134
+        }
+    },
+    "set_consolidation": {
+        "wasm": {
+            "startup": 27.304000000000002,
+            "e2e": 27.451000000000004
+        },
+        "wasm_container": {
+            "startup": 1869.2223333333332,
+            "e2e": 2035.64
+        },
+        "linux_container": {
+            "startup": 2032.1596666666667,
+            "e2e": 2174.9306666666666
+        }
+    },
+    "set_of_real_numbers": {
+        "wasm": {
+            "startup": 13.493666666666664,
+            "e2e": 13.573666666666668
+        },
+        "wasm_container": {
+            "startup": 1232.7626666666667,
+            "e2e": 1355.6253333333334
+        },
+        "linux_container": {
+            "startup": 1924.138,
+            "e2e": 2071.670666666667
+        }
+    },
+    "sexy_primes": {
+        "wasm": {
+            "startup": 11.882,
+            "e2e": 11.959333333333333
+        },
+        "wasm_container": {
+            "startup": 2179.833,
+            "e2e": 2342.954666666667
+        },
+        "linux_container": {
+            "startup": 1960.437,
+            "e2e": 2093.8213333333333
+        }
+    },
+    "short-circuit_evaluation": {
+        "wasm": {
+            "startup": 10.663333333333334,
+            "e2e": 10.736666666666666
+        },
+        "wasm_container": {
+            "startup": 1970.8499999999997,
+            "e2e": 2097.3563333333336
+        },
+        "linux_container": {
+            "startup": 1826.8336666666667,
+            "e2e": 2173.4666666666667
+        }
+    },
+    "shortest_common_supersequence": {
+        "wasm": {
+            "startup": 13.716666666666667,
+            "e2e": 13.840666666666666
+        },
+        "wasm_container": {
+            "startup": 1405.1046666666664,
+            "e2e": 1530.7696666666668
+        },
+        "linux_container": {
+            "startup": 1876.4840000000002,
+            "e2e": 2040.9956666666665
+        }
+    },
+    "show_ascii_table": {
+        "wasm": {
+            "startup": 10.686333333333335,
+            "e2e": 10.76
+        },
+        "wasm_container": {
+            "startup": 1993.1490000000001,
+            "e2e": 2144.454333333333
+        },
+        "linux_container": {
+            "startup": 1982.482,
+            "e2e": 2117.1163333333334
+        }
+    },
+    "show_the_epoch": {
+        "wasm": {
+            "startup": 10.476,
+            "e2e": 10.545
+        },
+        "wasm_container": {
+            "startup": 1446.7246666666495,
+            "e2e": 1580.3939999999357
+        },
+        "linux_container": {
+            "startup": 1910.3143333333335,
+            "e2e": 2196.3326666666667
+        }
+    },
+    "sierpinski_triangle": {
+        "wasm": {
+            "startup": 13.459333333333333,
+            "e2e": 13.591666666666663
+        },
+        "wasm_container": {
+            "startup": 1999.0483333333334,
+            "e2e": 2399.149
+        },
+        "linux_container": {
+            "startup": 1381.667666666667,
+            "e2e": 1512.8686666666665
+        }
+    },
+    "smith_numbers": {
+        "wasm": {
+            "startup": 11.276333333333334,
+            "e2e": 11.352333333333334
+        },
+        "wasm_container": {
+            "startup": 1940.6716666666669,
+            "e2e": 2101.547666666667
+        },
+        "linux_container": {
+            "startup": 1657.0683333333334,
+            "e2e": 2004.2606666666663
+        }
+    },
+    "sort_an_integer_array": {
+        "wasm": {
+            "startup": 11.976333333333335,
+            "e2e": 12.051666666666668
+        },
+        "wasm_container": {
+            "startup": 1609.6443333333334,
+            "e2e": 1735.545
+        },
+        "linux_container": {
+            "startup": 1513.5636666666667,
+            "e2e": 1666.7560000000003
+        }
+    },
+    "sort_disjoint_sublist": {
+        "wasm": {
+            "startup": 12.57,
+            "e2e": 12.65
+        },
+        "wasm_container": {
+            "startup": 1975.4256666666668,
+            "e2e": 2136.3223333333335
+        },
+        "linux_container": {
+            "startup": 2066.058,
+            "e2e": 2208.1396666666665
+        }
+    },
+    "sort_numbers_lexicographically": {
+        "wasm": {
+            "startup": 11.297333333333333,
+            "e2e": 11.407666666666666
+        },
+        "wasm_container": {
+            "startup": 1827.7846666666667,
+            "e2e": 1945.2103333333334
+        },
+        "linux_container": {
+            "startup": 2300.9086666666667,
+            "e2e": 2438.289333333333
+        }
+    },
+    "sort_using_a_custom_comparator": {
+        "wasm": {
+            "startup": 11.587000000000002,
+            "e2e": 11.667000000000002
+        },
+        "wasm_container": {
+            "startup": 1483.813666666667,
+            "e2e": 1598.7143333333333
+        },
+        "linux_container": {
+            "startup": 1795.068,
+            "e2e": 1932.9873333333335
+        }
+    },
+    "sorting_algorithms-circle_sort": {
+        "wasm": {
+            "startup": 36.041999999999994,
+            "e2e": 36.157666666666664
+        },
+        "wasm_container": {
+            "startup": 1984.109333333333,
+            "e2e": 2130.3816666666667
+        },
+        "linux_container": {
+            "startup": 2304.155333333333,
+            "e2e": 2442.8723333333332
+        }
+    },
+    "sorting_algorithms-bead_sort": {
+        "wasm": {
+            "startup": 12.141,
+            "e2e": 12.264333333333333
+        },
+        "wasm_container": {
+            "startup": 1514.9533333333331,
+            "e2e": 1647.9893333333332
+        },
+        "linux_container": {
+            "startup": 2067.2523333333334,
+            "e2e": 2208.129333333333
+        }
+    },
+    "sorting_algorithms-bogosort": {
+        "wasm": {
+            "startup": 10.989666666666666,
+            "e2e": 11.056
+        },
+        "wasm_container": {
+            "startup": 1804.7403333333334,
+            "e2e": 1948.1913333333334
+        },
+        "linux_container": {
+            "startup": 1688.4436666666668,
+            "e2e": 1832.7373333333333
+        }
+    },
+    "sorting_algorithms-bubble_sort": {
+        "wasm": {
+            "startup": 17.985333333333333,
+            "e2e": 18.05033333333333
+        },
+        "wasm_container": {
+            "startup": 1811.353,
+            "e2e": 1953.0376666666664
+        },
+        "linux_container": {
+            "startup": 1585.7306666666664,
+            "e2e": 1987.848
+        }
+    },
+    "sorting_algorithms-cocktail_sort": {
+        "wasm": {
+            "startup": 13.007666666666665,
+            "e2e": 13.079666666666668
+        },
+        "wasm_container": {
+            "startup": 1390.175,
+            "e2e": 1557.5176666666666
+        },
+        "linux_container": {
+            "startup": 1642.9886666666669,
+            "e2e": 1780.1466666666668
+        }
+    },
+    "sorting_algorithms-cycle_sort": {
+        "wasm": {
+            "startup": 14.485,
+            "e2e": 14.551
+        },
+        "wasm_container": {
+            "startup": 2071.3673333333336,
+            "e2e": 2232.576333333333
+        },
+        "linux_container": {
+            "startup": 1900.1166666666668,
+            "e2e": 2131.4049999999997
+        }
+    },
+    "sorting_algorithms-heapsort": {
+        "wasm": {
+            "startup": 11.295,
+            "e2e": 11.384666666666668
+        },
+        "wasm_container": {
+            "startup": 1923.915,
+            "e2e": 2055.7803333333336
+        },
+        "linux_container": {
+            "startup": 1751.369,
+            "e2e": 1995.4669999999999
+        }
+    },
+    "sorting_algorithms-insertion_sort": {
+        "wasm": {
+            "startup": 10.534333333333334,
+            "e2e": 10.622333333333332
+        },
+        "wasm_container": {
+            "startup": 1356.667,
+            "e2e": 1497.289
+        },
+        "linux_container": {
+            "startup": 1671.5893333333333,
+            "e2e": 1856.099
+        }
+    },
+    "sorting_algorithms-merge_sort": {
+        "wasm": {
+            "startup": 11.539666666666667,
+            "e2e": 11.609333333333334
+        },
+        "wasm_container": {
+            "startup": 1954.6786666666667,
+            "e2e": 2102.3816666666667
+        },
+        "linux_container": {
+            "startup": 2057.374666666667,
+            "e2e": 2207.5403333333334
+        }
+    },
+    "sorting_algorithms-permutation_sort": {
+        "wasm": {
+            "startup": 10.526666666666666,
+            "e2e": 10.595666666666666
+        },
+        "wasm_container": {
+            "startup": 1379.2830000000001,
+            "e2e": 1502.17
+        },
+        "linux_container": {
+            "startup": 2207.0083333333337,
+            "e2e": 2344.288666666667
+        }
+    },
+    "sorting_algorithms-quicksort": {
+        "wasm": {
+            "startup": 10.896666666666667,
+            "e2e": 10.965000000000002
+        },
+        "wasm_container": {
+            "startup": 1885.9090000000003,
+            "e2e": 2047.4769999999999
+        },
+        "linux_container": {
+            "startup": 1823.8236666666664,
+            "e2e": 1972.9223333333332
+        }
+    },
+    "sorting_algorithms-selection_sort": {
+        "wasm": {
+            "startup": 11.858333333333334,
+            "e2e": 11.934
+        },
+        "wasm_container": {
+            "startup": 1758.3973333333333,
+            "e2e": 1909.5870000000002
+        },
+        "linux_container": {
+            "startup": 2357.1536666666666,
+            "e2e": 2494.1453333333334
+        }
+    },
+    "sorting_algorithms-shell_sort": {
+        "wasm": {
+            "startup": 11.665999999999999,
+            "e2e": 11.72766666666667
+        },
+        "wasm_container": {
+            "startup": 1453.4823333333334,
+            "e2e": 1638.1530000000002
+        },
+        "linux_container": {
+            "startup": 1790.1500000000003,
+            "e2e": 1928.012
+        }
+    },
+    "sorting_algorithms-stooge_sort": {
+        "wasm": {
+            "startup": 12.786333333333333,
+            "e2e": 12.84066666666667
+        },
+        "wasm_container": {
+            "startup": 1906.7903333333331,
+            "e2e": 2065.2143333333333
+        },
+        "linux_container": {
+            "startup": 2158.4536666666663,
+            "e2e": 2321.5663333333337
+        }
+    },
+    "sorting_algorithms-strand_sort": {
+        "wasm": {
+            "startup": 11.042666666666667,
+            "e2e": 11.107999999999999
+        },
+        "wasm_container": {
+            "startup": 2007.0976666666666,
+            "e2e": 2134.8596666666667
+        },
+        "linux_container": {
+            "startup": 2116.2766666666666,
+            "e2e": 2250.9933333333333
+        }
+    },
+    "soundex": {
+        "wasm": {
+            "startup": 10.755333333333333,
+            "e2e": 10.826333333333332
+        },
+        "wasm_container": {
+            "startup": 1501.5780000000002,
+            "e2e": 1627.929
+        },
+        "linux_container": {
+            "startup": 1657.1689999999999,
+            "e2e": 1803.0116666666665
+        }
+    },
+    "sparkline_in_unicode": {
+        "wasm": {
+            "startup": 17.206999999999997,
+            "e2e": 17.309333333333335
+        },
+        "wasm_container": {
+            "startup": 1903.9533333333336,
+            "e2e": 2036.2640000000001
+        },
+        "linux_container": {
+            "startup": 2139.1259999999997,
+            "e2e": 2370.922666666667
+        }
+    },
+    "spiral_matrix": {
+        "wasm": {
+            "startup": 16.323666666666668,
+            "e2e": 16.475333333333335
+        },
+        "wasm_container": {
+            "startup": 1445.9256666666668,
+            "e2e": 1570.0523333333333
+        },
+        "linux_container": {
+            "startup": 1471.943,
+            "e2e": 1638.2483333333332
+        }
+    },
+    "split_a_character_string_based_on_change_of_character": {
+        "wasm": {
+            "startup": 11.204999999999998,
+            "e2e": 11.272333333333334
+        },
+        "wasm_container": {
+            "startup": 1835.6253333333334,
+            "e2e": 1989.2623333333333
+        },
+        "linux_container": {
+            "startup": 1421.0829999999999,
+            "e2e": 1593.8026666666667
+        }
+    },
+    "square_but_not_cube": {
+        "wasm": {
+            "startup": 11.042,
+            "e2e": 11.116333333333332
+        },
+        "wasm_container": {
+            "startup": 1994.6623333333337,
+            "e2e": 2147.183
+        },
+        "linux_container": {
+            "startup": 2033.853,
+            "e2e": 2173.007333333333
+        }
+    },
+    "stable_marriage_problem": {
+        "wasm": {
+            "startup": 12.935333333333332,
+            "e2e": 13.014666666666665
+        },
+        "wasm_container": {
+            "startup": 1350.521,
+            "e2e": 1465.894
+        },
+        "linux_container": {
+            "startup": 2019.1996666666666,
+            "e2e": 2170.3936666666664
+        }
+    },
+    "stack": {
+        "wasm": {
+            "startup": 25.146666666666665,
+            "e2e": 25.358666666666664
+        },
+        "wasm_container": {
+            "startup": 1720.747,
+            "e2e": 1865.6733333333334
+        },
+        "linux_container": {
+            "startup": 2116.41,
+            "e2e": 2269.038
+        }
+    },
+    "start_from_a_main_routine": {
+        "wasm": {
+            "startup": 10.964333333333334,
+            "e2e": 11.033
+        },
+        "wasm_container": {
+            "startup": 1407.1203333333333,
+            "e2e": 1806.7483333333332
+        },
+        "linux_container": {
+            "startup": 613.6909999999999,
+            "e2e": 1125.3453333333334
+        }
+    },
+    "stem-and-leaf_plot": {
+        "wasm": {
+            "startup": 11.649666666666667,
+            "e2e": 11.715000000000002
+        },
+        "wasm_container": {
+            "startup": 1873.418333333333,
+            "e2e": 2210.2270000000003
+        },
+        "linux_container": {
+            "startup": 1225.5013333333334,
+            "e2e": 1367.332
+        }
+    },
+    "stern-brocot_sequence": {
+        "wasm": {
+            "startup": 11.206000000000001,
+            "e2e": 11.268999999999998
+        },
+        "wasm_container": {
+            "startup": 1977.4213333333337,
+            "e2e": 2157.8186666666666
+        },
+        "linux_container": {
+            "startup": 2029.7653333333335,
+            "e2e": 2189.6746666666663
+        }
+    },
+    "string_append": {
+        "wasm": {
+            "startup": 11.888666666666666,
+            "e2e": 11.960666666666667
+        },
+        "wasm_container": {
+            "startup": 1507.9726666666666,
+            "e2e": 1640.799
+        },
+        "linux_container": {
+            "startup": 2051.003666666667,
+            "e2e": 2217.2056666666667
+        }
+    },
+    "string_case": {
+        "wasm": {
+            "startup": 11.528666666666666,
+            "e2e": 11.670666666666667
+        },
+        "wasm_container": {
+            "startup": 1900.1276666666665,
+            "e2e": 2035.061333333333
+        },
+        "linux_container": {
+            "startup": 1578.8850000000002,
+            "e2e": 1883.1229999999998
+        }
+    },
+    "string_concatenation": {
+        "wasm": {
+            "startup": 16.36,
+            "e2e": 18.403000000000002
+        },
+        "wasm_container": {
+            "startup": 1897.4903333333334,
+            "e2e": 2067.841
+        },
+        "linux_container": {
+            "startup": 2125.0570000000002,
+            "e2e": 2290.726
+        }
+    },
+    "string_length": {
+        "wasm": {
+            "startup": 11.813333333333333,
+            "e2e": 11.889333333333333
+        },
+        "wasm_container": {
+            "startup": 1496.765,
+            "e2e": 1638.2683333333334
+        },
+        "linux_container": {
+            "startup": 1776.743333333333,
+            "e2e": 1945.387
+        }
+    },
+    "string_matching": {
+        "wasm": {
+            "startup": 14.752333333333333,
+            "e2e": 14.828666666666669
+        },
+        "wasm_container": {
+            "startup": 1906.494,
+            "e2e": 2041.612
+        },
+        "linux_container": {
+            "startup": 2059.8036666666667,
+            "e2e": 2199.3866666666668
+        }
+    },
+    "string_prepend": {
+        "wasm": {
+            "startup": 12.589333333333334,
+            "e2e": 12.691666666666668
+        },
+        "wasm_container": {
+            "startup": 1984.2863333333332,
+            "e2e": 2120.1073333333334
+        },
+        "linux_container": {
+            "startup": 1984.7423333333334,
+            "e2e": 2143.6226666666666
+        }
+    },
+    "strip_control_codes_and_extended_characters_from_a_string": {
+        "wasm": {
+            "startup": 3.324666666666667,
+            "e2e": 3.3446666666666665
+        },
+        "wasm_container": {
+            "startup": 1343.881,
+            "e2e": 1471.8073333333332
+        },
+        "linux_container": {
+            "startup": 1589.9266666666665,
+            "e2e": 1734.7873333333334
+        }
+    },
+    "strip_whitespace_from_a_string-top_and_tail": {
+        "wasm": {
+            "startup": 14.858333333333334,
+            "e2e": 14.977333333333334
+        },
+        "wasm_container": {
+            "startup": 1982.1056666666666,
+            "e2e": 2105.253666666667
+        },
+        "linux_container": {
+            "startup": 1632.6916666666668,
+            "e2e": 1810.7523333333336
+        }
+    },
+    "subtractive_generator": {
+        "wasm": {
+            "startup": 25.563333333333333,
+            "e2e": 25.73133333333333
+        },
+        "wasm_container": {
+            "startup": 1796.3966666666668,
+            "e2e": 1958.146
+        },
+        "linux_container": {
+            "startup": 1392.804,
+            "e2e": 1528.8566666666666
+        }
+    },
+    "sudoku": {
+        "wasm": {
+            "startup": 11.975999999999999,
+            "e2e": 12.047666666666666
+        },
+        "wasm_container": {
+            "startup": 1831.2136666666665,
+            "e2e": 1964.4556666666667
+        },
+        "linux_container": {
+            "startup": 1762.0070000000003,
+            "e2e": 1909.8763333333334
+        }
+    },
+    "sum_data_type": {
+        "wasm": {
+            "startup": 11.143666666666668,
+            "e2e": 11.250666666666667
+        },
+        "wasm_container": {
+            "startup": 1961.7836666666665,
+            "e2e": 2304.3830000000003
+        },
+        "linux_container": {
+            "startup": 1540.3686666666665,
+            "e2e": 1688.6743333333334
+        }
+    },
+    "sum_digits_of_an_integer": {
+        "wasm": {
+            "startup": 10.231,
+            "e2e": 10.300333333333333
+        },
+        "wasm_container": {
+            "startup": 1586.7169999999999,
+            "e2e": 1704.4883333333335
+        },
+        "linux_container": {
+            "startup": 1815.2016666666668,
+            "e2e": 1965.603
+        }
+    },
+    "sum_multiples_of_3_and_5": {
+        "wasm": {
+            "startup": 12.642000000000001,
+            "e2e": 12.784
+        },
+        "wasm_container": {
+            "startup": 1877.844,
+            "e2e": 2017.2309999999998
+        },
+        "linux_container": {
+            "startup": 1128.2263333333333,
+            "e2e": 1743.2063333333335
+        }
+    },
+    "sum_of_a_series": {
+        "wasm": {
+            "startup": 11.847999999999999,
+            "e2e": 11.908666666666667
+        },
+        "wasm_container": {
+            "startup": 2175.686666666667,
+            "e2e": 2312.1413333333335
+        },
+        "linux_container": {
+            "startup": 1794.3556666666666,
+            "e2e": 1937.6589999999999
+        }
+    },
+    "sum_of_squares": {
+        "wasm": {
+            "startup": 10.596333333333334,
+            "e2e": 10.690666666666667
+        },
+        "wasm_container": {
+            "startup": 1489.1589999999999,
+            "e2e": 1615.2543333333333
+        },
+        "linux_container": {
+            "startup": 1732.825,
+            "e2e": 1867.162333333333
+        }
+    },
+    "sum_to_100": {
+        "wasm": {
+            "startup": 11.341666666666667,
+            "e2e": 11.401333333333332
+        },
+        "wasm_container": {
+            "startup": 2026.5393333333332,
+            "e2e": 2161.5383333333334
+        },
+        "linux_container": {
+            "startup": 2294.3686666666663,
+            "e2e": 2451.4943333333335
+        }
+    },
+    "symmetric_difference": {
+        "wasm": {
+            "startup": 25.771,
+            "e2e": 26.343000000000004
+        },
+        "wasm_container": {
+            "startup": 1567.8753333333334,
+            "e2e": 1967.7883333333332
+        },
+        "linux_container": {
+            "startup": 1240.683,
+            "e2e": 1384.6036666666666
+        }
+    },
+    "taxicab_numbers": {
+        "wasm": {
+            "startup": 11.963000000000001,
+            "e2e": 12.031666666666666
+        },
+        "wasm_container": {
+            "startup": 1734.6396666666667,
+            "e2e": 1877.6483333333333
+        },
+        "linux_container": {
+            "startup": 1875.3183333333334,
+            "e2e": 2018.1693333333333
+        }
+    },
+    "temperature_conversion": {
+        "wasm": {
+            "startup": 19.871333333333332,
+            "e2e": 19.996333333333336
+        },
+        "wasm_container": {
+            "startup": 2031.14,
+            "e2e": 2246.4446666666663
+        },
+        "linux_container": {
+            "startup": 1739.2776666666662,
+            "e2e": 1878.2463333333335
+        }
+    },
+    "terminal_control-coloured_text": {
+        "wasm": {
+            "startup": 16.780333333333335,
+            "e2e": 17.022000000000002
+        },
+        "wasm_container": {
+            "startup": 1591.8346666666666,
+            "e2e": 1728.3403333333335
+        },
+        "linux_container": {
+            "startup": 1754.2956666666669,
+            "e2e": 2152.7466666666664
+        }
+    },
+    "terminal_control-display_an_extended_character": {
+        "wasm": {
+            "startup": 10.628333333333332,
+            "e2e": 10.694
+        },
+        "wasm_container": {
+            "startup": 2128.5623333333333,
+            "e2e": 2279.22
+        },
+        "linux_container": {
+            "startup": 1767.3400000000001,
+            "e2e": 1909.5363333333335
+        }
+    },
+    "terminal_control-inverse_video": {
+        "wasm": {
+            "startup": 24.033666666666665,
+            "e2e": 25.034000000000002
+        },
+        "wasm_container": {
+            "startup": 1973.148,
+            "e2e": 2118.5576666666666
+        },
+        "linux_container": {
+            "startup": 1448.4493333333332,
+            "e2e": 1596.1406666666664
+        }
+    },
+    "terminal_control-ringing_the_terminal_bell": {
+        "wasm": {
+            "startup": 12.305333333333335,
+            "e2e": 12.396333333333336
+        },
+        "wasm_container": {
+            "startup": 1582.258,
+            "e2e": 1717.6526666666666
+        },
+        "linux_container": {
+            "startup": 1826.4576666666665,
+            "e2e": 1968.1613333333335
+        }
+    },
+    "ternary_logic": {
+        "wasm": {
+            "startup": 11.414,
+            "e2e": 11.484666666666667
+        },
+        "wasm_container": {
+            "startup": 1695.8916666666664,
+            "e2e": 1828.5373333333334
+        },
+        "linux_container": {
+            "startup": 1385.014,
+            "e2e": 1528.3526666666664
+        }
+    },
+    "test_integerness": {
+        "wasm": {
+            "startup": 12.391666666666666,
+            "e2e": 12.461666666666666
+        },
+        "wasm_container": {
+            "startup": 1711.7853333333333,
+            "e2e": 1876.7736666666667
+        },
+        "linux_container": {
+            "startup": 1860.6063333333332,
+            "e2e": 2000.714
+        }
+    },
+    "the_isaac_cipher": {
+        "wasm": {
+            "startup": 11.511666666666665,
+            "e2e": 11.586333333333334
+        },
+        "wasm_container": {
+            "startup": 2014.687,
+            "e2e": 2152.655666666667
+        },
+        "linux_container": {
+            "startup": 1712.1863333333333,
+            "e2e": 1867.482
+        }
+    },
+    "the_twelve_days_of_christmas": {
+        "wasm": {
+            "startup": 10.287333333333335,
+            "e2e": 10.357999999999999
+        },
+        "wasm_container": {
+            "startup": 1562.9773333333333,
+            "e2e": 1701.2303333333332
+        },
+        "linux_container": {
+            "startup": 1973.363,
+            "e2e": 2117.5003333333334
+        }
+    },
+    "thieles_interpolation_formula": {
+        "wasm": {
+            "startup": 13.309,
+            "e2e": 13.438333333333333
+        },
+        "wasm_container": {
+            "startup": 1798.155,
+            "e2e": 1918.0610000000004
+        },
+        "linux_container": {
+            "startup": 1795.5846666666669,
+            "e2e": 1981.721666666667
+        }
+    },
+    "thue-morse": {
+        "wasm": {
+            "startup": 11.749,
+            "e2e": 11.811333333333335
+        },
+        "wasm_container": {
+            "startup": 1841.858,
+            "e2e": 1978.0076666666666
+        },
+        "linux_container": {
+            "startup": 1764.4413333333332,
+            "e2e": 1915.0503333333334
+        }
+    },
+    "tokenize_a_string": {
+        "wasm": {
+            "startup": 11.069,
+            "e2e": 11.130666666666665
+        },
+        "wasm_container": {
+            "startup": 1619.7946666666667,
+            "e2e": 1754.2686666666668
+        },
+        "linux_container": {
+            "startup": 1781.4759999999999,
+            "e2e": 1960.561
+        }
+    },
+    "tokenize_a_string_with_escaping": {
+        "wasm": {
+            "startup": 12.631333333333332,
+            "e2e": 12.701
+        },
+        "wasm_container": {
+            "startup": 2027.4669999999999,
+            "e2e": 2148.0823333333333
+        },
+        "linux_container": {
+            "startup": 2164.2626666666665,
+            "e2e": 2304.214
+        }
+    },
+    "top_rank_per_group": {
+        "wasm": {
+            "startup": 11.698666666666668,
+            "e2e": 11.841666666666667
+        },
+        "wasm_container": {
+            "startup": 1648.932,
+            "e2e": 1770.1443333333334
+        },
+        "linux_container": {
+            "startup": 1754.3426666666667,
+            "e2e": 1897.808
+        }
+    },
+    "topological_sort": {
+        "wasm": {
+            "startup": 11.770000000000001,
+            "e2e": 11.849333333333334
+        },
+        "wasm_container": {
+            "startup": 1804.28,
+            "e2e": 1945.6706666666669
+        },
+        "linux_container": {
+            "startup": 1722.455333333333,
+            "e2e": 1888.1896666666664
+        }
+    },
+    "totient_function": {
+        "wasm": {
+            "startup": 3.0926666666666667,
+            "e2e": 3.116666666666667
+        },
+        "wasm_container": {
+            "startup": 2054.7889999999998,
+            "e2e": 2207.954666666667
+        },
+        "linux_container": {
+            "startup": 1817.954,
+            "e2e": 1954.6506666666664
+        }
+    },
+    "towers_of_hanoi": {
+        "wasm": {
+            "startup": 11.512666666666668,
+            "e2e": 11.592999999999998
+        },
+        "wasm_container": {
+            "startup": 1502.6366666666665,
+            "e2e": 1668.195
+        },
+        "linux_container": {
+            "startup": 1985.2686666666666,
+            "e2e": 2120.5769999999998
+        }
+    },
+    "tree_traversal": {
+        "wasm": {
+            "startup": 11.702,
+            "e2e": 11.759333333333332
+        },
+        "wasm_container": {
+            "startup": 1979.479,
+            "e2e": 2197.384
+        },
+        "linux_container": {
+            "startup": 1714.252666666667,
+            "e2e": 1886.09
+        }
+    },
+    "trigonometric_functions": {
+        "wasm": {
+            "startup": 11.47466666666667,
+            "e2e": 11.579333333333333
+        },
+        "wasm_container": {
+            "startup": 1529.4406666666666,
+            "e2e": 2067.7026666666666
+        },
+        "linux_container": {
+            "startup": 1365.719,
+            "e2e": 1780.1260000000002
+        }
+    },
+    "truncatable_primes": {
+        "wasm": {
+            "startup": 11.483333333333334,
+            "e2e": 11.566
+        },
+        "wasm_container": {
+            "startup": 1437.8280000000002,
+            "e2e": 1584.1523333333334
+        },
+        "linux_container": {
+            "startup": 1898.188666666667,
+            "e2e": 2038.4413333333334
+        }
+    },
+    "two_sum": {
+        "wasm": {
+            "startup": 11.258666666666665,
+            "e2e": 11.352333333333334
+        },
+        "wasm_container": {
+            "startup": 1771.3859999999997,
+            "e2e": 1956.131
+        },
+        "linux_container": {
+            "startup": 2177.0786666666663,
+            "e2e": 2334.8216666666663
+        }
+    },
+    "type_detection": {
+        "wasm": {
+            "startup": 12.352666666666666,
+            "e2e": 12.432666666666668
+        },
+        "wasm_container": {
+            "startup": 1515.5720000000001,
+            "e2e": 1658.9736666666668
+        },
+        "linux_container": {
+            "startup": 1387.3436666666666,
+            "e2e": 1526.5046666666665
+        }
+    },
+    "utf-8_encode_and_decode": {
+        "wasm": {
+            "startup": 17.570333333333334,
+            "e2e": 17.715
+        },
+        "wasm_container": {
+            "startup": 1839.7983333333334,
+            "e2e": 1975.6533333333334
+        },
+        "linux_container": {
+            "startup": 1950.2120000000002,
+            "e2e": 2090.6786666666667
+        }
+    },
+    "undefined_values": {
+        "wasm": {
+            "startup": 11.102333333333334,
+            "e2e": 11.175333333333334
+        },
+        "wasm_container": {
+            "startup": 2112.5423333333333,
+            "e2e": 2241.516
+        },
+        "linux_container": {
+            "startup": 1618.8246666666666,
+            "e2e": 1767.4053333333334
+        }
+    },
+    "unicode_strings": {
+        "wasm": {
+            "startup": 16.657666666666668,
+            "e2e": 16.777333333333335
+        },
+        "wasm_container": {
+            "startup": 1541.0046666666667,
+            "e2e": 1673.2493333333332
+        },
+        "linux_container": {
+            "startup": 1747.905,
+            "e2e": 1897.3190000000002
+        }
+    },
+    "unicode_variable_names": {
+        "wasm": {
+            "startup": 16.222333333333335,
+            "e2e": 16.369000000000003
+        },
+        "wasm_container": {
+            "startup": 1673.4653333333333,
+            "e2e": 1827.0453333333335
+        },
+        "linux_container": {
+            "startup": 1984.988,
+            "e2e": 2126.418666666667
+        }
+    },
+    "universal_turing_machine": {
+        "wasm": {
+            "startup": 11.64133333333333,
+            "e2e": 11.776000000000002
+        },
+        "wasm_container": {
+            "startup": 1402.7163333333335,
+            "e2e": 1728.6893333333335
+        },
+        "linux_container": {
+            "startup": 1120.375,
+            "e2e": 1655.4916666666668
+        }
+    },
+    "validate_international_securities_identification_number": {
+        "wasm": {
+            "startup": 11.840333333333334,
+            "e2e": 11.911333333333333
+        },
+        "wasm_container": {
+            "startup": 1786.3403333333333,
+            "e2e": 1939.4436666666668
+        },
+        "linux_container": {
+            "startup": 1871.2546666666667,
+            "e2e": 2023.929666666667
+        }
+    },
+    "van_eck_sequence": {
+        "wasm": {
+            "startup": 17.921000000000003,
+            "e2e": 17.983999999999998
+        },
+        "wasm_container": {
+            "startup": 1947.361,
+            "e2e": 2088.095
+        },
+        "linux_container": {
+            "startup": 1805.9646666666667,
+            "e2e": 1943.2883333333332
+        }
+    },
+    "van_der_corput_sequence": {
+        "wasm": {
+            "startup": 15.136666666666665,
+            "e2e": 15.200666666666665
+        },
+        "wasm_container": {
+            "startup": 1669.6806666666664,
+            "e2e": 1802.6816666666666
+        },
+        "linux_container": {
+            "startup": 1946.9836666666667,
+            "e2e": 2096.3006666666665
+        }
+    },
+    "variable-length_quantity": {
+        "wasm": {
+            "startup": 13.741666666666667,
+            "e2e": 13.806999999999997
+        },
+        "wasm_container": {
+            "startup": 1691.3473333333332,
+            "e2e": 1864.1513333333332
+        },
+        "linux_container": {
+            "startup": 1593.1436666666668,
+            "e2e": 1816.2213333333332
+        }
+    },
+    "vector": {
+        "wasm": {
+            "startup": 16.66566666666667,
+            "e2e": 16.71833333333333
+        },
+        "wasm_container": {
+            "startup": 2190.8926666666666,
+            "e2e": 2533.0113333333334
+        },
+        "linux_container": {
+            "startup": 1214.76,
+            "e2e": 1564.8596666666665
+        }
+    },
+    "vector_products": {
+        "wasm": {
+            "startup": 12.020000000000001,
+            "e2e": 12.097333333333333
+        },
+        "wasm_container": {
+            "startup": 1506.2266666666667,
+            "e2e": 1636.5936666666666
+        },
+        "linux_container": {
+            "startup": 2094.0423333333333,
+            "e2e": 2241.1533333333336
+        }
+    },
+    "vigenere_cipher-cryptanalysis": {
+        "wasm": {
+            "startup": 11.315,
+            "e2e": 11.646666666666668
+        },
+        "wasm_container": {
+            "startup": 1687.4616666666664,
+            "e2e": 1821.1366666666665
+        },
+        "linux_container": {
+            "startup": 1917.9873333333333,
+            "e2e": 2058.8996666666667
+        }
+    },
+    "visualize_a_tree": {
+        "wasm": {
+            "startup": 23.563333333333333,
+            "e2e": 25.474666666666668
+        },
+        "wasm_container": {
+            "startup": 1841.397333333333,
+            "e2e": 1994.5026666666665
+        },
+        "linux_container": {
+            "startup": 1931.2113333333334,
+            "e2e": 2073.769333333333
+        }
+    },
+    "vogels_approximation_method": {
+        "wasm": {
+            "startup": 22.736666666666668,
+            "e2e": 23.489
+        },
+        "wasm_container": {
+            "startup": 1757.2136666666665,
+            "e2e": 1922.8170000000002
+        },
+        "linux_container": {
+            "startup": 1541.7700000000002,
+            "e2e": 1702.9913333333334
+        }
+    },
+    "water_collected_between_towers": {
+        "wasm": {
+            "startup": 12.694,
+            "e2e": 12.763333333333335
+        },
+        "wasm_container": {
+            "startup": 1703.9633333333331,
+            "e2e": 1833.8756666666668
+        },
+        "linux_container": {
+            "startup": 2084.2166666666667,
+            "e2e": 2220.1313333333333
+        }
+    },
+    "weird_numbers": {
+        "wasm": {
+            "startup": 11.546999999999999,
+            "e2e": 11.612666666666664
+        },
+        "wasm_container": {
+            "startup": 1590.242333333333,
+            "e2e": 1787.7676666666666
+        },
+        "linux_container": {
+            "startup": 2056.2099999999996,
+            "e2e": 2210.9680000000003
+        }
+    },
+    "welchs_t-test": {
+        "wasm": {
+            "startup": 11.265,
+            "e2e": 11.334333333333333
+        },
+        "wasm_container": {
+            "startup": 1574.209,
+            "e2e": 1700.3803333333335
+        },
+        "linux_container": {
+            "startup": 1771.3729999999998,
+            "e2e": 2006.836
+        }
+    },
+    "write_language_name_in_3d_ascii": {
+        "wasm": {
+            "startup": 21.799000000000003,
+            "e2e": 21.870666666666665
+        },
+        "wasm_container": {
+            "startup": 2314.7433333333333,
+            "e2e": 2437.936
+        },
+        "linux_container": {
+            "startup": 1605.921,
+            "e2e": 1752.2173333333333
+        }
+    },
+    "y_combinator": {
+        "wasm": {
+            "startup": 14.478,
+            "e2e": 14.552333333333332
+        },
+        "wasm_container": {
+            "startup": 1425.5786666666665,
+            "e2e": 1553.609333333333
+        },
+        "linux_container": {
+            "startup": 2140.6306666666665,
+            "e2e": 2273.355
+        }
+    },
+    "yin_and_yang": {
+        "wasm": {
+            "startup": 15.252,
+            "e2e": 15.333
+        },
+        "wasm_container": {
+            "startup": 1818.4800000000002,
+            "e2e": 1978.5673333333332
+        },
+        "linux_container": {
+            "startup": 1766.810666666667,
+            "e2e": 1909.620666666667
+        }
+    },
+    "zebra_puzzle": {
+        "wasm": {
+            "startup": 13.401333333333334,
+            "e2e": 13.481666666666667
+        },
+        "wasm_container": {
+            "startup": 1839.5853333333334,
+            "e2e": 1988.9673333333333
+        },
+        "linux_container": {
+            "startup": 2106.3873333333336,
+            "e2e": 2255.0293333333334
+        }
+    },
+    "zeckendorf_number_representation": {
+        "wasm": {
+            "startup": 12.167,
+            "e2e": 12.309333333333333
+        },
+        "wasm_container": {
+            "startup": 1512.3643333333332,
+            "e2e": 1643.7146666666667
+        },
+        "linux_container": {
+            "startup": 1952.4306666666664,
+            "e2e": 2095.5286666666666
+        }
+    },
+    "zero_to_the_zero_power": {
+        "wasm": {
+            "startup": 11.805333333333332,
+            "e2e": 11.881333333333332
+        },
+        "wasm_container": {
+            "startup": 2092.382,
+            "e2e": 2262.4816666666666
+        },
+        "linux_container": {
+            "startup": 1735.082,
+            "e2e": 1892.3670000000002
+        }
+    },
+    "args": {
+        "wasm": {
+            "startup": 11.973333333333334,
+            "e2e": 12.036666666666667
+        },
+        "wasm_container": {
+            "startup": 1751.0126666666665,
+            "e2e": 1870.0873333333336
+        },
+        "linux_container": {
+            "startup": 1704.9670000000003,
+            "e2e": 1847.57
+        }
+    },
+    "branches": {
+        "wasm": {
+            "startup": 13.700000000000001,
+            "e2e": 13.799333333333331
+        },
+        "wasm_container": {
+            "startup": 1824.522,
+            "e2e": 1992.9266666666665
+        },
+        "linux_container": {
+            "startup": 1883.9933333333336,
+            "e2e": 2028.3753333333332
+        }
+    },
+    "branches2": {
+        "wasm": {
+            "startup": 29.274333333333335,
+            "e2e": 29.350666666666665
+        },
+        "wasm_container": {
+            "startup": 2006.3163333333334,
+            "e2e": 2196.632
+        },
+        "linux_container": {
+            "startup": 1561.2866666666669,
+            "e2e": 1733.545
+        }
+    },
+    "exit": {
+        "wasm": {
+            "startup": 10.509333333333332,
+            "e2e": 10.582999999999998
+        },
+        "wasm_container": {
+            "startup": 1996.3149999999998,
+            "e2e": 2277.773333333333
+        },
+        "linux_container": {
+            "startup": 1357.1173333333334,
+            "e2e": 1500.3753333333332
+        }
+    },
+    "flatten": {
+        "wasm": {
+            "startup": 13.708999999999998,
+            "e2e": 13.78133333333333
+        },
+        "wasm_container": {
+            "startup": 1902.4383333333335,
+            "e2e": 2044.8400000000001
+        },
+        "linux_container": {
+            "startup": 2204.3836666666666,
+            "e2e": 2337.6756666666665
+        }
+    },
+    "fraction-norm": {
+        "wasm": {
+            "startup": 11.496333333333334,
+            "e2e": 11.576666666666668
+        },
+        "wasm_container": {
+            "startup": 1688.4296666666667,
+            "e2e": 1871.559
+        },
+        "linux_container": {
+            "startup": 1564.8313333333335,
+            "e2e": 1702.352
+        }
+    },
+    "linear-memory-analysis": {
+        "wasm": {
+            "startup": 11.152333333333333,
+            "e2e": 11.226333333333335
+        },
+        "wasm_container": {
+            "startup": 1573.934,
+            "e2e": 1923.329
+        },
+        "linux_container": {
+            "startup": 1805.3163333333332,
+            "e2e": 2174.6763333333333
+        }
+    },
+    "stdout": {
+        "wasm": {
+            "startup": 12.234,
+            "e2e": 12.294666666666666
+        },
+        "wasm_container": {
+            "startup": 1616.6233333333332,
+            "e2e": 1766.425
+        },
+        "linux_container": {
+            "startup": 1678.5363333333335,
+            "e2e": 1843.5743333333332
+        }
+    }
+}

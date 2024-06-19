@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./old_russian_measure_of_length.c .
+RUN gcc -O3 -o ./old_russian_measure_of_length ./old_russian_measure_of_length.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/old_russian_measure_of_length .
+CMD ["./old_russian_measure_of_length"]

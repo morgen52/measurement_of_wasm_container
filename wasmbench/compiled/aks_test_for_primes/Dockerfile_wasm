@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./aks_test_for_primes.wasm /
+CMD ["/aks_test_for_primes.wasm"]

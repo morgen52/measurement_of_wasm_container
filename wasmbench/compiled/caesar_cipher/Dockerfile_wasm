@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./caesar_cipher.wasm /
+CMD ["/caesar_cipher.wasm"]

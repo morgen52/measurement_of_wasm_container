@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./factors_of_an_integer.c .
+RUN gcc -O3 -o ./factors_of_an_integer ./factors_of_an_integer.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/factors_of_an_integer .
+CMD ["./factors_of_an_integer"]

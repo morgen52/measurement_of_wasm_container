@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I linear-algebra/kernels/3mm utilities/polybench.c linear-algebra/kernels/3mm/3mm.c -DPOLYBENCH_TIME -o linear-algebra/kernels/3mm/3mm -lm
+RUN cp linear-algebra/kernels/3mm/3mm /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/3mm /3mm
+CMD ["/3mm"]

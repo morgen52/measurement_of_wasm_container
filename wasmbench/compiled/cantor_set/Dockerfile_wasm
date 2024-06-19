@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./cantor_set.wasm /
+CMD ["/cantor_set.wasm"]

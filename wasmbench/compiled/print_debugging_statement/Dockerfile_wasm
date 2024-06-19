@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./print_debugging_statement.wasm /
+CMD ["/print_debugging_statement.wasm"]

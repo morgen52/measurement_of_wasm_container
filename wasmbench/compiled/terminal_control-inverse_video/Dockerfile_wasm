@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./terminal_control-inverse_video.wasm /
+CMD ["/terminal_control-inverse_video.wasm"]

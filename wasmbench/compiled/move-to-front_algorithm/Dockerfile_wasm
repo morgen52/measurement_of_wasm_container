@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./move-to-front_algorithm.wasm /
+CMD ["/move-to-front_algorithm.wasm"]

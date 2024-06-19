@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./floyd-warshall.wasm /floyd-warshall.wasm
+CMD ["/floyd-warshall.wasm"]

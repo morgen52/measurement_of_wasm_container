@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./iterated_digits_squaring.wasm /
+CMD ["/iterated_digits_squaring.wasm"]

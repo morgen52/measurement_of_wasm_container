@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I linear-algebra/solvers/trisolv utilities/polybench.c linear-algebra/solvers/trisolv/trisolv.c -DPOLYBENCH_TIME -o linear-algebra/solvers/trisolv/trisolv -lm
+RUN cp linear-algebra/solvers/trisolv/trisolv /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/trisolv /trisolv
+CMD ["/trisolv"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./multiplication_tables.wasm /
+CMD ["/multiplication_tables.wasm"]

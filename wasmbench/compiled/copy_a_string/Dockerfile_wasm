@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./copy_a_string.wasm /
+CMD ["/copy_a_string.wasm"]

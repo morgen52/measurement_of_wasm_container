@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./problem_of_apollonius.wasm /
+CMD ["/problem_of_apollonius.wasm"]

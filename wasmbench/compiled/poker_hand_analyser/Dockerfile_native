@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./poker_hand_analyser.c .
+RUN gcc -O3 -o ./poker_hand_analyser ./poker_hand_analyser.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/poker_hand_analyser .
+CMD ["./poker_hand_analyser"]

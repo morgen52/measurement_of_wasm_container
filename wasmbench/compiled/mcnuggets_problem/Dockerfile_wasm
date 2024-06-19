@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./mcnuggets_problem.wasm /
+CMD ["/mcnuggets_problem.wasm"]

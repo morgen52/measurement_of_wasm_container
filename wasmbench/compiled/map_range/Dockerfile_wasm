@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./map_range.wasm /
+CMD ["/map_range.wasm"]

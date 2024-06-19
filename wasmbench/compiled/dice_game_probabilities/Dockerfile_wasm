@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./dice_game_probabilities.wasm /
+CMD ["/dice_game_probabilities.wasm"]

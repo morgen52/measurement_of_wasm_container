@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./playing_cards.wasm /
+CMD ["/playing_cards.wasm"]

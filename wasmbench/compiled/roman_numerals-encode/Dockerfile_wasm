@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./roman_numerals-encode.wasm /
+CMD ["/roman_numerals-encode.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./man_or_boy_test.wasm /
+CMD ["/man_or_boy_test.wasm"]

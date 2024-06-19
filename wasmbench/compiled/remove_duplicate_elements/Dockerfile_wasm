@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./remove_duplicate_elements.wasm /
+CMD ["/remove_duplicate_elements.wasm"]

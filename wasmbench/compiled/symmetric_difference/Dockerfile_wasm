@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./symmetric_difference.wasm /
+CMD ["/symmetric_difference.wasm"]

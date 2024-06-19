@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./list_rooted_trees.wasm /
+CMD ["/list_rooted_trees.wasm"]

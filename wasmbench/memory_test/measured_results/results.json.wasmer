@@ -1,0 +1,8406 @@
+{
+  "100_doors": {
+    "wasm": {
+      "before": {
+        "cpu": 41.3,
+        "memory": 4562.0390625
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 4577.83984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.5,
+        "memory": 4642.6875
+      },
+      "execute": {
+        "cpu": 79.6,
+        "memory": 4714.06640625
+      }
+    }
+  },
+  "99_bottles_of_beer": {
+    "wasm": {
+      "before": {
+        "cpu": 70.4,
+        "memory": 4718.81640625
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4738.3984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 72.1,
+        "memory": 4679.03125
+      },
+      "execute": {
+        "cpu": 78.5,
+        "memory": 4705.8671875
+      }
+    }
+  },
+  "abc_problem": {
+    "wasm": {
+      "before": {
+        "cpu": 49.4,
+        "memory": 4688.58984375
+      },
+      "execute": {
+        "cpu": 96.4,
+        "memory": 4692.72265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 68.5,
+        "memory": 4645.609375
+      },
+      "execute": {
+        "cpu": 70.2,
+        "memory": 4711.01171875
+      }
+    }
+  },
+  "aks_test_for_primes": {
+    "wasm": {
+      "before": {
+        "cpu": 72.2,
+        "memory": 4693.5390625
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 4708.9453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.0,
+        "memory": 4682.9140625
+      },
+      "execute": {
+        "cpu": 74.9,
+        "memory": 4709.73828125
+      }
+    }
+  },
+  "a_search_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 66.5,
+        "memory": 4685.76171875
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 4685.5859375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.2,
+        "memory": 3825.2578125
+      },
+      "execute": {
+        "cpu": 65.7,
+        "memory": 3840.12890625
+      }
+    }
+  },
+  "accumulator_factory": {
+    "wasm": {
+      "before": {
+        "cpu": 83.3,
+        "memory": 3826.55859375
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 3870.1328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.4,
+        "memory": 3849.359375
+      },
+      "execute": {
+        "cpu": 87.1,
+        "memory": 3853.921875
+      }
+    }
+  },
+  "almost_prime": {
+    "wasm": {
+      "before": {
+        "cpu": 61.2,
+        "memory": 3863.734375
+      },
+      "execute": {
+        "cpu": 98.5,
+        "memory": 3870.953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.1,
+        "memory": 3871.48046875
+      },
+      "execute": {
+        "cpu": 87.4,
+        "memory": 3864.46875
+      }
+    }
+  },
+  "anti-primes": {
+    "wasm": {
+      "before": {
+        "cpu": 73.8,
+        "memory": 3857.40234375
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 3872.828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.7,
+        "memory": 3865.59375
+      },
+      "execute": {
+        "cpu": 85.8,
+        "memory": 3861.8515625
+      }
+    }
+  },
+  "approximate_equality": {
+    "wasm": {
+      "before": {
+        "cpu": 81.9,
+        "memory": 3849.51953125
+      },
+      "execute": {
+        "cpu": 97.7,
+        "memory": 3883.87890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 76.0,
+        "memory": 3900.85546875
+      },
+      "execute": {
+        "cpu": 64.4,
+        "memory": 3890.43359375
+      }
+    }
+  },
+  "array_length": {
+    "wasm": {
+      "before": {
+        "cpu": 73.3,
+        "memory": 3843.94140625
+      },
+      "execute": {
+        "cpu": 96.3,
+        "memory": 3919.8515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 73.6,
+        "memory": 3876.56640625
+      },
+      "execute": {
+        "cpu": 71.8,
+        "memory": 3895.30859375
+      }
+    }
+  },
+  "attractive_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 51.8,
+        "memory": 3859.71875
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 3879.1484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 91.7,
+        "memory": 3866.32421875
+      },
+      "execute": {
+        "cpu": 82.9,
+        "memory": 3889.453125
+      }
+    }
+  },
+  "averages-arithmetic_mean": {
+    "wasm": {
+      "before": {
+        "cpu": 46.1,
+        "memory": 3871.58203125
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 3935.6484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 75.6,
+        "memory": 3871.09765625
+      },
+      "execute": {
+        "cpu": 92.2,
+        "memory": 3881.60546875
+      }
+    }
+  },
+  "averages-mean_angle": {
+    "wasm": {
+      "before": {
+        "cpu": 79.2,
+        "memory": 3858.20703125
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 3908.015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 82.8,
+        "memory": 3866.171875
+      },
+      "execute": {
+        "cpu": 76.8,
+        "memory": 3883.5
+      }
+    }
+  },
+  "averages-mode": {
+    "wasm": {
+      "before": {
+        "cpu": 57.1,
+        "memory": 3881.6796875
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 3895.63671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 90.3,
+        "memory": 3851.00390625
+      },
+      "execute": {
+        "cpu": 91.1,
+        "memory": 3910.3125
+      }
+    }
+  },
+  "averages-pythagorean_means": {
+    "wasm": {
+      "before": {
+        "cpu": 77.5,
+        "memory": 3824.73828125
+      },
+      "execute": {
+        "cpu": 92.2,
+        "memory": 3912.72265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.6,
+        "memory": 3866.46875
+      },
+      "execute": {
+        "cpu": 90.3,
+        "memory": 3894.41015625
+      }
+    }
+  },
+  "averages-root_mean_square": {
+    "wasm": {
+      "before": {
+        "cpu": 82.9,
+        "memory": 3893.48046875
+      },
+      "execute": {
+        "cpu": 95.6,
+        "memory": 3896.45703125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 78.5,
+        "memory": 3895.3671875
+      },
+      "execute": {
+        "cpu": 90.0,
+        "memory": 3922.73828125
+      }
+    }
+  },
+  "babbage_problem": {
+    "wasm": {
+      "before": {
+        "cpu": 48.5,
+        "memory": 3900.8046875
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 3950.97265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 84.1,
+        "memory": 3874.08984375
+      },
+      "execute": {
+        "cpu": 61.8,
+        "memory": 3916.9140625
+      }
+    }
+  },
+  "balanced_brackets": {
+    "wasm": {
+      "before": {
+        "cpu": 94.3,
+        "memory": 3875.56640625
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 3896.015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.2,
+        "memory": 3916.1640625
+      },
+      "execute": {
+        "cpu": 90.9,
+        "memory": 3915.04296875
+      }
+    }
+  },
+  "balanced_ternary": {
+    "wasm": {
+      "before": {
+        "cpu": 88.7,
+        "memory": 3878.9609375
+      },
+      "execute": {
+        "cpu": 92.3,
+        "memory": 3906.44140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 97.0,
+        "memory": 3870.48046875
+      },
+      "execute": {
+        "cpu": 74.3,
+        "memory": 3916.27734375
+      }
+    }
+  },
+  "bell_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 66.9,
+        "memory": 3855.7421875
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 3904.5546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.0,
+        "memory": 3883.9609375
+      },
+      "execute": {
+        "cpu": 91.8,
+        "memory": 3888.8203125
+      }
+    }
+  },
+  "best_shuffle": {
+    "wasm": {
+      "before": {
+        "cpu": 57.6,
+        "memory": 3894.59765625
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 3921.04296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.0,
+        "memory": 3886.265625
+      },
+      "execute": {
+        "cpu": 96.6,
+        "memory": 3921.6875
+      }
+    }
+  },
+  "binary_digits": {
+    "wasm": {
+      "before": {
+        "cpu": 59.6,
+        "memory": 3883.265625
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 3923.53125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.7,
+        "memory": 3906.63671875
+      },
+      "execute": {
+        "cpu": 89.2,
+        "memory": 3926.875
+      }
+    }
+  },
+  "binary_search": {
+    "wasm": {
+      "before": {
+        "cpu": 23.8,
+        "memory": 3836.8828125
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 3829.25390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.3,
+        "memory": 3973.30078125
+      },
+      "execute": {
+        "cpu": 83.3,
+        "memory": 5764.9375
+      }
+    }
+  },
+  "binary_strings": {
+    "wasm": {
+      "before": {
+        "cpu": 63.8,
+        "memory": 7059.13671875
+      },
+      "execute": {
+        "cpu": 96.3,
+        "memory": 7268.42578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.4,
+        "memory": 7989.26171875
+      },
+      "execute": {
+        "cpu": 72.6,
+        "memory": 8019.30859375
+      }
+    }
+  },
+  "box_the_compass": {
+    "wasm": {
+      "before": {
+        "cpu": 71.4,
+        "memory": 7995.234375
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 5628.18359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.3,
+        "memory": 3968.81640625
+      },
+      "execute": {
+        "cpu": 77.0,
+        "memory": 3970.6328125
+      }
+    }
+  },
+  "csv_to_html_translation": {
+    "wasm": {
+      "before": {
+        "cpu": 54.5,
+        "memory": 3958.9453125
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 3963.76953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.3,
+        "memory": 3936.6640625
+      },
+      "execute": {
+        "cpu": 75.8,
+        "memory": 3961.1640625
+      }
+    }
+  },
+  "caesar_cipher": {
+    "wasm": {
+      "before": {
+        "cpu": 75.5,
+        "memory": 3964.79296875
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 3961.0390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 82.8,
+        "memory": 3969.94140625
+      },
+      "execute": {
+        "cpu": 82.0,
+        "memory": 3980.5625
+      }
+    }
+  },
+  "calculating_the_value_of_e": {
+    "wasm": {
+      "before": {
+        "cpu": 77.8,
+        "memory": 3959.0625
+      },
+      "execute": {
+        "cpu": 96.6,
+        "memory": 3985.109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.4,
+        "memory": 3960.03125
+      },
+      "execute": {
+        "cpu": 82.9,
+        "memory": 3981.640625
+      }
+    }
+  },
+  "calendar": {
+    "wasm": {
+      "before": {
+        "cpu": 90.8,
+        "memory": 4018.4140625
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4016.2265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 3981.01953125
+      },
+      "execute": {
+        "cpu": 88.6,
+        "memory": 3908.625
+      }
+    }
+  },
+  "cantor_set": {
+    "wasm": {
+      "before": {
+        "cpu": 92.1,
+        "memory": 3887.30859375
+      },
+      "execute": {
+        "cpu": 98.8,
+        "memory": 3912.75
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.3,
+        "memory": 3885.25390625
+      },
+      "execute": {
+        "cpu": 82.0,
+        "memory": 3906.30859375
+      }
+    }
+  },
+  "carmichael_3_strong_pseudoprimes": {
+    "wasm": {
+      "before": {
+        "cpu": 45.8,
+        "memory": 3892.203125
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 3904.6875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.6,
+        "memory": 3872.71875
+      },
+      "execute": {
+        "cpu": 90.6,
+        "memory": 3904.9453125
+      }
+    }
+  },
+  "cartesian_product_of_two_or_more_lists": {
+    "wasm": {
+      "before": {
+        "cpu": 47.5,
+        "memory": 3904.62109375
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 3910.12890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 82.6,
+        "memory": 3891.8203125
+      },
+      "execute": {
+        "cpu": 89.6,
+        "memory": 3906.734375
+      }
+    }
+  },
+  "case-sensitivity_of_identifiers": {
+    "wasm": {
+      "before": {
+        "cpu": 87.8,
+        "memory": 3918.0859375
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 3904.94140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.1,
+        "memory": 3893.7109375
+      },
+      "execute": {
+        "cpu": 84.4,
+        "memory": 3907.9921875
+      }
+    }
+  },
+  "catalan_numbers-pascals_triangle": {
+    "wasm": {
+      "before": {
+        "cpu": 58.6,
+        "memory": 3879.42578125
+      },
+      "execute": {
+        "cpu": 94.5,
+        "memory": 3904.55078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 72.4,
+        "memory": 3883.2578125
+      },
+      "execute": {
+        "cpu": 88.1,
+        "memory": 3909.05859375
+      }
+    }
+  },
+  "catamorphism": {
+    "wasm": {
+      "before": {
+        "cpu": 61.5,
+        "memory": 3903.14453125
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 3919.828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.9,
+        "memory": 3889.3046875
+      },
+      "execute": {
+        "cpu": 89.2,
+        "memory": 3933.953125
+      }
+    }
+  },
+  "chaocipher": {
+    "wasm": {
+      "before": {
+        "cpu": 93.9,
+        "memory": 3907.72265625
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 3922.96484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.1,
+        "memory": 3936.00390625
+      },
+      "execute": {
+        "cpu": 82.1,
+        "memory": 3939.44140625
+      }
+    }
+  },
+  "character_codes": {
+    "wasm": {
+      "before": {
+        "cpu": 53.3,
+        "memory": 3906.58203125
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 3928.51953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.6,
+        "memory": 3897.38671875
+      },
+      "execute": {
+        "cpu": 80.4,
+        "memory": 3948.84765625
+      }
+    }
+  },
+  "chebyshev_coefficients": {
+    "wasm": {
+      "before": {
+        "cpu": 74.2,
+        "memory": 3920.3515625
+      },
+      "execute": {
+        "cpu": 96.0,
+        "memory": 3948.13671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 78.0,
+        "memory": 3894.0
+      },
+      "execute": {
+        "cpu": 84.0,
+        "memory": 3930.93359375
+      }
+    }
+  },
+  "check_input_device_is_a_terminal": {
+    "wasm": {
+      "before": {
+        "cpu": 51.4,
+        "memory": 3945.21875
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 3949.27734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.0,
+        "memory": 3898.3515625
+      },
+      "execute": {
+        "cpu": 59.7,
+        "memory": 3933.40234375
+      }
+    }
+  },
+  "check_output_device_is_a_terminal": {
+    "wasm": {
+      "before": {
+        "cpu": 46.8,
+        "memory": 3921.81640625
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 3957.671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 80.5,
+        "memory": 3900.734375
+      },
+      "execute": {
+        "cpu": 83.9,
+        "memory": 3921.2578125
+      }
+    }
+  },
+  "cheryls_birthday": {
+    "wasm": {
+      "before": {
+        "cpu": 89.4,
+        "memory": 3920.671875
+      },
+      "execute": {
+        "cpu": 97.2,
+        "memory": 3931.7265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 52.8,
+        "memory": 3916.39453125
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 3946.359375
+      }
+    }
+  },
+  "chinese_remainder_theorem": {
+    "wasm": {
+      "before": {
+        "cpu": 87.8,
+        "memory": 3923.61328125
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 3937.56640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 98.1,
+        "memory": 3892.34765625
+      },
+      "execute": {
+        "cpu": 92.3,
+        "memory": 3928.1875
+      }
+    }
+  },
+  "chinese_zodiac": {
+    "wasm": {
+      "before": {
+        "cpu": 54.9,
+        "memory": 3958.20703125
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 3947.52734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 72.3,
+        "memory": 3931.38671875
+      },
+      "execute": {
+        "cpu": 88.2,
+        "memory": 3946.12890625
+      }
+    }
+  },
+  "cholesky_decomposition": {
+    "wasm": {
+      "before": {
+        "cpu": 67.1,
+        "memory": 3951.1328125
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 3953.8203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.0,
+        "memory": 3923.8671875
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 3941.34375
+      }
+    }
+  },
+  "circles_of_given_radius_through_two_points": {
+    "wasm": {
+      "before": {
+        "cpu": 86.6,
+        "memory": 3958.20703125
+      },
+      "execute": {
+        "cpu": 95.9,
+        "memory": 3957.828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 83.1,
+        "memory": 3932.88671875
+      },
+      "execute": {
+        "cpu": 90.0,
+        "memory": 3940.66796875
+      }
+    }
+  },
+  "combinations": {
+    "wasm": {
+      "before": {
+        "cpu": 75.3,
+        "memory": 3913.359375
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 3988.55078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.0,
+        "memory": 3930.90234375
+      },
+      "execute": {
+        "cpu": 68.2,
+        "memory": 3959.66015625
+      }
+    }
+  },
+  "combinations_with_repetitions": {
+    "wasm": {
+      "before": {
+        "cpu": 51.6,
+        "memory": 3956.44921875
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 3981.484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 91.3,
+        "memory": 3922.14453125
+      },
+      "execute": {
+        "cpu": 92.5,
+        "memory": 3956.19140625
+      }
+    }
+  },
+  "comma_quibbling": {
+    "wasm": {
+      "before": {
+        "cpu": 67.9,
+        "memory": 3950.9140625
+      },
+      "execute": {
+        "cpu": 96.4,
+        "memory": 3945.99609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.6,
+        "memory": 3929.28125
+      },
+      "execute": {
+        "cpu": 72.9,
+        "memory": 3958.97265625
+      }
+    }
+  },
+  "command-line_arguments": {
+    "wasm": {
+      "before": {
+        "cpu": 64.2,
+        "memory": 3939.16015625
+      },
+      "execute": {
+        "cpu": 86.3,
+        "memory": 3961.828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 85.6,
+        "memory": 3954.71875
+      },
+      "execute": {
+        "cpu": 77.2,
+        "memory": 3949.87890625
+      }
+    }
+  },
+  "continued_fraction": {
+    "wasm": {
+      "before": {
+        "cpu": 58.6,
+        "memory": 3961.03125
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 3968.48046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.5,
+        "memory": 3927.55078125
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 3973.21484375
+      }
+    }
+  },
+  "continued_fraction-arithmetic-construct_from_rational_number": {
+    "wasm": {
+      "before": {
+        "cpu": 60.0,
+        "memory": 3922.82421875
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 3960.9609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.4,
+        "memory": 3938.69140625
+      },
+      "execute": {
+        "cpu": 78.7,
+        "memory": 3969.1484375
+      }
+    }
+  },
+  "convert_decimal_number_to_rational": {
+    "wasm": {
+      "before": {
+        "cpu": 46.6,
+        "memory": 3943.87890625
+      },
+      "execute": {
+        "cpu": 95.7,
+        "memory": 3983.09765625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.0,
+        "memory": 3930.3671875
+      },
+      "execute": {
+        "cpu": 88.8,
+        "memory": 3944.46875
+      }
+    }
+  },
+  "convex_hull": {
+    "wasm": {
+      "before": {
+        "cpu": 53.6,
+        "memory": 3933.55078125
+      },
+      "execute": {
+        "cpu": 93.9,
+        "memory": 3970.41796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.4,
+        "memory": 3909.875
+      },
+      "execute": {
+        "cpu": 92.5,
+        "memory": 3945.59375
+      }
+    }
+  },
+  "copy_a_string": {
+    "wasm": {
+      "before": {
+        "cpu": 61.0,
+        "memory": 3941.34765625
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 3949.73828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.0,
+        "memory": 3919.46875
+      },
+      "execute": {
+        "cpu": 89.9,
+        "memory": 3983.46484375
+      }
+    }
+  },
+  "count_occurrences_of_a_substring": {
+    "wasm": {
+      "before": {
+        "cpu": 94.8,
+        "memory": 3953.24609375
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4002.76171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.8,
+        "memory": 3971.765625
+      },
+      "execute": {
+        "cpu": 76.0,
+        "memory": 3944.2890625
+      }
+    }
+  },
+  "cramers_rule": {
+    "wasm": {
+      "before": {
+        "cpu": 55.4,
+        "memory": 3924.90625
+      },
+      "execute": {
+        "cpu": 92.5,
+        "memory": 3940.40234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.7,
+        "memory": 3865.98046875
+      },
+      "execute": {
+        "cpu": 59.8,
+        "memory": 3919.75390625
+      }
+    }
+  },
+  "create_an_html_table": {
+    "wasm": {
+      "before": {
+        "cpu": 67.1,
+        "memory": 3876.7109375
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 3910.1953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.5,
+        "memory": 3873.6171875
+      },
+      "execute": {
+        "cpu": 82.8,
+        "memory": 3930.0703125
+      }
+    }
+  },
+  "create_an_object_at_a_given_address": {
+    "wasm": {
+      "before": {
+        "cpu": 66.4,
+        "memory": 3905.76953125
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 3945.62890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.8,
+        "memory": 3871.05078125
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 3912.19921875
+      }
+    }
+  },
+  "currying": {
+    "wasm": {
+      "before": {
+        "cpu": 57.6,
+        "memory": 3892.91015625
+      },
+      "execute": {
+        "cpu": 97.2,
+        "memory": 3930.21484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.8,
+        "memory": 3889.2890625
+      },
+      "execute": {
+        "cpu": 71.9,
+        "memory": 3917.015625
+      }
+    }
+  },
+  "cycle_detection": {
+    "wasm": {
+      "before": {
+        "cpu": 55.1,
+        "memory": 3897.6328125
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 3931.5625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 87.4,
+        "memory": 3857.34375
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 3901.29296875
+      }
+    }
+  },
+  "damm_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 57.5,
+        "memory": 3908.20703125
+      },
+      "execute": {
+        "cpu": 91.7,
+        "memory": 3911.9140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 99.5,
+        "memory": 5420.76953125
+      },
+      "execute": {
+        "cpu": 84.6,
+        "memory": 8319.82421875
+      }
+    }
+  },
+  "day_of_the_week": {
+    "wasm": {
+      "before": {
+        "cpu": 55.0,
+        "memory": 8225.375
+      },
+      "execute": {
+        "cpu": 95.7,
+        "memory": 6568.78515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.9,
+        "memory": 6553.01953125
+      },
+      "execute": {
+        "cpu": 87.6,
+        "memory": 6590.0234375
+      }
+    }
+  },
+  "deal_cards_for_freecell": {
+    "wasm": {
+      "before": {
+        "cpu": 54.6,
+        "memory": 6535.64453125
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 6534.02734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.7,
+        "memory": 6592.1640625
+      },
+      "execute": {
+        "cpu": 68.7,
+        "memory": 6607.890625
+      }
+    }
+  },
+  "deconvolution-1d": {
+    "wasm": {
+      "before": {
+        "cpu": 62.8,
+        "memory": 6593.8671875
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 4003.0078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 44.7,
+        "memory": 3997.19921875
+      },
+      "execute": {
+        "cpu": 71.1,
+        "memory": 4015.046875
+      }
+    }
+  },
+  "deconvolution-2d": {
+    "wasm": {
+      "before": {
+        "cpu": 45.3,
+        "memory": 3998.48828125
+      },
+      "execute": {
+        "cpu": 97.6,
+        "memory": 4004.4921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.9,
+        "memory": 3996.15625
+      },
+      "execute": {
+        "cpu": 71.1,
+        "memory": 3997.109375
+      }
+    }
+  },
+  "deepcopy": {
+    "wasm": {
+      "before": {
+        "cpu": 77.2,
+        "memory": 3982.71484375
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 3994.74609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.3,
+        "memory": 4014.96484375
+      },
+      "execute": {
+        "cpu": 75.3,
+        "memory": 4023.83203125
+      }
+    }
+  },
+  "delegates": {
+    "wasm": {
+      "before": {
+        "cpu": 73.1,
+        "memory": 3973.41796875
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 3989.3671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 76.0,
+        "memory": 3978.765625
+      },
+      "execute": {
+        "cpu": 66.3,
+        "memory": 4022.125
+      }
+    }
+  },
+  "department_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 71.8,
+        "memory": 3919.98046875
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 3935.86328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 74.8,
+        "memory": 3893.53515625
+      },
+      "execute": {
+        "cpu": 59.5,
+        "memory": 3901.42578125
+      }
+    }
+  },
+  "determinant_and_permanent": {
+    "wasm": {
+      "before": {
+        "cpu": 80.4,
+        "memory": 3916.08203125
+      },
+      "execute": {
+        "cpu": 96.0,
+        "memory": 3940.85546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 87.4,
+        "memory": 3911.59375
+      },
+      "execute": {
+        "cpu": 85.8,
+        "memory": 3941.171875
+      }
+    }
+  },
+  "determine_if_a_string_has_all_the_same_characters": {
+    "wasm": {
+      "before": {
+        "cpu": 41.2,
+        "memory": 3905.2109375
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 3928.453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 82.0,
+        "memory": 3910.765625
+      },
+      "execute": {
+        "cpu": 91.8,
+        "memory": 3933.265625
+      }
+    }
+  },
+  "determine_if_a_string_has_all_unique_characters": {
+    "wasm": {
+      "before": {
+        "cpu": 53.3,
+        "memory": 3942.14453125
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 3949.44140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.2,
+        "memory": 3927.99609375
+      },
+      "execute": {
+        "cpu": 86.5,
+        "memory": 3923.8359375
+      }
+    }
+  },
+  "dice_game_probabilities": {
+    "wasm": {
+      "before": {
+        "cpu": 73.8,
+        "memory": 3923.234375
+      },
+      "execute": {
+        "cpu": 96.7,
+        "memory": 3924.33203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.5,
+        "memory": 3922.68359375
+      },
+      "execute": {
+        "cpu": 83.5,
+        "memory": 3945.4765625
+      }
+    }
+  },
+  "digital_root": {
+    "wasm": {
+      "before": {
+        "cpu": 49.9,
+        "memory": 3937.76953125
+      },
+      "execute": {
+        "cpu": 97.0,
+        "memory": 3953.38671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 82.1,
+        "memory": 3925.76171875
+      },
+      "execute": {
+        "cpu": 86.8,
+        "memory": 3941.17578125
+      }
+    }
+  },
+  "digital_root-multiplicative_digital_root": {
+    "wasm": {
+      "before": {
+        "cpu": 52.6,
+        "memory": 3904.19140625
+      },
+      "execute": {
+        "cpu": 96.4,
+        "memory": 3959.26953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.3,
+        "memory": 3924.23828125
+      },
+      "execute": {
+        "cpu": 65.7,
+        "memory": 3925.6875
+      }
+    }
+  },
+  "dijkstras_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 77.6,
+        "memory": 3910.875
+      },
+      "execute": {
+        "cpu": 94.0,
+        "memory": 3934.31640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.7,
+        "memory": 3920.578125
+      },
+      "execute": {
+        "cpu": 64.2,
+        "memory": 3940.0703125
+      }
+    }
+  },
+  "dinesmans_multiple-dwelling_problem": {
+    "wasm": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 3969.1796875
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 3979.3984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.6,
+        "memory": 3936.35546875
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 3937.3984375
+      }
+    }
+  },
+  "diversity_prediction_theorem": {
+    "wasm": {
+      "before": {
+        "cpu": 88.3,
+        "memory": 3950.4453125
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 3961.19140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.3,
+        "memory": 3946.27734375
+      },
+      "execute": {
+        "cpu": 87.9,
+        "memory": 3959.52734375
+      }
+    }
+  },
+  "dot_product": {
+    "wasm": {
+      "before": {
+        "cpu": 54.0,
+        "memory": 3924.03515625
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 3954.89453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.4,
+        "memory": 3949.75390625
+      },
+      "execute": {
+        "cpu": 84.9,
+        "memory": 3959.66796875
+      }
+    }
+  },
+  "doubly-linked_list-traversal": {
+    "wasm": {
+      "before": {
+        "cpu": 94.5,
+        "memory": 3925.51171875
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 3949.85546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.1,
+        "memory": 3923.01171875
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 3964.5703125
+      }
+    }
+  },
+  "draw_a_cuboid": {
+    "wasm": {
+      "before": {
+        "cpu": 61.5,
+        "memory": 3923.65625
+      },
+      "execute": {
+        "cpu": 97.3,
+        "memory": 3965.8828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.7,
+        "memory": 3916.80078125
+      },
+      "execute": {
+        "cpu": 73.1,
+        "memory": 3934.12890625
+      }
+    }
+  },
+  "egyptian_division": {
+    "wasm": {
+      "before": {
+        "cpu": 89.3,
+        "memory": 3987.89453125
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 4011.24609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 78.3,
+        "memory": 3980.77734375
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 3969.55078125
+      }
+    }
+  },
+  "faulhabers_triangle": {
+    "wasm": {
+      "before": {
+        "cpu": 59.2,
+        "memory": 3843.5859375
+      },
+      "execute": {
+        "cpu": 97.2,
+        "memory": 3854.20703125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 3876.33984375
+      },
+      "execute": {
+        "cpu": 62.3,
+        "memory": 3873.4375
+      }
+    }
+  },
+  "feigenbaum_constant_calculation": {
+    "wasm": {
+      "before": {
+        "cpu": 59.6,
+        "memory": 3855.99609375
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 3870.6484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 44.7,
+        "memory": 3885.6640625
+      },
+      "execute": {
+        "cpu": 66.9,
+        "memory": 3891.71484375
+      }
+    }
+  },
+  "elementary_cellular_automaton-random_number_generator": {
+    "wasm": {
+      "before": {
+        "cpu": 42.9,
+        "memory": 3946.80859375
+      },
+      "execute": {
+        "cpu": 96.4,
+        "memory": 3960.21875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.7,
+        "memory": 3956.3046875
+      },
+      "execute": {
+        "cpu": 63.3,
+        "memory": 3944.75
+      }
+    }
+  },
+  "elliptic_curve_arithmetic": {
+    "wasm": {
+      "before": {
+        "cpu": 58.5,
+        "memory": 3934.6640625
+      },
+      "execute": {
+        "cpu": 93.9,
+        "memory": 3929.44921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.6,
+        "memory": 3925.7890625
+      },
+      "execute": {
+        "cpu": 53.0,
+        "memory": 3984.2578125
+      }
+    }
+  },
+  "emirp_primes": {
+    "wasm": {
+      "before": {
+        "cpu": 74.9,
+        "memory": 3967.30859375
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 3995.4296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 49.9,
+        "memory": 3977.08203125
+      },
+      "execute": {
+        "cpu": 73.7,
+        "memory": 3978.4453125
+      }
+    }
+  },
+  "environment_variables": {
+    "wasm": {
+      "before": {
+        "cpu": 58.8,
+        "memory": 3967.296875
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 3984.5703125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 79.4,
+        "memory": 3958.9140625
+      },
+      "execute": {
+        "cpu": 76.0,
+        "memory": 3982.890625
+      }
+    }
+  },
+  "equilibrium_index": {
+    "wasm": {
+      "before": {
+        "cpu": 48.4,
+        "memory": 3983.81640625
+      },
+      "execute": {
+        "cpu": 97.5,
+        "memory": 3993.35546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.4,
+        "memory": 3948.203125
+      },
+      "execute": {
+        "cpu": 81.8,
+        "memory": 3968.44140625
+      }
+    }
+  },
+  "ethiopian_multiplication": {
+    "wasm": {
+      "before": {
+        "cpu": 58.4,
+        "memory": 3937.171875
+      },
+      "execute": {
+        "cpu": 97.4,
+        "memory": 3929.76953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.6,
+        "memory": 3950.62890625
+      },
+      "execute": {
+        "cpu": 75.5,
+        "memory": 3958.57421875
+      }
+    }
+  },
+  "euler_method": {
+    "wasm": {
+      "before": {
+        "cpu": 78.5,
+        "memory": 3908.9140625
+      },
+      "execute": {
+        "cpu": 99.4,
+        "memory": 3950.15234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.6,
+        "memory": 3944.7109375
+      },
+      "execute": {
+        "cpu": 83.9,
+        "memory": 3956.19140625
+      }
+    }
+  },
+  "eulers_identity": {
+    "wasm": {
+      "before": {
+        "cpu": 69.3,
+        "memory": 3978.48046875
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 3979.6015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 77.2,
+        "memory": 3906.703125
+      },
+      "execute": {
+        "cpu": 91.2,
+        "memory": 3925.84765625
+      }
+    }
+  },
+  "evaluate_binomial_coefficients": {
+    "wasm": {
+      "before": {
+        "cpu": 62.1,
+        "memory": 3914.26171875
+      },
+      "execute": {
+        "cpu": 92.9,
+        "memory": 3936.51171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 47.7,
+        "memory": 3931.01953125
+      },
+      "execute": {
+        "cpu": 85.6,
+        "memory": 3965.5703125
+      }
+    }
+  },
+  "evolutionary_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 78.0,
+        "memory": 3944.08203125
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 3946.2890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.5,
+        "memory": 3942.99609375
+      },
+      "execute": {
+        "cpu": 80.5,
+        "memory": 3966.28515625
+      }
+    }
+  },
+  "exceptions-catch_an_exception_thrown_in_a_nested_call": {
+    "wasm": {
+      "before": {
+        "cpu": 80.5,
+        "memory": 3936.24609375
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 3965.47265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.8,
+        "memory": 3930.56640625
+      },
+      "execute": {
+        "cpu": 87.5,
+        "memory": 3998.78125
+      }
+    }
+  },
+  "exponentiation_operator": {
+    "wasm": {
+      "before": {
+        "cpu": 49.3,
+        "memory": 3937.421875
+      },
+      "execute": {
+        "cpu": 97.5,
+        "memory": 3939.7265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.6,
+        "memory": 3936.734375
+      },
+      "execute": {
+        "cpu": 70.8,
+        "memory": 3987.79296875
+      }
+    }
+  },
+  "exponentiation_order": {
+    "wasm": {
+      "before": {
+        "cpu": 55.2,
+        "memory": 3953.234375
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 3974.43359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.6,
+        "memory": 3947.37109375
+      },
+      "execute": {
+        "cpu": 90.8,
+        "memory": 3968.7265625
+      }
+    }
+  },
+  "extract_file_extension": {
+    "wasm": {
+      "before": {
+        "cpu": 85.3,
+        "memory": 3937.4453125
+      },
+      "execute": {
+        "cpu": 98.0,
+        "memory": 3953.7578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 68.9,
+        "memory": 3936.1015625
+      },
+      "execute": {
+        "cpu": 89.4,
+        "memory": 3962.9921875
+      }
+    }
+  },
+  "extreme_floating_point_values": {
+    "wasm": {
+      "before": {
+        "cpu": 78.9,
+        "memory": 3938.01953125
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 3971.52734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.9,
+        "memory": 3947.671875
+      },
+      "execute": {
+        "cpu": 64.4,
+        "memory": 3978.2890625
+      }
+    }
+  },
+  "factors_of_an_integer": {
+    "wasm": {
+      "before": {
+        "cpu": 82.3,
+        "memory": 3948.33203125
+      },
+      "execute": {
+        "cpu": 94.5,
+        "memory": 3969.6953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 79.0,
+        "memory": 3930.71875
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 3965.1640625
+      }
+    }
+  },
+  "fast_fourier_transform": {
+    "wasm": {
+      "before": {
+        "cpu": 56.0,
+        "memory": 3951.26171875
+      },
+      "execute": {
+        "cpu": 94.5,
+        "memory": 3980.83984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.0,
+        "memory": 3943.4140625
+      },
+      "execute": {
+        "cpu": 80.9,
+        "memory": 4020.8046875
+      }
+    }
+  },
+  "faulhabers_formula": {
+    "wasm": {
+      "before": {
+        "cpu": 68.2,
+        "memory": 3948.1484375
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 3980.91015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.4,
+        "memory": 3963.33203125
+      },
+      "execute": {
+        "cpu": 76.7,
+        "memory": 3985.65234375
+      }
+    }
+  },
+  "fibonacci_n-step_number_sequences": {
+    "wasm": {
+      "before": {
+        "cpu": 87.7,
+        "memory": 3959.18359375
+      },
+      "execute": {
+        "cpu": 98.0,
+        "memory": 3975.21484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.5,
+        "memory": 3960.63671875
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 3992.83984375
+      }
+    }
+  },
+  "fibonacci_word-fractal": {
+    "wasm": {
+      "before": {
+        "cpu": 65.4,
+        "memory": 3980.6015625
+      },
+      "execute": {
+        "cpu": 97.8,
+        "memory": 3988.61328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 48.7,
+        "memory": 3965.1171875
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 3997.09375
+      }
+    }
+  },
+  "filter": {
+    "wasm": {
+      "before": {
+        "cpu": 60.0,
+        "memory": 3971.94921875
+      },
+      "execute": {
+        "cpu": 95.6,
+        "memory": 4023.640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.1,
+        "memory": 3933.30078125
+      },
+      "execute": {
+        "cpu": 86.9,
+        "memory": 3990.93359375
+      }
+    }
+  },
+  "find_the_intersection_of_a_line_with_a_plane": {
+    "wasm": {
+      "before": {
+        "cpu": 63.7,
+        "memory": 3966.95703125
+      },
+      "execute": {
+        "cpu": 89.5,
+        "memory": 3979.9609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 88.0,
+        "memory": 3973.55078125
+      },
+      "execute": {
+        "cpu": 80.0,
+        "memory": 3999.92578125
+      }
+    }
+  },
+  "find_the_intersection_of_two_lines": {
+    "wasm": {
+      "before": {
+        "cpu": 97.5,
+        "memory": 3969.50390625
+      },
+      "execute": {
+        "cpu": 91.1,
+        "memory": 3999.796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.9,
+        "memory": 3960.171875
+      },
+      "execute": {
+        "cpu": 93.9,
+        "memory": 3998.12890625
+      }
+    }
+  },
+  "find_the_missing_permutation": {
+    "wasm": {
+      "before": {
+        "cpu": 96.8,
+        "memory": 3972.625
+      },
+      "execute": {
+        "cpu": 93.0,
+        "memory": 4014.75390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.8,
+        "memory": 3952.20703125
+      },
+      "execute": {
+        "cpu": 91.8,
+        "memory": 3996.94921875
+      }
+    }
+  },
+  "first-class_functions": {
+    "wasm": {
+      "before": {
+        "cpu": 53.4,
+        "memory": 3969.38671875
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 3996.63671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 78.4,
+        "memory": 3984.02734375
+      },
+      "execute": {
+        "cpu": 93.0,
+        "memory": 4039.109375
+      }
+    }
+  },
+  "five_weekends": {
+    "wasm": {
+      "before": {
+        "cpu": 63.6,
+        "memory": 3979.16796875
+      },
+      "execute": {
+        "cpu": 93.9,
+        "memory": 4005.31640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.9,
+        "memory": 3990.140625
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 4006.32421875
+      }
+    }
+  },
+  "fivenum": {
+    "wasm": {
+      "before": {
+        "cpu": 73.0,
+        "memory": 3969.89453125
+      },
+      "execute": {
+        "cpu": 97.5,
+        "memory": 3989.33984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.8,
+        "memory": 4002.03515625
+      },
+      "execute": {
+        "cpu": 79.7,
+        "memory": 4001.515625
+      }
+    }
+  },
+  "floyds_triangle": {
+    "wasm": {
+      "before": {
+        "cpu": 92.7,
+        "memory": 3994.58203125
+      },
+      "execute": {
+        "cpu": 93.0,
+        "memory": 4013.5234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 86.9,
+        "memory": 3968.31640625
+      },
+      "execute": {
+        "cpu": 73.2,
+        "memory": 4018.50390625
+      }
+    }
+  },
+  "formal_power_series": {
+    "wasm": {
+      "before": {
+        "cpu": 89.1,
+        "memory": 3957.19921875
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4011.01953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.4,
+        "memory": 3967.0234375
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4005.5234375
+      }
+    }
+  },
+  "forward_difference": {
+    "wasm": {
+      "before": {
+        "cpu": 56.8,
+        "memory": 4013.609375
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4016.78515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.5,
+        "memory": 3998.82421875
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4029.2578125
+      }
+    }
+  },
+  "four_bit_adder": {
+    "wasm": {
+      "before": {
+        "cpu": 89.6,
+        "memory": 4018.4765625
+      },
+      "execute": {
+        "cpu": 98.0,
+        "memory": 4021.4609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.0,
+        "memory": 4003.87109375
+      },
+      "execute": {
+        "cpu": 92.9,
+        "memory": 4045.53125
+      }
+    }
+  },
+  "function_composition": {
+    "wasm": {
+      "before": {
+        "cpu": 76.4,
+        "memory": 4050.87890625
+      },
+      "execute": {
+        "cpu": 97.2,
+        "memory": 4044.78515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.0,
+        "memory": 3995.72265625
+      },
+      "execute": {
+        "cpu": 75.6,
+        "memory": 4011.37109375
+      }
+    }
+  },
+  "gapful_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 49.4,
+        "memory": 4005.296875
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4042.00390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.3,
+        "memory": 3987.9765625
+      },
+      "execute": {
+        "cpu": 61.2,
+        "memory": 4042.4453125
+      }
+    }
+  },
+  "gaussian_elimination": {
+    "wasm": {
+      "before": {
+        "cpu": 50.7,
+        "memory": 3969.08984375
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4002.22265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 50.2,
+        "memory": 4002.2109375
+      },
+      "execute": {
+        "cpu": 76.0,
+        "memory": 4033.4453125
+      }
+    }
+  },
+  "general_fizzbuzz": {
+    "wasm": {
+      "before": {
+        "cpu": 91.7,
+        "memory": 4000.26953125
+      },
+      "execute": {
+        "cpu": 96.0,
+        "memory": 4012.09765625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 50.9,
+        "memory": 4000.33203125
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 4037.66796875
+      }
+    }
+  },
+  "generate_lower_case_ascii_alphabet": {
+    "wasm": {
+      "before": {
+        "cpu": 93.8,
+        "memory": 4018.7109375
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4023.515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 47.5,
+        "memory": 4020.83984375
+      },
+      "execute": {
+        "cpu": 90.2,
+        "memory": 4029.81640625
+      }
+    }
+  },
+  "greatest_subsequential_sum": {
+    "wasm": {
+      "before": {
+        "cpu": 97.1,
+        "memory": 4005.70703125
+      },
+      "execute": {
+        "cpu": 96.6,
+        "memory": 4034.16796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.0,
+        "memory": 3994.06640625
+      },
+      "execute": {
+        "cpu": 64.4,
+        "memory": 4036.6640625
+      }
+    }
+  },
+  "hamming_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 95.4,
+        "memory": 3985.63671875
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 4019.484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.5,
+        "memory": 4003.4765625
+      },
+      "execute": {
+        "cpu": 70.6,
+        "memory": 4044.375
+      }
+    }
+  },
+  "harshad_or_niven_series": {
+    "wasm": {
+      "before": {
+        "cpu": 68.3,
+        "memory": 3978.87890625
+      },
+      "execute": {
+        "cpu": 95.6,
+        "memory": 4040.23046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 68.4,
+        "memory": 4003.5859375
+      },
+      "execute": {
+        "cpu": 71.9,
+        "memory": 4029.296875
+      }
+    }
+  },
+  "hash_from_two_arrays": {
+    "wasm": {
+      "before": {
+        "cpu": 68.1,
+        "memory": 3978.58203125
+      },
+      "execute": {
+        "cpu": 95.6,
+        "memory": 4028.4765625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.6,
+        "memory": 3998.51171875
+      },
+      "execute": {
+        "cpu": 83.6,
+        "memory": 4037.53125
+      }
+    }
+  },
+  "haversine_formula": {
+    "wasm": {
+      "before": {
+        "cpu": 67.0,
+        "memory": 4022.19140625
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4052.81640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.0,
+        "memory": 3977.64453125
+      },
+      "execute": {
+        "cpu": 91.9,
+        "memory": 4035.30078125
+      }
+    }
+  },
+  "here_document": {
+    "wasm": {
+      "before": {
+        "cpu": 83.9,
+        "memory": 3982.8203125
+      },
+      "execute": {
+        "cpu": 96.2,
+        "memory": 4051.1796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.8,
+        "memory": 3989.484375
+      },
+      "execute": {
+        "cpu": 90.2,
+        "memory": 4029.6015625
+      }
+    }
+  },
+  "heronian_triangles": {
+    "wasm": {
+      "before": {
+        "cpu": 88.6,
+        "memory": 3995.671875
+      },
+      "execute": {
+        "cpu": 95.6,
+        "memory": 4020.1796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.2,
+        "memory": 4000.47265625
+      },
+      "execute": {
+        "cpu": 92.8,
+        "memory": 4007.09765625
+      }
+    }
+  },
+  "hilbert_curve": {
+    "wasm": {
+      "before": {
+        "cpu": 63.1,
+        "memory": 3992.09375
+      },
+      "execute": {
+        "cpu": 98.9,
+        "memory": 4032.0546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.4,
+        "memory": 4016.265625
+      },
+      "execute": {
+        "cpu": 91.9,
+        "memory": 4031.16796875
+      }
+    }
+  },
+  "hofstadter_figure-figure_sequences": {
+    "wasm": {
+      "before": {
+        "cpu": 56.5,
+        "memory": 4010.84765625
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 4016.08203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 47.0,
+        "memory": 4010.11328125
+      },
+      "execute": {
+        "cpu": 92.3,
+        "memory": 4024.97265625
+      }
+    }
+  },
+  "hofstadter_q_sequence": {
+    "wasm": {
+      "before": {
+        "cpu": 97.0,
+        "memory": 3979.640625
+      },
+      "execute": {
+        "cpu": 97.1,
+        "memory": 4038.71875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.5,
+        "memory": 4027.7109375
+      },
+      "execute": {
+        "cpu": 61.7,
+        "memory": 4056.390625
+      }
+    }
+  },
+  "horners_rule_for_polynomial_evaluation": {
+    "wasm": {
+      "before": {
+        "cpu": 22.2,
+        "memory": 3878.078125
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 3872.984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 50.1,
+        "memory": 3875.53515625
+      },
+      "execute": {
+        "cpu": 60.3,
+        "memory": 3901.53125
+      }
+    }
+  },
+  "host_introspection": {
+    "wasm": {
+      "before": {
+        "cpu": 56.0,
+        "memory": 3904.37109375
+      },
+      "execute": {
+        "cpu": 96.0,
+        "memory": 3915.625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.5,
+        "memory": 3881.1875
+      },
+      "execute": {
+        "cpu": 71.4,
+        "memory": 3930.5546875
+      }
+    }
+  },
+  "huffman_coding": {
+    "wasm": {
+      "before": {
+        "cpu": 61.3,
+        "memory": 3928.375
+      },
+      "execute": {
+        "cpu": 98.1,
+        "memory": 3928.91796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.4,
+        "memory": 3892.77734375
+      },
+      "execute": {
+        "cpu": 60.5,
+        "memory": 3947.07421875
+      }
+    }
+  },
+  "iban": {
+    "wasm": {
+      "before": {
+        "cpu": 59.8,
+        "memory": 3930.33203125
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 3932.25
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.1,
+        "memory": 3930.9375
+      },
+      "execute": {
+        "cpu": 62.0,
+        "memory": 3965.734375
+      }
+    }
+  },
+  "isbn13_check_digit": {
+    "wasm": {
+      "before": {
+        "cpu": 66.9,
+        "memory": 3934.984375
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 3940.23828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.8,
+        "memory": 3920.921875
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 3960.98828125
+      }
+    }
+  },
+  "idiomatically_determine_all_the_lowercase_and_uppercase_letters": {
+    "wasm": {
+      "before": {
+        "cpu": 64.2,
+        "memory": 3919.58984375
+      },
+      "execute": {
+        "cpu": 97.5,
+        "memory": 3967.5859375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 91.5,
+        "memory": 3958.703125
+      },
+      "execute": {
+        "cpu": 71.2,
+        "memory": 3988.59375
+      }
+    }
+  },
+  "imaginary_base_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 82.9,
+        "memory": 3947.0390625
+      },
+      "execute": {
+        "cpu": 97.6,
+        "memory": 3960.41796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 84.5,
+        "memory": 3949.39453125
+      },
+      "execute": {
+        "cpu": 88.8,
+        "memory": 3972.53125
+      }
+    }
+  },
+  "increment_a_numerical_string": {
+    "wasm": {
+      "before": {
+        "cpu": 68.3,
+        "memory": 3952.6015625
+      },
+      "execute": {
+        "cpu": 98.1,
+        "memory": 3972.29296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.8,
+        "memory": 3962.98046875
+      },
+      "execute": {
+        "cpu": 83.1,
+        "memory": 3955.609375
+      }
+    }
+  },
+  "infinity": {
+    "wasm": {
+      "before": {
+        "cpu": 85.3,
+        "memory": 3986.3671875
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 3989.39453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.8,
+        "memory": 3939.625
+      },
+      "execute": {
+        "cpu": 65.4,
+        "memory": 3974.75
+      }
+    }
+  },
+  "integer_overflow": {
+    "wasm": {
+      "before": {
+        "cpu": 71.0,
+        "memory": 3949.28125
+      },
+      "execute": {
+        "cpu": 95.9,
+        "memory": 3962.08984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.4,
+        "memory": 3965.171875
+      },
+      "execute": {
+        "cpu": 61.3,
+        "memory": 4006.4921875
+      }
+    }
+  },
+  "integer_roots": {
+    "wasm": {
+      "before": {
+        "cpu": 58.5,
+        "memory": 3958.3671875
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 3972.08203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 84.8,
+        "memory": 3963.9375
+      },
+      "execute": {
+        "cpu": 69.9,
+        "memory": 4001.16796875
+      }
+    }
+  },
+  "inverted_index": {
+    "wasm": {
+      "before": {
+        "cpu": 87.0,
+        "memory": 3967.265625
+      },
+      "execute": {
+        "cpu": 96.2,
+        "memory": 3985.28125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.4,
+        "memory": 3958.265625
+      },
+      "execute": {
+        "cpu": 91.5,
+        "memory": 3987.53125
+      }
+    }
+  },
+  "iterated_digits_squaring": {
+    "wasm": {
+      "before": {
+        "cpu": 55.5,
+        "memory": 3947.98828125
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 3991.58984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 83.3,
+        "memory": 3943.41015625
+      },
+      "execute": {
+        "cpu": 91.0,
+        "memory": 3996.72265625
+      }
+    }
+  },
+  "jaro_distance": {
+    "wasm": {
+      "before": {
+        "cpu": 77.8,
+        "memory": 3976.484375
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 3980.5625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 43.8,
+        "memory": 3966.9453125
+      },
+      "execute": {
+        "cpu": 90.1,
+        "memory": 4011.1953125
+      }
+    }
+  },
+  "jensens_device": {
+    "wasm": {
+      "before": {
+        "cpu": 88.2,
+        "memory": 3976.58984375
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4024.8515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 49.3,
+        "memory": 4001.30078125
+      },
+      "execute": {
+        "cpu": 72.8,
+        "memory": 4007.87890625
+      }
+    }
+  },
+  "jewels_and_stones": {
+    "wasm": {
+      "before": {
+        "cpu": 44.1,
+        "memory": 3955.9765625
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 3973.3203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 52.1,
+        "memory": 3995.90234375
+      },
+      "execute": {
+        "cpu": 74.1,
+        "memory": 3994.4375
+      }
+    }
+  },
+  "jortsort": {
+    "wasm": {
+      "before": {
+        "cpu": 74.3,
+        "memory": 4007.51953125
+      },
+      "execute": {
+        "cpu": 95.9,
+        "memory": 4000.03515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.0,
+        "memory": 3964.9375
+      },
+      "execute": {
+        "cpu": 66.2,
+        "memory": 3997.42578125
+      }
+    }
+  },
+  "josephus_problem": {
+    "wasm": {
+      "before": {
+        "cpu": 60.7,
+        "memory": 3988.2734375
+      },
+      "execute": {
+        "cpu": 97.8,
+        "memory": 3994.609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 3989.1875
+      },
+      "execute": {
+        "cpu": 77.6,
+        "memory": 4018.40625
+      }
+    }
+  },
+  "kahan_summation": {
+    "wasm": {
+      "before": {
+        "cpu": 63.4,
+        "memory": 3989.3359375
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 3990.52734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 86.7,
+        "memory": 3960.94921875
+      },
+      "execute": {
+        "cpu": 74.8,
+        "memory": 4003.03515625
+      }
+    }
+  },
+  "knapsack_problem-0-1": {
+    "wasm": {
+      "before": {
+        "cpu": 72.1,
+        "memory": 3971.75390625
+      },
+      "execute": {
+        "cpu": 97.5,
+        "memory": 4008.60546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 52.7,
+        "memory": 3979.14453125
+      },
+      "execute": {
+        "cpu": 91.0,
+        "memory": 3984.078125
+      }
+    }
+  },
+  "knapsack_problem-bounded": {
+    "wasm": {
+      "before": {
+        "cpu": 57.5,
+        "memory": 3979.80859375
+      },
+      "execute": {
+        "cpu": 96.4,
+        "memory": 4006.7265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 73.3,
+        "memory": 3969.28515625
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4011.48046875
+      }
+    }
+  },
+  "knapsack_problem-continuous": {
+    "wasm": {
+      "before": {
+        "cpu": 57.2,
+        "memory": 3969.24609375
+      },
+      "execute": {
+        "cpu": 97.1,
+        "memory": 4030.109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 90.6,
+        "memory": 3983.4140625
+      },
+      "execute": {
+        "cpu": 65.0,
+        "memory": 4027.5546875
+      }
+    }
+  },
+  "knapsack_problem-unbounded": {
+    "wasm": {
+      "before": {
+        "cpu": 53.1,
+        "memory": 3985.90625
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4014.39453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.5,
+        "memory": 4035.77734375
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4021.44140625
+      }
+    }
+  },
+  "knuth_shuffle": {
+    "wasm": {
+      "before": {
+        "cpu": 62.1,
+        "memory": 3983.76953125
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4025.7890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 81.9,
+        "memory": 4017.96484375
+      },
+      "execute": {
+        "cpu": 82.3,
+        "memory": 4012.81640625
+      }
+    }
+  },
+  "kolakoski_sequence": {
+    "wasm": {
+      "before": {
+        "cpu": 47.2,
+        "memory": 4014.6484375
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 4026.50390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.9,
+        "memory": 3966.71875
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4016.22265625
+      }
+    }
+  },
+  "lu_decomposition": {
+    "wasm": {
+      "before": {
+        "cpu": 63.3,
+        "memory": 3972.3984375
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 4011.3828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 72.5,
+        "memory": 3995.84375
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 4028.64453125
+      }
+    }
+  },
+  "largest_int_from_concatenated_ints": {
+    "wasm": {
+      "before": {
+        "cpu": 69.2,
+        "memory": 3979.8203125
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 4005.77734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.2,
+        "memory": 3993.26171875
+      },
+      "execute": {
+        "cpu": 88.7,
+        "memory": 4017.50390625
+      }
+    }
+  },
+  "largest_number_divisible_by_its_digits": {
+    "wasm": {
+      "before": {
+        "cpu": 71.5,
+        "memory": 3991.6953125
+      },
+      "execute": {
+        "cpu": 90.0,
+        "memory": 4015.66015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.1,
+        "memory": 4035.55078125
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 4019.22265625
+      }
+    }
+  },
+  "law_of_cosines_triples": {
+    "wasm": {
+      "before": {
+        "cpu": 98.6,
+        "memory": 3994.82421875
+      },
+      "execute": {
+        "cpu": 99.3,
+        "memory": 4042.390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.6,
+        "memory": 4003.5390625
+      },
+      "execute": {
+        "cpu": 82.8,
+        "memory": 4042.58203125
+      }
+    }
+  },
+  "leap_year": {
+    "wasm": {
+      "before": {
+        "cpu": 90.3,
+        "memory": 3994.82421875
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4030.75390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.0,
+        "memory": 4027.1875
+      },
+      "execute": {
+        "cpu": 88.6,
+        "memory": 4032.36328125
+      }
+    }
+  },
+  "least_common_multiple": {
+    "wasm": {
+      "before": {
+        "cpu": 94.0,
+        "memory": 4037.80078125
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4056.65234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.7,
+        "memory": 4038.3046875
+      },
+      "execute": {
+        "cpu": 63.9,
+        "memory": 4053.75390625
+      }
+    }
+  },
+  "levenshtein_distance-alignment": {
+    "wasm": {
+      "before": {
+        "cpu": 92.3,
+        "memory": 4027.95703125
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4063.05859375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.4,
+        "memory": 4042.546875
+      },
+      "execute": {
+        "cpu": 82.0,
+        "memory": 4065.390625
+      }
+    }
+  },
+  "linear_congruential_generator": {
+    "wasm": {
+      "before": {
+        "cpu": 58.8,
+        "memory": 4029.375
+      },
+      "execute": {
+        "cpu": 98.5,
+        "memory": 4041.26171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.0,
+        "memory": 4039.23046875
+      },
+      "execute": {
+        "cpu": 61.9,
+        "memory": 4058.16015625
+      }
+    }
+  },
+  "list_comprehensions": {
+    "wasm": {
+      "before": {
+        "cpu": 58.9,
+        "memory": 4002.2109375
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4040.265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.5,
+        "memory": 4014.3515625
+      },
+      "execute": {
+        "cpu": 88.7,
+        "memory": 4046.109375
+      }
+    }
+  },
+  "list_rooted_trees": {
+    "wasm": {
+      "before": {
+        "cpu": 54.5,
+        "memory": 3999.95703125
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4049.31640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.1,
+        "memory": 4013.56640625
+      },
+      "execute": {
+        "cpu": 82.7,
+        "memory": 4060.95703125
+      }
+    }
+  },
+  "literals-integer": {
+    "wasm": {
+      "before": {
+        "cpu": 93.2,
+        "memory": 4001.59375
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4040.9765625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.8,
+        "memory": 4037.26171875
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4039.50390625
+      }
+    }
+  },
+  "long_multiplication": {
+    "wasm": {
+      "before": {
+        "cpu": 93.9,
+        "memory": 4050.94921875
+      },
+      "execute": {
+        "cpu": 98.9,
+        "memory": 4063.94921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 48.6,
+        "memory": 4003.6953125
+      },
+      "execute": {
+        "cpu": 59.9,
+        "memory": 4047.9921875
+      }
+    }
+  },
+  "longest_increasing_subsequence": {
+    "wasm": {
+      "before": {
+        "cpu": 66.9,
+        "memory": 4043.47265625
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4053.08984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.9,
+        "memory": 3990.39453125
+      },
+      "execute": {
+        "cpu": 61.9,
+        "memory": 4036.05859375
+      }
+    }
+  },
+  "loop_over_multiple_arrays_simultaneously": {
+    "wasm": {
+      "before": {
+        "cpu": 64.5,
+        "memory": 4023.75
+      },
+      "execute": {
+        "cpu": 97.5,
+        "memory": 4031.76953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.0,
+        "memory": 4027.23828125
+      },
+      "execute": {
+        "cpu": 99.1,
+        "memory": 4017.22265625
+      }
+    }
+  },
+  "loops-increment_loop_index_within_loop_body": {
+    "wasm": {
+      "before": {
+        "cpu": 48.7,
+        "memory": 4021.171875
+      },
+      "execute": {
+        "cpu": 92.1,
+        "memory": 4043.50390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.4,
+        "memory": 4021.0390625
+      },
+      "execute": {
+        "cpu": 68.1,
+        "memory": 4037.01953125
+      }
+    }
+  },
+  "loops-n_plus_one_half": {
+    "wasm": {
+      "before": {
+        "cpu": 93.0,
+        "memory": 4005.96484375
+      },
+      "execute": {
+        "cpu": 95.7,
+        "memory": 4050.390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.4,
+        "memory": 4008.359375
+      },
+      "execute": {
+        "cpu": 83.7,
+        "memory": 4012.36328125
+      }
+    }
+  },
+  "loops-wrong_ranges": {
+    "wasm": {
+      "before": {
+        "cpu": 90.2,
+        "memory": 4037.21875
+      },
+      "execute": {
+        "cpu": 96.0,
+        "memory": 4056.1328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.9,
+        "memory": 4025.015625
+      },
+      "execute": {
+        "cpu": 92.4,
+        "memory": 4051.484375
+      }
+    }
+  },
+  "lucas-lehmer_test": {
+    "wasm": {
+      "before": {
+        "cpu": 57.2,
+        "memory": 4016.87890625
+      },
+      "execute": {
+        "cpu": 91.5,
+        "memory": 4039.3046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.4,
+        "memory": 4024.0234375
+      },
+      "execute": {
+        "cpu": 79.7,
+        "memory": 4037.76953125
+      }
+    }
+  },
+  "luhn_test_of_credit_card_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 93.8,
+        "memory": 4048.2265625
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 4038.12109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 72.2,
+        "memory": 4037.10546875
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 4038.33203125
+      }
+    }
+  },
+  "magic_squares_of_doubly_even_order": {
+    "wasm": {
+      "before": {
+        "cpu": 92.0,
+        "memory": 4044.66015625
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4075.734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.5,
+        "memory": 4036.7734375
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 4060.01953125
+      }
+    }
+  },
+  "magic_squares_of_singly_even_order": {
+    "wasm": {
+      "before": {
+        "cpu": 68.1,
+        "memory": 4022.4765625
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4047.5078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 4023.78125
+      },
+      "execute": {
+        "cpu": 93.9,
+        "memory": 4030.95703125
+      }
+    }
+  },
+  "man_or_boy_test": {
+    "wasm": {
+      "before": {
+        "cpu": 89.2,
+        "memory": 4035.1875
+      },
+      "execute": {
+        "cpu": 97.3,
+        "memory": 4043.85546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.3,
+        "memory": 4023.6328125
+      },
+      "execute": {
+        "cpu": 90.1,
+        "memory": 4052.91796875
+      }
+    }
+  },
+  "map_range": {
+    "wasm": {
+      "before": {
+        "cpu": 64.4,
+        "memory": 4038.6796875
+      },
+      "execute": {
+        "cpu": 97.9,
+        "memory": 4048.29296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.5,
+        "memory": 4034.203125
+      },
+      "execute": {
+        "cpu": 65.3,
+        "memory": 4041.4453125
+      }
+    }
+  },
+  "matrix_chain_multiplication": {
+    "wasm": {
+      "before": {
+        "cpu": 62.8,
+        "memory": 4036.20703125
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 4026.51171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.2,
+        "memory": 4000.35546875
+      },
+      "execute": {
+        "cpu": 63.0,
+        "memory": 4034.61328125
+      }
+    }
+  },
+  "matrix_transposition": {
+    "wasm": {
+      "before": {
+        "cpu": 66.1,
+        "memory": 4017.71875
+      },
+      "execute": {
+        "cpu": 96.7,
+        "memory": 4031.671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.1,
+        "memory": 4059.1953125
+      },
+      "execute": {
+        "cpu": 91.2,
+        "memory": 4072.84765625
+      }
+    }
+  },
+  "maximum_triangle_path_sum": {
+    "wasm": {
+      "before": {
+        "cpu": 62.6,
+        "memory": 4051.96484375
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4052.78515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 48.6,
+        "memory": 4007.625
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4032.28125
+      }
+    }
+  },
+  "maze_generation": {
+    "wasm": {
+      "before": {
+        "cpu": 90.4,
+        "memory": 4025.1171875
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4044.66796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.0,
+        "memory": 4030.7421875
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 4043.7578125
+      }
+    }
+  },
+  "mcnuggets_problem": {
+    "wasm": {
+      "before": {
+        "cpu": 23.3,
+        "memory": 3973.16015625
+      },
+      "execute": {
+        "cpu": 97.0,
+        "memory": 3973.80859375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 42.2,
+        "memory": 3977.6953125
+      },
+      "execute": {
+        "cpu": 63.9,
+        "memory": 4005.66015625
+      }
+    }
+  },
+  "memory_allocation": {
+    "wasm": {
+      "before": {
+        "cpu": 20.4,
+        "memory": 3873.86328125
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 3874.1953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.9,
+        "memory": 3942.25390625
+      },
+      "execute": {
+        "cpu": 59.3,
+        "memory": 3940.125
+      }
+    }
+  },
+  "middle_three_digits": {
+    "wasm": {
+      "before": {
+        "cpu": 64.8,
+        "memory": 3954.1171875
+      },
+      "execute": {
+        "cpu": 96.6,
+        "memory": 3961.125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 79.4,
+        "memory": 3909.9921875
+      },
+      "execute": {
+        "cpu": 60.8,
+        "memory": 3935.10546875
+      }
+    }
+  },
+  "modular_arithmetic": {
+    "wasm": {
+      "before": {
+        "cpu": 26.6,
+        "memory": 3905.8984375
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 3908.14453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 52.3,
+        "memory": 3908.671875
+      },
+      "execute": {
+        "cpu": 55.4,
+        "memory": 3976.5390625
+      }
+    }
+  },
+  "modular_inverse": {
+    "wasm": {
+      "before": {
+        "cpu": 66.6,
+        "memory": 3961.3515625
+      },
+      "execute": {
+        "cpu": 96.2,
+        "memory": 3975.12109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 75.8,
+        "memory": 3950.7421875
+      },
+      "execute": {
+        "cpu": 65.4,
+        "memory": 3964.5234375
+      }
+    }
+  },
+  "move-to-front_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 78.8,
+        "memory": 3979.94140625
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 3980.125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.5,
+        "memory": 3938.1328125
+      },
+      "execute": {
+        "cpu": 82.7,
+        "memory": 3969.63671875
+      }
+    }
+  },
+  "multifactorial": {
+    "wasm": {
+      "before": {
+        "cpu": 67.1,
+        "memory": 3967.85546875
+      },
+      "execute": {
+        "cpu": 92.8,
+        "memory": 3977.52734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 77.3,
+        "memory": 3952.515625
+      },
+      "execute": {
+        "cpu": 88.7,
+        "memory": 4000.2890625
+      }
+    }
+  },
+  "multiplication_tables": {
+    "wasm": {
+      "before": {
+        "cpu": 45.1,
+        "memory": 3986.23046875
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 3984.8359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 77.7,
+        "memory": 3952.25
+      },
+      "execute": {
+        "cpu": 62.6,
+        "memory": 3985.2265625
+      }
+    }
+  },
+  "multisplit": {
+    "wasm": {
+      "before": {
+        "cpu": 86.5,
+        "memory": 3968.46484375
+      },
+      "execute": {
+        "cpu": 96.6,
+        "memory": 3975.59375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 51.5,
+        "memory": 3986.94140625
+      },
+      "execute": {
+        "cpu": 83.2,
+        "memory": 4016.44140625
+      }
+    }
+  },
+  "munchausen_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 63.1,
+        "memory": 3998.13671875
+      },
+      "execute": {
+        "cpu": 97.1,
+        "memory": 3993.640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.2,
+        "memory": 3979.79296875
+      },
+      "execute": {
+        "cpu": 78.9,
+        "memory": 3987.69140625
+      }
+    }
+  },
+  "mutual_recursion": {
+    "wasm": {
+      "before": {
+        "cpu": 63.1,
+        "memory": 3980.40625
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4002.9453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 74.0,
+        "memory": 3977.1171875
+      },
+      "execute": {
+        "cpu": 80.8,
+        "memory": 4022.78515625
+      }
+    }
+  },
+  "n-queens_problem": {
+    "wasm": {
+      "before": {
+        "cpu": 70.1,
+        "memory": 4015.421875
+      },
+      "execute": {
+        "cpu": 96.9,
+        "memory": 4022.2265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.3,
+        "memory": 3999.24609375
+      },
+      "execute": {
+        "cpu": 84.8,
+        "memory": 4030.95703125
+      }
+    }
+  },
+  "named_parameters": {
+    "wasm": {
+      "before": {
+        "cpu": 70.6,
+        "memory": 3984.28515625
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4002.0390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 50.2,
+        "memory": 4000.71875
+      },
+      "execute": {
+        "cpu": 90.5,
+        "memory": 4021.65625
+      }
+    }
+  },
+  "natural_sorting": {
+    "wasm": {
+      "before": {
+        "cpu": 91.3,
+        "memory": 3993.0859375
+      },
+      "execute": {
+        "cpu": 94.0,
+        "memory": 4017.59375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.9,
+        "memory": 3993.8828125
+      },
+      "execute": {
+        "cpu": 62.3,
+        "memory": 4041.6640625
+      }
+    }
+  },
+  "negative_base_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 70.7,
+        "memory": 3993.0234375
+      },
+      "execute": {
+        "cpu": 93.9,
+        "memory": 4013.12890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 48.2,
+        "memory": 3985.79296875
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4026.83203125
+      }
+    }
+  },
+  "non-continuous_subsequences": {
+    "wasm": {
+      "before": {
+        "cpu": 64.3,
+        "memory": 3993.10546875
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4042.0234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.3,
+        "memory": 4007.890625
+      },
+      "execute": {
+        "cpu": 92.8,
+        "memory": 4037.21484375
+      }
+    }
+  },
+  "non-decimal_radices-convert": {
+    "wasm": {
+      "before": {
+        "cpu": 72.3,
+        "memory": 4034.88671875
+      },
+      "execute": {
+        "cpu": 98.1,
+        "memory": 4050.34375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 84.0,
+        "memory": 3992.375
+      },
+      "execute": {
+        "cpu": 66.9,
+        "memory": 4026.88671875
+      }
+    }
+  },
+  "non-decimal_radices-input": {
+    "wasm": {
+      "before": {
+        "cpu": 87.7,
+        "memory": 4005.21484375
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 4026.7578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.2,
+        "memory": 4011.15625
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4048.2890625
+      }
+    }
+  },
+  "non-decimal_radices-output": {
+    "wasm": {
+      "before": {
+        "cpu": 57.5,
+        "memory": 4015.80078125
+      },
+      "execute": {
+        "cpu": 97.2,
+        "memory": 4022.78515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.8,
+        "memory": 4007.5234375
+      },
+      "execute": {
+        "cpu": 72.3,
+        "memory": 4037.18359375
+      }
+    }
+  },
+  "nth": {
+    "wasm": {
+      "before": {
+        "cpu": 70.2,
+        "memory": 4047.625
+      },
+      "execute": {
+        "cpu": 96.9,
+        "memory": 4036.6640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 90.4,
+        "memory": 3991.16015625
+      },
+      "execute": {
+        "cpu": 72.2,
+        "memory": 4056.90625
+      }
+    }
+  },
+  "nth_root": {
+    "wasm": {
+      "before": {
+        "cpu": 63.5,
+        "memory": 4005.015625
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 4046.37890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 91.4,
+        "memory": 4031.27734375
+      },
+      "execute": {
+        "cpu": 87.2,
+        "memory": 4046.94921875
+      }
+    }
+  },
+  "null_object": {
+    "wasm": {
+      "before": {
+        "cpu": 79.8,
+        "memory": 4018.046875
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4040.5078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 86.0,
+        "memory": 4012.23828125
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4061.16015625
+      }
+    }
+  },
+  "number_names": {
+    "wasm": {
+      "before": {
+        "cpu": 65.3,
+        "memory": 4012.42578125
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 4042.265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.0,
+        "memory": 4016.4921875
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 4065.265625
+      }
+    }
+  },
+  "numeric_error_propagation": {
+    "wasm": {
+      "before": {
+        "cpu": 72.0,
+        "memory": 4025.515625
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4063.10546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.0,
+        "memory": 4011.4296875
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4044.33203125
+      }
+    }
+  },
+  "numeric_separator_syntax": {
+    "wasm": {
+      "before": {
+        "cpu": 66.2,
+        "memory": 4018.26171875
+      },
+      "execute": {
+        "cpu": 94.0,
+        "memory": 4051.44140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.4,
+        "memory": 4039.0234375
+      },
+      "execute": {
+        "cpu": 73.6,
+        "memory": 4074.3203125
+      }
+    }
+  },
+  "numerical_integration-adaptive_simpsons_method": {
+    "wasm": {
+      "before": {
+        "cpu": 94.7,
+        "memory": 4039.78125
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 4061.9140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 81.6,
+        "memory": 4039.56640625
+      },
+      "execute": {
+        "cpu": 88.5,
+        "memory": 4066.0390625
+      }
+    }
+  },
+  "numerical_integration-gauss-legendre_quadrature": {
+    "wasm": {
+      "before": {
+        "cpu": 65.5,
+        "memory": 4030.33984375
+      },
+      "execute": {
+        "cpu": 97.3,
+        "memory": 4074.37109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 73.8,
+        "memory": 4052.73828125
+      },
+      "execute": {
+        "cpu": 72.1,
+        "memory": 4062.65234375
+      }
+    }
+  },
+  "old_russian_measure_of_length": {
+    "wasm": {
+      "before": {
+        "cpu": 71.0,
+        "memory": 4033.078125
+      },
+      "execute": {
+        "cpu": 95.7,
+        "memory": 4047.2578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.9,
+        "memory": 4023.22265625
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4056.0234375
+      }
+    }
+  },
+  "old_lady_swallowed_a_fly": {
+    "wasm": {
+      "before": {
+        "cpu": 89.1,
+        "memory": 4017.09375
+      },
+      "execute": {
+        "cpu": 95.7,
+        "memory": 4078.24609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.7,
+        "memory": 4029.01171875
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4066.2265625
+      }
+    }
+  },
+  "one-dimensional_cellular_automata": {
+    "wasm": {
+      "before": {
+        "cpu": 61.8,
+        "memory": 4027.97265625
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 4061.41796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.5,
+        "memory": 4055.65625
+      },
+      "execute": {
+        "cpu": 65.7,
+        "memory": 4067.25390625
+      }
+    }
+  },
+  "optional_parameters": {
+    "wasm": {
+      "before": {
+        "cpu": 91.8,
+        "memory": 4024.0625
+      },
+      "execute": {
+        "cpu": 96.2,
+        "memory": 4097.41796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.8,
+        "memory": 4054.01953125
+      },
+      "execute": {
+        "cpu": 71.5,
+        "memory": 4082.85546875
+      }
+    }
+  },
+  "orbital_elements": {
+    "wasm": {
+      "before": {
+        "cpu": 58.1,
+        "memory": 4042.08984375
+      },
+      "execute": {
+        "cpu": 97.6,
+        "memory": 4082.1015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.9,
+        "memory": 4035.046875
+      },
+      "execute": {
+        "cpu": 84.3,
+        "memory": 4067.82421875
+      }
+    }
+  },
+  "ordered_partitions": {
+    "wasm": {
+      "before": {
+        "cpu": 93.7,
+        "memory": 4077.53515625
+      },
+      "execute": {
+        "cpu": 98.2,
+        "memory": 4100.546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.2,
+        "memory": 4076.6875
+      },
+      "execute": {
+        "cpu": 74.6,
+        "memory": 4068.2421875
+      }
+    }
+  },
+  "p-value_correction": {
+    "wasm": {
+      "before": {
+        "cpu": 55.6,
+        "memory": 4030.45703125
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 4046.2578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.2,
+        "memory": 4080.12890625
+      },
+      "execute": {
+        "cpu": 92.5,
+        "memory": 4072.06640625
+      }
+    }
+  },
+  "pangram_checker": {
+    "wasm": {
+      "before": {
+        "cpu": 63.8,
+        "memory": 4092.07421875
+      },
+      "execute": {
+        "cpu": 98.6,
+        "memory": 4099.80859375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.5,
+        "memory": 4075.16015625
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4077.1484375
+      }
+    }
+  },
+  "paraffins": {
+    "wasm": {
+      "before": {
+        "cpu": 54.0,
+        "memory": 4081.01171875
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4080.02734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 79.5,
+        "memory": 4043.73046875
+      },
+      "execute": {
+        "cpu": 85.5,
+        "memory": 4076.37109375
+      }
+    }
+  },
+  "parametric_polymorphism": {
+    "wasm": {
+      "before": {
+        "cpu": 92.3,
+        "memory": 4054.92578125
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4081.359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.4,
+        "memory": 4073.40625
+      },
+      "execute": {
+        "cpu": 92.2,
+        "memory": 4081.41015625
+      }
+    }
+  },
+  "parsing-rpn_calculator_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 59.7,
+        "memory": 4086.0078125
+      },
+      "execute": {
+        "cpu": 97.9,
+        "memory": 4088.0703125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 75.4,
+        "memory": 4073.625
+      },
+      "execute": {
+        "cpu": 77.6,
+        "memory": 4087.84375
+      }
+    }
+  },
+  "parsing-rpn_to_infix_conversion": {
+    "wasm": {
+      "before": {
+        "cpu": 86.4,
+        "memory": 4056.62890625
+      },
+      "execute": {
+        "cpu": 95.7,
+        "memory": 4138.61328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.6,
+        "memory": 4104.5546875
+      },
+      "execute": {
+        "cpu": 90.4,
+        "memory": 4145.92578125
+      }
+    }
+  },
+  "pascal_matrix_generation": {
+    "wasm": {
+      "before": {
+        "cpu": 88.1,
+        "memory": 4083.74609375
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 4099.265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.5,
+        "memory": 4050.54296875
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4095.37109375
+      }
+    }
+  },
+  "pascals_triangle": {
+    "wasm": {
+      "before": {
+        "cpu": 88.7,
+        "memory": 4062.94921875
+      },
+      "execute": {
+        "cpu": 97.2,
+        "memory": 4084.1171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.8,
+        "memory": 4045.73828125
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 4086.609375
+      }
+    }
+  },
+  "pascals_triangle-puzzle": {
+    "wasm": {
+      "before": {
+        "cpu": 94.8,
+        "memory": 4077.28125
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 4095.77734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.7,
+        "memory": 4045.29296875
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4100.1796875
+      }
+    }
+  },
+  "peaceful_chess_queen_armies": {
+    "wasm": {
+      "before": {
+        "cpu": 52.5,
+        "memory": 4060.13671875
+      },
+      "execute": {
+        "cpu": 99.0,
+        "memory": 4088.98828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.4,
+        "memory": 4058.5703125
+      },
+      "execute": {
+        "cpu": 67.1,
+        "memory": 4101.8984375
+      }
+    }
+  },
+  "permutation_test": {
+    "wasm": {
+      "before": {
+        "cpu": 56.1,
+        "memory": 4064.15234375
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4100.9453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.9,
+        "memory": 4086.65234375
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 4097.87890625
+      }
+    }
+  },
+  "permutations": {
+    "wasm": {
+      "before": {
+        "cpu": 68.7,
+        "memory": 4145.390625
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 4115.23046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.9,
+        "memory": 4068.69921875
+      },
+      "execute": {
+        "cpu": 87.2,
+        "memory": 4096.87109375
+      }
+    }
+  },
+  "permutations-derangements": {
+    "wasm": {
+      "before": {
+        "cpu": 60.6,
+        "memory": 4071.765625
+      },
+      "execute": {
+        "cpu": 94.0,
+        "memory": 4130.234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 4077.69140625
+      },
+      "execute": {
+        "cpu": 70.4,
+        "memory": 4098.35546875
+      }
+    }
+  },
+  "permutations-rank_of_a_permutation": {
+    "wasm": {
+      "before": {
+        "cpu": 63.9,
+        "memory": 4126.41015625
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 4113.7421875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.4,
+        "memory": 4074.15625
+      },
+      "execute": {
+        "cpu": 92.5,
+        "memory": 4129.2734375
+      }
+    }
+  },
+  "permutations_by_swapping": {
+    "wasm": {
+      "before": {
+        "cpu": 56.7,
+        "memory": 4112.55078125
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4122.7734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.2,
+        "memory": 4061.35546875
+      },
+      "execute": {
+        "cpu": 89.4,
+        "memory": 4137.84375
+      }
+    }
+  },
+  "pernicious_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 52.1,
+        "memory": 4078.5078125
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4107.56640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.8,
+        "memory": 4064.4921875
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 4149.75
+      }
+    }
+  },
+  "phrase_reversals": {
+    "wasm": {
+      "before": {
+        "cpu": 48.4,
+        "memory": 4084.72265625
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 4092.6171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.4,
+        "memory": 4048.09375
+      },
+      "execute": {
+        "cpu": 86.3,
+        "memory": 4109.0546875
+      }
+    }
+  },
+  "playing_cards": {
+    "wasm": {
+      "before": {
+        "cpu": 52.6,
+        "memory": 4073.66796875
+      },
+      "execute": {
+        "cpu": 97.5,
+        "memory": 4107.10546875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.4,
+        "memory": 4039.8984375
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 4088.06640625
+      }
+    }
+  },
+  "poker_hand_analyser": {
+    "wasm": {
+      "before": {
+        "cpu": 49.8,
+        "memory": 4069.81640625
+      },
+      "execute": {
+        "cpu": 96.8,
+        "memory": 4096.75
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.0,
+        "memory": 4110.5625
+      },
+      "execute": {
+        "cpu": 86.8,
+        "memory": 4108.15625
+      }
+    }
+  },
+  "polymorphic_copy": {
+    "wasm": {
+      "before": {
+        "cpu": 53.3,
+        "memory": 4063.20703125
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4105.81640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.1,
+        "memory": 4071.22265625
+      },
+      "execute": {
+        "cpu": 71.9,
+        "memory": 4117.84375
+      }
+    }
+  },
+  "population_count": {
+    "wasm": {
+      "before": {
+        "cpu": 92.6,
+        "memory": 4062.2734375
+      },
+      "execute": {
+        "cpu": 91.5,
+        "memory": 4142.8359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.5,
+        "memory": 4057.11328125
+      },
+      "execute": {
+        "cpu": 91.5,
+        "memory": 4116.5078125
+      }
+    }
+  },
+  "power_set": {
+    "wasm": {
+      "before": {
+        "cpu": 56.9,
+        "memory": 4092.4375
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4155.1953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.4,
+        "memory": 4056.1796875
+      },
+      "execute": {
+        "cpu": 65.3,
+        "memory": 4124.73046875
+      }
+    }
+  },
+  "print_debugging_statement": {
+    "wasm": {
+      "before": {
+        "cpu": 61.9,
+        "memory": 4090.81640625
+      },
+      "execute": {
+        "cpu": 92.4,
+        "memory": 4116.26953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.7,
+        "memory": 4091.80859375
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4119.27734375
+      }
+    }
+  },
+  "priority_queue": {
+    "wasm": {
+      "before": {
+        "cpu": 64.7,
+        "memory": 4064.30078125
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 4102.734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.8,
+        "memory": 4107.32421875
+      },
+      "execute": {
+        "cpu": 66.5,
+        "memory": 4110.515625
+      }
+    }
+  },
+  "probabilistic_choice": {
+    "wasm": {
+      "before": {
+        "cpu": 61.4,
+        "memory": 4111.8203125
+      },
+      "execute": {
+        "cpu": 92.4,
+        "memory": 4114.89453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.6,
+        "memory": 4047.91015625
+      },
+      "execute": {
+        "cpu": 69.8,
+        "memory": 4092.48046875
+      }
+    }
+  },
+  "problem_of_apollonius": {
+    "wasm": {
+      "before": {
+        "cpu": 69.8,
+        "memory": 4107.4609375
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4121.6328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.4,
+        "memory": 4079.7734375
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 4117.1484375
+      }
+    }
+  },
+  "program_name": {
+    "wasm": {
+      "before": {
+        "cpu": 68.6,
+        "memory": 4093.16796875
+      },
+      "execute": {
+        "cpu": 98.1,
+        "memory": 4114.53125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.8,
+        "memory": 4065.80859375
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4162.6875
+      }
+    }
+  },
+  "qr_decomposition": {
+    "wasm": {
+      "before": {
+        "cpu": 97.0,
+        "memory": 4054.58203125
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4106.796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.8,
+        "memory": 4128.90625
+      },
+      "execute": {
+        "cpu": 79.7,
+        "memory": 4120.44140625
+      }
+    }
+  },
+  "quickselect_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 57.4,
+        "memory": 4104.31640625
+      },
+      "execute": {
+        "cpu": 92.9,
+        "memory": 4107.12109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.6,
+        "memory": 4062.3046875
+      },
+      "execute": {
+        "cpu": 76.5,
+        "memory": 4153.3359375
+      }
+    }
+  },
+  "quine": {
+    "wasm": {
+      "before": {
+        "cpu": 67.7,
+        "memory": 4115.89453125
+      },
+      "execute": {
+        "cpu": 96.8,
+        "memory": 4132.6640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.4,
+        "memory": 4078.765625
+      },
+      "execute": {
+        "cpu": 91.1,
+        "memory": 4128.80859375
+      }
+    }
+  },
+  "ramseys_theorem": {
+    "wasm": {
+      "before": {
+        "cpu": 89.8,
+        "memory": 4114.86328125
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 4109.0234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.2,
+        "memory": 4076.83203125
+      },
+      "execute": {
+        "cpu": 77.1,
+        "memory": 4103.16796875
+      }
+    }
+  },
+  "random_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 55.2,
+        "memory": 4102.484375
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4125.578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.6,
+        "memory": 4063.46484375
+      },
+      "execute": {
+        "cpu": 96.4,
+        "memory": 4115.203125
+      }
+    }
+  },
+  "range_expansion": {
+    "wasm": {
+      "before": {
+        "cpu": 79.9,
+        "memory": 4104.8984375
+      },
+      "execute": {
+        "cpu": 96.6,
+        "memory": 4131.15234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.6,
+        "memory": 4077.17578125
+      },
+      "execute": {
+        "cpu": 72.1,
+        "memory": 4127.30078125
+      }
+    }
+  },
+  "range_extraction": {
+    "wasm": {
+      "before": {
+        "cpu": 100.0,
+        "memory": 4417.21875
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4140.91796875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 4081.7890625
+      },
+      "execute": {
+        "cpu": 86.6,
+        "memory": 4104.91796875
+      }
+    }
+  },
+  "ray-casting_algorithm": {
+    "wasm": {
+      "before": {
+        "cpu": 61.3,
+        "memory": 4102.4921875
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4111.3984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.7,
+        "memory": 4090.33203125
+      },
+      "execute": {
+        "cpu": 65.6,
+        "memory": 4113.9296875
+      }
+    }
+  },
+  "record_sound": {
+    "wasm": {
+      "before": {
+        "cpu": 59.6,
+        "memory": 4064.5234375
+      },
+      "execute": {
+        "cpu": 92.5,
+        "memory": 4101.58203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 51.0,
+        "memory": 4083.31640625
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4103.625
+      }
+    }
+  },
+  "regular_expressions": {
+    "wasm": {
+      "before": {
+        "cpu": 53.5,
+        "memory": 4099.66796875
+      },
+      "execute": {
+        "cpu": 94.5,
+        "memory": 4116.46875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.1,
+        "memory": 4089.71875
+      },
+      "execute": {
+        "cpu": 64.2,
+        "memory": 4118.22265625
+      }
+    }
+  },
+  "remove_duplicate_elements": {
+    "wasm": {
+      "before": {
+        "cpu": 52.1,
+        "memory": 4080.39453125
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4135.89453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.0,
+        "memory": 4072.60546875
+      },
+      "execute": {
+        "cpu": 82.0,
+        "memory": 4094.05078125
+      }
+    }
+  },
+  "rep-string": {
+    "wasm": {
+      "before": {
+        "cpu": 51.8,
+        "memory": 4093.9453125
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 4112.73046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.3,
+        "memory": 4075.1953125
+      },
+      "execute": {
+        "cpu": 88.7,
+        "memory": 4093.3671875
+      }
+    }
+  },
+  "repeat": {
+    "wasm": {
+      "before": {
+        "cpu": 55.6,
+        "memory": 4067.52734375
+      },
+      "execute": {
+        "cpu": 96.3,
+        "memory": 4093.25390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.4,
+        "memory": 4072.23828125
+      },
+      "execute": {
+        "cpu": 82.9,
+        "memory": 4122.19140625
+      }
+    }
+  },
+  "repeat_a_string": {
+    "wasm": {
+      "before": {
+        "cpu": 52.8,
+        "memory": 4105.1171875
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 4123.39453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 91.3,
+        "memory": 4073.91796875
+      },
+      "execute": {
+        "cpu": 86.8,
+        "memory": 4134.81640625
+      }
+    }
+  },
+  "resistor_mesh": {
+    "wasm": {
+      "before": {
+        "cpu": 72.7,
+        "memory": 4082.578125
+      },
+      "execute": {
+        "cpu": 96.3,
+        "memory": 4131.2578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.1,
+        "memory": 4072.5234375
+      },
+      "execute": {
+        "cpu": 92.9,
+        "memory": 4118.71484375
+      }
+    }
+  },
+  "return_multiple_values": {
+    "wasm": {
+      "before": {
+        "cpu": 95.6,
+        "memory": 4077.66015625
+      },
+      "execute": {
+        "cpu": 95.9,
+        "memory": 4137.4453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.0,
+        "memory": 4069.6640625
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 4127.46875
+      }
+    }
+  },
+  "reverse_a_string": {
+    "wasm": {
+      "before": {
+        "cpu": 94.4,
+        "memory": 4094.0546875
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4154.75
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 91.9,
+        "memory": 4075.24609375
+      },
+      "execute": {
+        "cpu": 95.9,
+        "memory": 4109.859375
+      }
+    }
+  },
+  "reverse_words_in_a_string": {
+    "wasm": {
+      "before": {
+        "cpu": 79.6,
+        "memory": 4107.4609375
+      },
+      "execute": {
+        "cpu": 95.6,
+        "memory": 4128.8671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 98.3,
+        "memory": 4079.375
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 4124.41796875
+      }
+    }
+  },
+  "roman_numerals-decode": {
+    "wasm": {
+      "before": {
+        "cpu": 54.3,
+        "memory": 4085.46875
+      },
+      "execute": {
+        "cpu": 97.1,
+        "memory": 4103.92578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 79.7,
+        "memory": 4084.0546875
+      },
+      "execute": {
+        "cpu": 67.3,
+        "memory": 4114.30078125
+      }
+    }
+  },
+  "roman_numerals-encode": {
+    "wasm": {
+      "before": {
+        "cpu": 52.5,
+        "memory": 4113.41796875
+      },
+      "execute": {
+        "cpu": 96.0,
+        "memory": 4175.78515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.4,
+        "memory": 4070.95703125
+      },
+      "execute": {
+        "cpu": 88.9,
+        "memory": 4114.93359375
+      }
+    }
+  },
+  "roots_of_a_function": {
+    "wasm": {
+      "before": {
+        "cpu": 54.2,
+        "memory": 4094.83203125
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4123.43359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 85.5,
+        "memory": 4071.20703125
+      },
+      "execute": {
+        "cpu": 70.6,
+        "memory": 4132.15234375
+      }
+    }
+  },
+  "roots_of_unity": {
+    "wasm": {
+      "before": {
+        "cpu": 66.5,
+        "memory": 4129.2109375
+      },
+      "execute": {
+        "cpu": 96.0,
+        "memory": 4163.0234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 52.6,
+        "memory": 4078.9921875
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 4126.4375
+      }
+    }
+  },
+  "run-length_encoding": {
+    "wasm": {
+      "before": {
+        "cpu": 92.4,
+        "memory": 4098.1796875
+      },
+      "execute": {
+        "cpu": 95.9,
+        "memory": 4141.15234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.2,
+        "memory": 4098.68359375
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 4189.6015625
+      }
+    }
+  },
+  "runge-kutta_method": {
+    "wasm": {
+      "before": {
+        "cpu": 56.3,
+        "memory": 4100.62890625
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4164.02734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.2,
+        "memory": 4077.44921875
+      },
+      "execute": {
+        "cpu": 84.9,
+        "memory": 4133.828125
+      }
+    }
+  },
+  "s-expressions": {
+    "wasm": {
+      "before": {
+        "cpu": 65.7,
+        "memory": 4125.66796875
+      },
+      "execute": {
+        "cpu": 91.8,
+        "memory": 4158.9609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.8,
+        "memory": 4093.625
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4131.09765625
+      }
+    }
+  },
+  "search_a_list": {
+    "wasm": {
+      "before": {
+        "cpu": 54.3,
+        "memory": 4130.33203125
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 4130.80078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.3,
+        "memory": 4075.0390625
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 4114.1796875
+      }
+    }
+  },
+  "search_a_list_of_records": {
+    "wasm": {
+      "before": {
+        "cpu": 62.4,
+        "memory": 4107.859375
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4156.6640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 90.4,
+        "memory": 4069.50390625
+      },
+      "execute": {
+        "cpu": 65.5,
+        "memory": 4129.1875
+      }
+    }
+  },
+  "semiprime": {
+    "wasm": {
+      "before": {
+        "cpu": 52.2,
+        "memory": 4099.50390625
+      },
+      "execute": {
+        "cpu": 97.1,
+        "memory": 4141.25390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 71.8,
+        "memory": 4109.3515625
+      },
+      "execute": {
+        "cpu": 58.7,
+        "memory": 4137.9296875
+      }
+    }
+  },
+  "sequence_smallest_number_greater_than_previous_term_with_exactly_n_divisors": {
+    "wasm": {
+      "before": {
+        "cpu": 63.5,
+        "memory": 4097.91796875
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4159.05078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.1,
+        "memory": 4103.75390625
+      },
+      "execute": {
+        "cpu": 93.0,
+        "memory": 4118.36328125
+      }
+    }
+  },
+  "sequence_smallest_number_with_exactly_n_divisors": {
+    "wasm": {
+      "before": {
+        "cpu": 55.9,
+        "memory": 4080.19921875
+      },
+      "execute": {
+        "cpu": 94.5,
+        "memory": 4180.2265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.6,
+        "memory": 4110.0859375
+      },
+      "execute": {
+        "cpu": 74.7,
+        "memory": 4131.84765625
+      }
+    }
+  },
+  "sequence_of_non-squares": {
+    "wasm": {
+      "before": {
+        "cpu": 65.9,
+        "memory": 4068.40625
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 4136.90625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.9,
+        "memory": 4057.32421875
+      },
+      "execute": {
+        "cpu": 78.1,
+        "memory": 4116.44921875
+      }
+    }
+  },
+  "set": {
+    "wasm": {
+      "before": {
+        "cpu": 95.2,
+        "memory": 4120.015625
+      },
+      "execute": {
+        "cpu": 97.0,
+        "memory": 4128.7109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.9,
+        "memory": 4111.5546875
+      },
+      "execute": {
+        "cpu": 85.4,
+        "memory": 4164.16015625
+      }
+    }
+  },
+  "set_consolidation": {
+    "wasm": {
+      "before": {
+        "cpu": 62.4,
+        "memory": 4121.3671875
+      },
+      "execute": {
+        "cpu": 99.1,
+        "memory": 4165.9453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.3,
+        "memory": 4079.15625
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 4142.37890625
+      }
+    }
+  },
+  "set_of_real_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 64.4,
+        "memory": 4135.953125
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 4143.22265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.6,
+        "memory": 4067.78515625
+      },
+      "execute": {
+        "cpu": 90.5,
+        "memory": 4161.87109375
+      }
+    }
+  },
+  "sexy_primes": {
+    "wasm": {
+      "before": {
+        "cpu": 69.5,
+        "memory": 4131.35546875
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4159.30078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 74.7,
+        "memory": 4091.28125
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 4132.8515625
+      }
+    }
+  },
+  "short-circuit_evaluation": {
+    "wasm": {
+      "before": {
+        "cpu": 64.0,
+        "memory": 4138.984375
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4127.37890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.3,
+        "memory": 4080.453125
+      },
+      "execute": {
+        "cpu": 83.0,
+        "memory": 4138.03125
+      }
+    }
+  },
+  "shortest_common_supersequence": {
+    "wasm": {
+      "before": {
+        "cpu": 54.5,
+        "memory": 4132.0859375
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4145.73828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.0,
+        "memory": 4057.390625
+      },
+      "execute": {
+        "cpu": 70.1,
+        "memory": 4192.23046875
+      }
+    }
+  },
+  "show_ascii_table": {
+    "wasm": {
+      "before": {
+        "cpu": 94.2,
+        "memory": 4114.47265625
+      },
+      "execute": {
+        "cpu": 96.4,
+        "memory": 4160.109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.8,
+        "memory": 4083.53515625
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4173.03125
+      }
+    }
+  },
+  "show_the_epoch": {
+    "wasm": {
+      "before": {
+        "cpu": 51.6,
+        "memory": 4123.109375
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4160.11328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.8,
+        "memory": 4092.19921875
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4139.015625
+      }
+    }
+  },
+  "sierpinski_triangle": {
+    "wasm": {
+      "before": {
+        "cpu": 67.7,
+        "memory": 4117.20703125
+      },
+      "execute": {
+        "cpu": 97.1,
+        "memory": 4124.52734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.3,
+        "memory": 4056.46484375
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4103.84765625
+      }
+    }
+  },
+  "smith_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 58.9,
+        "memory": 4094.11328125
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4129.83203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 73.7,
+        "memory": 4081.61328125
+      },
+      "execute": {
+        "cpu": 90.8,
+        "memory": 4124.03125
+      }
+    }
+  },
+  "sort_an_integer_array": {
+    "wasm": {
+      "before": {
+        "cpu": 45.3,
+        "memory": 4134.83203125
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 4162.29296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.3,
+        "memory": 4056.07421875
+      },
+      "execute": {
+        "cpu": 69.6,
+        "memory": 4123.76953125
+      }
+    }
+  },
+  "sort_disjoint_sublist": {
+    "wasm": {
+      "before": {
+        "cpu": 56.8,
+        "memory": 4094.578125
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4129.94140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.9,
+        "memory": 4075.80859375
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 4129.20703125
+      }
+    }
+  },
+  "sort_numbers_lexicographically": {
+    "wasm": {
+      "before": {
+        "cpu": 94.0,
+        "memory": 4117.140625
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4161.21875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.1,
+        "memory": 4076.8828125
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 4123.21875
+      }
+    }
+  },
+  "sort_using_a_custom_comparator": {
+    "wasm": {
+      "before": {
+        "cpu": 95.5,
+        "memory": 4108.04296875
+      },
+      "execute": {
+        "cpu": 96.3,
+        "memory": 4144.54296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.1,
+        "memory": 4069.47265625
+      },
+      "execute": {
+        "cpu": 65.6,
+        "memory": 4141.07421875
+      }
+    }
+  },
+  "sorting_algorithms-circle_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 50.4,
+        "memory": 4135.8828125
+      },
+      "execute": {
+        "cpu": 99.3,
+        "memory": 4147.7578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 93.1,
+        "memory": 4076.87109375
+      },
+      "execute": {
+        "cpu": 60.2,
+        "memory": 4118.69140625
+      }
+    }
+  },
+  "sorting_algorithms-bead_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 58.2,
+        "memory": 4090.484375
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 4147.63671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.3,
+        "memory": 4099.515625
+      },
+      "execute": {
+        "cpu": 60.2,
+        "memory": 4125.71484375
+      }
+    }
+  },
+  "sorting_algorithms-bogosort": {
+    "wasm": {
+      "before": {
+        "cpu": 60.2,
+        "memory": 4099.28515625
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 4139.8046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.9,
+        "memory": 4076.90625
+      },
+      "execute": {
+        "cpu": 65.5,
+        "memory": 4123.8515625
+      }
+    }
+  },
+  "sorting_algorithms-bubble_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 51.7,
+        "memory": 4094.875
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4160.66015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.4,
+        "memory": 4056.5859375
+      },
+      "execute": {
+        "cpu": 83.7,
+        "memory": 4172.9609375
+      }
+    }
+  },
+  "sorting_algorithms-cocktail_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 94.8,
+        "memory": 4100.02734375
+      },
+      "execute": {
+        "cpu": 92.9,
+        "memory": 4138.36328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.1,
+        "memory": 4094.578125
+      },
+      "execute": {
+        "cpu": 74.9,
+        "memory": 4139.671875
+      }
+    }
+  },
+  "sorting_algorithms-cycle_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 56.2,
+        "memory": 4129.04296875
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 4154.765625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 98.0,
+        "memory": 4082.33203125
+      },
+      "execute": {
+        "cpu": 93.1,
+        "memory": 4143.1640625
+      }
+    }
+  },
+  "sorting_algorithms-heapsort": {
+    "wasm": {
+      "before": {
+        "cpu": 87.5,
+        "memory": 4084.27734375
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 4139.265625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.9,
+        "memory": 4101.5546875
+      },
+      "execute": {
+        "cpu": 61.2,
+        "memory": 4135.79296875
+      }
+    }
+  },
+  "sorting_algorithms-insertion_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 77.4,
+        "memory": 4125.40234375
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4153.0234375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 50.8,
+        "memory": 4079.64453125
+      },
+      "execute": {
+        "cpu": 87.9,
+        "memory": 4129.7734375
+      }
+    }
+  },
+  "sorting_algorithms-merge_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 59.4,
+        "memory": 4068.80859375
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 4147.33203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.4,
+        "memory": 4061.41015625
+      },
+      "execute": {
+        "cpu": 82.1,
+        "memory": 4155.8359375
+      }
+    }
+  },
+  "sorting_algorithms-permutation_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 94.1,
+        "memory": 4103.7578125
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 4143.27734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 75.6,
+        "memory": 4059.671875
+      },
+      "execute": {
+        "cpu": 64.9,
+        "memory": 4136.01171875
+      }
+    }
+  },
+  "sorting_algorithms-quicksort": {
+    "wasm": {
+      "before": {
+        "cpu": 55.6,
+        "memory": 4123.83203125
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 4123.640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.8,
+        "memory": 4104.43359375
+      },
+      "execute": {
+        "cpu": 86.2,
+        "memory": 4155.375
+      }
+    }
+  },
+  "sorting_algorithms-selection_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 61.8,
+        "memory": 4118.40625
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4132.01953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 83.1,
+        "memory": 4092.6953125
+      },
+      "execute": {
+        "cpu": 90.6,
+        "memory": 4141.30078125
+      }
+    }
+  },
+  "sorting_algorithms-shell_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 53.7,
+        "memory": 4108.3984375
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4141.0
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.8,
+        "memory": 4095.16796875
+      },
+      "execute": {
+        "cpu": 73.3,
+        "memory": 4123.6484375
+      }
+    }
+  },
+  "sorting_algorithms-stooge_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 60.2,
+        "memory": 4100.5234375
+      },
+      "execute": {
+        "cpu": 98.2,
+        "memory": 4162.296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.1,
+        "memory": 4115.390625
+      },
+      "execute": {
+        "cpu": 77.4,
+        "memory": 4134.3046875
+      }
+    }
+  },
+  "sorting_algorithms-strand_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 72.8,
+        "memory": 4124.0390625
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 4153.68359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 52.5,
+        "memory": 4087.7265625
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4126.6328125
+      }
+    }
+  },
+  "soundex": {
+    "wasm": {
+      "before": {
+        "cpu": 62.4,
+        "memory": 4135.76171875
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 4152.6015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.6,
+        "memory": 4081.35546875
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 4151.9453125
+      }
+    }
+  },
+  "sparkline_in_unicode": {
+    "wasm": {
+      "before": {
+        "cpu": 83.1,
+        "memory": 4124.80078125
+      },
+      "execute": {
+        "cpu": 92.3,
+        "memory": 4175.9921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.0,
+        "memory": 4139.98046875
+      },
+      "execute": {
+        "cpu": 84.7,
+        "memory": 4158.01171875
+      }
+    }
+  },
+  "spiral_matrix": {
+    "wasm": {
+      "before": {
+        "cpu": 52.8,
+        "memory": 4092.4453125
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4125.9765625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.5,
+        "memory": 4090.67578125
+      },
+      "execute": {
+        "cpu": 87.7,
+        "memory": 4123.60546875
+      }
+    }
+  },
+  "split_a_character_string_based_on_change_of_character": {
+    "wasm": {
+      "before": {
+        "cpu": 80.4,
+        "memory": 4079.76953125
+      },
+      "execute": {
+        "cpu": 92.3,
+        "memory": 4139.24609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 75.5,
+        "memory": 4093.23828125
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4122.28515625
+      }
+    }
+  },
+  "square_but_not_cube": {
+    "wasm": {
+      "before": {
+        "cpu": 66.5,
+        "memory": 4166.55078125
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4147.94140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 55.2,
+        "memory": 4080.86328125
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4148.80078125
+      }
+    }
+  },
+  "stable_marriage_problem": {
+    "wasm": {
+      "before": {
+        "cpu": 57.9,
+        "memory": 4109.98046875
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 4166.58984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.7,
+        "memory": 4092.671875
+      },
+      "execute": {
+        "cpu": 69.3,
+        "memory": 4159.40234375
+      }
+    }
+  },
+  "stack": {
+    "wasm": {
+      "before": {
+        "cpu": 62.9,
+        "memory": 4163.89453125
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4166.44140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 83.2,
+        "memory": 4079.54296875
+      },
+      "execute": {
+        "cpu": 68.4,
+        "memory": 4150.65625
+      }
+    }
+  },
+  "start_from_a_main_routine": {
+    "wasm": {
+      "before": {
+        "cpu": 48.9,
+        "memory": 4113.8515625
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 4172.3828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.2,
+        "memory": 4089.02734375
+      },
+      "execute": {
+        "cpu": 93.0,
+        "memory": 4127.296875
+      }
+    }
+  },
+  "stem-and-leaf_plot": {
+    "wasm": {
+      "before": {
+        "cpu": 96.3,
+        "memory": 4148.25390625
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4148.578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.6,
+        "memory": 4094.1484375
+      },
+      "execute": {
+        "cpu": 69.3,
+        "memory": 4129.91015625
+      }
+    }
+  },
+  "stern-brocot_sequence": {
+    "wasm": {
+      "before": {
+        "cpu": 57.2,
+        "memory": 4098.0546875
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 4177.99609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 51.3,
+        "memory": 4095.4140625
+      },
+      "execute": {
+        "cpu": 58.3,
+        "memory": 4146.53125
+      }
+    }
+  },
+  "string_append": {
+    "wasm": {
+      "before": {
+        "cpu": 63.4,
+        "memory": 4126.76953125
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4161.8828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.0,
+        "memory": 4091.53515625
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4138.5234375
+      }
+    }
+  },
+  "string_case": {
+    "wasm": {
+      "before": {
+        "cpu": 69.4,
+        "memory": 4173.50390625
+      },
+      "execute": {
+        "cpu": 95.6,
+        "memory": 4168.94921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 88.9,
+        "memory": 4079.859375
+      },
+      "execute": {
+        "cpu": 66.1,
+        "memory": 4160.39453125
+      }
+    }
+  },
+  "string_concatenation": {
+    "wasm": {
+      "before": {
+        "cpu": 59.8,
+        "memory": 4102.515625
+      },
+      "execute": {
+        "cpu": 92.8,
+        "memory": 4161.95703125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 47.8,
+        "memory": 4113.1875
+      },
+      "execute": {
+        "cpu": 80.2,
+        "memory": 4152.12890625
+      }
+    }
+  },
+  "string_length": {
+    "wasm": {
+      "before": {
+        "cpu": 59.5,
+        "memory": 4121.6171875
+      },
+      "execute": {
+        "cpu": 94.6,
+        "memory": 4157.87890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 77.3,
+        "memory": 4080.625
+      },
+      "execute": {
+        "cpu": 66.1,
+        "memory": 4156.34765625
+      }
+    }
+  },
+  "string_matching": {
+    "wasm": {
+      "before": {
+        "cpu": 70.9,
+        "memory": 4251.51953125
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 4216.62890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 49.8,
+        "memory": 4096.33984375
+      },
+      "execute": {
+        "cpu": 63.2,
+        "memory": 4158.859375
+      }
+    }
+  },
+  "string_prepend": {
+    "wasm": {
+      "before": {
+        "cpu": 56.3,
+        "memory": 4117.171875
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 4163.92578125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.8,
+        "memory": 4100.59765625
+      },
+      "execute": {
+        "cpu": 89.9,
+        "memory": 4166.16015625
+      }
+    }
+  },
+  "strip_control_codes_and_extended_characters_from_a_string": {
+    "wasm": {
+      "before": {
+        "cpu": 63.7,
+        "memory": 4149.9453125
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4161.79296875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.4,
+        "memory": 4072.47265625
+      },
+      "execute": {
+        "cpu": 70.9,
+        "memory": 4144.96875
+      }
+    }
+  },
+  "strip_whitespace_from_a_string-top_and_tail": {
+    "wasm": {
+      "before": {
+        "cpu": 63.6,
+        "memory": 4180.74609375
+      },
+      "execute": {
+        "cpu": 95.3,
+        "memory": 4157.88671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 65.3,
+        "memory": 4094.30078125
+      },
+      "execute": {
+        "cpu": 75.9,
+        "memory": 4143.22265625
+      }
+    }
+  },
+  "subtractive_generator": {
+    "wasm": {
+      "before": {
+        "cpu": 50.0,
+        "memory": 4106.78125
+      },
+      "execute": {
+        "cpu": 99.4,
+        "memory": 4141.77734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.4,
+        "memory": 4074.54296875
+      },
+      "execute": {
+        "cpu": 91.9,
+        "memory": 4149.8828125
+      }
+    }
+  },
+  "sudoku": {
+    "wasm": {
+      "before": {
+        "cpu": 59.0,
+        "memory": 4121.62109375
+      },
+      "execute": {
+        "cpu": 97.9,
+        "memory": 4162.88671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 79.3,
+        "memory": 4097.3828125
+      },
+      "execute": {
+        "cpu": 80.0,
+        "memory": 4157.7109375
+      }
+    }
+  },
+  "sum_data_type": {
+    "wasm": {
+      "before": {
+        "cpu": 52.4,
+        "memory": 4145.44921875
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 4164.98046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.3,
+        "memory": 4101.92578125
+      },
+      "execute": {
+        "cpu": 94.0,
+        "memory": 4148.4765625
+      }
+    }
+  },
+  "sum_digits_of_an_integer": {
+    "wasm": {
+      "before": {
+        "cpu": 54.8,
+        "memory": 4159.73828125
+      },
+      "execute": {
+        "cpu": 95.2,
+        "memory": 4154.25
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.8,
+        "memory": 4072.28515625
+      },
+      "execute": {
+        "cpu": 92.7,
+        "memory": 4128.0078125
+      }
+    }
+  },
+  "sum_multiples_of_3_and_5": {
+    "wasm": {
+      "before": {
+        "cpu": 55.2,
+        "memory": 4141.25390625
+      },
+      "execute": {
+        "cpu": 98.8,
+        "memory": 4167.21875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 43.8,
+        "memory": 4096.8515625
+      },
+      "execute": {
+        "cpu": 65.8,
+        "memory": 4140.14453125
+      }
+    }
+  },
+  "sum_of_a_series": {
+    "wasm": {
+      "before": {
+        "cpu": 59.6,
+        "memory": 4098.109375
+      },
+      "execute": {
+        "cpu": 98.0,
+        "memory": 4168.8671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 96.7,
+        "memory": 4100.32421875
+      },
+      "execute": {
+        "cpu": 69.5,
+        "memory": 4141.81640625
+      }
+    }
+  },
+  "sum_of_squares": {
+    "wasm": {
+      "before": {
+        "cpu": 59.2,
+        "memory": 4103.98828125
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 4151.62109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 68.8,
+        "memory": 4101.97265625
+      },
+      "execute": {
+        "cpu": 91.5,
+        "memory": 4129.39453125
+      }
+    }
+  },
+  "sum_to_100": {
+    "wasm": {
+      "before": {
+        "cpu": 65.7,
+        "memory": 4167.47265625
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 4164.671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 75.6,
+        "memory": 4090.6484375
+      },
+      "execute": {
+        "cpu": 63.2,
+        "memory": 4177.640625
+      }
+    }
+  },
+  "symmetric_difference": {
+    "wasm": {
+      "before": {
+        "cpu": 63.7,
+        "memory": 4114.9609375
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 4184.71875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.2,
+        "memory": 4089.203125
+      },
+      "execute": {
+        "cpu": 69.3,
+        "memory": 4160.265625
+      }
+    }
+  },
+  "taxicab_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 54.6,
+        "memory": 4144.80859375
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 4178.68359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.0,
+        "memory": 4106.97265625
+      },
+      "execute": {
+        "cpu": 89.1,
+        "memory": 4156.46875
+      }
+    }
+  },
+  "temperature_conversion": {
+    "wasm": {
+      "before": {
+        "cpu": 93.6,
+        "memory": 4122.48828125
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 4164.51171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.9,
+        "memory": 4084.65234375
+      },
+      "execute": {
+        "cpu": 65.7,
+        "memory": 4158.6171875
+      }
+    }
+  },
+  "terminal_control-coloured_text": {
+    "wasm": {
+      "before": {
+        "cpu": 63.2,
+        "memory": 4120.4609375
+      },
+      "execute": {
+        "cpu": 94.8,
+        "memory": 4153.69921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.8,
+        "memory": 4086.7578125
+      },
+      "execute": {
+        "cpu": 88.4,
+        "memory": 4148.40625
+      }
+    }
+  },
+  "terminal_control-display_an_extended_character": {
+    "wasm": {
+      "before": {
+        "cpu": 68.0,
+        "memory": 4127.890625
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4185.46484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.3,
+        "memory": 4089.8203125
+      },
+      "execute": {
+        "cpu": 91.6,
+        "memory": 4139.01953125
+      }
+    }
+  },
+  "terminal_control-inverse_video": {
+    "wasm": {
+      "before": {
+        "cpu": 53.9,
+        "memory": 4143.73828125
+      },
+      "execute": {
+        "cpu": 98.0,
+        "memory": 4169.16015625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 87.7,
+        "memory": 4091.54296875
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4148.0234375
+      }
+    }
+  },
+  "terminal_control-ringing_the_terminal_bell": {
+    "wasm": {
+      "before": {
+        "cpu": 67.6,
+        "memory": 4165.22265625
+      },
+      "execute": {
+        "cpu": 97.7,
+        "memory": 4170.8984375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.7,
+        "memory": 4078.8671875
+      },
+      "execute": {
+        "cpu": 91.2,
+        "memory": 4133.421875
+      }
+    }
+  },
+  "ternary_logic": {
+    "wasm": {
+      "before": {
+        "cpu": 58.4,
+        "memory": 4097.2421875
+      },
+      "execute": {
+        "cpu": 97.0,
+        "memory": 4213.43359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.9,
+        "memory": 4117.41796875
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 4153.2109375
+      }
+    }
+  },
+  "test_integerness": {
+    "wasm": {
+      "before": {
+        "cpu": 61.1,
+        "memory": 4114.41796875
+      },
+      "execute": {
+        "cpu": 94.9,
+        "memory": 4169.58203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.8,
+        "memory": 4082.69921875
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4173.45703125
+      }
+    }
+  },
+  "the_isaac_cipher": {
+    "wasm": {
+      "before": {
+        "cpu": 51.2,
+        "memory": 4151.86328125
+      },
+      "execute": {
+        "cpu": 97.0,
+        "memory": 4182.28125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.9,
+        "memory": 4124.359375
+      },
+      "execute": {
+        "cpu": 88.7,
+        "memory": 4191.5078125
+      }
+    }
+  },
+  "the_twelve_days_of_christmas": {
+    "wasm": {
+      "before": {
+        "cpu": 92.9,
+        "memory": 4199.1015625
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4216.25390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.0,
+        "memory": 4136.140625
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 4173.1171875
+      }
+    }
+  },
+  "thieles_interpolation_formula": {
+    "wasm": {
+      "before": {
+        "cpu": 61.4,
+        "memory": 4179.8515625
+      },
+      "execute": {
+        "cpu": 93.1,
+        "memory": 4179.46484375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 89.7,
+        "memory": 4099.60546875
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4177.15234375
+      }
+    }
+  },
+  "thue-morse": {
+    "wasm": {
+      "before": {
+        "cpu": 71.1,
+        "memory": 4142.5625
+      },
+      "execute": {
+        "cpu": 95.1,
+        "memory": 4173.4140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 50.7,
+        "memory": 4109.4921875
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 4152.1328125
+      }
+    }
+  },
+  "tokenize_a_string": {
+    "wasm": {
+      "before": {
+        "cpu": 57.2,
+        "memory": 4097.8828125
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 4181.87109375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.9,
+        "memory": 4089.59765625
+      },
+      "execute": {
+        "cpu": 60.2,
+        "memory": 4157.4765625
+      }
+    }
+  },
+  "tokenize_a_string_with_escaping": {
+    "wasm": {
+      "before": {
+        "cpu": 54.0,
+        "memory": 4164.18359375
+      },
+      "execute": {
+        "cpu": 93.0,
+        "memory": 4182.734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 68.0,
+        "memory": 4091.6484375
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4177.5703125
+      }
+    }
+  },
+  "top_rank_per_group": {
+    "wasm": {
+      "before": {
+        "cpu": 50.1,
+        "memory": 4155.265625
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 4205.94140625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.1,
+        "memory": 4132.09375
+      },
+      "execute": {
+        "cpu": 90.6,
+        "memory": 4142.5546875
+      }
+    }
+  },
+  "topological_sort": {
+    "wasm": {
+      "before": {
+        "cpu": 59.1,
+        "memory": 4171.953125
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4176.6640625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.8,
+        "memory": 4104.8046875
+      },
+      "execute": {
+        "cpu": 89.0,
+        "memory": 4176.1171875
+      }
+    }
+  },
+  "totient_function": {
+    "wasm": {
+      "before": {
+        "cpu": 94.0,
+        "memory": 4151.6875
+      },
+      "execute": {
+        "cpu": 93.0,
+        "memory": 4199.8359375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.8,
+        "memory": 4106.03515625
+      },
+      "execute": {
+        "cpu": 79.3,
+        "memory": 4169.24609375
+      }
+    }
+  },
+  "towers_of_hanoi": {
+    "wasm": {
+      "before": {
+        "cpu": 94.7,
+        "memory": 4130.0859375
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 4164.4765625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 60.6,
+        "memory": 4159.02734375
+      },
+      "execute": {
+        "cpu": 91.7,
+        "memory": 4173.15234375
+      }
+    }
+  },
+  "tree_traversal": {
+    "wasm": {
+      "before": {
+        "cpu": 95.3,
+        "memory": 4176.1875
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 4143.2734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.4,
+        "memory": 4153.6484375
+      },
+      "execute": {
+        "cpu": 92.8,
+        "memory": 4176.1484375
+      }
+    }
+  },
+  "trigonometric_functions": {
+    "wasm": {
+      "before": {
+        "cpu": 91.2,
+        "memory": 4140.83203125
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4161.64453125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 49.6,
+        "memory": 4131.50390625
+      },
+      "execute": {
+        "cpu": 90.5,
+        "memory": 4163.7578125
+      }
+    }
+  },
+  "truncatable_primes": {
+    "wasm": {
+      "before": {
+        "cpu": 67.4,
+        "memory": 4137.296875
+      },
+      "execute": {
+        "cpu": 94.3,
+        "memory": 4179.09375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.3,
+        "memory": 4106.21875
+      },
+      "execute": {
+        "cpu": 92.4,
+        "memory": 4184.015625
+      }
+    }
+  },
+  "two_sum": {
+    "wasm": {
+      "before": {
+        "cpu": 72.8,
+        "memory": 4165.33984375
+      },
+      "execute": {
+        "cpu": 94.1,
+        "memory": 4172.07421875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 47.5,
+        "memory": 4074.51171875
+      },
+      "execute": {
+        "cpu": 92.4,
+        "memory": 4155.4140625
+      }
+    }
+  },
+  "type_detection": {
+    "wasm": {
+      "before": {
+        "cpu": 55.4,
+        "memory": 4115.7890625
+      },
+      "execute": {
+        "cpu": 96.1,
+        "memory": 4166.07421875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 54.6,
+        "memory": 4101.95703125
+      },
+      "execute": {
+        "cpu": 91.4,
+        "memory": 4169.54296875
+      }
+    }
+  },
+  "utf-8_encode_and_decode": {
+    "wasm": {
+      "before": {
+        "cpu": 56.4,
+        "memory": 4147.20703125
+      },
+      "execute": {
+        "cpu": 93.7,
+        "memory": 4174.8671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 56.7,
+        "memory": 4099.1796875
+      },
+      "execute": {
+        "cpu": 92.1,
+        "memory": 4162.52734375
+      }
+    }
+  },
+  "undefined_values": {
+    "wasm": {
+      "before": {
+        "cpu": 93.1,
+        "memory": 4140.9296875
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 4179.3125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 88.4,
+        "memory": 4111.2890625
+      },
+      "execute": {
+        "cpu": 93.6,
+        "memory": 4163.6796875
+      }
+    }
+  },
+  "unicode_strings": {
+    "wasm": {
+      "before": {
+        "cpu": 55.7,
+        "memory": 4143.98828125
+      },
+      "execute": {
+        "cpu": 91.4,
+        "memory": 4201.51953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.2,
+        "memory": 4100.34375
+      },
+      "execute": {
+        "cpu": 66.9,
+        "memory": 4159.7265625
+      }
+    }
+  },
+  "unicode_variable_names": {
+    "wasm": {
+      "before": {
+        "cpu": 70.9,
+        "memory": 4106.90625
+      },
+      "execute": {
+        "cpu": 99.6,
+        "memory": 4135.9921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.2,
+        "memory": 4083.55078125
+      },
+      "execute": {
+        "cpu": 81.8,
+        "memory": 4168.08984375
+      }
+    }
+  },
+  "universal_turing_machine": {
+    "wasm": {
+      "before": {
+        "cpu": 95.7,
+        "memory": 4108.68359375
+      },
+      "execute": {
+        "cpu": 93.1,
+        "memory": 4174.78125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 94.2,
+        "memory": 4109.28125
+      },
+      "execute": {
+        "cpu": 59.6,
+        "memory": 4146.94921875
+      }
+    }
+  },
+  "validate_international_securities_identification_number": {
+    "wasm": {
+      "before": {
+        "cpu": 61.7,
+        "memory": 4158.65625
+      },
+      "execute": {
+        "cpu": 96.5,
+        "memory": 4165.8046875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.1,
+        "memory": 4106.67578125
+      },
+      "execute": {
+        "cpu": 91.8,
+        "memory": 4156.8046875
+      }
+    }
+  },
+  "van_eck_sequence": {
+    "wasm": {
+      "before": {
+        "cpu": 60.2,
+        "memory": 4151.875
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4164.8515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 67.7,
+        "memory": 4126.3125
+      },
+      "execute": {
+        "cpu": 90.5,
+        "memory": 4209.7421875
+      }
+    }
+  },
+  "van_der_corput_sequence": {
+    "wasm": {
+      "before": {
+        "cpu": 55.9,
+        "memory": 4151.33203125
+      },
+      "execute": {
+        "cpu": 95.0,
+        "memory": 4212.76953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 63.8,
+        "memory": 4147.39453125
+      },
+      "execute": {
+        "cpu": 89.7,
+        "memory": 4161.1484375
+      }
+    }
+  },
+  "variable-length_quantity": {
+    "wasm": {
+      "before": {
+        "cpu": 55.7,
+        "memory": 4132.01171875
+      },
+      "execute": {
+        "cpu": 93.9,
+        "memory": 4163.703125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.6,
+        "memory": 4135.97265625
+      },
+      "execute": {
+        "cpu": 80.4,
+        "memory": 4171.83203125
+      }
+    }
+  },
+  "vector": {
+    "wasm": {
+      "before": {
+        "cpu": 70.4,
+        "memory": 4167.57421875
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 4161.27734375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 72.9,
+        "memory": 4141.31640625
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 4160.68359375
+      }
+    }
+  },
+  "vector_products": {
+    "wasm": {
+      "before": {
+        "cpu": 61.9,
+        "memory": 4163.09765625
+      },
+      "execute": {
+        "cpu": 97.3,
+        "memory": 4187.24609375
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 95.9,
+        "memory": 4107.1015625
+      },
+      "execute": {
+        "cpu": 88.9,
+        "memory": 4191.76953125
+      }
+    }
+  },
+  "vigenere_cipher-cryptanalysis": {
+    "wasm": {
+      "before": {
+        "cpu": 93.6,
+        "memory": 4132.8671875
+      },
+      "execute": {
+        "cpu": 95.8,
+        "memory": 4166.44921875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.3,
+        "memory": 4095.30859375
+      },
+      "execute": {
+        "cpu": 91.3,
+        "memory": 4158.1328125
+      }
+    }
+  },
+  "visualize_a_tree": {
+    "wasm": {
+      "before": {
+        "cpu": 72.0,
+        "memory": 4177.640625
+      },
+      "execute": {
+        "cpu": 94.5,
+        "memory": 4167.28515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 48.5,
+        "memory": 4095.8515625
+      },
+      "execute": {
+        "cpu": 92.0,
+        "memory": 4181.16015625
+      }
+    }
+  },
+  "vogels_approximation_method": {
+    "wasm": {
+      "before": {
+        "cpu": 62.8,
+        "memory": 4152.1484375
+      },
+      "execute": {
+        "cpu": 97.1,
+        "memory": 4206.08203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.8,
+        "memory": 4115.3671875
+      },
+      "execute": {
+        "cpu": 93.8,
+        "memory": 4166.8046875
+      }
+    }
+  },
+  "water_collected_between_towers": {
+    "wasm": {
+      "before": {
+        "cpu": 64.3,
+        "memory": 4141.88671875
+      },
+      "execute": {
+        "cpu": 97.0,
+        "memory": 4169.421875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 62.9,
+        "memory": 4095.3515625
+      },
+      "execute": {
+        "cpu": 60.4,
+        "memory": 4182.578125
+      }
+    }
+  },
+  "weird_numbers": {
+    "wasm": {
+      "before": {
+        "cpu": 61.1,
+        "memory": 4129.8828125
+      },
+      "execute": {
+        "cpu": 88.5,
+        "memory": 4175.890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.9,
+        "memory": 4088.984375
+      },
+      "execute": {
+        "cpu": 75.8,
+        "memory": 4148.46875
+      }
+    }
+  },
+  "welchs_t-test": {
+    "wasm": {
+      "before": {
+        "cpu": 61.0,
+        "memory": 4163.38671875
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 4181.98828125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.0,
+        "memory": 4140.171875
+      },
+      "execute": {
+        "cpu": 57.8,
+        "memory": 4162.078125
+      }
+    }
+  },
+  "write_language_name_in_3d_ascii": {
+    "wasm": {
+      "before": {
+        "cpu": 68.8,
+        "memory": 4165.49609375
+      },
+      "execute": {
+        "cpu": 94.4,
+        "memory": 4212.55078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 59.6,
+        "memory": 4093.02734375
+      },
+      "execute": {
+        "cpu": 64.4,
+        "memory": 4360.875
+      }
+    }
+  },
+  "y_combinator": {
+    "wasm": {
+      "before": {
+        "cpu": 56.7,
+        "memory": 4160.2109375
+      },
+      "execute": {
+        "cpu": 96.9,
+        "memory": 4168.3515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 58.2,
+        "memory": 4106.62109375
+      },
+      "execute": {
+        "cpu": 92.9,
+        "memory": 4158.64453125
+      }
+    }
+  },
+  "yin_and_yang": {
+    "wasm": {
+      "before": {
+        "cpu": 62.3,
+        "memory": 4162.29296875
+      },
+      "execute": {
+        "cpu": 94.2,
+        "memory": 4173.6953125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 61.8,
+        "memory": 4132.09375
+      },
+      "execute": {
+        "cpu": 69.2,
+        "memory": 4183.6875
+      }
+    }
+  },
+  "zebra_puzzle": {
+    "wasm": {
+      "before": {
+        "cpu": 53.9,
+        "memory": 4145.8984375
+      },
+      "execute": {
+        "cpu": 91.7,
+        "memory": 4197.38671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 69.0,
+        "memory": 4116.9765625
+      },
+      "execute": {
+        "cpu": 83.2,
+        "memory": 4161.34765625
+      }
+    }
+  },
+  "zeckendorf_number_representation": {
+    "wasm": {
+      "before": {
+        "cpu": 62.6,
+        "memory": 4086.51953125
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4174.51171875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 92.6,
+        "memory": 4124.84765625
+      },
+      "execute": {
+        "cpu": 66.3,
+        "memory": 4175.71484375
+      }
+    }
+  },
+  "zero_to_the_zero_power": {
+    "wasm": {
+      "before": {
+        "cpu": 56.1,
+        "memory": 4165.734375
+      },
+      "execute": {
+        "cpu": 92.6,
+        "memory": 4174.36328125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 66.5,
+        "memory": 4086.59375
+      },
+      "execute": {
+        "cpu": 66.2,
+        "memory": 4175.671875
+      }
+    }
+  },
+  "args": {
+    "wasm": {
+      "before": {
+        "cpu": 60.6,
+        "memory": 4108.8671875
+      },
+      "execute": {
+        "cpu": 96.9,
+        "memory": 4181.5390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 64.0,
+        "memory": 4136.796875
+      },
+      "execute": {
+        "cpu": 70.2,
+        "memory": 4189.88671875
+      }
+    }
+  },
+  "branches": {
+    "wasm": {
+      "before": {
+        "cpu": 67.0,
+        "memory": 4193.0
+      },
+      "execute": {
+        "cpu": 93.5,
+        "memory": 4182.8515625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 49.8,
+        "memory": 4113.51953125
+      },
+      "execute": {
+        "cpu": 59.1,
+        "memory": 4167.59765625
+      }
+    }
+  },
+  "branches2": {
+    "wasm": {
+      "before": {
+        "cpu": 69.6,
+        "memory": 4144.41796875
+      },
+      "execute": {
+        "cpu": 93.4,
+        "memory": 4204.8125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.7,
+        "memory": 4092.96875
+      },
+      "execute": {
+        "cpu": 90.6,
+        "memory": 4177.25390625
+      }
+    }
+  },
+  "exit": {
+    "wasm": {
+      "before": {
+        "cpu": 67.9,
+        "memory": 4166.671875
+      },
+      "execute": {
+        "cpu": 95.4,
+        "memory": 4196.3671875
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 90.6,
+        "memory": 4137.05859375
+      },
+      "execute": {
+        "cpu": 60.0,
+        "memory": 4170.359375
+      }
+    }
+  },
+  "flatten": {
+    "wasm": {
+      "before": {
+        "cpu": 65.7,
+        "memory": 4173.8359375
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4172.0078125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 57.3,
+        "memory": 4147.421875
+      },
+      "execute": {
+        "cpu": 93.3,
+        "memory": 4180.48828125
+      }
+    }
+  },
+  "fraction-norm": {
+    "wasm": {
+      "before": {
+        "cpu": 56.2,
+        "memory": 4147.26953125
+      },
+      "execute": {
+        "cpu": 94.7,
+        "memory": 4206.00390625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 87.0,
+        "memory": 4156.6953125
+      },
+      "execute": {
+        "cpu": 93.2,
+        "memory": 4174.4921875
+      }
+    }
+  },
+  "linear-memory-analysis": {
+    "wasm": {
+      "before": {
+        "cpu": 68.0,
+        "memory": 4189.60546875
+      },
+      "execute": {
+        "cpu": 95.5,
+        "memory": 4190.62890625
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 53.4,
+        "memory": 4160.7421875
+      },
+      "execute": {
+        "cpu": 77.9,
+        "memory": 4161.0390625
+      }
+    }
+  },
+  "stdout": {
+    "wasm": {
+      "before": {
+        "cpu": 67.3,
+        "memory": 4222.546875
+      },
+      "execute": {
+        "cpu": 92.2,
+        "memory": 4191.08203125
+      }
+    },
+    "native": {
+      "before": {
+        "cpu": 70.7,
+        "memory": 4202.1875
+      },
+      "execute": {
+        "cpu": 88.7,
+        "memory": 4190.11328125
+      }
+    }
+  }
+}

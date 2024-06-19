@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./utf-8_encode_and_decode.wasm /
+CMD ["/utf-8_encode_and_decode.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./string_prepend.wasm /
+CMD ["/string_prepend.wasm"]

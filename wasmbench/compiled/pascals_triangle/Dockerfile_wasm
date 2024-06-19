@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./pascals_triangle.wasm /
+CMD ["/pascals_triangle.wasm"]

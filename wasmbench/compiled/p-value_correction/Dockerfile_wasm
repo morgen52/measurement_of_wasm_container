@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./p-value_correction.wasm /
+CMD ["/p-value_correction.wasm"]

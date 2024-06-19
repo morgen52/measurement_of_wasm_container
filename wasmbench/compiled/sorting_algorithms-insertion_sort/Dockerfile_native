@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./sorting_algorithms-insertion_sort.c .
+RUN gcc -O3 -o ./sorting_algorithms-insertion_sort ./sorting_algorithms-insertion_sort.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/sorting_algorithms-insertion_sort .
+CMD ["./sorting_algorithms-insertion_sort"]

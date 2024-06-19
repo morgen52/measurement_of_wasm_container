@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./elementary_cellular_automaton-random_number_generator.wasm /
+CMD ["/elementary_cellular_automaton-random_number_generator.wasm"]

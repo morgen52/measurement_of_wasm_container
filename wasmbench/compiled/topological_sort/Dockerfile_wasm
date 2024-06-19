@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./topological_sort.wasm /
+CMD ["/topological_sort.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./maze_generation.wasm /
+CMD ["/maze_generation.wasm"]

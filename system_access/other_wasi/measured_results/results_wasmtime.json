@@ -1,0 +1,53 @@
+{
+  "liminfinity/time_wasi": {
+    "native": {
+      "startup": 688.0919000000001,
+      "execution": 0.6919000000000001,
+      "e2e": 875.3924
+    },
+    "wasm": {
+      "startup": 615.9852999999999,
+      "execution": 6.4405,
+      "e2e": 853.3254499999999
+    },
+    "native_wasm": {
+      "startup": 19.637900000000002,
+      "execution": 2.2396500000000006,
+      "e2e": 24.21685
+    }
+  },
+  "liminfinity/stdout_wasi": {
+    "native": {
+      "startup": 811.6903,
+      "execution": 5.764349999999999,
+      "e2e": 1139.3431
+    },
+    "wasm": {
+      "startup": 1240.55215,
+      "execution": 17.056050000000003,
+      "e2e": 1558.333
+    },
+    "native_wasm": {
+      "startup": 19.179049999999993,
+      "execution": 18.183350000000004,
+      "e2e": 39.6184
+    }
+  },
+  "liminfinity/rand_wasi": {
+    "native": {
+      "startup": 1282.3211999999999,
+      "execution": 0.13995,
+      "e2e": 1529.9085499999999
+    },
+    "wasm": {
+      "startup": 1023.1118000000002,
+      "execution": 0.21259999999999998,
+      "e2e": 1331.1690499999997
+    },
+    "native_wasm": {
+      "startup": 152.5684,
+      "execution": 0.2511500000000001,
+      "e2e": 154.87595
+    }
+  }
+}

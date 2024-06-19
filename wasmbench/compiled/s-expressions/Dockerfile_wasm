@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./s-expressions.wasm /
+CMD ["/s-expressions.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./stem-and-leaf_plot.wasm /
+CMD ["/stem-and-leaf_plot.wasm"]

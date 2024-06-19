@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./case-sensitivity_of_identifiers.wasm /
+CMD ["/case-sensitivity_of_identifiers.wasm"]

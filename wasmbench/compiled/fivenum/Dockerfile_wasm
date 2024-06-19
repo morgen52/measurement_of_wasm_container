@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./fivenum.wasm /
+CMD ["/fivenum.wasm"]

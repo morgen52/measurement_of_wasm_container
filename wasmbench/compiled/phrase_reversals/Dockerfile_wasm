@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./phrase_reversals.wasm /
+CMD ["/phrase_reversals.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./gesummv.wasm /gesummv.wasm
+CMD ["/gesummv.wasm"]

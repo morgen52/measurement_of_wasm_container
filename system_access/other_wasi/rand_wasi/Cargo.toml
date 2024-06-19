@@ -1,0 +1,13 @@
+[package]
+name = "rand_wasi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+strip = "debuginfo"
+
+[dependencies]
+chrono = "0.4.24"
+rand = "0.8.5"

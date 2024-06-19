@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./matrix_chain_multiplication.wasm /
+CMD ["/matrix_chain_multiplication.wasm"]

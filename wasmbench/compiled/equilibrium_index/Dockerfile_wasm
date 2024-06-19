@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./equilibrium_index.wasm /
+CMD ["/equilibrium_index.wasm"]

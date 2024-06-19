@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./harshad_or_niven_series.wasm /
+CMD ["/harshad_or_niven_series.wasm"]

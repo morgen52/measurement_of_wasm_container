@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./yin_and_yang.c .
+RUN gcc -O3 -o ./yin_and_yang ./yin_and_yang.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/yin_and_yang .
+CMD ["./yin_and_yang"]

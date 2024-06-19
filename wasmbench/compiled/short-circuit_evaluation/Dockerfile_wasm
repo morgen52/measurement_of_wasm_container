@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./short-circuit_evaluation.wasm /
+CMD ["/short-circuit_evaluation.wasm"]

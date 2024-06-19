@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./comma_quibbling.wasm /
+CMD ["/comma_quibbling.wasm"]

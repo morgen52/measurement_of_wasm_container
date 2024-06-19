@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sort_an_integer_array.wasm /
+CMD ["/sort_an_integer_array.wasm"]

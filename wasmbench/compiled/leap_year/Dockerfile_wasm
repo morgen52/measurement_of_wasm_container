@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./leap_year.wasm /
+CMD ["/leap_year.wasm"]

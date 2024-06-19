@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./regular_expressions.wasm /
+CMD ["/regular_expressions.wasm"]

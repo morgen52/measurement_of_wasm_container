@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./100_doors.wasm /
+CMD ["/100_doors.wasm"]

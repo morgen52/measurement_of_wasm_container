@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./covariance.wasm /covariance.wasm
+CMD ["/covariance.wasm"]

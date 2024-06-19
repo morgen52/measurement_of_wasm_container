@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./fibonacci_word-fractal.c .
+RUN gcc -O3 -o ./fibonacci_word-fractal ./fibonacci_word-fractal.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/fibonacci_word-fractal .
+CMD ["./fibonacci_word-fractal"]

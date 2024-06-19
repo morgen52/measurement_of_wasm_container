@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./feigenbaum_constant_calculation.wasm /
+CMD ["/feigenbaum_constant_calculation.wasm"]

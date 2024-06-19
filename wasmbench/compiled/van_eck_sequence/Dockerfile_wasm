@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./van_eck_sequence.wasm /
+CMD ["/van_eck_sequence.wasm"]

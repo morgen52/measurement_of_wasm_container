@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./stern-brocot_sequence.wasm /
+CMD ["/stern-brocot_sequence.wasm"]

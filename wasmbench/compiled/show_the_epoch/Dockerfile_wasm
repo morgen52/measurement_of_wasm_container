@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./show_the_epoch.wasm /
+CMD ["/show_the_epoch.wasm"]

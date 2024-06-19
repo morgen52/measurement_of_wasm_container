@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./ordered_partitions.wasm /
+CMD ["/ordered_partitions.wasm"]

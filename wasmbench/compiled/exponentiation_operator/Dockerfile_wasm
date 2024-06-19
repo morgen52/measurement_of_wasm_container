@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./exponentiation_operator.wasm /
+CMD ["/exponentiation_operator.wasm"]

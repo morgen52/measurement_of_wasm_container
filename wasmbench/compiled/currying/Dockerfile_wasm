@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./currying.wasm /
+CMD ["/currying.wasm"]

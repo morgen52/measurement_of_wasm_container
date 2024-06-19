@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./cycle_detection.wasm /
+CMD ["/cycle_detection.wasm"]

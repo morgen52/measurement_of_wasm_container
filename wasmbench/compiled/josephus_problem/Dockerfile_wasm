@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./josephus_problem.wasm /
+CMD ["/josephus_problem.wasm"]

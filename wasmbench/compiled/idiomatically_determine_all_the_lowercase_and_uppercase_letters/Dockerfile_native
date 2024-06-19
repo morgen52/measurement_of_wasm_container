@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./idiomatically_determine_all_the_lowercase_and_uppercase_letters.c .
+RUN gcc -O3 -o ./idiomatically_determine_all_the_lowercase_and_uppercase_letters ./idiomatically_determine_all_the_lowercase_and_uppercase_letters.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/idiomatically_determine_all_the_lowercase_and_uppercase_letters .
+CMD ["./idiomatically_determine_all_the_lowercase_and_uppercase_letters"]

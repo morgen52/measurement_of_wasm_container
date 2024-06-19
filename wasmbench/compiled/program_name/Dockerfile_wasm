@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./program_name.wasm /
+CMD ["/program_name.wasm"]

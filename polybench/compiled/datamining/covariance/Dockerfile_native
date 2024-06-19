@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I datamining/covariance utilities/polybench.c datamining/covariance/covariance.c -DPOLYBENCH_TIME -o datamining/covariance/covariance -lm
+RUN cp datamining/covariance/covariance /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/covariance /covariance
+CMD ["/covariance"]

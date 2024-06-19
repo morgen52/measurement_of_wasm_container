@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./ludcmp.wasm /ludcmp.wasm
+CMD ["/ludcmp.wasm"]

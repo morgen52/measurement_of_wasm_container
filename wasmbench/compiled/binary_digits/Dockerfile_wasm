@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./binary_digits.wasm /
+CMD ["/binary_digits.wasm"]

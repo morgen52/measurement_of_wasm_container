@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./adi.wasm /adi.wasm
+CMD ["/adi.wasm"]

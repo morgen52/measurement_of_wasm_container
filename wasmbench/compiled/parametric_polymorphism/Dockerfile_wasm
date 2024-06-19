@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./parametric_polymorphism.wasm /
+CMD ["/parametric_polymorphism.wasm"]

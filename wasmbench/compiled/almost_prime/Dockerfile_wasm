@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./almost_prime.wasm /
+CMD ["/almost_prime.wasm"]

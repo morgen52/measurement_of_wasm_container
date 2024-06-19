@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./numerical_integration-gauss-legendre_quadrature.wasm /
+CMD ["/numerical_integration-gauss-legendre_quadrature.wasm"]

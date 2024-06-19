@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./numerical_integration-adaptive_simpsons_method.wasm /
+CMD ["/numerical_integration-adaptive_simpsons_method.wasm"]

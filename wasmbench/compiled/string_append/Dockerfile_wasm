@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./string_append.wasm /
+CMD ["/string_append.wasm"]

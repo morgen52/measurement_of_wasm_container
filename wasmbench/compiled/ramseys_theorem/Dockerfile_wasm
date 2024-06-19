@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./ramseys_theorem.wasm /
+CMD ["/ramseys_theorem.wasm"]

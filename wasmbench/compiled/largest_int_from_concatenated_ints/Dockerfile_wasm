@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./largest_int_from_concatenated_ints.wasm /
+CMD ["/largest_int_from_concatenated_ints.wasm"]

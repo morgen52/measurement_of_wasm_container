@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./resistor_mesh.wasm /
+CMD ["/resistor_mesh.wasm"]

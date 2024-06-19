@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./towers_of_hanoi.wasm /
+CMD ["/towers_of_hanoi.wasm"]

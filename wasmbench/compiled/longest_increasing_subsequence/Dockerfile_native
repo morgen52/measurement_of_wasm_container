@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./longest_increasing_subsequence.c .
+RUN gcc -O3 -o ./longest_increasing_subsequence ./longest_increasing_subsequence.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/longest_increasing_subsequence .
+CMD ["./longest_increasing_subsequence"]

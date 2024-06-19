@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./a_search_algorithm.wasm /
+CMD ["/a_search_algorithm.wasm"]

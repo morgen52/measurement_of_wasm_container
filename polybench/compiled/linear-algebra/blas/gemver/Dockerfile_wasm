@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./gemver.wasm /gemver.wasm
+CMD ["/gemver.wasm"]

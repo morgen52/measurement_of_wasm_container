@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./cholesky.wasm /cholesky.wasm
+CMD ["/cholesky.wasm"]

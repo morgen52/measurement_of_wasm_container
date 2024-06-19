@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./faulhabers_formula.wasm /
+CMD ["/faulhabers_formula.wasm"]

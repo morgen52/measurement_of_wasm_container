@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./forward_difference.wasm /
+CMD ["/forward_difference.wasm"]

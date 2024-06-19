@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+
+int count_jewels(const char *s, const char *j) {
+    int count = 0;
+    for ( ; *s; ++s) if (strchr(j, *s)) ++count;
+    return count;
+}
+
+#include <stdio.h>
+#include <time.h>
+#include <sys/time.h>
+int main() {
+	struct timeval my_tv;
+	gettimeofday(&my_tv,NULL);
+	time_t my_t = my_tv.tv_sec;
+	long my_us = my_tv.tv_usec;
+	struct tm *my_tm;
+	char my_buf[1024];
+	my_tm = localtime(&my_t);
+	strftime(my_buf, sizeof(my_buf), "%M:%S", my_tm);
+	printf("start complete time:%s.%06ld\n", my_buf, my_us);
+// additional code
+    printf("%d\n", count_jewels("aAAbbbb", "aA"));
+    printf("%d\n", count_jewels("ZZ", "z"));
+    return 0;
+}

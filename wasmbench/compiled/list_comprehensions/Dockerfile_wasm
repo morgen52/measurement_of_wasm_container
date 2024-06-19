@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./list_comprehensions.wasm /
+CMD ["/list_comprehensions.wasm"]

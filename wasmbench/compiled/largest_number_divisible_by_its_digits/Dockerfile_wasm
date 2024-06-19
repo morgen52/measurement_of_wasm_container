@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./largest_number_divisible_by_its_digits.wasm /
+CMD ["/largest_number_divisible_by_its_digits.wasm"]

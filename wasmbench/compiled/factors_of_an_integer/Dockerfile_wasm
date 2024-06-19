@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./factors_of_an_integer.wasm /
+CMD ["/factors_of_an_integer.wasm"]

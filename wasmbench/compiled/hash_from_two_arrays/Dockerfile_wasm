@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./hash_from_two_arrays.wasm /
+CMD ["/hash_from_two_arrays.wasm"]

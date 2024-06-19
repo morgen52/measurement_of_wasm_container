@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./host_introspection.wasm /
+CMD ["/host_introspection.wasm"]

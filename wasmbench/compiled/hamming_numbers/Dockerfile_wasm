@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./hamming_numbers.wasm /
+CMD ["/hamming_numbers.wasm"]

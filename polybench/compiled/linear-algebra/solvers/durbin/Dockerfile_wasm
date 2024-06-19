@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./durbin.wasm /durbin.wasm
+CMD ["/durbin.wasm"]

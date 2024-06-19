@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I stencils/jacobi-1d utilities/polybench.c stencils/jacobi-1d/jacobi-1d.c -DPOLYBENCH_TIME -o stencils/jacobi-1d/jacobi-1d -lm
+RUN cp stencils/jacobi-1d/jacobi-1d /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/jacobi-1d /jacobi-1d
+CMD ["/jacobi-1d"]

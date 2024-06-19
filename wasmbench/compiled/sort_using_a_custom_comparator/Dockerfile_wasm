@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sort_using_a_custom_comparator.wasm /
+CMD ["/sort_using_a_custom_comparator.wasm"]

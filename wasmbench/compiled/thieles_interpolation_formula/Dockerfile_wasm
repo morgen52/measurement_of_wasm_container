@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./thieles_interpolation_formula.wasm /
+CMD ["/thieles_interpolation_formula.wasm"]

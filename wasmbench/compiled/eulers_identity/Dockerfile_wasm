@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./eulers_identity.wasm /
+CMD ["/eulers_identity.wasm"]

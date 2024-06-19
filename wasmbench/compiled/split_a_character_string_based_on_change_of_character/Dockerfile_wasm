@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./split_a_character_string_based_on_change_of_character.wasm /
+CMD ["/split_a_character_string_based_on_change_of_character.wasm"]

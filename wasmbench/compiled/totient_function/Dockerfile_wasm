@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./totient_function.wasm /
+CMD ["/totient_function.wasm"]

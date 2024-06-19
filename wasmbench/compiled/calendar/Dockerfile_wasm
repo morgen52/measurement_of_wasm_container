@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./calendar.wasm /
+CMD ["/calendar.wasm"]

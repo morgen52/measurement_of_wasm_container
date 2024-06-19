@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./peaceful_chess_queen_armies.wasm /
+CMD ["/peaceful_chess_queen_armies.wasm"]

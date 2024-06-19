@@ -1,0 +1,1530 @@
+{
+  "100_doors": {
+    "wasm": 42.7373046875,
+    "native": 3335.4189453125
+  },
+  "99_bottles_of_beer": {
+    "wasm": 45.8271484375,
+    "native": 3335.45703125
+  },
+  "abc_problem": {
+    "wasm": 43.126953125,
+    "native": 3336.3291015625
+  },
+  "aks_test_for_primes": {
+    "wasm": 44.21875,
+    "native": 3336.7353515625
+  },
+  "a_search_algorithm": {
+    "wasm": 45.44921875,
+    "native": 3339.845703125
+  },
+  "accumulator_factory": {
+    "wasm": 42.6728515625,
+    "native": 3335.5849609375
+  },
+  "almost_prime": {
+    "wasm": 43.4306640625,
+    "native": 3335.6376953125
+  },
+  "anti-primes": {
+    "wasm": 42.5439453125,
+    "native": 3335.546875
+  },
+  "approximate_equality": {
+    "wasm": 43.001953125,
+    "native": 3335.6279296875
+  },
+  "array_length": {
+    "wasm": 42.400390625,
+    "native": 3335.3818359375
+  },
+  "attractive_numbers": {
+    "wasm": 43.54296875,
+    "native": 3336.5322265625
+  },
+  "averages-arithmetic_mean": {
+    "wasm": 43.2587890625,
+    "native": 3335.6826171875
+  },
+  "averages-mean_angle": {
+    "wasm": 42.740234375,
+    "native": 3335.853515625
+  },
+  "averages-mode": {
+    "wasm": 46.078125,
+    "native": 3336.5517578125
+  },
+  "averages-pythagorean_means": {
+    "wasm": 72.0078125,
+    "native": 3335.6796875
+  },
+  "averages-root_mean_square": {
+    "wasm": 42.3876953125,
+    "native": 3335.5205078125
+  },
+  "babbage_problem": {
+    "wasm": 42.6474609375,
+    "native": 3335.4287109375
+  },
+  "balanced_brackets": {
+    "wasm": 43.0068359375,
+    "native": 3336.400390625
+  },
+  "balanced_ternary": {
+    "wasm": 46.0859375,
+    "native": 3338.0146484375
+  },
+  "bell_numbers": {
+    "wasm": 44.9736328125,
+    "native": 3336.2314453125
+  },
+  "best_shuffle": {
+    "wasm": 45.2421875,
+    "native": 3338.1005859375
+  },
+  "binary_digits": {
+    "wasm": 43.0986328125,
+    "native": 3335.7685546875
+  },
+  "binary_search": {
+    "wasm": 42.728515625,
+    "native": 3335.6728515625
+  },
+  "binary_strings": {
+    "wasm": 45.560546875,
+    "native": 3337.9970703125
+  },
+  "box_the_compass": {
+    "wasm": 43.0009765625,
+    "native": 3335.9873046875
+  },
+  "csv_to_html_translation": {
+    "wasm": 42.80078125,
+    "native": 3335.7744140625
+  },
+  "caesar_cipher": {
+    "wasm": 43.0087890625,
+    "native": 3335.845703125
+  },
+  "calculating_the_value_of_e": {
+    "wasm": 42.67578125,
+    "native": 3335.404296875
+  },
+  "calendar": {
+    "wasm": 78.052734375,
+    "native": 3338.927734375
+  },
+  "cantor_set": {
+    "wasm": 43.1396484375,
+    "native": 3337.16796875
+  },
+  "carmichael_3_strong_pseudoprimes": {
+    "wasm": 43.7890625,
+    "native": 3336.4267578125
+  },
+  "cartesian_product_of_two_or_more_lists": {
+    "wasm": 45.724609375,
+    "native": 3337.890625
+  },
+  "case-sensitivity_of_identifiers": {
+    "wasm": 42.591796875,
+    "native": 3335.2578125
+  },
+  "catalan_numbers-pascals_triangle": {
+    "wasm": 43.3076171875,
+    "native": 3335.890625
+  },
+  "catamorphism": {
+    "wasm": 42.44140625,
+    "native": 3335.5029296875
+  },
+  "chaocipher": {
+    "wasm": 44.5185546875,
+    "native": 3336.7578125
+  },
+  "character_codes": {
+    "wasm": 42.435546875,
+    "native": 3335.1767578125
+  },
+  "chebyshev_coefficients": {
+    "wasm": 51.5478515625,
+    "native": 3336.95703125
+  },
+  "check_input_device_is_a_terminal": {
+    "wasm": 42.8564453125,
+    "native": 3335.37890625
+  },
+  "check_output_device_is_a_terminal": {
+    "wasm": 42.181640625,
+    "native": 3335.3818359375
+  },
+  "cheryls_birthday": {
+    "wasm": 45.564453125,
+    "native": 3337.716796875
+  },
+  "chinese_remainder_theorem": {
+    "wasm": 42.4521484375,
+    "native": 3336.0244140625
+  },
+  "chinese_zodiac": {
+    "wasm": 42.953125,
+    "native": 3336.1484375
+  },
+  "cholesky_decomposition": {
+    "wasm": 43.728515625,
+    "native": 3336.5546875
+  },
+  "circles_of_given_radius_through_two_points": {
+    "wasm": 44.119140625,
+    "native": 3337.0107421875
+  },
+  "combinations": {
+    "wasm": 43.0205078125,
+    "native": 3336.1240234375
+  },
+  "combinations_with_repetitions": {
+    "wasm": 43.3076171875,
+    "native": 3339.71484375
+  },
+  "comma_quibbling": {
+    "wasm": 45.0234375,
+    "native": 3336.205078125
+  },
+  "command-line_arguments": {
+    "wasm": 42.8837890625,
+    "native": 3335.3037109375
+  },
+  "continued_fraction": {
+    "wasm": 42.810546875,
+    "native": 3336.0517578125
+  },
+  "continued_fraction-arithmetic-construct_from_rational_number": {
+    "wasm": 44.529296875,
+    "native": 3336.11328125
+  },
+  "convert_decimal_number_to_rational": {
+    "wasm": 43.4208984375,
+    "native": 3336.6787109375
+  },
+  "convex_hull": {
+    "wasm": 46.5048828125,
+    "native": 3337.447265625
+  },
+  "copy_a_string": {
+    "wasm": 45.09765625,
+    "native": 3335.955078125
+  },
+  "count_occurrences_of_a_substring": {
+    "wasm": 44.44140625,
+    "native": 3335.611328125
+  },
+  "cramers_rule": {
+    "wasm": 45.322265625,
+    "native": 3338.033203125
+  },
+  "create_an_html_table": {
+    "wasm": 43.1396484375,
+    "native": 3335.462890625
+  },
+  "create_an_object_at_a_given_address": {
+    "wasm": 42.7373046875,
+    "native": 3335.380859375
+  },
+  "currying": {
+    "wasm": 44.2822265625,
+    "native": 3335.732421875
+  },
+  "cycle_detection": {
+    "wasm": 43.14453125,
+    "native": 3336.2236328125
+  },
+  "damm_algorithm": {
+    "wasm": 42.1201171875,
+    "native": 3335.60546875
+  },
+  "day_of_the_week": {
+    "wasm": 42.529296875,
+    "native": 3335.6103515625
+  },
+  "deal_cards_for_freecell": {
+    "wasm": 46.474609375,
+    "native": 3336.4951171875
+  },
+  "deconvolution-1d": {
+    "wasm": 61.2001953125,
+    "native": 3339.9150390625
+  },
+  "deconvolution-2d": {
+    "wasm": 62.5556640625,
+    "native": 3343.943359375
+  },
+  "deepcopy": {
+    "wasm": 42.8291015625,
+    "native": 3335.53125
+  },
+  "delegates": {
+    "wasm": 42.5712890625,
+    "native": 3336.384765625
+  },
+  "department_numbers": {
+    "wasm": 42.6611328125,
+    "native": 3335.861328125
+  },
+  "determinant_and_permanent": {
+    "wasm": 44.5712890625,
+    "native": 3337.0166015625
+  },
+  "determine_if_a_string_has_all_the_same_characters": {
+    "wasm": 43.34375,
+    "native": 3335.7060546875
+  },
+  "determine_if_a_string_has_all_unique_characters": {
+    "wasm": 44.3486328125,
+    "native": 3336.76171875
+  },
+  "dice_game_probabilities": {
+    "wasm": 43.05859375,
+    "native": 3337.3974609375
+  },
+  "digital_root": {
+    "wasm": 42.7392578125,
+    "native": 3335.611328125
+  },
+  "digital_root-multiplicative_digital_root": {
+    "wasm": 44.875,
+    "native": 3336.2998046875
+  },
+  "dijkstras_algorithm": {
+    "wasm": 46.9853515625,
+    "native": 3338.322265625
+  },
+  "dinesmans_multiple-dwelling_problem": {
+    "wasm": 43.7080078125,
+    "native": 3337.064453125
+  },
+  "diversity_prediction_theorem": {
+    "wasm": 64.193359375,
+    "native": 3336.6826171875
+  },
+  "dot_product": {
+    "wasm": 42.390625,
+    "native": 3335.490234375
+  },
+  "doubly-linked_list-traversal": {
+    "wasm": 43.3125,
+    "native": 3337.0302734375
+  },
+  "draw_a_cuboid": {
+    "wasm": 44.228515625,
+    "native": 3338.1455078125
+  },
+  "egyptian_division": {
+    "wasm": 43.01953125,
+    "native": 3336.1064453125
+  },
+  "elementary_cellular_automaton-random_number_generator": {
+    "wasm": 44.5673828125,
+    "native": 3335.751953125
+  },
+  "elliptic_curve_arithmetic": {
+    "wasm": 50.951171875,
+    "native": 3337.087890625
+  },
+  "emirp_primes": {
+    "wasm": 43.69921875,
+    "native": 3336.037109375
+  },
+  "environment_variables": {
+    "wasm": 42.19140625,
+    "native": 3335.1787109375
+  },
+  "equilibrium_index": {
+    "wasm": 45.44921875,
+    "native": 3336.1044921875
+  },
+  "ethiopian_multiplication": {
+    "wasm": 42.6708984375,
+    "native": 3335.736328125
+  },
+  "euler_method": {
+    "wasm": 44.8896484375,
+    "native": 3336.005859375
+  },
+  "eulers_identity": {
+    "wasm": 56.6494140625,
+    "native": 3335.333984375
+  },
+  "evaluate_binomial_coefficients": {
+    "wasm": 42.931640625,
+    "native": 3336.1376953125
+  },
+  "evolutionary_algorithm": {
+    "wasm": 43.6650390625,
+    "native": 3336.546875
+  },
+  "exceptions-catch_an_exception_thrown_in_a_nested_call": {
+    "wasm": 43.58984375,
+    "native": 3337.81640625
+  },
+  "exponentiation_operator": {
+    "wasm": 43.03515625,
+    "native": 3335.6904296875
+  },
+  "exponentiation_order": {
+    "wasm": 42.5283203125,
+    "native": 3335.189453125
+  },
+  "extract_file_extension": {
+    "wasm": 43.3193359375,
+    "native": 3336.384765625
+  },
+  "extreme_floating_point_values": {
+    "wasm": 43.962890625,
+    "native": 3335.8916015625
+  },
+  "factors_of_an_integer": {
+    "wasm": 46.521484375,
+    "native": 3336.775390625
+  },
+  "fast_fourier_transform": {
+    "wasm": 58.9306640625,
+    "native": 3343.50390625
+  },
+  "faulhabers_formula": {
+    "wasm": 46.5517578125,
+    "native": 3338.3291015625
+  },
+  "faulhabers_triangle": {
+    "wasm": 46.640625,
+    "native": 3338.4443359375
+  },
+  "feigenbaum_constant_calculation": {
+    "wasm": 42.693359375,
+    "native": 3335.7548828125
+  },
+  "fibonacci_n-step_number_sequences": {
+    "wasm": 42.724609375,
+    "native": 3336.107421875
+  },
+  "fibonacci_word-fractal": {
+    "wasm": 43.298828125,
+    "native": 3335.4052734375
+  },
+  "filter": {
+    "wasm": 45.2744140625,
+    "native": 3336.1103515625
+  },
+  "find_the_intersection_of_a_line_with_a_plane": {
+    "wasm": 72.0771484375,
+    "native": 3336.462890625
+  },
+  "find_the_intersection_of_two_lines": {
+    "wasm": 63.4248046875,
+    "native": 3336.5927734375
+  },
+  "find_the_missing_permutation": {
+    "wasm": 43.1953125,
+    "native": 3335.88671875
+  },
+  "first-class_functions": {
+    "wasm": 62.033203125,
+    "native": 3336.384765625
+  },
+  "five_weekends": {
+    "wasm": 43.8740234375,
+    "native": 3335.9736328125
+  },
+  "fivenum": {
+    "wasm": 46.3056640625,
+    "native": 3337.1181640625
+  },
+  "floyds_triangle": {
+    "wasm": 45.7939453125,
+    "native": 3335.9208984375
+  },
+  "formal_power_series": {
+    "wasm": 44.6650390625,
+    "native": 3337.443359375
+  },
+  "forward_difference": {
+    "wasm": 45.2138671875,
+    "native": 3336.0478515625
+  },
+  "four_bit_adder": {
+    "wasm": 42.599609375,
+    "native": 3336.275390625
+  },
+  "function_composition": {
+    "wasm": 42.3505859375,
+    "native": 3336.0341796875
+  },
+  "gapful_numbers": {
+    "wasm": 43.705078125,
+    "native": 3335.720703125
+  },
+  "gaussian_elimination": {
+    "wasm": 44.28515625,
+    "native": 3337.62890625
+  },
+  "general_fizzbuzz": {
+    "wasm": 45.787109375,
+    "native": 3335.9482421875
+  },
+  "generate_lower_case_ascii_alphabet": {
+    "wasm": 42.3564453125,
+    "native": 3335.22265625
+  },
+  "greatest_subsequential_sum": {
+    "wasm": 43.2666015625,
+    "native": 3335.857421875
+  },
+  "hamming_numbers": {
+    "wasm": 45.60546875,
+    "native": 3336.1357421875
+  },
+  "harshad_or_niven_series": {
+    "wasm": 42.80859375,
+    "native": 3335.4365234375
+  },
+  "hash_from_two_arrays": {
+    "wasm": 42.91796875,
+    "native": 3337.3662109375
+  },
+  "haversine_formula": {
+    "wasm": 42.5341796875,
+    "native": 3335.763671875
+  },
+  "here_document": {
+    "wasm": 42.736328125,
+    "native": 3335.333984375
+  },
+  "heronian_triangles": {
+    "wasm": 45.0771484375,
+    "native": 3337.546875
+  },
+  "hilbert_curve": {
+    "wasm": 43.5966796875,
+    "native": 3336.615234375
+  },
+  "hofstadter_figure-figure_sequences": {
+    "wasm": 47.1259765625,
+    "native": 3337.1181640625
+  },
+  "hofstadter_q_sequence": {
+    "wasm": 43.18359375,
+    "native": 3335.734375
+  },
+  "horners_rule_for_polynomial_evaluation": {
+    "wasm": 42.5673828125,
+    "native": 3335.3837890625
+  },
+  "host_introspection": {
+    "wasm": 42.14453125,
+    "native": 3335.3515625
+  },
+  "huffman_coding": {
+    "wasm": 46.009765625,
+    "native": 3337.4658203125
+  },
+  "iban": {
+    "wasm": 47.0791015625,
+    "native": 3338.3857421875
+  },
+  "isbn13_check_digit": {
+    "wasm": 43.0078125,
+    "native": 3335.8427734375
+  },
+  "idiomatically_determine_all_the_lowercase_and_uppercase_letters": {
+    "wasm": 43.4267578125,
+    "native": 3335.34765625
+  },
+  "imaginary_base_numbers": {
+    "wasm": 46.03125,
+    "native": 3340.2080078125
+  },
+  "increment_a_numerical_string": {
+    "wasm": 46.302734375,
+    "native": 3336.8203125
+  },
+  "infinity": {
+    "wasm": 42.30859375,
+    "native": 3335.1689453125
+  },
+  "integer_overflow": {
+    "wasm": 42.9248046875,
+    "native": 3335.578125
+  },
+  "integer_roots": {
+    "wasm": 42.7548828125,
+    "native": 3336.0595703125
+  },
+  "inverted_index": {
+    "wasm": 44.5625,
+    "native": 3340.1865234375
+  },
+  "iterated_digits_squaring": {
+    "wasm": 43.27734375,
+    "native": 3336.0126953125
+  },
+  "jaro_distance": {
+    "wasm": 43.640625,
+    "native": 3336.8154296875
+  },
+  "jensens_device": {
+    "wasm": 42.4541015625,
+    "native": 3335.48046875
+  },
+  "jewels_and_stones": {
+    "wasm": 42.4384765625,
+    "native": 3335.4521484375
+  },
+  "jortsort": {
+    "wasm": 43.0634765625,
+    "native": 3336.197265625
+  },
+  "josephus_problem": {
+    "wasm": 43.3193359375,
+    "native": 3335.9970703125
+  },
+  "kahan_summation": {
+    "wasm": 42.69921875,
+    "native": 3335.6201171875
+  },
+  "knapsack_problem-0-1": {
+    "wasm": 43.6162109375,
+    "native": 3337.4501953125
+  },
+  "knapsack_problem-bounded": {
+    "wasm": 44.40625,
+    "native": 3337.25390625
+  },
+  "knapsack_problem-continuous": {
+    "wasm": 45.5693359375,
+    "native": 3335.9228515625
+  },
+  "knapsack_problem-unbounded": {
+    "wasm": 43.4853515625,
+    "native": 3336.955078125
+  },
+  "knuth_shuffle": {
+    "wasm": 43.0224609375,
+    "native": 3336.2626953125
+  },
+  "kolakoski_sequence": {
+    "wasm": 43.9375,
+    "native": 3337.3701171875
+  },
+  "lu_decomposition": {
+    "wasm": 49.88671875,
+    "native": 3339.607421875
+  },
+  "largest_int_from_concatenated_ints": {
+    "wasm": 46.6513671875,
+    "native": 3335.8564453125
+  },
+  "largest_number_divisible_by_its_digits": {
+    "wasm": 43.12890625,
+    "native": 3335.6689453125
+  },
+  "law_of_cosines_triples": {
+    "wasm": 43.7724609375,
+    "native": 3335.8994140625
+  },
+  "leap_year": {
+    "wasm": 42.6611328125,
+    "native": 3335.5205078125
+  },
+  "least_common_multiple": {
+    "wasm": 42.61328125,
+    "native": 3335.3759765625
+  },
+  "levenshtein_distance-alignment": {
+    "wasm": 44.294921875,
+    "native": 3336.5439453125
+  },
+  "linear_congruential_generator": {
+    "wasm": 42.5439453125,
+    "native": 3335.5234375
+  },
+  "list_comprehensions": {
+    "wasm": 43.5029296875,
+    "native": 3337.2646484375
+  },
+  "list_rooted_trees": {
+    "wasm": 46.328125,
+    "native": 3337.11328125
+  },
+  "literals-integer": {
+    "wasm": 42.1083984375,
+    "native": 3335.1708984375
+  },
+  "long_multiplication": {
+    "wasm": 43.5146484375,
+    "native": 3336.2568359375
+  },
+  "longest_increasing_subsequence": {
+    "wasm": 43.7900390625,
+    "native": 3336.16015625
+  },
+  "loop_over_multiple_arrays_simultaneously": {
+    "wasm": 42.630859375,
+    "native": 3335.3876953125
+  },
+  "loops-increment_loop_index_within_loop_body": {
+    "wasm": 44.5048828125,
+    "native": 3335.8369140625
+  },
+  "loops-n_plus_one_half": {
+    "wasm": 42.83203125,
+    "native": 3335.248046875
+  },
+  "loops-wrong_ranges": {
+    "wasm": 43.7890625,
+    "native": 3335.9150390625
+  },
+  "lucas-lehmer_test": {
+    "wasm": 47.4794921875,
+    "native": 3336.0849609375
+  },
+  "luhn_test_of_credit_card_numbers": {
+    "wasm": 42.7587890625,
+    "native": 3335.92578125
+  },
+  "magic_squares_of_doubly_even_order": {
+    "wasm": 44.3603515625,
+    "native": 3336.6435546875
+  },
+  "magic_squares_of_singly_even_order": {
+    "wasm": 44.7353515625,
+    "native": 3337.4326171875
+  },
+  "man_or_boy_test": {
+    "wasm": 43.71875,
+    "native": 3336.1435546875
+  },
+  "map_range": {
+    "wasm": 42.4765625,
+    "native": 3335.3759765625
+  },
+  "matrix_chain_multiplication": {
+    "wasm": 44.970703125,
+    "native": 3339.109375
+  },
+  "matrix_transposition": {
+    "wasm": 43.09765625,
+    "native": 3335.6064453125
+  },
+  "maximum_triangle_path_sum": {
+    "wasm": 42.841796875,
+    "native": 3336.0595703125
+  },
+  "maze_generation": {
+    "wasm": 48.7734375,
+    "native": 3338.916015625
+  },
+  "mcnuggets_problem": {
+    "wasm": 42.6396484375,
+    "native": 3335.470703125
+  },
+  "memory_allocation": {
+    "wasm": 42.28125,
+    "native": 3335.4267578125
+  },
+  "middle_three_digits": {
+    "wasm": 43.001953125,
+    "native": 3335.84765625
+  },
+  "modular_arithmetic": {
+    "wasm": 43.0361328125,
+    "native": 3335.9736328125
+  },
+  "modular_inverse": {
+    "wasm": 42.412109375,
+    "native": 3335.4072265625
+  },
+  "move-to-front_algorithm": {
+    "wasm": 45.298828125,
+    "native": 3337.859375
+  },
+  "multifactorial": {
+    "wasm": 43.435546875,
+    "native": 3335.6171875
+  },
+  "multiplication_tables": {
+    "wasm": 43.5166015625,
+    "native": 3335.5146484375
+  },
+  "multisplit": {
+    "wasm": 43.4619140625,
+    "native": 3335.6806640625
+  },
+  "munchausen_numbers": {
+    "wasm": 49.474609375,
+    "native": 3335.525390625
+  },
+  "mutual_recursion": {
+    "wasm": 43.951171875,
+    "native": 3337.818359375
+  },
+  "n-queens_problem": {
+    "wasm": 43.25390625,
+    "native": 3336.015625
+  },
+  "named_parameters": {
+    "wasm": 42.9501953125,
+    "native": 3335.6044921875
+  },
+  "natural_sorting": {
+    "wasm": 58.5625,
+    "native": 3343.7265625
+  },
+  "negative_base_numbers": {
+    "wasm": 43.7080078125,
+    "native": 3336.6259765625
+  },
+  "non-continuous_subsequences": {
+    "wasm": 42.70703125,
+    "native": 3335.8154296875
+  },
+  "non-decimal_radices-convert": {
+    "wasm": 43.4287109375,
+    "native": 3336.2578125
+  },
+  "non-decimal_radices-input": {
+    "wasm": 70.56640625,
+    "native": 3335.32421875
+  },
+  "non-decimal_radices-output": {
+    "wasm": 43.736328125,
+    "native": 3335.19921875
+  },
+  "nth": {
+    "wasm": 43.4736328125,
+    "native": 3336.2236328125
+  },
+  "nth_root": {
+    "wasm": 42.6181640625,
+    "native": 3335.6669921875
+  },
+  "null_object": {
+    "wasm": 42.0595703125,
+    "native": 3335.1376953125
+  },
+  "number_names": {
+    "wasm": 44.3251953125,
+    "native": 3338.71875
+  },
+  "numeric_error_propagation": {
+    "wasm": 44.939453125,
+    "native": 3336.7099609375
+  },
+  "numeric_separator_syntax": {
+    "wasm": 45.1142578125,
+    "native": 3335.26171875
+  },
+  "numerical_integration-adaptive_simpsons_method": {
+    "wasm": 51.3623046875,
+    "native": 3336.60546875
+  },
+  "numerical_integration-gauss-legendre_quadrature": {
+    "wasm": 56.1533203125,
+    "native": 3337.751953125
+  },
+  "old_russian_measure_of_length": {
+    "wasm": 66.99609375,
+    "native": 3336.576171875
+  },
+  "old_lady_swallowed_a_fly": {
+    "wasm": 43.41796875,
+    "native": 3335.9814453125
+  },
+  "one-dimensional_cellular_automata": {
+    "wasm": 43.078125,
+    "native": 3336.5986328125
+  },
+  "optional_parameters": {
+    "wasm": 49.56640625,
+    "native": 3338.5869140625
+  },
+  "orbital_elements": {
+    "wasm": 42.9326171875,
+    "native": 3337.328125
+  },
+  "ordered_partitions": {
+    "wasm": 43.693359375,
+    "native": 3336.2578125
+  },
+  "p-value_correction": {
+    "wasm": 57.23046875,
+    "native": 3351.8935546875
+  },
+  "pangram_checker": {
+    "wasm": 43.689453125,
+    "native": 3335.6826171875
+  },
+  "paraffins": {
+    "wasm": 43.5625,
+    "native": 3337.9384765625
+  },
+  "parametric_polymorphism": {
+    "wasm": 42.7158203125,
+    "native": 3336.2294921875
+  },
+  "parsing-rpn_calculator_algorithm": {
+    "wasm": 73.96484375,
+    "native": 3336.9052734375
+  },
+  "parsing-rpn_to_infix_conversion": {
+    "wasm": 45.984375,
+    "native": 3337.4765625
+  },
+  "pascal_matrix_generation": {
+    "wasm": 45.4892578125,
+    "native": 3336.255859375
+  },
+  "pascals_triangle": {
+    "wasm": 43.873046875,
+    "native": 3335.5078125
+  },
+  "pascals_triangle-puzzle": {
+    "wasm": 42.603515625,
+    "native": 3335.900390625
+  },
+  "peaceful_chess_queen_armies": {
+    "wasm": 44.7177734375,
+    "native": 3339.2958984375
+  },
+  "permutation_test": {
+    "wasm": 42.8134765625,
+    "native": 3337.6796875
+  },
+  "permutations": {
+    "wasm": 43.3251953125,
+    "native": 3336.5458984375
+  },
+  "permutations-derangements": {
+    "wasm": 44.21484375,
+    "native": 3338.89453125
+  },
+  "permutations-rank_of_a_permutation": {
+    "wasm": 43.634765625,
+    "native": 3336.775390625
+  },
+  "permutations_by_swapping": {
+    "wasm": 44.015625,
+    "native": 3336.1611328125
+  },
+  "pernicious_numbers": {
+    "wasm": 43.1005859375,
+    "native": 3335.5302734375
+  },
+  "phrase_reversals": {
+    "wasm": 44.6123046875,
+    "native": 3336.6015625
+  },
+  "playing_cards": {
+    "wasm": 48.7119140625,
+    "native": 3337.654296875
+  },
+  "poker_hand_analyser": {
+    "wasm": 47.8212890625,
+    "native": 3338.0068359375
+  },
+  "polymorphic_copy": {
+    "wasm": 44.0205078125,
+    "native": 3338.2802734375
+  },
+  "population_count": {
+    "wasm": 44.62890625,
+    "native": 3335.69140625
+  },
+  "power_set": {
+    "wasm": 42.7666015625,
+    "native": 3336.0654296875
+  },
+  "print_debugging_statement": {
+    "wasm": 42.59375,
+    "native": 3335.365234375
+  },
+  "priority_queue": {
+    "wasm": 45.09375,
+    "native": 3336.2333984375
+  },
+  "probabilistic_choice": {
+    "wasm": 43.2666015625,
+    "native": 3336.2548828125
+  },
+  "problem_of_apollonius": {
+    "wasm": 47.3076171875,
+    "native": 3341.1865234375
+  },
+  "program_name": {
+    "wasm": 42.5546875,
+    "native": 3335.126953125
+  },
+  "qr_decomposition": {
+    "wasm": 48.671875,
+    "native": 3340.9794921875
+  },
+  "quickselect_algorithm": {
+    "wasm": 43.005859375,
+    "native": 3335.931640625
+  },
+  "quine": {
+    "wasm": 42.8154296875,
+    "native": 3335.3212890625
+  },
+  "ramseys_theorem": {
+    "wasm": 45.0888671875,
+    "native": 3336.9326171875
+  },
+  "random_numbers": {
+    "wasm": 42.3330078125,
+    "native": 3335.6591796875
+  },
+  "range_expansion": {
+    "wasm": 43.0322265625,
+    "native": 3336.4638671875
+  },
+  "range_extraction": {
+    "wasm": 43.25390625,
+    "native": 3336.3359375
+  },
+  "ray-casting_algorithm": {
+    "wasm": 44.5791015625,
+    "native": 3338.619140625
+  },
+  "record_sound": {
+    "wasm": 43.1533203125,
+    "native": 3335.64453125
+  },
+  "regular_expressions": {
+    "wasm": 87.548828125,
+    "native": 3336.0908203125
+  },
+  "remove_duplicate_elements": {
+    "wasm": 43.2001953125,
+    "native": 3335.876953125
+  },
+  "rep-string": {
+    "wasm": 43.0810546875,
+    "native": 3335.8037109375
+  },
+  "repeat": {
+    "wasm": 42.0546875,
+    "native": 3335.341796875
+  },
+  "repeat_a_string": {
+    "wasm": 42.0048828125,
+    "native": 3335.611328125
+  },
+  "resistor_mesh": {
+    "wasm": 44.111328125,
+    "native": 3337.27734375
+  },
+  "return_multiple_values": {
+    "wasm": 42.6787109375,
+    "native": 3335.6787109375
+  },
+  "reverse_a_string": {
+    "wasm": 46.8583984375,
+    "native": 3336.4951171875
+  },
+  "reverse_words_in_a_string": {
+    "wasm": 43.462890625,
+    "native": 3336.8203125
+  },
+  "roman_numerals-decode": {
+    "wasm": 43.0048828125,
+    "native": 3336.767578125
+  },
+  "roman_numerals-encode": {
+    "wasm": 42.7841796875,
+    "native": 3336.7958984375
+  },
+  "roots_of_a_function": {
+    "wasm": 43.4189453125,
+    "native": 3336.333984375
+  },
+  "roots_of_unity": {
+    "wasm": 51.9013671875,
+    "native": 3335.7705078125
+  },
+  "run-length_encoding": {
+    "wasm": 45.00390625,
+    "native": 3337.4638671875
+  },
+  "runge-kutta_method": {
+    "wasm": 43.31640625,
+    "native": 3336.4921875
+  },
+  "s-expressions": {
+    "wasm": 47.845703125,
+    "native": 3339.416015625
+  },
+  "search_a_list": {
+    "wasm": 42.88671875,
+    "native": 3335.9765625
+  },
+  "search_a_list_of_records": {
+    "wasm": 43.392578125,
+    "native": 3337.0234375
+  },
+  "semiprime": {
+    "wasm": 42.947265625,
+    "native": 3335.4580078125
+  },
+  "sequence_smallest_number_greater_than_previous_term_with_exactly_n_divisors": {
+    "wasm": 43.3291015625,
+    "native": 3335.677734375
+  },
+  "sequence_smallest_number_with_exactly_n_divisors": {
+    "wasm": 43.662109375,
+    "native": 3335.7255859375
+  },
+  "sequence_of_non-squares": {
+    "wasm": 44.0634765625,
+    "native": 3335.865234375
+  },
+  "set": {
+    "wasm": 43.7666015625,
+    "native": 3335.9404296875
+  },
+  "set_consolidation": {
+    "wasm": 43.9697265625,
+    "native": 3335.8798828125
+  },
+  "set_of_real_numbers": {
+    "wasm": 43.23828125,
+    "native": 3337.7890625
+  },
+  "sexy_primes": {
+    "wasm": 47.14453125,
+    "native": 3338.3408203125
+  },
+  "short-circuit_evaluation": {
+    "wasm": 42.478515625,
+    "native": 3335.541015625
+  },
+  "shortest_common_supersequence": {
+    "wasm": 44.1474609375,
+    "native": 3336.412109375
+  },
+  "show_ascii_table": {
+    "wasm": 43.1298828125,
+    "native": 3335.4658203125
+  },
+  "show_the_epoch": {
+    "wasm": 43.2265625,
+    "native": 3335.177734375
+  },
+  "sierpinski_triangle": {
+    "wasm": 43.078125,
+    "native": 3335.4130859375
+  },
+  "smith_numbers": {
+    "wasm": 42.6376953125,
+    "native": 3336.341796875
+  },
+  "sort_an_integer_array": {
+    "wasm": 45.1728515625,
+    "native": 3335.4111328125
+  },
+  "sort_disjoint_sublist": {
+    "wasm": 42.7353515625,
+    "native": 3335.8876953125
+  },
+  "sort_numbers_lexicographically": {
+    "wasm": 48.5703125,
+    "native": 3336.470703125
+  },
+  "sort_using_a_custom_comparator": {
+    "wasm": 45.5185546875,
+    "native": 3335.689453125
+  },
+  "sorting_algorithms-circle_sort": {
+    "wasm": 43.40234375,
+    "native": 3338.662109375
+  },
+  "sorting_algorithms-bead_sort": {
+    "wasm": 43.7138671875,
+    "native": 3336.2978515625
+  },
+  "sorting_algorithms-bogosort": {
+    "wasm": 43.416015625,
+    "native": 3335.8857421875
+  },
+  "sorting_algorithms-bubble_sort": {
+    "wasm": 43.17578125,
+    "native": 3336.013671875
+  },
+  "sorting_algorithms-cocktail_sort": {
+    "wasm": 43.6181640625,
+    "native": 3335.9326171875
+  },
+  "sorting_algorithms-cycle_sort": {
+    "wasm": 44.5908203125,
+    "native": 3336.7314453125
+  },
+  "sorting_algorithms-heapsort": {
+    "wasm": 43.69921875,
+    "native": 3336.0712890625
+  },
+  "sorting_algorithms-insertion_sort": {
+    "wasm": 43.8916015625,
+    "native": 3335.6826171875
+  },
+  "sorting_algorithms-merge_sort": {
+    "wasm": 43.6552734375,
+    "native": 3337.326171875
+  },
+  "sorting_algorithms-permutation_sort": {
+    "wasm": 42.8994140625,
+    "native": 3336.298828125
+  },
+  "sorting_algorithms-quicksort": {
+    "wasm": 43.6171875,
+    "native": 3336.953125
+  },
+  "sorting_algorithms-selection_sort": {
+    "wasm": 44.1328125,
+    "native": 3335.6982421875
+  },
+  "sorting_algorithms-shell_sort": {
+    "wasm": 44.546875,
+    "native": 3335.76953125
+  },
+  "sorting_algorithms-stooge_sort": {
+    "wasm": 43.3095703125,
+    "native": 3337.60546875
+  },
+  "sorting_algorithms-strand_sort": {
+    "wasm": 44.697265625,
+    "native": 3337.0703125
+  },
+  "soundex": {
+    "wasm": 43.33984375,
+    "native": 3337.3818359375
+  },
+  "sparkline_in_unicode": {
+    "wasm": 65.9228515625,
+    "native": 3336.220703125
+  },
+  "spiral_matrix": {
+    "wasm": 44.3251953125,
+    "native": 3336.138671875
+  },
+  "split_a_character_string_based_on_change_of_character": {
+    "wasm": 44.7265625,
+    "native": 3335.6923828125
+  },
+  "square_but_not_cube": {
+    "wasm": 43.1552734375,
+    "native": 3335.400390625
+  },
+  "stable_marriage_problem": {
+    "wasm": 47.0224609375,
+    "native": 3339.53125
+  },
+  "stack": {
+    "wasm": 45.2939453125,
+    "native": 3336.5849609375
+  },
+  "start_from_a_main_routine": {
+    "wasm": 42.5634765625,
+    "native": 3335.1376953125
+  },
+  "stem-and-leaf_plot": {
+    "wasm": 45.6357421875,
+    "native": 3336.2119140625
+  },
+  "stern-brocot_sequence": {
+    "wasm": 43.4794921875,
+    "native": 3336.658203125
+  },
+  "string_append": {
+    "wasm": 42.3603515625,
+    "native": 3335.33984375
+  },
+  "string_case": {
+    "wasm": 42.873046875,
+    "native": 3335.58203125
+  },
+  "string_concatenation": {
+    "wasm": 42.4833984375,
+    "native": 3335.59375
+  },
+  "string_length": {
+    "wasm": 42.27734375,
+    "native": 3335.1240234375
+  },
+  "string_matching": {
+    "wasm": 42.6650390625,
+    "native": 3335.7353515625
+  },
+  "string_prepend": {
+    "wasm": 42.57421875,
+    "native": 3335.349609375
+  },
+  "strip_control_codes_and_extended_characters_from_a_string": {
+    "wasm": 43.255859375,
+    "native": 3337.0771484375
+  },
+  "strip_whitespace_from_a_string-top_and_tail": {
+    "wasm": 43.4140625,
+    "native": 3335.88671875
+  },
+  "subtractive_generator": {
+    "wasm": 43.23046875,
+    "native": 3335.974609375
+  },
+  "sudoku": {
+    "wasm": 43.64453125,
+    "native": 3337.443359375
+  },
+  "sum_data_type": {
+    "wasm": 42.8037109375,
+    "native": 3335.3125
+  },
+  "sum_digits_of_an_integer": {
+    "wasm": 42.46875,
+    "native": 3335.3330078125
+  },
+  "sum_multiples_of_3_and_5": {
+    "wasm": 43.2509765625,
+    "native": 3335.513671875
+  },
+  "sum_of_a_series": {
+    "wasm": 42.5712890625,
+    "native": 3335.2998046875
+  },
+  "sum_of_squares": {
+    "wasm": 42.626953125,
+    "native": 3335.4111328125
+  },
+  "sum_to_100": {
+    "wasm": 47.8095703125,
+    "native": 3339.9912109375
+  },
+  "symmetric_difference": {
+    "wasm": 44.0048828125,
+    "native": 3336.4609375
+  },
+  "taxicab_numbers": {
+    "wasm": 46.0576171875,
+    "native": 3336.86328125
+  },
+  "temperature_conversion": {
+    "wasm": 62.66796875,
+    "native": 3335.626953125
+  },
+  "terminal_control-coloured_text": {
+    "wasm": 43.2626953125,
+    "native": 3335.9130859375
+  },
+  "terminal_control-display_an_extended_character": {
+    "wasm": 42.1708984375,
+    "native": 3335.2412109375
+  },
+  "terminal_control-inverse_video": {
+    "wasm": 42.1455078125,
+    "native": 3335.1884765625
+  },
+  "terminal_control-ringing_the_terminal_bell": {
+    "wasm": 42.73828125,
+    "native": 3335.1826171875
+  },
+  "ternary_logic": {
+    "wasm": 43.787109375,
+    "native": 3336.2060546875
+  },
+  "test_integerness": {
+    "wasm": 47.220703125,
+    "native": 3336.462890625
+  },
+  "the_isaac_cipher": {
+    "wasm": 47.2626953125,
+    "native": 3339.7763671875
+  },
+  "the_twelve_days_of_christmas": {
+    "wasm": 45.646484375,
+    "native": 3335.951171875
+  },
+  "thieles_interpolation_formula": {
+    "wasm": 52.1728515625,
+    "native": 3337.314453125
+  },
+  "thue-morse": {
+    "wasm": 43.287109375,
+    "native": 3335.412109375
+  },
+  "tokenize_a_string": {
+    "wasm": 43.5751953125,
+    "native": 3335.5234375
+  },
+  "tokenize_a_string_with_escaping": {
+    "wasm": 43.0859375,
+    "native": 3336.7265625
+  },
+  "top_rank_per_group": {
+    "wasm": 46.236328125,
+    "native": 3336.59765625
+  },
+  "topological_sort": {
+    "wasm": 46.8056640625,
+    "native": 3338.7421875
+  },
+  "totient_function": {
+    "wasm": 42.7294921875,
+    "native": 3335.9921875
+  },
+  "towers_of_hanoi": {
+    "wasm": 42.8037109375,
+    "native": 3336.26953125
+  },
+  "tree_traversal": {
+    "wasm": 43.923828125,
+    "native": 3338.185546875
+  },
+  "trigonometric_functions": {
+    "wasm": 42.8427734375,
+    "native": 3335.427734375
+  },
+  "truncatable_primes": {
+    "wasm": 43.0810546875,
+    "native": 3337.09375
+  },
+  "two_sum": {
+    "wasm": 42.3818359375,
+    "native": 3335.216796875
+  },
+  "type_detection": {
+    "wasm": 43.3564453125,
+    "native": 3335.8662109375
+  },
+  "utf-8_encode_and_decode": {
+    "wasm": 43.3330078125,
+    "native": 3337.1865234375
+  },
+  "undefined_values": {
+    "wasm": 42.54296875,
+    "native": 3335.267578125
+  },
+  "unicode_strings": {
+    "wasm": 44.21484375,
+    "native": 3335.7421875
+  },
+  "unicode_variable_names": {
+    "wasm": 42.4296875,
+    "native": 3335.1318359375
+  },
+  "universal_turing_machine": {
+    "wasm": 46.0263671875,
+    "native": 3339.9287109375
+  },
+  "validate_international_securities_identification_number": {
+    "wasm": 43.9912109375,
+    "native": 3336.97265625
+  },
+  "van_eck_sequence": {
+    "wasm": 43.26171875,
+    "native": 3335.60546875
+  },
+  "van_der_corput_sequence": {
+    "wasm": 43.939453125,
+    "native": 3335.7060546875
+  },
+  "variable-length_quantity": {
+    "wasm": 43.423828125,
+    "native": 3336.498046875
+  },
+  "vector": {
+    "wasm": 43.1162109375,
+    "native": 3336.0478515625
+  },
+  "vector_products": {
+    "wasm": 43.4033203125,
+    "native": 3336.279296875
+  },
+  "vigenere_cipher-cryptanalysis": {
+    "wasm": 45.3876953125,
+    "native": 3339.0625
+  },
+  "visualize_a_tree": {
+    "wasm": 43.4228515625,
+    "native": 3335.9150390625
+  },
+  "vogels_approximation_method": {
+    "wasm": 45.8583984375,
+    "native": 3341.5283203125
+  },
+  "water_collected_between_towers": {
+    "wasm": 45.1875,
+    "native": 3336.6484375
+  },
+  "weird_numbers": {
+    "wasm": 43.3779296875,
+    "native": 3337.53125
+  },
+  "welchs_t-test": {
+    "wasm": 58.890625,
+    "native": 3340.2607421875
+  },
+  "write_language_name_in_3d_ascii": {
+    "wasm": 42.150390625,
+    "native": 3335.2490234375
+  },
+  "y_combinator": {
+    "wasm": 44.4326171875,
+    "native": 3336.234375
+  },
+  "yin_and_yang": {
+    "wasm": 42.6845703125,
+    "native": 3335.7666015625
+  },
+  "zebra_puzzle": {
+    "wasm": 44.71875,
+    "native": 3340.02734375
+  },
+  "zeckendorf_number_representation": {
+    "wasm": 43.8447265625,
+    "native": 3336.7861328125
+  },
+  "zero_to_the_zero_power": {
+    "wasm": 62.56640625,
+    "native": 3335.216796875
+  },
+  "args": {
+    "wasm": 42.8271484375,
+    "native": 3335.28515625
+  },
+  "branches": {
+    "wasm": 42.615234375,
+    "native": 3335.3564453125
+  },
+  "branches2": {
+    "wasm": 42.619140625,
+    "native": 3335.34375
+  },
+  "exit": {
+    "wasm": 42.3427734375,
+    "native": 3335.0166015625
+  },
+  "flatten": {
+    "wasm": 46.181640625,
+    "native": 3338.796875
+  },
+  "fraction-norm": {
+    "wasm": 42.2734375,
+    "native": 3335.5302734375
+  },
+  "linear-memory-analysis": {
+    "wasm": 43.060546875,
+    "native": 3336.04296875
+  },
+  "stdout": {
+    "wasm": 42.189453125,
+    "native": 3335.111328125
+  }
+}

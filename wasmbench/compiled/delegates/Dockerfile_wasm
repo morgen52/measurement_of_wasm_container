@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./delegates.wasm /
+CMD ["/delegates.wasm"]

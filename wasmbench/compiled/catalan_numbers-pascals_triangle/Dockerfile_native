@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./catalan_numbers-pascals_triangle.c .
+RUN gcc -O3 -o ./catalan_numbers-pascals_triangle ./catalan_numbers-pascals_triangle.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/catalan_numbers-pascals_triangle .
+CMD ["./catalan_numbers-pascals_triangle"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./return_multiple_values.wasm /
+CMD ["/return_multiple_values.wasm"]

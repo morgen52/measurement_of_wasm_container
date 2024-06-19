@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sum_data_type.wasm /
+CMD ["/sum_data_type.wasm"]

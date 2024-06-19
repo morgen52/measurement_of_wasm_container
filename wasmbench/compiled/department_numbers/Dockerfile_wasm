@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./department_numbers.wasm /
+CMD ["/department_numbers.wasm"]

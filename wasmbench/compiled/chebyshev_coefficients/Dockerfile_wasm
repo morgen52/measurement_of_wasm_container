@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./chebyshev_coefficients.wasm /
+CMD ["/chebyshev_coefficients.wasm"]

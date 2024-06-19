@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./tokenize_a_string.wasm /
+CMD ["/tokenize_a_string.wasm"]

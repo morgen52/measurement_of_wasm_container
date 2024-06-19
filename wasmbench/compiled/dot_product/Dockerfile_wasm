@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./dot_product.wasm /
+CMD ["/dot_product.wasm"]

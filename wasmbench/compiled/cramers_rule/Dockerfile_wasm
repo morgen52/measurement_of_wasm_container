@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./cramers_rule.wasm /
+CMD ["/cramers_rule.wasm"]

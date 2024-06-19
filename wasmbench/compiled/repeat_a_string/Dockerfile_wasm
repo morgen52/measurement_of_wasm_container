@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./repeat_a_string.wasm /
+CMD ["/repeat_a_string.wasm"]

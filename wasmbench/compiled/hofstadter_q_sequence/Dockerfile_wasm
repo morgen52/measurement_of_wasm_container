@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./hofstadter_q_sequence.wasm /
+CMD ["/hofstadter_q_sequence.wasm"]

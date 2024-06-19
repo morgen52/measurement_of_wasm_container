@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./exceptions-catch_an_exception_thrown_in_a_nested_call.c .
+RUN gcc -O3 -o ./exceptions-catch_an_exception_thrown_in_a_nested_call ./exceptions-catch_an_exception_thrown_in_a_nested_call.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/exceptions-catch_an_exception_thrown_in_a_nested_call .
+CMD ["./exceptions-catch_an_exception_thrown_in_a_nested_call"]

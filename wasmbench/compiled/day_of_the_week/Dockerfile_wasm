@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./day_of_the_week.wasm /
+CMD ["/day_of_the_week.wasm"]

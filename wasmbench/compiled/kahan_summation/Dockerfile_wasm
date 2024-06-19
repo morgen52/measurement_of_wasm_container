@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./kahan_summation.wasm /
+CMD ["/kahan_summation.wasm"]

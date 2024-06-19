@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./range_extraction.wasm /
+CMD ["/range_extraction.wasm"]

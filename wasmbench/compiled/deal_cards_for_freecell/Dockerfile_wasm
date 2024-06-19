@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./deal_cards_for_freecell.wasm /
+CMD ["/deal_cards_for_freecell.wasm"]

@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I datamining/correlation utilities/polybench.c datamining/correlation/correlation.c -DPOLYBENCH_TIME -o datamining/correlation/correlation -lm
+RUN cp datamining/correlation/correlation /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/correlation /correlation
+CMD ["/correlation"]

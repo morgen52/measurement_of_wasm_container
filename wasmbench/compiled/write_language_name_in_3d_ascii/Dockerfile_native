@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./write_language_name_in_3d_ascii.c .
+RUN gcc -O3 -o ./write_language_name_in_3d_ascii ./write_language_name_in_3d_ascii.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/write_language_name_in_3d_ascii .
+CMD ["./write_language_name_in_3d_ascii"]

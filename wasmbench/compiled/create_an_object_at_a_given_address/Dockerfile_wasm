@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./create_an_object_at_a_given_address.wasm /
+CMD ["/create_an_object_at_a_given_address.wasm"]

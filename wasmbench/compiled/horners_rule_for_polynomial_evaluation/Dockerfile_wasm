@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./horners_rule_for_polynomial_evaluation.wasm /
+CMD ["/horners_rule_for_polynomial_evaluation.wasm"]

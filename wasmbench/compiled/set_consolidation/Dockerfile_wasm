@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./set_consolidation.wasm /
+CMD ["/set_consolidation.wasm"]

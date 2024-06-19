@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./permutations-rank_of_a_permutation.wasm /
+CMD ["/permutations-rank_of_a_permutation.wasm"]

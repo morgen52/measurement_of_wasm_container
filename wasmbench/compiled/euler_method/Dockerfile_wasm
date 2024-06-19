@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./euler_method.wasm /
+CMD ["/euler_method.wasm"]

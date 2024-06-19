@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./ternary_logic.wasm /
+CMD ["/ternary_logic.wasm"]

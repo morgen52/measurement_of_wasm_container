@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./catamorphism.wasm /
+CMD ["/catamorphism.wasm"]

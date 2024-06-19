@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./start_from_a_main_routine.wasm /
+CMD ["/start_from_a_main_routine.wasm"]

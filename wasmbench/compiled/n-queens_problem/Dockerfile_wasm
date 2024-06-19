@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./n-queens_problem.wasm /
+CMD ["/n-queens_problem.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./formal_power_series.wasm /
+CMD ["/formal_power_series.wasm"]

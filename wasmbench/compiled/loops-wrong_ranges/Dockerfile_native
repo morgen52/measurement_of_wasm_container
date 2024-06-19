@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./loops-wrong_ranges.c .
+RUN gcc -O3 -o ./loops-wrong_ranges ./loops-wrong_ranges.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/loops-wrong_ranges .
+CMD ["./loops-wrong_ranges"]

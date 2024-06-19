@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sorting_algorithms-insertion_sort.wasm /
+CMD ["/sorting_algorithms-insertion_sort.wasm"]

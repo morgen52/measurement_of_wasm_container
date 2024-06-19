@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./pascal_matrix_generation.wasm /
+CMD ["/pascal_matrix_generation.wasm"]

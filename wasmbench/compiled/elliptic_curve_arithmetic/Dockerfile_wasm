@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./elliptic_curve_arithmetic.wasm /
+CMD ["/elliptic_curve_arithmetic.wasm"]

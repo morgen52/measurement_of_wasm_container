@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./ordered_partitions.c .
+RUN gcc -O3 -o ./ordered_partitions ./ordered_partitions.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/ordered_partitions .
+CMD ["./ordered_partitions"]

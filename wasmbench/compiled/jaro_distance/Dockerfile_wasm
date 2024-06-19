@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./jaro_distance.wasm /
+CMD ["/jaro_distance.wasm"]

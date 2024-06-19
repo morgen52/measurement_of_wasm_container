@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./four_bit_adder.wasm /
+CMD ["/four_bit_adder.wasm"]

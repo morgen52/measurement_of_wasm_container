@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./terminal_control-display_an_extended_character.c .
+RUN gcc -O3 -o ./terminal_control-display_an_extended_character ./terminal_control-display_an_extended_character.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/terminal_control-display_an_extended_character .
+CMD ["./terminal_control-display_an_extended_character"]

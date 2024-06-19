@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./continued_fraction.wasm /
+CMD ["/continued_fraction.wasm"]

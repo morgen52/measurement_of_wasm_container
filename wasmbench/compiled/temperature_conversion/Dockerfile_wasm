@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./temperature_conversion.wasm /
+CMD ["/temperature_conversion.wasm"]

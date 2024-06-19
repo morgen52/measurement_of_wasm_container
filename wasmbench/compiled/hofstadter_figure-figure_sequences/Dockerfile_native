@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./hofstadter_figure-figure_sequences.c .
+RUN gcc -O3 -o ./hofstadter_figure-figure_sequences ./hofstadter_figure-figure_sequences.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/hofstadter_figure-figure_sequences .
+CMD ["./hofstadter_figure-figure_sequences"]

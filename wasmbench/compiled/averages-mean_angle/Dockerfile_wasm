@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./averages-mean_angle.wasm /
+CMD ["/averages-mean_angle.wasm"]

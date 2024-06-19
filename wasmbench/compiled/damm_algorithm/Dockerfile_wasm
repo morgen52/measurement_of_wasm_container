@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./damm_algorithm.wasm /
+CMD ["/damm_algorithm.wasm"]

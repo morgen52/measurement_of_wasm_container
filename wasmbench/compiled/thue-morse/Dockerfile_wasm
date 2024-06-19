@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./thue-morse.wasm /
+CMD ["/thue-morse.wasm"]

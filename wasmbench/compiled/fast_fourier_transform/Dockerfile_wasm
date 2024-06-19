@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./fast_fourier_transform.wasm /
+CMD ["/fast_fourier_transform.wasm"]

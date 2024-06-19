@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I stencils/seidel-2d utilities/polybench.c stencils/seidel-2d/seidel-2d.c -DPOLYBENCH_TIME -o stencils/seidel-2d/seidel-2d -lm
+RUN cp stencils/seidel-2d/seidel-2d /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/seidel-2d /seidel-2d
+CMD ["/seidel-2d"]

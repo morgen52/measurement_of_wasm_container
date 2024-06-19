@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sum_to_100.wasm /
+CMD ["/sum_to_100.wasm"]

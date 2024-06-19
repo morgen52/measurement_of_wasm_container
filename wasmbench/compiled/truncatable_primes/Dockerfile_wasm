@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./truncatable_primes.wasm /
+CMD ["/truncatable_primes.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./matrix_transposition.wasm /
+CMD ["/matrix_transposition.wasm"]

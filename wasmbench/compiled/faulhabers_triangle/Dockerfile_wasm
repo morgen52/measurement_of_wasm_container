@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./faulhabers_triangle.wasm /
+CMD ["/faulhabers_triangle.wasm"]

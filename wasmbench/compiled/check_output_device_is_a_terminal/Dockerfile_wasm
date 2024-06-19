@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./check_output_device_is_a_terminal.wasm /
+CMD ["/check_output_device_is_a_terminal.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./command-line_arguments.wasm /
+CMD ["/command-line_arguments.wasm"]

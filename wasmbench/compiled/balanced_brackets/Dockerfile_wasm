@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./balanced_brackets.wasm /
+CMD ["/balanced_brackets.wasm"]

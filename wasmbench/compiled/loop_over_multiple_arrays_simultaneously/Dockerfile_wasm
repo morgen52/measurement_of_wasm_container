@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./loop_over_multiple_arrays_simultaneously.wasm /
+CMD ["/loop_over_multiple_arrays_simultaneously.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./count_occurrences_of_a_substring.wasm /
+CMD ["/count_occurrences_of_a_substring.wasm"]

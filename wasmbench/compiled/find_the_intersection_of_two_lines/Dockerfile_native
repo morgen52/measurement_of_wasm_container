@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./find_the_intersection_of_two_lines.c .
+RUN gcc -O3 -o ./find_the_intersection_of_two_lines ./find_the_intersection_of_two_lines.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/find_the_intersection_of_two_lines .
+CMD ["./find_the_intersection_of_two_lines"]

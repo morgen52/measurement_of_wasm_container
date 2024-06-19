@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./roots_of_a_function.wasm /
+CMD ["/roots_of_a_function.wasm"]

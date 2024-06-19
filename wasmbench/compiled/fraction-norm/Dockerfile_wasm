@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./fraction-norm.wasm /
+CMD ["/fraction-norm.wasm"]

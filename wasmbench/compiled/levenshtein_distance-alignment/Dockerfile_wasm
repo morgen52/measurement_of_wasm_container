@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./levenshtein_distance-alignment.wasm /
+CMD ["/levenshtein_distance-alignment.wasm"]

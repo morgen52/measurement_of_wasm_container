@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./show_ascii_table.wasm /
+CMD ["/show_ascii_table.wasm"]

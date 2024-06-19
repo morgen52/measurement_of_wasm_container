@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./probabilistic_choice.wasm /
+CMD ["/probabilistic_choice.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./maximum_triangle_path_sum.wasm /
+CMD ["/maximum_triangle_path_sum.wasm"]

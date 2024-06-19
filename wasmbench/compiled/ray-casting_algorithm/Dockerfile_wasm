@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./ray-casting_algorithm.wasm /
+CMD ["/ray-casting_algorithm.wasm"]

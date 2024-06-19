@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sum_of_a_series.wasm /
+CMD ["/sum_of_a_series.wasm"]

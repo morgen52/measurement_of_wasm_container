@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./y_combinator.wasm /
+CMD ["/y_combinator.wasm"]

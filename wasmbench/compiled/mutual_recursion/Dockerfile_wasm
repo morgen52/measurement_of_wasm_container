@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./mutual_recursion.wasm /
+CMD ["/mutual_recursion.wasm"]

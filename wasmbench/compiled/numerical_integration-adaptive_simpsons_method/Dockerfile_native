@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./numerical_integration-adaptive_simpsons_method.c .
+RUN gcc -O3 -o ./numerical_integration-adaptive_simpsons_method ./numerical_integration-adaptive_simpsons_method.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/numerical_integration-adaptive_simpsons_method .
+CMD ["./numerical_integration-adaptive_simpsons_method"]

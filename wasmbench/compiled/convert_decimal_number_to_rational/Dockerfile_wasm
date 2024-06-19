@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./convert_decimal_number_to_rational.wasm /
+CMD ["/convert_decimal_number_to_rational.wasm"]

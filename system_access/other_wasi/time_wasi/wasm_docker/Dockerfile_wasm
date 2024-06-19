@@ -1,0 +1,3 @@
+FROM scratch
+COPY . /
+CMD ["/time_wasi.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./water_collected_between_towers.wasm /
+CMD ["/water_collected_between_towers.wasm"]

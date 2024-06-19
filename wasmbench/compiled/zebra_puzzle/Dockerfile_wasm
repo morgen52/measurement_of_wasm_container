@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./zebra_puzzle.wasm /
+CMD ["/zebra_puzzle.wasm"]

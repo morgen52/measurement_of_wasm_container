@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./quickselect_algorithm.wasm /
+CMD ["/quickselect_algorithm.wasm"]

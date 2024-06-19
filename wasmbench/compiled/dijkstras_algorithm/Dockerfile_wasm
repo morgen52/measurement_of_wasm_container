@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./dijkstras_algorithm.wasm /
+CMD ["/dijkstras_algorithm.wasm"]

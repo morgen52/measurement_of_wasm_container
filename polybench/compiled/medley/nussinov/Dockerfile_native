@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I medley/nussinov utilities/polybench.c medley/nussinov/nussinov.c -DPOLYBENCH_TIME -o medley/nussinov/nussinov -lm
+RUN cp medley/nussinov/nussinov /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/nussinov /nussinov
+CMD ["/nussinov"]

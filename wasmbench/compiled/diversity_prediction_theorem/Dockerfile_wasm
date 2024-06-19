@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./diversity_prediction_theorem.wasm /
+CMD ["/diversity_prediction_theorem.wasm"]

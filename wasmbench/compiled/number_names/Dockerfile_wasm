@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./number_names.wasm /
+CMD ["/number_names.wasm"]

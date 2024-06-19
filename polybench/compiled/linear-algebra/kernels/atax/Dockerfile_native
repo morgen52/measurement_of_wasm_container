@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I linear-algebra/kernels/atax utilities/polybench.c linear-algebra/kernels/atax/atax.c -DPOLYBENCH_TIME -o linear-algebra/kernels/atax/atax -lm
+RUN cp linear-algebra/kernels/atax/atax /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/atax /atax
+CMD ["/atax"]

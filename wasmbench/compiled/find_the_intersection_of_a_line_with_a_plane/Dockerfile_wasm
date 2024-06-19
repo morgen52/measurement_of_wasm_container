@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./find_the_intersection_of_a_line_with_a_plane.wasm /
+CMD ["/find_the_intersection_of_a_line_with_a_plane.wasm"]

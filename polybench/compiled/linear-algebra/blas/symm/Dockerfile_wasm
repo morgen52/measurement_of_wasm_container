@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./symm.wasm /symm.wasm
+CMD ["/symm.wasm"]

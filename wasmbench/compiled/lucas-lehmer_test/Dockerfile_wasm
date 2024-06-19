@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./lucas-lehmer_test.wasm /
+CMD ["/lucas-lehmer_test.wasm"]

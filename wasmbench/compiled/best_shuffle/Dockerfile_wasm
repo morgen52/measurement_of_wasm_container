@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./best_shuffle.wasm /
+CMD ["/best_shuffle.wasm"]

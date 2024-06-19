@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./five_weekends.wasm /
+CMD ["/five_weekends.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./stable_marriage_problem.wasm /
+CMD ["/stable_marriage_problem.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./imaginary_base_numbers.wasm /
+CMD ["/imaginary_base_numbers.wasm"]

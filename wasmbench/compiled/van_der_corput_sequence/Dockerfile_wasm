@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./van_der_corput_sequence.wasm /
+CMD ["/van_der_corput_sequence.wasm"]

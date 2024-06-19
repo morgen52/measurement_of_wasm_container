@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./calculating_the_value_of_e.c .
+RUN gcc -O3 -o ./calculating_the_value_of_e ./calculating_the_value_of_e.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/calculating_the_value_of_e .
+CMD ["./calculating_the_value_of_e"]

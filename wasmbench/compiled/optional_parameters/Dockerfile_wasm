@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./optional_parameters.wasm /
+CMD ["/optional_parameters.wasm"]

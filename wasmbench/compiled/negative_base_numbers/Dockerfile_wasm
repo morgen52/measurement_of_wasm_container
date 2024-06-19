@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./negative_base_numbers.wasm /
+CMD ["/negative_base_numbers.wasm"]

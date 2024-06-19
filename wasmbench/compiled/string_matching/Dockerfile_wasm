@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./string_matching.wasm /
+CMD ["/string_matching.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./chinese_remainder_theorem.wasm /
+CMD ["/chinese_remainder_theorem.wasm"]

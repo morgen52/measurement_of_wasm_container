@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./zero_to_the_zero_power.wasm /
+CMD ["/zero_to_the_zero_power.wasm"]

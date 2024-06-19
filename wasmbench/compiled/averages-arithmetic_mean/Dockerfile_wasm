@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./averages-arithmetic_mean.wasm /
+CMD ["/averages-arithmetic_mean.wasm"]

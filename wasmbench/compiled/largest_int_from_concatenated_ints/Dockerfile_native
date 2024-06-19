@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./largest_int_from_concatenated_ints.c .
+RUN gcc -O3 -o ./largest_int_from_concatenated_ints ./largest_int_from_concatenated_ints.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/largest_int_from_concatenated_ints .
+CMD ["./largest_int_from_concatenated_ints"]

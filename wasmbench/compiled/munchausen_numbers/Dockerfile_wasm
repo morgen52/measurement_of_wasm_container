@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./munchausen_numbers.wasm /
+CMD ["/munchausen_numbers.wasm"]

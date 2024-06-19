@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./deconvolution-2d.wasm /
+CMD ["/deconvolution-2d.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./flatten.wasm /
+CMD ["/flatten.wasm"]

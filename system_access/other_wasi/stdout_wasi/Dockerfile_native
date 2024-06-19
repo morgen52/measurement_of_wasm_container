@@ -1,0 +1,30 @@
+FROM clux/muslrust:stable as builder
+
+WORKDIR /app
+
+RUN USER=root cargo new stdout_wasi
+WORKDIR /app/stdout_wasi
+
+COPY Cargo.toml Cargo.lock ./
+
+RUN echo 'fn main() { println!("Dummy") }' > ./src/main.rs
+
+RUN cargo build --release
+
+RUN rm -r target/x86_64-unknown-linux-musl/release/.fingerprint/stdout_wasi-*
+
+COPY src src/
+# COPY migrations migrations/
+# COPY templates templates/
+
+RUN cargo build --release --frozen --bin stdout_wasi
+
+
+FROM alpine:latest
+
+# COPY --from=builder /app/stdout_wasi/migrations /application/migrations
+# COPY --from=builder /app/stdout_wasi/templates /application/templates
+COPY --from=builder /app/stdout_wasi/target/x86_64-unknown-linux-musl/release/stdout_wasi /application/stdout_wasi
+
+WORKDIR /application
+CMD ["./stdout_wasi"]

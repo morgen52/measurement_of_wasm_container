@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./reverse_a_string.wasm /
+CMD ["/reverse_a_string.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./random_numbers.wasm /
+CMD ["/random_numbers.wasm"]

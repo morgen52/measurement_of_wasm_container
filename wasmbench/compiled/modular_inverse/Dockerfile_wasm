@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./modular_inverse.wasm /
+CMD ["/modular_inverse.wasm"]

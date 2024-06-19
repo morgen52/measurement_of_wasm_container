@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./mvt.wasm /mvt.wasm
+CMD ["/mvt.wasm"]

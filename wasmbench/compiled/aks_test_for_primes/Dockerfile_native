@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./aks_test_for_primes.c .
+RUN gcc -O3 -o ./aks_test_for_primes ./aks_test_for_primes.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/aks_test_for_primes .
+CMD ["./aks_test_for_primes"]

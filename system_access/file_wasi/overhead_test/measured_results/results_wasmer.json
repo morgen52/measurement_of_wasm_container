@@ -1,0 +1,35 @@
+{
+  "read": {
+    "wasm": {
+      "execution": 0.04869384
+    },
+    "native": {
+      "execution": 0.004513717171717173
+    },
+    "native_wasm": {
+      "execution": 0.07219048000000006
+    }
+  },
+  "create": {
+    "wasm": {
+      "execution": 0.03610947
+    },
+    "native": {
+      "execution": 0.012959019999999996
+    },
+    "native_wasm": {
+      "execution": 0.1182648787878789
+    }
+  },
+  "delete": {
+    "wasm": {
+      "execution": 0.015147969999999997
+    },
+    "native": {
+      "execution": 0.006392239999999999
+    },
+    "native_wasm": {
+      "execution": 0.023295520000000004
+    }
+  }
+}

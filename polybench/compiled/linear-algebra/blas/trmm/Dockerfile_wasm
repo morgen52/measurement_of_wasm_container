@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./trmm.wasm /trmm.wasm
+CMD ["/trmm.wasm"]

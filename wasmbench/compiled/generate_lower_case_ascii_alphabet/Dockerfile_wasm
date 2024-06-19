@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./generate_lower_case_ascii_alphabet.wasm /
+CMD ["/generate_lower_case_ascii_alphabet.wasm"]

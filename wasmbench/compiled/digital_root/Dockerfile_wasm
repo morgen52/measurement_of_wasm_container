@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./digital_root.wasm /
+CMD ["/digital_root.wasm"]

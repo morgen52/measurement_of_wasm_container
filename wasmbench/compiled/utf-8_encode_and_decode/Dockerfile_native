@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./utf-8_encode_and_decode.c .
+RUN gcc -O3 -o ./utf-8_encode_and_decode ./utf-8_encode_and_decode.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/utf-8_encode_and_decode .
+CMD ["./utf-8_encode_and_decode"]

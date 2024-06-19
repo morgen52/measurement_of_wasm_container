@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./longest_increasing_subsequence.wasm /
+CMD ["/longest_increasing_subsequence.wasm"]

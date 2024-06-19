@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./smith_numbers.wasm /
+CMD ["/smith_numbers.wasm"]

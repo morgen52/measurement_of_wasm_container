@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./trigonometric_functions.wasm /
+CMD ["/trigonometric_functions.wasm"]

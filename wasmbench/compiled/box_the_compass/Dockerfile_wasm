@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./box_the_compass.wasm /
+CMD ["/box_the_compass.wasm"]

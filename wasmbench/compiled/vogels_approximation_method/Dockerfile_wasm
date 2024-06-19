@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./vogels_approximation_method.wasm /
+CMD ["/vogels_approximation_method.wasm"]

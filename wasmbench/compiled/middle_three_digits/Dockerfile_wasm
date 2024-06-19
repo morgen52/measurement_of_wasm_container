@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./middle_three_digits.wasm /
+CMD ["/middle_three_digits.wasm"]

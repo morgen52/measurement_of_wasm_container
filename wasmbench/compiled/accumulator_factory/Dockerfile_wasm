@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./accumulator_factory.wasm /
+CMD ["/accumulator_factory.wasm"]

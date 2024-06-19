@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./lu.wasm /lu.wasm
+CMD ["/lu.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./soundex.wasm /
+CMD ["/soundex.wasm"]

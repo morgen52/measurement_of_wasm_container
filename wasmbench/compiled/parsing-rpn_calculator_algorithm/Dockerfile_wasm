@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./parsing-rpn_calculator_algorithm.wasm /
+CMD ["/parsing-rpn_calculator_algorithm.wasm"]

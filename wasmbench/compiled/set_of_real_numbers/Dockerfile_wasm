@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./set_of_real_numbers.wasm /
+CMD ["/set_of_real_numbers.wasm"]

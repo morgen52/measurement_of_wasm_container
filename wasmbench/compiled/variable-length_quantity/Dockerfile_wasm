@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./variable-length_quantity.wasm /
+CMD ["/variable-length_quantity.wasm"]

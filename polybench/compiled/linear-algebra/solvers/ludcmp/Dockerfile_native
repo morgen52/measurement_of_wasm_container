@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I linear-algebra/solvers/ludcmp utilities/polybench.c linear-algebra/solvers/ludcmp/ludcmp.c -DPOLYBENCH_TIME -o linear-algebra/solvers/ludcmp/ludcmp -lm
+RUN cp linear-algebra/solvers/ludcmp/ludcmp /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/ludcmp /ludcmp
+CMD ["/ludcmp"]

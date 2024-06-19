@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./greatest_subsequential_sum.wasm /
+CMD ["/greatest_subsequential_sum.wasm"]

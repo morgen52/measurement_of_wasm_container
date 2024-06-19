@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./syr2k.wasm /syr2k.wasm
+CMD ["/syr2k.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./kolakoski_sequence.wasm /
+CMD ["/kolakoski_sequence.wasm"]

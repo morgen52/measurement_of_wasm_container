@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./count_occurrences_of_a_substring.c .
+RUN gcc -O3 -o ./count_occurrences_of_a_substring ./count_occurrences_of_a_substring.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/count_occurrences_of_a_substring .
+CMD ["./count_occurrences_of_a_substring"]

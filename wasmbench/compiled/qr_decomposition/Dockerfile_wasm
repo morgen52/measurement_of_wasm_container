@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./qr_decomposition.wasm /
+CMD ["/qr_decomposition.wasm"]

@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./continued_fraction-arithmetic-construct_from_rational_number.c .
+RUN gcc -O3 -o ./continued_fraction-arithmetic-construct_from_rational_number ./continued_fraction-arithmetic-construct_from_rational_number.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/continued_fraction-arithmetic-construct_from_rational_number .
+CMD ["./continued_fraction-arithmetic-construct_from_rational_number"]

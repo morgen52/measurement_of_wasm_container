@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./numeric_separator_syntax.c .
+RUN gcc -O3 -o ./numeric_separator_syntax ./numeric_separator_syntax.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/numeric_separator_syntax .
+CMD ["./numeric_separator_syntax"]

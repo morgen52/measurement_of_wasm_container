@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./paraffins.wasm /
+CMD ["/paraffins.wasm"]

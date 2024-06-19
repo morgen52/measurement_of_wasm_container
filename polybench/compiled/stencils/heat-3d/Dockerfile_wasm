@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./heat-3d.wasm /heat-3d.wasm
+CMD ["/heat-3d.wasm"]

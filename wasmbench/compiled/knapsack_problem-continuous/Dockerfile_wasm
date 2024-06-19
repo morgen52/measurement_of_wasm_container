@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./knapsack_problem-continuous.wasm /
+CMD ["/knapsack_problem-continuous.wasm"]

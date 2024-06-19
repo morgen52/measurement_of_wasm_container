@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./the_twelve_days_of_christmas.wasm /
+CMD ["/the_twelve_days_of_christmas.wasm"]

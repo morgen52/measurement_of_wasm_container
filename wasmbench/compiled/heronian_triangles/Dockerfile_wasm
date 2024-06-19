@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./heronian_triangles.wasm /
+CMD ["/heronian_triangles.wasm"]

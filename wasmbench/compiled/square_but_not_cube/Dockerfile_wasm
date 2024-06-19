@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./square_but_not_cube.wasm /
+CMD ["/square_but_not_cube.wasm"]

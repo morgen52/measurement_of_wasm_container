@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./square_but_not_cube.c .
+RUN gcc -O3 -o ./square_but_not_cube ./square_but_not_cube.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/square_but_not_cube .
+CMD ["./square_but_not_cube"]

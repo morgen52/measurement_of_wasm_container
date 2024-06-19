@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./two_sum.wasm /
+CMD ["/two_sum.wasm"]

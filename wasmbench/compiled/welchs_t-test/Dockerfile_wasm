@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./welchs_t-test.wasm /
+CMD ["/welchs_t-test.wasm"]

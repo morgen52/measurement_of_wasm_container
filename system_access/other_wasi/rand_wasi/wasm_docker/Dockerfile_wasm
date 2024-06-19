@@ -1,0 +1,3 @@
+FROM scratch
+COPY . /
+CMD ["/rand_wasi.wasm"]

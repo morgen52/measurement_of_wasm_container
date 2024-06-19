@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./spiral_matrix.wasm /
+CMD ["/spiral_matrix.wasm"]

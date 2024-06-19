@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./averages-pythagorean_means.wasm /
+CMD ["/averages-pythagorean_means.wasm"]

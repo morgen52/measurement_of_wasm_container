@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./idiomatically_determine_all_the_lowercase_and_uppercase_letters.wasm /
+CMD ["/idiomatically_determine_all_the_lowercase_and_uppercase_letters.wasm"]

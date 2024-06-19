@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sort_disjoint_sublist.wasm /
+CMD ["/sort_disjoint_sublist.wasm"]

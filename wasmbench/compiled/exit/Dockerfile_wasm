@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./exit.wasm /
+CMD ["/exit.wasm"]

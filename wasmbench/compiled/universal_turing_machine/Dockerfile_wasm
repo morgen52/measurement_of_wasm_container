@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./universal_turing_machine.wasm /
+CMD ["/universal_turing_machine.wasm"]

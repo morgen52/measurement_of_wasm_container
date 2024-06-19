@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./poker_hand_analyser.wasm /
+CMD ["/poker_hand_analyser.wasm"]

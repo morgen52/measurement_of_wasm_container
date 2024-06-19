@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./gapful_numbers.c .
+RUN gcc -O3 -o ./gapful_numbers ./gapful_numbers.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/gapful_numbers .
+CMD ["./gapful_numbers"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sequence_of_non-squares.wasm /
+CMD ["/sequence_of_non-squares.wasm"]

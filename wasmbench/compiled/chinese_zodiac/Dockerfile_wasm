@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./chinese_zodiac.wasm /
+CMD ["/chinese_zodiac.wasm"]

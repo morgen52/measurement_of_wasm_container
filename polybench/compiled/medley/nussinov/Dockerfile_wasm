@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./nussinov.wasm /nussinov.wasm
+CMD ["/nussinov.wasm"]

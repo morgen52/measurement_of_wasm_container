@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./terminal_control-coloured_text.wasm /
+CMD ["/terminal_control-coloured_text.wasm"]

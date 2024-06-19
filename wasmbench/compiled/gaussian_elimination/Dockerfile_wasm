@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./gaussian_elimination.wasm /
+CMD ["/gaussian_elimination.wasm"]

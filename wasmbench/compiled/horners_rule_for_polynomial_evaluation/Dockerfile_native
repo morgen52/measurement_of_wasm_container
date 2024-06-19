@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./horners_rule_for_polynomial_evaluation.c .
+RUN gcc -O3 -o ./horners_rule_for_polynomial_evaluation ./horners_rule_for_polynomial_evaluation.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/horners_rule_for_polynomial_evaluation .
+CMD ["./horners_rule_for_polynomial_evaluation"]

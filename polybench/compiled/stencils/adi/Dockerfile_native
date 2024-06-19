@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I stencils/adi utilities/polybench.c stencils/adi/adi.c -DPOLYBENCH_TIME -o stencils/adi/adi -lm
+RUN cp stencils/adi/adi /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/adi /adi
+CMD ["/adi"]

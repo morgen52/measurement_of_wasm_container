@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./loops-n_plus_one_half.wasm /
+CMD ["/loops-n_plus_one_half.wasm"]

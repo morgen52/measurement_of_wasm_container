@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./carmichael_3_strong_pseudoprimes.c .
+RUN gcc -O3 -o ./carmichael_3_strong_pseudoprimes ./carmichael_3_strong_pseudoprimes.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/carmichael_3_strong_pseudoprimes .
+CMD ["./carmichael_3_strong_pseudoprimes"]

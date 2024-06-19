@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./inverted_index.wasm /
+CMD ["/inverted_index.wasm"]

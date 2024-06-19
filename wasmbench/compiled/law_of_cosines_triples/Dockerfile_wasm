@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./law_of_cosines_triples.wasm /
+CMD ["/law_of_cosines_triples.wasm"]

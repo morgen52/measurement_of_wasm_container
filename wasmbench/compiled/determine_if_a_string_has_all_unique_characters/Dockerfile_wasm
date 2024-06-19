@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./determine_if_a_string_has_all_unique_characters.wasm /
+CMD ["/determine_if_a_string_has_all_unique_characters.wasm"]

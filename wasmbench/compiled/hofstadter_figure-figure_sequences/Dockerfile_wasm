@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./hofstadter_figure-figure_sequences.wasm /
+CMD ["/hofstadter_figure-figure_sequences.wasm"]

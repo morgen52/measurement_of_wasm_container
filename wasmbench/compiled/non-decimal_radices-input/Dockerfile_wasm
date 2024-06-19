@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./non-decimal_radices-input.wasm /
+CMD ["/non-decimal_radices-input.wasm"]

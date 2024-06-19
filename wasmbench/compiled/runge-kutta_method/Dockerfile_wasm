@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./runge-kutta_method.wasm /
+CMD ["/runge-kutta_method.wasm"]

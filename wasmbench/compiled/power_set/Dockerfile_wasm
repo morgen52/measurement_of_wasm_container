@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./power_set.wasm /
+CMD ["/power_set.wasm"]

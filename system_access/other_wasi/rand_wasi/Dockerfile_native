@@ -1,0 +1,30 @@
+FROM clux/muslrust:stable as builder
+
+WORKDIR /app
+
+RUN USER=root cargo new rand_wasi
+WORKDIR /app/rand_wasi
+
+COPY Cargo.toml Cargo.lock ./
+
+RUN echo 'fn main() { println!("Dummy") }' > ./src/main.rs
+
+RUN cargo build --release
+
+RUN rm -r target/x86_64-unknown-linux-musl/release/.fingerprint/rand_wasi-*
+
+COPY src src/
+# COPY migrations migrations/
+# COPY templates templates/
+
+RUN cargo build --release --frozen --bin rand_wasi
+
+
+FROM alpine:latest
+
+# COPY --from=builder /app/rand_wasi/migrations /application/migrations
+# COPY --from=builder /app/rand_wasi/templates /application/templates
+COPY --from=builder /app/rand_wasi/target/x86_64-unknown-linux-musl/release/rand_wasi /application/rand_wasi
+
+WORKDIR /application
+CMD ["./rand_wasi"]

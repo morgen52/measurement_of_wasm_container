@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./write_language_name_in_3d_ascii.wasm /
+CMD ["/write_language_name_in_3d_ascii.wasm"]

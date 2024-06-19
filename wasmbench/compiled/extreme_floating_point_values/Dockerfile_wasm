@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./extreme_floating_point_values.wasm /
+CMD ["/extreme_floating_point_values.wasm"]

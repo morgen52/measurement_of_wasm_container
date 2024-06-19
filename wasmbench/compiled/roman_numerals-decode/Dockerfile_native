@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./roman_numerals-decode.c .
+RUN gcc -O3 -o ./roman_numerals-decode ./roman_numerals-decode.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/roman_numerals-decode .
+CMD ["./roman_numerals-decode"]

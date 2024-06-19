@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./lu_decomposition.wasm /
+CMD ["/lu_decomposition.wasm"]

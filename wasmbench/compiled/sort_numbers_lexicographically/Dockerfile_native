@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./sort_numbers_lexicographically.c .
+RUN gcc -O3 -o ./sort_numbers_lexicographically ./sort_numbers_lexicographically.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/sort_numbers_lexicographically .
+CMD ["./sort_numbers_lexicographically"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./modular_arithmetic.wasm /
+CMD ["/modular_arithmetic.wasm"]

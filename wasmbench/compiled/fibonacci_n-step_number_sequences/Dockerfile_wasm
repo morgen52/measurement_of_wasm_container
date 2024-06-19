@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./fibonacci_n-step_number_sequences.wasm /
+CMD ["/fibonacci_n-step_number_sequences.wasm"]

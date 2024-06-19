@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./find_the_missing_permutation.wasm /
+CMD ["/find_the_missing_permutation.wasm"]

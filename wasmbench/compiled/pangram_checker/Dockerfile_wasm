@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./pangram_checker.wasm /
+CMD ["/pangram_checker.wasm"]

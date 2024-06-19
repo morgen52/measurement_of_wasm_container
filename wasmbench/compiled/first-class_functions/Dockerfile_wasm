@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./first-class_functions.wasm /
+CMD ["/first-class_functions.wasm"]

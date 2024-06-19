@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./stdout.wasm /
+CMD ["/stdout.wasm"]

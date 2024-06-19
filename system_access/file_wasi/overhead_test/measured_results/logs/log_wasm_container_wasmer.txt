@@ -1,0 +1,402 @@
+Attaching to app-1
+app-1  | create file: 386.698µs
+app-1  | File content is This is in a file
+app-1  | read file: 297.416µs
+app-1  | delete file: 54.99µs
+app-1  | create file: 61.457µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.887µs
+app-1  | delete file: 12.91µs
+app-1  | create file: 22.875µs
+app-1  | File content is This is in a file
+app-1  | read file: 18.55µs
+app-1  | delete file: 6.778µs
+app-1  | create file: 16.214µs
+app-1  | File content is This is in a file
+app-1  | read file: 24.382µs
+app-1  | delete file: 10.385µs
+app-1  | create file: 20.037µs
+app-1  | File content is This is in a file
+app-1  | read file: 18.045µs
+app-1  | delete file: 6.427µs
+app-1  | create file: 16.605µs
+app-1  | File content is This is in a file
+app-1  | read file: 20.873µs
+app-1  | delete file: 21.192µs
+app-1  | create file: 27.816µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.978µs
+app-1  | delete file: 8.37µs
+app-1  | create file: 24.33µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.309µs
+app-1  | delete file: 10.814µs
+app-1  | create file: 25.155µs
+app-1  | File content is This is in a file
+app-1  | read file: 24.64µs
+app-1  | delete file: 9.137µs
+app-1  | create file: 24.72µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.302µs
+app-1  | delete file: 9.811µs
+app-1  | create file: 22.382µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.279µs
+app-1  | delete file: 10.865µs
+app-1  | create file: 22.656µs
+app-1  | File content is This is in a file
+app-1  | read file: 23.814µs
+app-1  | delete file: 9.258µs
+app-1  | create file: 162.836µs
+app-1  | File content is This is in a file
+app-1  | read file: 411.035µs
+app-1  | delete file: 32.661µs
+app-1  | create file: 50.914µs
+app-1  | File content is This is in a file
+app-1  | read file: 30.899µs
+app-1  | delete file: 15.022µs
+app-1  | create file: 27.437µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.255µs
+app-1  | delete file: 10.999µs
+app-1  | create file: 24.517µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.93µs
+app-1  | delete file: 10.182µs
+app-1  | create file: 23.744µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.852µs
+app-1  | delete file: 10.064µs
+app-1  | create file: 22.444µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.157µs
+app-1  | delete file: 9.504µs
+app-1  | create file: 23.443µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.59µs
+app-1  | delete file: 9.801µs
+app-1  | create file: 23.484µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.519µs
+app-1  | delete file: 9.068µs
+app-1  | create file: 23.353µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.334µs
+app-1  | delete file: 9.368µs
+app-1  | create file: 23.194µs
+app-1  | File content is This is in a file
+app-1  | read file: 27.822µs
+app-1  | delete file: 10.526µs
+app-1  | create file: 24.489µs
+app-1  | File content is This is in a file
+app-1  | read file: 27.54µs
+app-1  | delete file: 10.535µs
+app-1  | create file: 26.5µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.155µs
+app-1  | delete file: 10.361µs
+app-1  | create file: 25.729µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.02µs
+app-1  | delete file: 9.334µs
+app-1  | create file: 22.215µs
+app-1  | File content is This is in a file
+app-1  | read file: 18.121µs
+app-1  | delete file: 7.328µs
+app-1  | create file: 16.734µs
+app-1  | File content is This is in a file
+app-1  | read file: 17.008µs
+app-1  | delete file: 6.783µs
+app-1  | create file: 16.886µs
+app-1  | File content is This is in a file
+app-1  | read file: 17.622µs
+app-1  | delete file: 7.821µs
+app-1  | create file: 16.959µs
+app-1  | File content is This is in a file
+app-1  | read file: 17.202µs
+app-1  | delete file: 6.579µs
+app-1  | create file: 16.478µs
+app-1  | File content is This is in a file
+app-1  | read file: 17.758µs
+app-1  | delete file: 6.662µs
+app-1  | create file: 21.872µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.093µs
+app-1  | delete file: 14.729µs
+app-1  | create file: 85.059µs
+app-1  | File content is This is in a file
+app-1  | read file: 38.531µs
+app-1  | delete file: 19.423µs
+app-1  | create file: 35.138µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.875µs
+app-1  | delete file: 15.609µs
+app-1  | create file: 30.59µs
+app-1  | File content is This is in a file
+app-1  | read file: 27.734µs
+app-1  | delete file: 17.838µs
+app-1  | create file: 33.386µs
+app-1  | File content is This is in a file
+app-1  | read file: 29.349µs
+app-1  | delete file: 13.12µs
+app-1  | create file: 26.439µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.29µs
+app-1  | delete file: 12.736µs
+app-1  | create file: 28.257µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.542µs
+app-1  | delete file: 12.712µs
+app-1  | create file: 27.194µs
+app-1  | File content is This is in a file
+app-1  | read file: 30.742µs
+app-1  | delete file: 13.773µs
+app-1  | create file: 30.695µs
+app-1  | File content is This is in a file
+app-1  | read file: 40.807µs
+app-1  | delete file: 16.294µs
+app-1  | create file: 31.84µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.21µs
+app-1  | delete file: 14.079µs
+app-1  | create file: 31.358µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.779µs
+app-1  | delete file: 12.976µs
+app-1  | create file: 28.215µs
+app-1  | File content is This is in a file
+app-1  | read file: 197.691µs
+app-1  | delete file: 27.493µs
+app-1  | create file: 37.345µs
+app-1  | File content is This is in a file
+app-1  | read file: 65.285µs
+app-1  | delete file: 14.056µs
+app-1  | create file: 40.935µs
+app-1  | File content is This is in a file
+app-1  | read file: 51.314µs
+app-1  | delete file: 13.557µs
+app-1  | create file: 36.512µs
+app-1  | File content is This is in a file
+app-1  | read file: 57.854µs
+app-1  | delete file: 12.156µs
+app-1  | create file: 35.544µs
+app-1  | File content is This is in a file
+app-1  | read file: 60.854µs
+app-1  | delete file: 13.695µs
+app-1  | create file: 25.064µs
+app-1  | File content is 
+app-1  | read file: 21.474µs
+app-1  | delete file: 11.32µs
+app-1  | create file: 31.356µs
+app-1  | File content is This is in a file
+app-1  | read file: 90.252µs
+app-1  | delete file: 17.735µs
+app-1  | create file: 38.418µs
+app-1  | File content is This is in a file
+app-1  | read file: 61.683µs
+app-1  | delete file: 12.383µs
+app-1  | create file: 117.889µs
+app-1  | File content is This is in a file
+app-1  | read file: 92.89µs
+app-1  | delete file: 36.007µs
+app-1  | create file: 55.401µs
+app-1  | File content is This is in a file
+app-1  | read file: 82.514µs
+app-1  | delete file: 26.321µs
+app-1  | create file: 60.559µs
+app-1  | File content is This is in a file
+app-1  | read file: 77.765µs
+app-1  | delete file: 110.428µs
+app-1  | create file: 71.25µs
+app-1  | File content is This is in a file
+app-1  | read file: 211.471µs
+app-1  | delete file: 41.004µs
+app-1  | create file: 78.307µs
+app-1  | File content is This is in a file
+app-1  | read file: 83.286µs
+app-1  | delete file: 27.843µs
+app-1  | create file: 63.192µs
+app-1  | File content is This is in a file
+app-1  | read file: 93.003µs
+app-1  | delete file: 31.128µs
+app-1  | create file: 65.794µs
+app-1  | File content is This is in a file
+app-1  | read file: 59.574µs
+app-1  | delete file: 25.168µs
+app-1  | create file: 41.116µs
+app-1  | File content is This is in a file
+app-1  | read file: 76.21µs
+app-1  | delete file: 22.237µs
+app-1  | create file: 35.718µs
+app-1  | File content is This is in a file
+app-1  | read file: 55.666µs
+app-1  | delete file: 14.094µs
+app-1  | create file: 24.903µs
+app-1  | File content is This is in a file
+app-1  | read file: 59.287µs
+app-1  | delete file: 11.595µs
+app-1  | create file: 36.586µs
+app-1  | File content is This is in a file
+app-1  | read file: 62.221µs
+app-1  | delete file: 20.824µs
+app-1  | create file: 33.066µs
+app-1  | File content is This is in a file
+app-1  | read file: 42.888µs
+app-1  | delete file: 12.947µs
+app-1  | create file: 37.058µs
+app-1  | File content is This is in a file
+app-1  | read file: 47.145µs
+app-1  | delete file: 12.023µs
+app-1  | create file: 22.698µs
+app-1  | File content is This is in a file
+app-1  | read file: 48.584µs
+app-1  | delete file: 11.861µs
+app-1  | create file: 24.119µs
+app-1  | File content is This is in a file
+app-1  | read file: 47.399µs
+app-1  | delete file: 11.246µs
+app-1  | create file: 33.523µs
+app-1  | File content is This is in a file
+app-1  | read file: 47.992µs
+app-1  | delete file: 11.17µs
+app-1  | create file: 28.236µs
+app-1  | File content is This is in a file
+app-1  | read file: 46.712µs
+app-1  | delete file: 11.583µs
+app-1  | create file: 23.105µs
+app-1  | File content is This is in a file
+app-1  | read file: 56.286µs
+app-1  | delete file: 12.16µs
+app-1  | create file: 23.683µs
+app-1  | File content is This is in a file
+app-1  | read file: 87.702µs
+app-1  | delete file: 29.028µs
+app-1  | create file: 34.783µs
+app-1  | File content is This is in a file
+app-1  | read file: 67.199µs
+app-1  | delete file: 13.693µs
+app-1  | create file: 28.566µs
+app-1  | File content is This is in a file
+app-1  | read file: 101.995µs
+app-1  | delete file: 13.956µs
+app-1  | create file: 31.051µs
+app-1  | File content is This is in a file
+app-1  | read file: 64.62µs
+app-1  | delete file: 10.297µs
+app-1  | create file: 25.777µs
+app-1  | File content is This is in a file
+app-1  | read file: 84.141µs
+app-1  | delete file: 17.445µs
+app-1  | create file: 36.926µs
+app-1  | File content is This is in a file
+app-1  | read file: 60.628µs
+app-1  | delete file: 25.726µs
+app-1  | create file: 34.469µs
+app-1  | File content is This is in a file
+app-1  | read file: 44.068µs
+app-1  | delete file: 17.583µs
+app-1  | create file: 24.214µs
+app-1  | File content is This is in a file
+app-1  | read file: 27.123µs
+app-1  | delete file: 8.754µs
+app-1  | create file: 18.724µs
+app-1  | File content is This is in a file
+app-1  | read file: 27.943µs
+app-1  | delete file: 8.322µs
+app-1  | create file: 15.967µs
+app-1  | File content is This is in a file
+app-1  | read file: 24.263µs
+app-1  | delete file: 8.187µs
+app-1  | create file: 18.934µs
+app-1  | File content is This is in a file
+app-1  | read file: 22.294µs
+app-1  | delete file: 11.702µs
+app-1  | create file: 67.322µs
+app-1  | File content is This is in a file
+app-1  | read file: 35.832µs
+app-1  | delete file: 20.609µs
+app-1  | create file: 22.902µs
+app-1  | File content is This is in a file
+app-1  | read file: 22.98µs
+app-1  | delete file: 8.703µs
+app-1  | create file: 15.231µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.032µs
+app-1  | delete file: 19.286µs
+app-1  | create file: 22.235µs
+app-1  | File content is This is in a file
+app-1  | read file: 23.205µs
+app-1  | delete file: 8.016µs
+app-1  | create file: 25.15µs
+app-1  | File content is This is in a file
+app-1  | read file: 31.313µs
+app-1  | delete file: 10.128µs
+app-1  | create file: 21.621µs
+app-1  | File content is This is in a file
+app-1  | read file: 35.327µs
+app-1  | delete file: 15.373µs
+app-1  | create file: 31.101µs
+app-1  | File content is This is in a file
+app-1  | read file: 25.365µs
+app-1  | delete file: 13.076µs
+app-1  | create file: 19.519µs
+app-1  | File content is This is in a file
+app-1  | read file: 24.429µs
+app-1  | delete file: 7.923µs
+app-1  | create file: 13.37µs
+app-1  | File content is This is in a file
+app-1  | read file: 24.616µs
+app-1  | delete file: 11.15µs
+app-1  | create file: 29.136µs
+app-1  | File content is This is in a file
+app-1  | read file: 31.005µs
+app-1  | delete file: 11.029µs
+app-1  | create file: 16.76µs
+app-1  | File content is This is in a file
+app-1  | read file: 26.136µs
+app-1  | delete file: 8.337µs
+app-1  | create file: 14.359µs
+app-1  | File content is This is in a file
+app-1  | read file: 23.776µs
+app-1  | delete file: 7.412µs
+app-1  | create file: 19.602µs
+app-1  | File content is This is in a file
+app-1  | read file: 24.4µs
+app-1  | delete file: 7.667µs
+app-1  | create file: 14.607µs
+app-1  | File content is This is in a file
+app-1  | read file: 21.238µs
+app-1  | delete file: 6.896µs
+app-1  | create file: 17.075µs
+app-1  | File content is This is in a file
+app-1  | read file: 18.403µs
+app-1  | delete file: 6.347µs
+app-1  | create file: 26.092µs
+app-1  | File content is This is in a file
+app-1  | read file: 34.713µs
+app-1  | delete file: 9.097µs
+app-1  | create file: 52.246µs
+app-1  | File content is This is in a file
+app-1  | read file: 47.768µs
+app-1  | delete file: 16.961µs
+app-1  | create file: 32.46µs
+app-1  | File content is This is in a file
+app-1  | read file: 33.266µs
+app-1  | delete file: 13.303µs
+app-1  | create file: 22.056µs
+app-1  | File content is This is in a file
+app-1  | read file: 37.914µs
+app-1  | delete file: 12.891µs
+app-1  | create file: 23.385µs
+app-1  | File content is This is in a file
+app-1  | read file: 37.748µs
+app-1  | delete file: 11.776µs
+app-1  | create file: 29.979µs
+app-1  | File content is This is in a file
+app-1  | read file: 30.287µs
+app-1  | delete file: 12.743µs
+app-1  | create file: 31.607µs
+app-1  | File content is This is in a file
+app-1  | read file: 28.109µs
+app-1  | delete file: 12.523µs
+app-1 exited with code 0

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./averages-root_mean_square.wasm /
+CMD ["/averages-root_mean_square.wasm"]

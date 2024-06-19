@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./permutations-derangements.wasm /
+CMD ["/permutations-derangements.wasm"]

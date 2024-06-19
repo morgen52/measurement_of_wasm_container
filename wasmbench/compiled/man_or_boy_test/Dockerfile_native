@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./man_or_boy_test.c .
+RUN gcc -O3 -o ./man_or_boy_test ./man_or_boy_test.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/man_or_boy_test .
+CMD ["./man_or_boy_test"]

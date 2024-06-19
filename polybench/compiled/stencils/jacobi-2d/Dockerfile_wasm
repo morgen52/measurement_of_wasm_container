@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./jacobi-2d.wasm /jacobi-2d.wasm
+CMD ["/jacobi-2d.wasm"]

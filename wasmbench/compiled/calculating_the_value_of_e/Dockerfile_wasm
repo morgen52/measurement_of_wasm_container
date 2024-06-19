@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./calculating_the_value_of_e.wasm /
+CMD ["/calculating_the_value_of_e.wasm"]

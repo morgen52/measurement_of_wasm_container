@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./polymorphic_copy.wasm /
+CMD ["/polymorphic_copy.wasm"]

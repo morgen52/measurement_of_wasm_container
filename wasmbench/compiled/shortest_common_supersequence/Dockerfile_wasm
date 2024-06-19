@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./shortest_common_supersequence.wasm /
+CMD ["/shortest_common_supersequence.wasm"]

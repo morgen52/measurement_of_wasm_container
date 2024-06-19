@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./approximate_equality.wasm /
+CMD ["/approximate_equality.wasm"]

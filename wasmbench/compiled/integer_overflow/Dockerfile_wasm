@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./integer_overflow.wasm /
+CMD ["/integer_overflow.wasm"]

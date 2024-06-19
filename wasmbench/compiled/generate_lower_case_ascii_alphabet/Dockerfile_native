@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./generate_lower_case_ascii_alphabet.c .
+RUN gcc -O3 -o ./generate_lower_case_ascii_alphabet ./generate_lower_case_ascii_alphabet.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/generate_lower_case_ascii_alphabet .
+CMD ["./generate_lower_case_ascii_alphabet"]

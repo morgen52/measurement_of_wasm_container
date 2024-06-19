@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./branches.wasm /
+CMD ["/branches.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./loops-wrong_ranges.wasm /
+CMD ["/loops-wrong_ranges.wasm"]

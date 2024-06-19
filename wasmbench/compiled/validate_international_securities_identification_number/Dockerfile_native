@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./validate_international_securities_identification_number.c .
+RUN gcc -O3 -o ./validate_international_securities_identification_number ./validate_international_securities_identification_number.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/validate_international_securities_identification_number .
+CMD ["./validate_international_securities_identification_number"]

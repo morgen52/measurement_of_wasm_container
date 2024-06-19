@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I stencils/fdtd-2d utilities/polybench.c stencils/fdtd-2d/fdtd-2d.c -DPOLYBENCH_TIME -o stencils/fdtd-2d/fdtd-2d -lm
+RUN cp stencils/fdtd-2d/fdtd-2d /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/fdtd-2d /fdtd-2d
+CMD ["/fdtd-2d"]

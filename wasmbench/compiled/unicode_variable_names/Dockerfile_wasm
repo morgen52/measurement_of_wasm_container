@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./unicode_variable_names.wasm /
+CMD ["/unicode_variable_names.wasm"]

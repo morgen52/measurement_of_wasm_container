@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./old_russian_measure_of_length.wasm /
+CMD ["/old_russian_measure_of_length.wasm"]

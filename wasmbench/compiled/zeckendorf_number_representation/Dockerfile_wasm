@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./zeckendorf_number_representation.wasm /
+CMD ["/zeckendorf_number_representation.wasm"]

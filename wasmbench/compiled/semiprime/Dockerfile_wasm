@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./semiprime.wasm /
+CMD ["/semiprime.wasm"]

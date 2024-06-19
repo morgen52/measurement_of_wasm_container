@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I linear-algebra/kernels/bicg utilities/polybench.c linear-algebra/kernels/bicg/bicg.c -DPOLYBENCH_TIME -o linear-algebra/kernels/bicg/bicg -lm
+RUN cp linear-algebra/kernels/bicg/bicg /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/bicg /bicg
+CMD ["/bicg"]

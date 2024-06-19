@@ -1,0 +1,12 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache clang gfortran make musl-dev
+WORKDIR /app
+COPY . .
+RUN gcc -O3 -I utilities -I linear-algebra/blas/syr2k utilities/polybench.c linear-algebra/blas/syr2k/syr2k.c -DPOLYBENCH_TIME -o linear-algebra/blas/syr2k/syr2k -lm
+RUN cp linear-algebra/blas/syr2k/syr2k /app
+
+# Production stage
+FROM alpine
+COPY --from=build-stage /app/syr2k /syr2k
+CMD ["/syr2k"]

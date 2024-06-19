@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./correlation.wasm /correlation.wasm
+CMD ["/correlation.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./emirp_primes.wasm /
+CMD ["/emirp_primes.wasm"]

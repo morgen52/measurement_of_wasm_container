@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./priority_queue.wasm /
+CMD ["/priority_queue.wasm"]

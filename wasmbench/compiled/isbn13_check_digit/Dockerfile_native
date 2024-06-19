@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./isbn13_check_digit.c .
+RUN gcc -O3 -o ./isbn13_check_digit ./isbn13_check_digit.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/isbn13_check_digit .
+CMD ["./isbn13_check_digit"]

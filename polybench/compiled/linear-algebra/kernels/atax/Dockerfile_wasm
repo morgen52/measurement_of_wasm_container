@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./atax.wasm /atax.wasm
+CMD ["/atax.wasm"]

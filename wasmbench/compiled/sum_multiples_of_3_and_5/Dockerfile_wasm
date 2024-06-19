@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sum_multiples_of_3_and_5.wasm /
+CMD ["/sum_multiples_of_3_and_5.wasm"]

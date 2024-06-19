@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./cholesky_decomposition.wasm /
+CMD ["/cholesky_decomposition.wasm"]

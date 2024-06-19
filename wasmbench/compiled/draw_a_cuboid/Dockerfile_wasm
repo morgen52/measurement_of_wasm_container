@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./draw_a_cuboid.wasm /
+CMD ["/draw_a_cuboid.wasm"]

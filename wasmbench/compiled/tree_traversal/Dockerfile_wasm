@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./tree_traversal.wasm /
+CMD ["/tree_traversal.wasm"]

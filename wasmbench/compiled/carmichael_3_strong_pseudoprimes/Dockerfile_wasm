@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./carmichael_3_strong_pseudoprimes.wasm /
+CMD ["/carmichael_3_strong_pseudoprimes.wasm"]

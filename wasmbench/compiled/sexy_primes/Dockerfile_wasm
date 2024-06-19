@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./sexy_primes.wasm /
+CMD ["/sexy_primes.wasm"]

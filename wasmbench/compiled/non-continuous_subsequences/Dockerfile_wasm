@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./non-continuous_subsequences.wasm /
+CMD ["/non-continuous_subsequences.wasm"]

@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./one-dimensional_cellular_automata.wasm /
+CMD ["/one-dimensional_cellular_automata.wasm"]

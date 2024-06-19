@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./csv_to_html_translation.wasm /
+CMD ["/csv_to_html_translation.wasm"]

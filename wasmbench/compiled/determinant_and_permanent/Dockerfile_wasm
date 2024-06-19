@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./determinant_and_permanent.wasm /
+CMD ["/determinant_and_permanent.wasm"]

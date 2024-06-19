@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./array_length.wasm /
+CMD ["/array_length.wasm"]

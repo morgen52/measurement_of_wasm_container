@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./bicg.wasm /bicg.wasm
+CMD ["/bicg.wasm"]

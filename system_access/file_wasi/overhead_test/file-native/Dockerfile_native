@@ -1,0 +1,30 @@
+FROM clux/muslrust:stable as builder
+
+WORKDIR /app
+
+RUN USER=root cargo new file-native
+WORKDIR /app/file-native
+
+COPY Cargo.toml Cargo.lock ./
+
+RUN echo 'fn main() { println!("Dummy") }' > ./src/main.rs
+
+RUN cargo build --release
+
+RUN rm -r target/x86_64-unknown-linux-musl/release/.fingerprint/file-native-*
+
+COPY src src/
+# COPY migrations migrations/
+# COPY templates templates/
+
+RUN cargo build --release --frozen --bin file-native
+
+
+FROM alpine:latest
+
+# COPY --from=builder /app/file-native/migrations /application/migrations
+# COPY --from=builder /app/file-native/templates /application/templates
+COPY --from=builder /app/file-native/target/x86_64-unknown-linux-musl/release/file-native /application/file-native
+
+WORKDIR /application
+CMD ["./file-native"]

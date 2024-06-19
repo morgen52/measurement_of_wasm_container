@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./subtractive_generator.wasm /
+CMD ["/subtractive_generator.wasm"]

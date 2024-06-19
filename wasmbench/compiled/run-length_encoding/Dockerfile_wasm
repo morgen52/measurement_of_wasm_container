@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./run-length_encoding.wasm /
+CMD ["/run-length_encoding.wasm"]

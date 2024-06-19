@@ -1,0 +1,13 @@
+# Build stage
+FROM alpine AS build-stage
+RUN apk add --no-cache gcc gfortran make musl-dev g++
+WORKDIR /app
+COPY ./doubly-linked_list-traversal.c .
+RUN gcc -O3 -o ./doubly-linked_list-traversal ./doubly-linked_list-traversal.c -lm
+# RUN cp RESULT /app
+
+# Production stage
+FROM alpine
+# RUN apk add --no-cache libc-dev
+COPY --from=build-stage /app/doubly-linked_list-traversal .
+CMD ["./doubly-linked_list-traversal"]
