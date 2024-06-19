@@ -17,4 +17,4 @@ An artifact for our paper entitled "WebAssembly for Container Runtime: Are We Th
 
 ## Contact
 
-If you have any questions, please contact lmg@pku.edu.cn
+If you have any question, please contact lmg@pku.edu.cn
