@@ -31,13 +31,13 @@ def draw_result(read, write, runtime):
     plt.figure(figsize=(9, 3))
     if read == 1:
         plt.plot(x, wasm_read, label="wasm_container_read", marker='o', color='black', linewidth=2, linestyle='-')
-        plt.plot(x, native_read, label="linux_container_read", marker='*', color='#B0A4A4', linewidth=2, linestyle='-', markersize=8)
+        plt.plot(x, native_read, label="docker_container_read", marker='*', color='#B0A4A4', linewidth=2, linestyle='-', markersize=8)
         plt.plot(x, native_wasm_read, label="wasm_vm_read", color='blue', linewidth=2, linestyle='--')
         plt.plot(x, native_native_read, label="native_binary_read", color='red', linewidth=2, linestyle=':')
         plt.axvline(x=15, linestyle='--', color='grey', linewidth=2)
     if write == 1:
         plt.plot(x, wasm_write, label="wasm_container_write", marker='o', color='black', linewidth=2, linestyle='-')
-        plt.plot(x, native_write, label="linux_container_write", marker='*', color='#B0A4A4', linewidth=2, linestyle='-', markersize=8)
+        plt.plot(x, native_write, label="docker_container_write", marker='*', color='#B0A4A4', linewidth=2, linestyle='-', markersize=8)
         plt.plot(x, native_wasm_write, label="wasm_vm_write", color='blue', linewidth=2, linestyle='--')
         plt.plot(x, native_native_write, label="native_binary_write", color='red', linewidth=2, linestyle=':')
         plt.axvline(x=15, linestyle='--', color='grey', linewidth=2)

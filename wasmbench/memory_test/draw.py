@@ -28,7 +28,7 @@ def draw():
     FONTSIZE = 15
     
     plt.figure(figsize=(9, 3))
-    plt.plot(sorted(native_memory_usage_overhead), np.linspace(0, 1, len(native_memory_usage_overhead)), label="linux container", color='black', linewidth=2, linestyle='-')
+    plt.plot(sorted(native_memory_usage_overhead), np.linspace(0, 1, len(native_memory_usage_overhead)), label="docker container", color='black', linewidth=2, linestyle='-')
     plt.plot(sorted(wasm_memory_usage_overhead), np.linspace(0, 1, len(wasm_memory_usage_overhead)), label="wasmtime container", color='#DC2F2F', linewidth=2, linestyle='--')
     plt.plot(sorted(nativewasm_memory_usage_overhead), np.linspace(0, 1, len(nativewasm_memory_usage_overhead)), label="wasmtime", color='gray', linewidth=2, linestyle='-.')
 

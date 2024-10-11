@@ -30,7 +30,7 @@ def draw():
     startup_wasmer_container = sorted(startup_wasmer_container)
 
     plt.figure(figsize=(9, 3))
-    plt.plot(startup_linux_container, [i / len(startup_linux_container) for i in range(len(startup_linux_container))], label="linux container", color="black", linewidth=2, linestyle="-")
+    plt.plot(startup_linux_container, [i / len(startup_linux_container) for i in range(len(startup_linux_container))], label="docker container", color="black", linewidth=2, linestyle="-")
     plt.plot(startup_wasm, [i / len(startup_wasm) for i in range(len(startup_wasm))], label="wasmtime", color="#FFA500", linewidth=2, linestyle="-.")
     plt.plot(startup_wasm_container, [i / len(startup_wasm_container) for i in range(len(startup_wasm_container))], label="wasmtime container", color="#FFA500", linewidth=2, linestyle="--")
     plt.plot(startup_wasmer, [i / len(startup_wasmer) for i in range(len(startup_wasmer))], label="wasmer", color="#DC2F2F", linewidth=2, linestyle="--", marker=".", markevery=50, markersize=8)
@@ -58,7 +58,7 @@ def draw():
     e2e_wasmer_container = sorted(e2e_wasmer_container)
 
     plt.figure(figsize=(9, 3))
-    plt.plot(e2e_linux_container, [i / len(e2e_linux_container) for i in range(len(e2e_linux_container))], label="linux container", color="black", linewidth=2, linestyle="-")
+    plt.plot(e2e_linux_container, [i / len(e2e_linux_container) for i in range(len(e2e_linux_container))], label="docker container", color="black", linewidth=2, linestyle="-")
     plt.plot(e2e_wasm, [i / len(e2e_wasm) for i in range(len(e2e_wasm))], label="wasmtime", color="#FFA500", linewidth=2, linestyle="-.")
     plt.plot(e2e_wasm_container, [i / len(e2e_wasm_container) for i in range(len(e2e_wasm_container))], label="wasmtime container", color="#FFA500", linewidth=2, linestyle="--")
     plt.plot(e2e_wasmer, [i / len(e2e_wasmer) for i in range(len(e2e_wasmer))], label="wasmer", color="#DC2F2F", linewidth=2, linestyle="--", marker=".", markevery=50, markersize=8)

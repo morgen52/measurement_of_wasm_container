@@ -25,7 +25,7 @@ def draw_all_runtime():
     WIDTH = 0.18
     fig = plt.figure(figsize=(9, 3))
     ax1 = fig.add_subplot(111)
-    l1 = ax1.bar([i - 1.5*WIDTH for i in x_loc], native_startup, width=1.5*WIDTH, label="linux container", color="black")
+    l1 = ax1.bar([i - 1.5*WIDTH for i in x_loc], native_startup, width=1.5*WIDTH, label="docker container", color="black")
     l2 = ax1.bar([i for i in x_loc], wasm_startup, width=1.5*WIDTH, label="wasmtime container", edgecolor="black", color="white")
     l3 = ax1.bar([i + 1.5*WIDTH for i in x_loc], wasmer_startup, width=1.5*WIDTH, label="wasmer container", edgecolor="black", color="white", hatch="//")
 
@@ -46,13 +46,13 @@ def draw_all_runtime():
     plt.plot(x, [wasm_startup[i]/native_startup[i] for i in range(len(x))], label="startup (wasmtime)", marker='o', color='black', linewidth=2)
     plt.plot(x, [wasm_compute[i]/native_compute[i] for i in range(len(x))], label="compute (wasmtime)", marker='*', color='black', linewidth=2)
     # draw baseline=1
-    plt.axhline(y=1, linestyle='--', color='grey', label="linux")
+    plt.axhline(y=1, linestyle='--', color='grey', label="docker")
     plt.plot(x, [wasmer_startup[i]/native_startup[i] for i in range(len(x))], label="startup (wasmer)", marker='o', color='#929AAB', linewidth=2, linestyle="--")
     plt.plot(x, [wasmer_compute[i]/native_compute[i] for i in range(len(x))], label="compute (wasmer)", marker='*', color='#929AAB', linewidth=2, linestyle="--")
 
     plt.xticks(x, rotation=90, fontsize=12)
     plt.yticks(fontsize=15)
-    plt.ylabel("ratio (wasm / linux)", fontsize=15)
+    plt.ylabel("ratio (wasm / docker)", fontsize=15)
     plt.xlabel("benchmarks", fontsize=15)
     plt.grid(True, axis='both', linestyle='--', linewidth=0.5, color="gray", alpha=0.5)
 

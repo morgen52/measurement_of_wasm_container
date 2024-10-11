@@ -68,7 +68,7 @@ def draw():
     plt.clf()
 
 if __name__ == "__main__":
-    get_storage()
+    # get_storage()
     draw()
 
 
