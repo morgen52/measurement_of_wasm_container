@@ -94,6 +94,19 @@ def draw(runtime="wasmer"):
     plt.savefig(f"{FIG_DIR}/file_{runtime}.pdf", bbox_inches='tight', format='pdf')
     plt.clf()
 
+def results_analysis(runtime="wasmer"):
+    
+    with open(f"{RESULT_DIR}/results_{runtime}.json", "r") as f:
+        result = json.load(f)
+    
+    x = [ "read", "create", "delete"]    
+    native_execution = [result[i]['native']['execution'] for i in x]
+    wasm_execution = [result[i]['wasm']['execution'] for i in x]
+
+    execution_ratio = [wasm_execution[i] / native_execution[i] for i in range(len(x))]
+    print(f"{runtime} execution ratio: {[f'{i:.2f}' for i in execution_ratio]}")
+
+
 if __name__ == "__main__":
     log_transfer()
 
@@ -101,6 +114,7 @@ if __name__ == "__main__":
     for r in runtimes:
         get_results(r)
         draw(r)
+        results_analysis(r)
 
 
 

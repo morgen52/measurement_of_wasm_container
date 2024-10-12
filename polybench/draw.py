@@ -98,9 +98,40 @@ def draw_all_runtime():
     plt.savefig(f"{FIG_DIR}/poly_compute_all.pdf", bbox_inches='tight', format='pdf')
     plt.clf()
 
+def results_analysis():
+    LOG_DIR = "measured_results"
+    wasmtime_file = f"{LOG_DIR}/docker_time_result.json.wasmtime"
+    wasmer_file = f"{LOG_DIR}/docker_time_result.json.wasmer"
 
+    with open(wasmtime_file, "r", encoding="utf8") as f1,\
+        open(wasmer_file, "r", encoding="utf8") as f2:
+        wasmtime_result = json.load(f1)
+        wasmer_result = json.load(f2)
 
+    native_startup = [wasmtime_result[k]['native']['startup'] for k in wasmtime_result.keys()]
+    native_compute = [wasmtime_result[k]['native']['compute'] for k in wasmtime_result.keys()]
+    wasm_startup = [wasmtime_result[k]['wasm']['startup'] for k in wasmtime_result.keys()]
+    wasm_compute = [wasmtime_result[k]['wasm']['compute'] for k in wasmtime_result.keys()]
+
+    wasmer_startup = [wasmer_result[k]['wasm']['startup'] for k in wasmer_result.keys()]
+    wasmer_compute = [wasmer_result[k]['wasm']['compute'] for k in wasmer_result.keys()]
+
+    # how much slower is the startup time of wasmtime compared to native? Average and standard deviation
+    startup_ratio = [wasm_startup[i]/native_startup[i] for i in range(len(native_startup))]
+    average_startup_ratio = sum(startup_ratio) / len(startup_ratio)
+    std_startup_ratio = (sum([(r - average_startup_ratio)**2 for r in startup_ratio]) / len(startup_ratio))**0.5
+    print(f"Average startup ratio (wasmtime/native): {average_startup_ratio:.2f} +- {std_startup_ratio:.2f}")
+
+    # median number of compute time slowdown of wasmtime and wasmer compared to native
+    compute_ratio = [wasm_compute[i]/native_compute[i] for i in range(len(native_compute))]
+    compute_ratio_wasmer = [wasmer_compute[i]/native_compute[i] for i in range(len(native_compute))]
+    compute_ratio.sort()
+    compute_ratio_wasmer.sort()
+    median_compute_ratio = sum(compute_ratio[14:16]) / 2
+    median_compute_ratio_wasmer = sum(compute_ratio_wasmer[14:16]) / 2
+    print(f"Median compute ratio (wasmtime/native): {median_compute_ratio:.2f}, (wasmer/native): {median_compute_ratio_wasmer:.2f}")
 
 if __name__ == "__main__":
     draw_all_runtime()
+    results_analysis()
     
