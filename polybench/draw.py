@@ -132,7 +132,17 @@ def results_analysis():
     median_compute_ratio_wasmer = sum(compute_ratio_wasmer[14:16]) / 2
     print(f"Median compute ratio (wasmtime/native): {median_compute_ratio:.2f}, (wasmer/native): {median_compute_ratio_wasmer:.2f}")
 
+    # how many benchmarks compute faster in wasmer and wasmtime than in native, and what is their names
+    faster_compute = [1 if wasm_compute[i] < native_compute[i] else 0 for i in range(len(native_compute))]
+    faster_compute_wasmer = [1 if wasmer_compute[i] < native_compute[i] else 0 for i in range(len(native_compute))]
+    benchmarks = list(wasmtime_result.keys())
+    print(f"Number of benchmarks compute faster in wasmtime: {sum(faster_compute)}")
+    for i, b in enumerate(benchmarks):
+        if faster_compute[i]:
+            print(f"{i+1}({b})", end=" ")
+    print(f"\nNumber of benchmarks compute faster in wasmer: {sum(faster_compute_wasmer)}")
+
 if __name__ == "__main__":
     draw_all_runtime()
-    # results_analysis()
+    results_analysis()
     
