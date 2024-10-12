@@ -82,6 +82,7 @@ def draw_all_runtime():
     ax1.set_xticks(x_loc)
     ax1.set_xticklabels(x, rotation=90, fontsize=12)
     ax1.tick_params(axis='y', labelsize=15)
+    ax1.set_yticks([0, 1, 2, 3, 4, 5])
     ax1.set_xlim(min(x_loc) - 0.6, max(x_loc) + 0.6)
     # ax1.set_ylim(0, 350)
 
@@ -133,5 +134,5 @@ def results_analysis():
 
 if __name__ == "__main__":
     draw_all_runtime()
-    results_analysis()
+    # results_analysis()
     
