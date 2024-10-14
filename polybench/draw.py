@@ -61,6 +61,10 @@ def draw_all_runtime():
     # plt.savefig(f"{FIG_DIR}/poly_compute_all.pdf", bbox_inches='tight', format='pdf')
     # plt.clf()
 
+    memIntensive = [1,2,22,23,24,26,27]
+    cpuIntensive = [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,25,28,29,30]
+    x = [f"{xi}#" if xi in memIntensive else f"{xi}*" for xi in x]
+
     plt.figure(figsize=(12, 3))
     wasm_startup_ratio = [wasm_startup[i]/native_startup[i] for i in range(len(x))]
     wasm_compute_ratio = [wasm_compute[i]/native_compute[i] for i in range(len(x))]
@@ -78,7 +82,7 @@ def draw_all_runtime():
     ax1.axhline(y=1, linestyle='--', color='grey', label="docker", linewidth=1.5)
 
     ax1.set_ylabel("ratio (wasm / docker)", fontsize=15)
-    ax1.set_xlabel("benchmarks", fontsize=15)
+    ax1.set_xlabel("benchmarks (#: memory-intensive; *:compute-intensive)", fontsize=15)
     ax1.set_xticks(x_loc)
     ax1.set_xticklabels(x, rotation=90, fontsize=12)
     ax1.tick_params(axis='y', labelsize=15)
@@ -144,5 +148,5 @@ def results_analysis():
 
 if __name__ == "__main__":
     draw_all_runtime()
-    results_analysis()
+    # results_analysis()
     
