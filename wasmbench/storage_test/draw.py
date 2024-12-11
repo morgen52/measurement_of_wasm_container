@@ -64,7 +64,8 @@ def draw():
     plt.gca().xaxis.set_major_formatter(ticker.FormatStrFormatter('%.2f'))
     plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.2f'))
     plt.grid(True, axis='both', linestyle='--', linewidth=0.5, color='gray', alpha=0.5)
-    plt.savefig(f"{FIG_DIR}/size_scatter.pdf", dpi=300, bbox_inches='tight', format='pdf')
+    # plt.savefig(f"{FIG_DIR}/size_scatter.pdf", dpi=300, bbox_inches='tight', format='pdf')
+    plt.savefig(f"{FIG_DIR}/size_scatter.png", dpi=300, bbox_inches='tight')
     plt.clf()
 
 if __name__ == "__main__":

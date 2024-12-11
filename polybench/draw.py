@@ -40,26 +40,9 @@ def draw_all_runtime():
     ax1.legend(fontsize=12, loc='upper center', ncol=3, bbox_to_anchor=(0.5, 1.2))
 
     plt.grid(True, axis='both', linestyle='--', linewidth=0.5, color="gray", alpha=0.5)
-    plt.savefig(f"{FIG_DIR}/time_startup_absolute_all.pdf", bbox_inches='tight', format='pdf')
+    # plt.savefig(f"{FIG_DIR}/time_startup_absolute_all.pdf", bbox_inches='tight', format='pdf')
+    plt.savefig(f"{FIG_DIR}/time_startup_absolute_all.png", bbox_inches='tight', dpi=300)
     plt.clf()
-
-    # plt.figure(figsize=(9, 3))
-    # plt.plot(x, [wasm_startup[i]/native_startup[i] for i in range(len(x))], label="startup (wasmtime)", marker='o', color='black', linewidth=2)
-    # plt.plot(x, [wasm_compute[i]/native_compute[i] for i in range(len(x))], label="compute (wasmtime)", marker='*', color='black', linewidth=2)
-    # # draw baseline=1
-    # plt.axhline(y=1, linestyle='--', color='grey', label="docker")
-    # plt.plot(x, [wasmer_startup[i]/native_startup[i] for i in range(len(x))], label="startup (wasmer)", marker='o', color='#929AAB', linewidth=2, linestyle="--")
-    # plt.plot(x, [wasmer_compute[i]/native_compute[i] for i in range(len(x))], label="compute (wasmer)", marker='*', color='#929AAB', linewidth=2, linestyle="--")
-
-    # plt.xticks(x, rotation=90, fontsize=12)
-    # plt.yticks(fontsize=15)
-    # plt.ylabel("ratio (wasm / docker)", fontsize=15)
-    # plt.xlabel("benchmarks", fontsize=15)
-    # plt.grid(True, axis='both', linestyle='--', linewidth=0.5, color="gray", alpha=0.5)
-
-    # plt.legend(fontsize=15, ncol=2)
-    # plt.savefig(f"{FIG_DIR}/poly_compute_all.pdf", bbox_inches='tight', format='pdf')
-    # plt.clf()
 
     memIntensive = [1,2,22,23,24,26,27]
     cpuIntensive = [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,25,28,29,30]
@@ -100,7 +83,8 @@ def draw_all_runtime():
 
 
     plt.grid(True, axis='both', linestyle='--', linewidth=0.5, color="gray", alpha=0.5)
-    plt.savefig(f"{FIG_DIR}/poly_compute_all.pdf", bbox_inches='tight', format='pdf')
+    # plt.savefig(f"{FIG_DIR}/poly_compute_all.pdf", bbox_inches='tight', format='pdf')
+    plt.savefig(f"{FIG_DIR}/poly_compute_all.png", bbox_inches="tight", dpi=300)
     plt.clf()
 
 def results_analysis():

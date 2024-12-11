@@ -38,7 +38,8 @@ def draw():
     plt.yticks(fontsize=FONTSIZE)
     plt.legend(fontsize=FONTSIZE)
     plt.grid(True, axis='both', linestyle='--', linewidth=0.5, alpha=0.5, color='gray')
-    plt.savefig(f"{FIG_DIR}/memory_usage_overhead_cdf_nw_all.pdf", dpi=300, bbox_inches='tight', format='pdf')
+    # plt.savefig(f"{FIG_DIR}/memory_usage_overhead_cdf_nw_wasmtime.pdf", dpi=300, bbox_inches='tight', format='pdf')
+    plt.savefig(f"{FIG_DIR}/memory_usage_overhead_cdf_nw_wasmtime.png", dpi=300, bbox_inches='tight')
     plt.clf()
 
 if __name__ == "__main__":

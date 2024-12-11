@@ -53,7 +53,8 @@ def draw_result(read, write, runtime):
     plt.legend(fontsize=15)  
     plt.grid(True, axis='both', color="gray", linestyle='--', linewidth=0.5, alpha=0.5)
 
-    plt.savefig(f"{FIG_DIR}/filesize_{'read' if read else 'write'}_{runtime}.pdf", bbox_inches='tight', format='pdf')
+    # plt.savefig(f"{FIG_DIR}/filesize_{'read' if read else 'write'}_{runtime}.pdf", bbox_inches='tight', format='pdf')
+    plt.savefig(f"{FIG_DIR}/filesize_{'read' if read else 'write'}_{runtime}.png", bbox_inches='tight', dpi=300)
     plt.clf()
 
 def results_analysis():
@@ -87,10 +88,9 @@ def results_analysis():
 
 
 if __name__ == "__main__":
-    runtimes = ["wasmtime", "wasmer"]
+    runtimes = ["wasmer"]
 
     for r in runtimes:
         draw_result(read=1, write=0, runtime=r)
-        draw_result(read=0, write=1, runtime=r)
     
     results_analysis()

@@ -42,7 +42,8 @@ def draw():
     plt.xticks(fontsize=FONTSIZE)
     plt.yticks(fontsize=FONTSIZE)
     plt.grid(True, axis="both", linestyle="--", color="gray",linewidth=0.5, alpha=0.5)
-    plt.savefig(f"{FIG_DIR}/wasmbench_startup_all.pdf", bbox_inches='tight', format="pdf")
+    # plt.savefig(f"{FIG_DIR}/wasmbench_startup_all.pdf", bbox_inches='tight', format="pdf")
+    plt.savefig(f"{FIG_DIR}/wasmbench_startup_all.png", bbox_inches='tight', dpi=300)
     plt.clf()
 
     e2e_wasm = [results[code]["wasm"]["e2e"] for code in results.keys()]
@@ -70,7 +71,8 @@ def draw():
     plt.xticks(fontsize=FONTSIZE)
     plt.yticks(fontsize=FONTSIZE)
     plt.grid(True, axis="both", linestyle="--", color="gray",linewidth=0.5, alpha=0.5)
-    plt.savefig(f"{FIG_DIR}/wasmbench_e2e_all.pdf", bbox_inches='tight', format="pdf")    
+    # plt.savefig(f"{FIG_DIR}/wasmbench_e2e_all.pdf", bbox_inches='tight', format="pdf")    
+    plt.savefig(f"{FIG_DIR}/wasmbench_e2e_all.png", bbox_inches='tight', dpi=300) 
 
 if __name__ == "__main__":
     draw()
